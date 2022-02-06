@@ -63,11 +63,11 @@
 
 24. [Mesh networks](https://github.com/mikeroyal/Self-Hosting-Guide#mesh-networks)
 
-25.[Blockchain Development](https://github.com/mikeroyal/Self-Hosting-Guide#)
+25. [Blockchain Development](https://github.com/mikeroyal/Self-Hosting-Guide#blockchain-development)
 
 26. [Node.js Development](https://github.com/mikeroyal/Self-Hosting-Guide#nodejs-development)
 
-27. [C/C++ Development](https://github.com/mikeroyal/Self-Hosting-Guide#)
+27. [C/C++ Development](https://github.com/mikeroyal/Self-Hosting-Guide#cc-development)
 
 28. [Java Development](https://github.com/mikeroyal/Self-Hosting-Guide#java-development)
 
