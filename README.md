@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/152699296-73cb8002-9a24-47f8-9941-519afacd2195.png">
   <br />
  Self Hosting Guide
 </h1>
@@ -9,7 +9,7 @@
  **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
  
  <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/152699307-1c4ebfcd-a2b0-456c-9a84-01ac255e3782.png">
   <br />
 </p>
  
@@ -85,7 +85,7 @@
 [Self-hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).
 
  <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/152699308-36691800-8078-4af3-9d5c-711da4e9b26e.png">
   <br />
 </p>
 
