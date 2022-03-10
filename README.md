@@ -1784,9 +1784,14 @@ It is extended by a set of privacy-specific requirements, control objectives and
 # Robotics
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-[Open Source Robotics Foundation](https://www.openrobotics.org/) works with industry, academia, and government to create and support open software and hardware for use in robotics, from research and education to product development.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/96352533-b55fb380-1078-11eb-874c-f165cbcce899.png">
+  <br />
+</p>
 
 ## Tools for Robotics
+
+[Open Source Robotics Foundation](https://www.openrobotics.org/) works with industry, academia, and government to create and support open software and hardware for use in robotics, from research and education to product development.
 
 [ROS](https://www.ros.org/) is robotics middleware. Although ROS is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management.
 
@@ -1819,6 +1824,20 @@ commercially available industrial robot models that you can import, visualize, a
 [The JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
 [Light Detection and Ranging(LiDAR)](https://en.wikipedia.org/wiki/Lidar) is a remote sensing method that uses light in the form of a pulsed laser at an object, and uses the time and wavelength of the reflected beam of light to estimate the distance and in some applications ([Laser Imaging](https://en.wikipedia.org/wiki/Laser_scanning)), to create a 3D representation of the object and its surface characteristics. This technology is commonly used in aircraft and self-driving vehicles.
+
+[Neurorobotics Platform (NRP)](https://neurorobotics.net/) is an Internet-accessible simulation system that allows the simulation of robots controlled by spiking neural networks.
+
+[ViSP](http://visp.inria.fr/) is an open-source visual servoing platform library, is able to compute control laws that can be applied to robotic systems.
+
+[ROS Behavior Trees](https://github.com/miccol/ROS-Behavior-Tree) is an open-source library to create robot's behaviors in form of Behavior Trees running in ROS (Robot Operating System).
+
+[g2core](https://github.com/synthetos/g2) is an open-source motion control software for CNC and Robotics, designed to run on Arduino Due class microcontrollers.
+
+[ur5controller](https://github.com/roboticsleeds/ur5controller) is an open-source OpenRAVE controller for UR5 robot integrated with ROS.
+
+[RBDL](https://github.com/rbdl/rbdl) is an open-source (zlib) C++ libray for both forward and inverse dynamics and kinematics. Also supports contacts and loops.
+
+[Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) is a Central repository for open-source Unity packages, tutorials, and other resources demonstrating how to use Unity for robotics simulations. Includes new support for ROS integration.
 
 [AliceVision](https://github.com/alicevision/AliceVision) is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
 
