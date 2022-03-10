@@ -21,63 +21,77 @@
 
 3. [Nextcloud](https://github.com/mikeroyal/Self-Hosting-Guide#nextcloud)
 
-4. [Networking](https://github.com/mikeroyal/Self-Hosting-Guide#networking)
+4. [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
+     
+    - [Models of Raspberry Pi boards](https://github.com/mikeroyal/Self-Hosting-Guide#models-of-raspberry-pi-boards)
 
-5. [Docker](https://github.com/mikeroyal/Self-Hosting-Guide#docker)
+    - [Raspberry Pi Learning Resources](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-learning-resources)
 
-6. [Kubernetes](https://github.com/mikeroyal/Self-Hosting-Guide#kubernetes)
+    - [Raspberry Pi Operating Systems](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-operating-systems)
 
-7. [Ansible](https://github.com/mikeroyal/Self-Hosting-Guide#ansible)
+    - [Raspberry Pi Tools](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-tools)
 
-8. [Databases](https://github.com/mikeroyal/Self-Hosting-Guide#databases)
+    - [Raspberry Pi Upgrades](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-upgrades)
 
-9. [Telco 5G](https://github.com/mikeroyal/Self-Hosting-Guide#telco-5g)
+5. [Grafana](https://github.com/mikeroyal/Self-Hosting-Guide#Grafana)
 
-10. [Open Source Security](https://github.com/mikeroyal/Self-Hosting-Guide#open-source-security)
+6. [Networking](https://github.com/mikeroyal/Self-Hosting-Guide#networking)
 
-11. [Differential Privacy](https://github.com/mikeroyal/Self-Hosting-Guide#differential-privacy)
+7. [Docker](https://github.com/mikeroyal/Self-Hosting-Guide#docker)
 
-12. [Machine Learning](https://github.com/mikeroyal/Self-Hosting-Guide#machine-learning)
+8. [Kubernetes](https://github.com/mikeroyal/Self-Hosting-Guide#kubernetes)
 
-13. [IoT Protocols](https://github.com/mikeroyal/Self-Hosting-Guide#iot-protocols)
+9. [Ansible](https://github.com/mikeroyal/Self-Hosting-Guide#ansible)
 
-14. [Operating systems (OS)](https://github.com/mikeroyal/Self-Hosting-Guide#operating-systems)
+10. [Databases](https://github.com/mikeroyal/Self-Hosting-Guide#databases)
 
-15. [Middleware](https://github.com/mikeroyal/Self-Hosting-Guide#middleware)
+11. [Telco 5G](https://github.com/mikeroyal/Self-Hosting-Guide#telco-5g)
 
-16. [Node Flow editors](https://github.com/mikeroyal/Self-Hosting-Guide#node-flow-editors)
+12. [Open Source Security](https://github.com/mikeroyal/Self-Hosting-Guide#open-source-security)
 
-17. [Toolkits](https://github.com/mikeroyal/Self-Hosting-Guide#toolkits)
+13. [Differential Privacy](https://github.com/mikeroyal/Self-Hosting-Guide#differential-privacy)
 
-18. [Data visualization](https://github.com/mikeroyal/Self-Hosting-Guide#data-visualization)
+14. [Machine Learning](https://github.com/mikeroyal/Self-Hosting-Guide#machine-learning)
+
+15. [IoT Protocols](https://github.com/mikeroyal/Self-Hosting-Guide#iot-protocols)
+
+16. [Operating systems (OS)](https://github.com/mikeroyal/Self-Hosting-Guide#operating-systems)
+
+17. [Middleware](https://github.com/mikeroyal/Self-Hosting-Guide#middleware)
+
+18. [Node Flow editors](https://github.com/mikeroyal/Self-Hosting-Guide#node-flow-editors)
+
+19. [Toolkits](https://github.com/mikeroyal/Self-Hosting-Guide#toolkits)
+
+20. [Data visualization](https://github.com/mikeroyal/Self-Hosting-Guide#data-visualization)
  
-19. [Search](https://github.com/mikeroyal/Self-Hosting-Guide#search)
+21. [Search](https://github.com/mikeroyal/Self-Hosting-Guide#search)
 
-20. [Hardware](https://github.com/mikeroyal/Self-Hosting-Guide#hardware)
+22. [Hardware](https://github.com/mikeroyal/Self-Hosting-Guide#hardware)
 
-21. [In-memory data grids](https://github.com/mikeroyal/Self-Hosting-Guide#in-memory-data-grids)
+23. [In-memory data grids](https://github.com/mikeroyal/Self-Hosting-Guide#in-memory-data-grids)
 
-22. [Home automation](https://github.com/mikeroyal/Self-Hosting-Guide#home-automation)
+24. [Home automation](https://github.com/mikeroyal/Self-Hosting-Guide#home-automation)
 
-23. [Robotics](https://github.com/mikeroyal/Self-Hosting-Guide#robotics)
+25. [Robotics](https://github.com/mikeroyal/Self-Hosting-Guide#robotics)
 
-24. [Mesh networks](https://github.com/mikeroyal/Self-Hosting-Guide#mesh-networks)
+26. [Mesh networks](https://github.com/mikeroyal/Self-Hosting-Guide#mesh-networks)
 
-25. [Blockchain Development](https://github.com/mikeroyal/Self-Hosting-Guide#blockchain-development)
+27. [Blockchain Development](https://github.com/mikeroyal/Self-Hosting-Guide#blockchain-development)
 
-26. [Node.js Development](https://github.com/mikeroyal/Self-Hosting-Guide#nodejs-development)
+28. [Node.js Development](https://github.com/mikeroyal/Self-Hosting-Guide#nodejs-development)
 
-27. [C/C++ Development](https://github.com/mikeroyal/Self-Hosting-Guide#cc-development)
+29. [C/C++ Development](https://github.com/mikeroyal/Self-Hosting-Guide#cc-development)
 
-28. [Java Development](https://github.com/mikeroyal/Self-Hosting-Guide#java-development)
+30. [Java Development](https://github.com/mikeroyal/Self-Hosting-Guide#java-development)
 
-29. [Python Development](https://github.com/mikeroyal/Self-Hosting-Guide#python-development)
+31. [Python Development](https://github.com/mikeroyal/Self-Hosting-Guide#python-development)
 
-30. [Rust Development](https://github.com/mikeroyal/Self-Hosting-Guide#rust-development)
+32. [Rust Development](https://github.com/mikeroyal/Self-Hosting-Guide#rust-development)
 
-31. [Swift Development](https://github.com/mikeroyal/Self-Hosting-Guide#swift-development)
+33. [Swift Development](https://github.com/mikeroyal/Self-Hosting-Guide#swift-development)
 
-32. [XML Development](https://github.com/mikeroyal/Self-Hosting-Guide#xml-development)
+34. [XML Development](https://github.com/mikeroyal/Self-Hosting-Guide#xml-development)
 
 # Getting Started with Self Hosting
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
@@ -288,6 +302,325 @@ Nexcloud Hub
 [ONLYOFFICE integration in Nextcloud](https://nextcloud.com/onlyoffice/) is a service that empowers your users to collaborate on office documents with team members in real time. It has compatibility with Microsoft Office formats means perfect documents, every time.
 
 [Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
+
+# Raspberry Pi 
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/103486513-4cecbc80-4db3-11eb-89a0-fa155cbcdbda.png">
+  <br />
+</p>
+
+## Models of Raspberry Pi boards
+
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+**Raspberry Pi 4 Model B**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
+</p>
+
+[Check out the Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+
+**Raspberry Pi 4 Model B Hardware Specifications**
+
+ - Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
+ - 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
+ - 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless 
+ - Bluetooth 5.0, BLE
+ - Gigabit Ethernet
+ - 2 USB 3.0 ports; 2 USB 2.0 ports.
+ - Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous Pi boards)
+ - 2 × micro-HDMI ports (up to 4kp60 supported)
+ - OpenGL ES 3.0 graphics
+
+**Raspberry Pi 400 Personal Computer Kit**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/103486343-09458300-4db2-11eb-989a-6f0cd451c7b0.png">
+</p>
+
+[Check out the Raspberry Pi 400 Personal Computer Kit](https://www.raspberrypi.org/products/raspberry-pi-400/)
+
+**Raspberry Pi 400 Hardware Specifications**
+
+ - Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
+ - 4GB LPDDR4-3200 SDRAM 
+ - 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless 
+ - Bluetooth 5.0, BLE
+ - Gigabit Ethernet
+ - 2 USB 3.0 ports; 2 USB 2.0 ports.
+ - Raspberry Pi standard 40 pin GPIO header 
+ - 2 × micro-HDMI ports (up to 4kp60 supported)
+ - OpenGL ES 3.0 graphics
+ 
+ **Raspberry Pi Pico Microcontroller**
+ 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
+</p>
+
+[Check out the Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)
+
+**Raspberry Pi Pico Hardware Specifications**
+
+ - RP2040 microcontroller chip designed by Raspberry Pi in the UK
+ - Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+ - 264KB on-chip SRAM
+ - 2MB on-board QSPI Flash
+ - 26 multifunction GPIO pins, including 3 analogue inputs
+ - 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+ - 1 × USB 1.1 controller and PHY, with host and device support
+ - 8 × Programmable I/O (PIO) state machines for custom peripheral support
+ - Castellated module allows soldering direct to carrier boards
+ - Drag-and-drop programming using mass storage over USB
+ - Low-power sleep and dormant modes
+ - Accurate on-chip clock
+ - Temperature sensor
+ - Accelerated integer and floating-point libraries on-chip
+
+
+**Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
+
+[Check out Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+
+<img src="https://user-images.githubusercontent.com/45159366/103486345-0a76b000-4db2-11eb-9e96-e7f234bdc950.png">
+
+
+## Raspberry Pi Learning Resources
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+[Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
+
+[Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.
+
+[Getting Started with Raspberry Pi Projects](https://projects.raspberrypi.org/)
+
+[Online learning for the Raspberry Pi](https://www.raspberrypi.org/training/online/)
+
+[Raspberry Pi Training Program](https://www.raspberrypi.org/training/)
+
+[Raspberry Pi Online Courses on Udemy](https://www.udemy.com/topic/raspberry-pi/)
+
+[Raspberry Pi Online Courses on Coursera](https://www.coursera.org/courses?languages=en&query=raspberry%20pi)
+
+[The Raspberry Pi Platform and Python Programming course on Coursera](https://www.coursera.org/learn/raspberry-pi-platform)
+
+[Learning Raspberry Pi with Online Courses on edX](https://www.edx.org/learn/raspberry-pi)
+
+[Raspberry Pi Online Training Courses on LinkedIn Learning](https://www.linkedin.com/learning/topics/raspberry-pi)
+
+[Getting Started with Raspberry Pi course on FutureLearn](https://www.futurelearn.com/courses/getting-started-with-your-raspberry-pi)
+
+[Home Assistant on Raspberry Pi](https://www.home-assistant.io/getting-started/)
+
+[PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
+
+
+## Raspberry Pi Operating Systems
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+[Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+
+[Hass.io(Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
+
+[OmniROM(Android 11) based on ASOP](https://forum.xda-developers.com/t/omnirom-android-r-11-for-pi-4.4183121/)
+
+[Manjaro Linux ARM](https://manjaro.org/download/#ARM)
+
+[Arch Linux ARM](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4)
+
+[Ubuntu MATE for Raspberry Pi](https://ubuntu-mate.org/ports/raspberry-pi/)
+
+[Ubuntu Desktop for Raspberry Pi](https://ubuntu.com/raspberry-pi)
+
+[Ubuntu Core on a Raspberry Pi](https://ubuntu.com/download/raspberry-pi-core)
+
+[Ubuntu Server for ARM](https://ubuntu.com/download/server/arm)
+
+[Fedora ARM](https://arm.fedoraproject.org)
+
+[Kali Linux for the Raspberry Pi](https://www.kali.org/docs/arm/kali-linux-raspberry-pi/)
+
+[Twister OS](https://twisteros.com/)
+
+[TitusPi](https://github.com/ChrisTitusTech/TitusPi)
+
+[RetroArch](https://www.retroarch.com/?page=platforms)
+
+[RetroPie](https://retropie.org.uk/)
+
+[LibreELEC](https://libreelec.tv/)
+
+[OSMC](https://osmc.tv)
+
+[RISC OS](https://www.riscosopen.org/content/)
+
+[DietPi](https://github.com/MichaIng/DietPi)
+
+[Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
+
+
+## Raspberry Pi Tools
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+[Raspberry Pi Locator](https://rpilocator.com/) is a website to track Raspberry Pi 4 model B, Compute Module 4, Pi Zero 2 W, and Pico availability across multiple retailers in different countries.
+
+[Raspberry Pi Network Install (Beta)](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-over-the-network-beta) is a feature can be used to start the Raspberry Pi Imager application directly on a Raspberry Pi 4, or a Raspberry Pi 400, by downloading it from the internet using an Ethernet cable. The Raspberry Pi Imager application, which will run in memory on your Raspberry Pi, can then be used to flash the operating system onto a blank SD Card or USB disk, just like normal. 
+
+[Raspberry Pi Bootloader](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#updating-the-bootloader) is a feature, which is now available in beta, that utilize an **EEPROM(Electrically Erasable Programmable Read-Only Memory)** to store the system’s bootloader. This EEPROM is persistent storage that is located on the Pi’s mainboard. The advantage of using the EEPROM instead is that the Raspberry Pi 4 can perform tasks without needing any storage to be attached.
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+
+[Gladys Assistant](https://github.com/gladysassistant/gladys) is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+
+[Kodi for Raspberry Pi](https://kodi.tv/download/853) is a free and open source media player application developed by the XBMC/Kodi Foundation.
+
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+
+[PiKVM](https://github.com/pikvm/pikvm) is a very simple and fully functional Raspberry Pi-based KVM over IP.
+
+[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
+
+[RPiPlay](https://github.com/FD-/RPiPlay) is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
+
+[Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
+
+[Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
+
+[OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
+
+# Raspberry Pi Upgrades
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+[Raspberry Pi Cases from Pi-Shop US](https://www.pishop.us/product-category/raspberry-pi/pi-cases/)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692629-80803580-8e3c-11eb-8b5c-c4879113a058.png">
+</p>
+
+
+[Raspberry Pi Cases from The Pi Hut](https://thepihut.com/collections/raspberry-pi-cases)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692621-7eb67200-8e3c-11eb-9a88-ae72443701ce.png">
+</p>
+
+[X825 expansion board](https://www.amazon.com/Geekworm-Raspberry-Storage-Expansion-Compatible/dp/B07VXF2HJG) provides a complete storage solution for newest Raspberry Pi 4 Model B, it supports up to 4TB 2.5-inch SATA hard disk drives (HDD) / solid-state drive (SSD).
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692608-7bbb8180-8e3c-11eb-80f6-1b1d9d8656e0.png">
+</p>
+
+
+[Sabrent M.2 SSD [NGFF] to USB 3.0 / SATA III 2.5-Inch Aluminum Enclosure Adapter](https://www.amazon.com/Sabrent-2-5-Inch-Aluminum-Enclosure-EC-M2CU/dp/B07924J5NT/ref=sr_1_10?crid=28O2JRHO9DE4G&dchild=1&keywords=m.2+to+usb+3.0+adapter&qid=1616632834&sprefix=m.2+to+usb,aps,236&sr=8-10)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692658-88d87080-8e3c-11eb-81f1-1c796145cf7a.png">
+</p>
+
+
+[Samsung 970 EVO 250GB - NVMe PCIe M.2 2280 SSD](https://www.amazon.com/dp/B07BN5FJZQ/ref=twister_B08KGF1DPF?_encoding=UTF8&psc=1)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692666-8c6bf780-8e3c-11eb-85a6-1f160a10a01a.png">
+</p>
+
+
+[Western Digital 1TB WD Blue SN550 NVMe Internal SSD](https://www.amazon.com/dp/B07YFF8879/ref=twister_B082KVPKQ5?_encoding=UTF8&psc=1)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692675-8d9d2480-8e3c-11eb-9ed1-e08c2932d5ab.png">
+</p>
+
+
+[SAMSUNG T5 Portable SSD](https://www.amazon.com/Samsung-500GB-Portable-Solid-State/dp/B074WZJ4MF/ref=sr_1_4?crid=343DRDX8SJJV6&dchild=1&keywords=samsung+t5+portable+ssd&qid=1616632092&sprefix=samsung+t5+portable,aps,374&sr=8-4)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692679-8ece5180-8e3c-11eb-94e5-18796639776e.png">
+</p>
+
+
+[Samsung SSD 860 EVO 250GB mSATA Internal SSD](https://www.amazon.com/Samsung-250GB-mSATA-Internal-MZ-M6E250BW/dp/B07864YNTZ/ref=sr_1_8?crid=2KRBSPRQYUIOH&dchild=1&keywords=samsung+850+evo+msata&qid=1616632277&sprefix=samsung+850+evo+m,aps,233&sr=8-8)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692689-91c94200-8e3c-11eb-82ed-28d6ab05c072.png">
+</p>
+
+
+[Samsung 850 EVO 120GB SSD mSATA](https://www.amazon.com/Samsung-850-120GB-mSATA-MZ-M5E120BW/dp/B00TGIVQ4G/ref=sr_1_9?crid=2KRBSPRQYUIOH&dchild=1&keywords=samsung+850+evo+msata&qid=1616632277&sprefix=samsung+850+evo+m,aps,233&sr=8-9)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692696-92fa6f00-8e3c-11eb-8c7a-c169bb0c9b1e.png">
+</p>
+
+# Grafana
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124398126-eea08800-dcc8-11eb-8129-087e924d9eed.png">
+  <br />
+</p>
+
+## Grafana Learning Resources
+
+[Grafana](https://grafana.com/) is an analytics platform that enables you to query and visualize data, then create and share dashboards based on your visualizations. Easily visualize metrics, logs, and traces from multiple sources such as Prometheus, Loki, Elasticsearch, InfluxDB, Postgres, Fluentd, Fluentbit, Logstash and many more.
+
+[Getting Started with Grafana](https://grafana.com/docs/)
+
+[Grafana Community](https://community.grafana.com/)
+
+[Grafana Professional Services Training | Grafana Labs](https://grafana.com/training/)
+
+[Grafana Pro Training AWS | Grafana Labs](https://grafana.com/training/aws/)
+
+[Grafana Tutorials](https://grafana.com/tutorials/)
+
+[Top Grafana Courses on Udemy](https://www.udemy.com/topic/grafana/)
+
+[Grafana Online Training Courses | LinkedIn Learning](https://www.linkedin.com/learning/topics/grafana)
+
+[Grafana Training Courses - NobleProg](https://www.nobleprog.com/grafana-training)
+
+[Setting Up Grafana to Visualize Our Metrics Course on Coursera](https://www.coursera.org/lecture/continuous-integration/setting-up-grafana-to-visualize-our-metrics-part-4-of-10-OOMzF)
+
+## Grafana Tools
+
+[Grafana Cloud ](https://grafana.com/products/cloud/) is a composable observability platform, integrating metrics, traces and logs with Grafana. Leverage the best open source observability software – including Prometheus, Loki, and Tempo – without the overhead of installing, maintaining, and scaling your observability stack.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124398133-f3653c00-dcc8-11eb-8465-8633072daf41.png">
+  <br />
+</p>
+
+**Grafana Cloud Integrations. Source: [Grafana](https://grafana.com/products/cloud/)**
+
+[Grafana Enterprise](https://grafana.com/products/enterprise/) is a service that includes features that provide better scalability, collaboration, operations, and governance in a self-managed environment.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124398134-f4966900-dcc8-11eb-8633-448074c93f71.png">
+  <br />
+</p>
+
+**Grafana Enterprise Stack. Source: [Grafana](https://grafana.com/products/enterprise/)**
+
+[Grafana Tempo](https://grafana.com/oss/tempo/) is an open source high-scale distributed tarcing backend. Tempo is cost-efficient, requiring only object storage to operate, and is deeply integrated with Grafana, Loki, and Prometheus.
+
+[Grafana MetricTank](https://grafana.com/oss/metrictank/) is a multi-tenant timeseries platform for Graphite developed by Grafana Labs. MetricTank provides high-availability(HA) and efficient long-term storage, retrieval, and processing for large-scale environments.
+
+[Grafana Tanka](https://grafana.com/oss/tanka/) is a robust configuration utility for your [Kubernetes](https://kubernetes.io/) cluster, powered by the [Jsonnet](https://jsonnet.org/) language.
+
+[Grafana Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available(HA), multi-tenant log aggregation system inspired by Prometheus.
+
+[Cortex](https://grafana.com/oss/cortex/) is a project that lets users query metrics from many Prometheusservers in a single place, without any gaps in the grpahs due to server failture. Also, Cortex lets you store Prometheus metrics for long term capacity planning and performance analysis.
+
+[Graphite](https://grafana.com/oss/graphite/) is an open source monitoring system.
+
 
 # Networking
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
@@ -781,28 +1114,6 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
 [Azure Data Studio](https://github.com/Microsoft/azuredatastudio) is an open source data management tool that enables working with SQL Server, Azure SQL DB and SQL DW from Windows, macOS and Linux.
-
-[Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)  is the intelligent, scalable, relational database service built for the cloud. It’s evergreen and always up to date, with AI-powered and automated features that optimize performance and durability for you. Serverless compute and Hyperscale storage options automatically scale resources on demand, so you can focus on building new applications without worrying about storage size or resource management.
-
-[Azure SQL Managed Instance](https://azure.microsoft.com/en-us/services/azure-sql/sql-managed-instance/) is a fully managed SQL Server Database engine instance that's hosted in Azure and placed in your network. This deployment model makes it easy to lift and shift your on-premises applications to the cloud with very few application and database changes. Managed instance has split compute and storage components.
-
-[Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/) is a limitless analytics service that brings together enterprise data warehousing and Big Data analytics. It gives you the freedom to query data on your terms, using either serverless or provisioned resources at scale. It brings together the best of the SQL technologies used in enterprise data warehousing, Spark technologies used in big data analytics, and Pipelines for data integration and ETL/ELT.
-
-[MSSQL for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) is an extension for developing Microsoft SQL Server, Azure SQL Database and SQL Data Warehouse everywhere with a rich set of functionalities.
-
-[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt) is a development tool for building SQL Server relational databases, Azure SQL Databases, Analysis Services (AS) data models, Integration Services (IS) packages, and Reporting Services (RS) reports. With SSDT, a developer can design and deploy any SQL Server content type with the same ease as they would develop an application in Visual Studio or Visual Studio Code.
-
-[Bulk Copy Program](https://docs.microsoft.com/en-us/sql/tools/bcp-utility) is a command-line tool that comes with Microsoft SQL Server. BCP, allows you to import and export large amounts of data in and out of SQL Server databases quickly snd efficeiently.
-
-[SQL Server Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=54258) is a tool from Microsoft that simplifies database migration process from Oracle to SQL Server, Azure SQL Database, Azure SQL Database Managed Instance and Azure SQL Data Warehouse.
-
-[SQL Server Integration Services](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver15) is a development platform for building enterprise-level data integration and data transformations solutions. Use Integration Services to solve complex business problems by copying or downloading files, loading data warehouses, cleansing and mining data, and managing SQL Server objects and data.
-
-[SQL Server Business Intelligence(BI)](https://www.microsoft.com/en-us/sql-server/sql-business-intelligence) is a collection of tools in Microsoft's SQL Server for transforming raw data into information businesses can use to make decisions.
-
-[Tableau](https://www.tableau.com/) is a Data Visualization software used in relational databases, cloud databases, and spreadsheets. Tableau was acquired by [Salesforce in August 2019](https://investor.salesforce.com/press-releases/press-release-details/2019/Salesforce-Completes-Acquisition-of-Tableau/default.aspx).
-
-[DataGrip](https://www.jetbrains.com/datagrip/) is a professional DataBase IDE developed by Jet Brains that provides context-sensitive code completion, helping you to write SQL code faster. Completion is aware of the tables structure, foreign keys, and even database objects created in code you're editing.
 
 [RStudio](https://rstudio.com/) is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
 
@@ -1406,8 +1717,6 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # Middleware
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
-
- [Red Hat® JBoss® Middleware](https://connect.redhat.com/zones/red-hat-middleware) is middleware that integrates software from various open source communities, including the JBoss community, Apache Software Foundation, and Eclipse Foundation, into robust, fully tested, integrated platforms available via subscriptions that include support and long-term maintenance.
 
  [IoTSyS](https://iotsyst.com) is an integration middleware for the Internet of Things. It provides a communication stack for embedded devices based on IPv6, Web services, and OBIX to establish interoperable interfaces for smart objects.
 
