@@ -17,10 +17,10 @@
 
 1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
  
-    - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-selfhosting)
+    - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
     - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
-    - [Tutorials](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials-resources)
+    - [Tutorials & Resources](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials--resources)
     - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
 
 2. [WireGuard](https://github.com/mikeroyal/Self-Hosting-Guide#wireguard)
