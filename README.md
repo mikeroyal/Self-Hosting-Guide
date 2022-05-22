@@ -15,7 +15,13 @@
  
 # Table of Contents
 
-1. [Getting Started with Self Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
+1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
+ 
+    - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
+    - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
+    - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
+    - [Tutorials](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials)
+    - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
 
 2. [WireGuard](https://github.com/mikeroyal/Self-Hosting-Guide#wireguard)
 
@@ -103,17 +109,8 @@
   <br />
 </p>
 
-[Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
-
-[InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
-
-[Grafana](https://grafana.com/oss/grafana/) is atool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
-
-[Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
-
-[Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
-
-[Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
+## Getting Started with Self-Hosting
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs. 
 
@@ -121,21 +118,35 @@
 
 [Drone](https://drone.io/) is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
 
-[Travis CI](https://travis-ci.org/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
+[Portainer Community Edition](https://github.com/portainer/portainer) is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. It is designed to be as simple to deploy as it is to use.
 
-[Circle CI](https://circleci.com/) is a continuous integration and continuous delivery platform that helps software teams work smarter, faster.
+[Caddy](https://caddyserver.com/) is the only web server to use HTTPS automatically and by default. Caddy obtains and renews TLS certificates for your sites automatically.
 
-[Azure DevOps](https://azure.microsoft.com/en-us/services/devops/) is a services tha helps you manage your own secure, on-premises environment with Azure DevOps Server. Get source code management, automated builds, requirements management, reporting, and more.
+[Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. 
 
-[Azure IoT Tools](https://developer.microsoft.com/en-us/windows/iot/) is a collection of Microsoft-managed cloud services that connect, monitor, and control billions of IoT assets. In simpler terms, an IoT solution is made up of one or more IoT devices that communicate with one or more back-end services hosted in the cloud.
+[Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr) 
 
-[AWS Lightsail](https://aws.amazon.com/lightsail/) is an easy-to-use virtual private server (VPS) provider that offers you everything needed to build an application or website for a cost-effective, monthly plan.
+[Supabase](https://github.com/supabase/supabase) is an open source Firebase alternative. It is building the features of Firebase using enterprise-grade open source tools.
 
-[AWS IoT Tools](https://aws.amazon.com/iot/) is a broad set of IoT services, from the edge to the cloud. Along with IoT analytics that enables you to apply machine learning to your IoT data with hosted Jupyter Notebooks. You can directly connect your IoT data to the notebook and build, train, and execute models right from the AWS IoT Analytics console without having to manage any of the underlying infrastructure.
+[Plik](https://github.com/root-gg/plik) is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
 
-[Google Cloud VPN](https://cloud.google.com/network-connectivity/docs/vpn/concepts/overview) is a service that securely connects your peer network to your [Virtual Private Cloud (VPC) network](https://cloud.google.com/vpc/docs/vpc) through an [IPsec](https://wikipedia.org/wiki/IPsec) [VPN](https://wikipedia.org/wiki/Virtual_private_network) connection. Traffic traveling between the two networks is encrypted by one VPN gateway and then decrypted by the other VPN gateway. 
+[Bitwarden](https://bitwarden.com/host/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault. 
 
-[Google Cloud IoT](https://cloud.google.com/solutions/iot/) is a complete set of tools to connect, process, store, and analyze data both at the edge and in the cloud.
+[Bitwarden Server](https://github.com/bitwarden/server) is a project contains the APIs, database, and other core infrastructure items needed for the "backend" of all bitwarden client applications. Checkout [Bitwarden's self-hosted release repository](https://github.com/bitwarden/self-host).
+
+[Vaultwarden](https://github.com/dani-garcia/vaultwarden) is an unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs.
+
+[Hugo](https://github.com/gohugoio/hugo) is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+
+[sshuttle](https://github.com/sshuttle/sshuttle) is a transparent proxy server that works as a poor man's VPN that forwards connection over ssh. It works with Linux and MacOS and supports DNS tunneling. 
+
+[NetHopper](https://www.nethopper.io/) is a Multi-Cloud Application Network as a Service. The easiest way to visualize, connect, secure, protect, and monitor microservices across any cluster, site, cloud, or network.
+
+[Yacht](https://github.com/SelfhostedPro/Yacht) is a container management UI with a focus on templates and 1-click deployments.
+
+[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
+
+[Audiobookshelf](https://github.com/advplyr/audiobookshelf) is a self-hosted audiobook and podcast server.
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
@@ -201,6 +212,22 @@
 
 [M2MLabs MainSpring](http://www.m2mlabs.com/) is an application framework for building machine-to-machine applications like vehicle tracking or machine remote montoring. In such applications typically a remote device equipped with sensors (e.g. gps, temperature, pressure) and actors communicates with a server application that is running the device communication protocol, device configuration, storage of data sent by the devices as well as the application business logic and the presentation layer. 
 
+[Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+
+[InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
+
+[Grafana](https://grafana.com/oss/grafana/) is atool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
+
+[Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
+
+[Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
+
+[Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
+
+[Travis CI](https://travis-ci.org/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
+
+[Circle CI](https://circleci.com/) is a continuous integration and continuous delivery platform that helps software teams work smarter, faster.
+
 [EdgeX Foundry](https://www.edgexfoundry.org) is a vendor-neutral project under the Linux Foundation. The initiative is aligned around a common goal: the simplification and standardization of the foundation for edge computing architectures in the Industrial IoT market, while still allowing the ecosystem to add significant value.
 
 [The Open Connectivity Foundation](https://openconnectivity.org) is dedicated to ensuring secure interoperability for consumers, businesses and industries by delivering a standard communications platform, a bridging specification, an open source implementation and a certification program allowing devices to communicate regardless of form factor, operating system, service provider, transport technology or ecosystem.
@@ -208,6 +235,107 @@
 [Eclipse Foundation](https://www.eclipse.org) provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
 
 [Open Source Hardware Association (OSHWA)](https://www.oshwa.org) is a non-profit organization that advocates for open-source hardware. It aims to act as a hub of open source hardware activity of all types while actively cooperating with other initiatives such as the TAPR Open Hardware License, open-source development groups at CERN, and the Open Source Initiative (OSI).
+
+### Books
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+  - [Self-hosted Cookbook](https://github.com/tborychowski/self-hosted-cookbook) is a cookbook, for docker-compose based recipes, for self-hosted applications and services. 
+  
+### Podcasts
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+  
+  - [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones. 
+  
+  - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
+  
+### Tutorials & Resources
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+  - [Awesome Self Hosted on LibHunt](https://selfhosted.libhunt.com/) is a directory of free software solutions and web applications which can be hosted locally.
+  
+  - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
+
+  - [How I fell into the self-hosting rabbit hole in 2021](https://www.windowscentral.com/self-hosting-2021)
+
+  - [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
+  
+  - [Monitor your Internet with a Raspberry Pi by Jeff Geerling](https://www.jeffgeerling.com/blog/2021/monitor-your-internet-raspberry-pi)
+  
+  - [NextCloud Migration Guide](https://nextcloud.com/migration/)
+  
+  - [GitLab self-managed subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/)
+  
+  - [Self-Hosted GitLab with CodeFlow](https://www.getcodeflow.com/self-hosted-gitlab.html)
+  
+  - [Self-host Appsmith in Just a Few Minutes on Digital Ocean AppSmith](https://www.appsmith.com/blog/self-host-appsmith-in-just-a-few-minutes-on-digital-ocean)
+  
+  - [Linode Guides & Tutorials](https://www.linode.com/docs/guides/)
+  
+  - [Linode Beginner's Guide](https://www.linode.com/docs/guides/linode-beginners-guide/)
+  
+  - [Access a Pi-hole or Raspberry Pi from anywhere | Tailscale](https://tailscale.com/kb/1114/pi-hole/)
+  
+  - [Tailscale on Kubernetes | Tailscale](https://tailscale.com/kb/1185/kubernetes/)
+  
+  - [Tailscale on Proxmox host | Tailscale](https://tailscale.com/kb/1133/proxmox/)
+  
+  - [Configuring Linux DNS | Tailscale](https://tailscale.com/kb/1188/linux-dns/)
+  
+  - [Run a private Minecraft server with Tailscale | Tailscale](https://tailscale.com/kb/1137/minecraft/)
+  
+  - [Set up a dogcam with Tailscale, Raspberry Pi, and Motion | Tailscale](https://tailscale.com/kb/1076/dogcam/)
+  
+  - [Azure Self-hosted gateway overview](https://docs.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview)
+  
+  - [Create and configure a self-hosted integration runtime for Azure Data Factory and Synapse pipelines](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory)
+
+  - [Run a self-hosted agent in Docker - Azure Pipelines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker)
+
+  - [Azure DevOps Self Hosted](https://github.com/Azure/DevOps-Self-Hosted)
+  
+ ### Subreddits
+ [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+  
+  - [r/Selfhosted](https://www.reddit.com/r/selfhosted/)
+  - [r/Webhosting](https://www.reddit.com/r/webhosting/)
+  - [r/NextCloud](https://www.reddit.com/r/NextCloud/)
+  - [r/HomeServer](https://www.reddit.com/r/HomeServer/)
+  - [r/Homeassistant](https://www.reddit.com/r/homeassistant/)
+  - [r/Homebridge](https://www.reddit.com/r/homebridge/)
+  - [r/HomeKit](https://www.reddit.com/r/HomeKit/)
+  - [r/SmartThings](https://www.reddit.com/r/SmartThings/)
+  - [r/Proxmox](https://www.reddit.com/r/Proxmox/)
+  - [r/Tailscale](https://www.reddit.com/r/Tailscale/)
+  - [r/WireGuard](https://www.reddit.com/r/WireGuard/)
+  - [r/Adguard](https://www.reddit.com/r/Adguard/)
+  - [r/Pihole](https://www.reddit.com/r/pihole/)
+  - [r/Raspberry_pi](https://www.reddit.com/r/raspberry_pi/)
+  - [r/RASPBERRY_PI_PROJECTS](https://www.reddit.com/r/RASPBERRY_PI_PROJECTS/)
+  - [r/RetroPie](https://www.reddit.com/r/RetroPie/)
+  - [r/Arduino](https://www.reddit.com/r/arduino/)
+  - [r/ArduinoProjects](https://www.reddit.com/r/ArduinoProjects/)
+  - [r/Opensource](https://www.reddit.com/r/opensource/)
+  - [r/Devops](https://www.reddit.com/r/devops/)
+  - [r/Kubernetes](https://www.reddit.com/r/kubernetes/)
+  - [r/Docker](https://www.reddit.com/r/docker/)
+  - [r/Portainer](https://www.reddit.com/r/portainer/)
+  - [r/Ansible](https://www.reddit.com/r/ansible/)
+  - [r/Terraform](https://www.reddit.com/r/Terraform/)
+  - [r/CloudFlare](https://www.reddit.com/r/CloudFlare/)
+  - [r/Homeautomation](https://www.reddit.com/r/homeautomation/)
+  - [r/HomeNetworking](https://www.reddit.com/r/HomeNetworking/)
+  - [r/Homelab](https://www.reddit.com/r/homelab/)
+  - [r/Synology](https://www.reddit.com/r/synology/)
+  - [r/unRAID](https://www.reddit.com/r/unRAID/)
+  - [r/QNAP](https://www.reddit.com/r/qnap/)
+  - [r/OpenWrt](https://www.reddit.com/r/openwrt/)
+  - [r/Smarthome](https://www.reddit.com/r/smarthome/)
+  - [r/TpLink](https://www.reddit.com/r/TpLink/)
+  - [r/DataHoarder](https://www.reddit.com/r/DataHoarder/)
+  - [r/ZFS](https://www.reddit.com/r/zfs/)
+  - [r/PFSENSE](https://www.reddit.com/r/PFSENSE/)
+  - [r/OpenMediaVault](https://www.reddit.com/r/OpenMediaVault/)
+ 
 
 # WireGuard
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
