@@ -17,10 +17,10 @@
 
 1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
  
-    - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
+    - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-selfhosting)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
     - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
-    - [Tutorials](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials)
+    - [Tutorials](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials-resources)
     - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
 
 2. [WireGuard](https://github.com/mikeroyal/Self-Hosting-Guide#wireguard)
@@ -99,17 +99,17 @@
 
 34. [XML Development](https://github.com/mikeroyal/Self-Hosting-Guide#xml-development)
 
-# Getting Started with Self Hosting
+# Getting Started with Self-Hosting
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-[Self-hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).
+[Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/152699308-36691800-8078-4af3-9d5c-711da4e9b26e.png">
   <br />
 </p>
 
-## Getting Started with Self-Hosting
+## Tools for Self-Hosting
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs. 
@@ -192,6 +192,10 @@
 
 [TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
 
+[Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
+
+[Syncthing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time.
+
 [Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world. 
 
 [Restic](https://restic.net/) is a modern backup program that can back up your files: from Linux, BSD, Mac and Windows. To many different storage types, including self-hosted and online services. easily, being a single executable that you can run without a server or complex setup. effectively, only transferring the parts that actually changed in the files you back up.
@@ -240,6 +244,10 @@
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
   - [Self-hosted Cookbook](https://github.com/tborychowski/self-hosted-cookbook) is a cookbook, for docker-compose based recipes, for self-hosted applications and services. 
+  
+  - [Geek's Cookbook](https://github.com/geek-cookbook/geek-cookbook) is a collection of guides for establishing your own highly-available "private cloud" and using it to run self-hosted services such as GitLab, Plex, NextCloud, etc. 
+ 
+  - [Database Books(PDFs)](https://github.com/miollek/Free-Database-Books)
   
 ### Podcasts
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
