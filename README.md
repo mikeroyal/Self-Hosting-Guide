@@ -258,6 +258,7 @@
   - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
 
 ### YouTube Channels
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
   - [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
   
