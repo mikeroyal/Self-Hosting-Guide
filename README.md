@@ -20,6 +20,7 @@
     - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
     - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
+    - [YouTube Channels](https://github.com/mikeroyal/Self-Hosting-Guide#youtube-channels)
     - [Tutorials & Resources](https://github.com/mikeroyal/Self-Hosting-Guide#tutorials--resources)
     - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
 
@@ -255,6 +256,41 @@
   - [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones. 
   
   - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
+
+### YouTube Channels
+
+  - [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
+  
+  - [Level1Techs](https://www.youtube.com/c/Level1Techs)
+ 
+  - [Open Source is Awesome](https://www.youtube.com/c/AwesomeOpenSource)
+  
+  - [Self-Hosted Show by Jupiter Broadcasting](https://www.youtube.com/watch?v=XBhhVHVQ148&list=PLUW3LUwQvegxit4XMxUNW3qrRFmgP_aaT)
+ 
+  - [Techno Tim](https://www.youtube.com/c/TechnoTimLive)
+ 
+  - [Raid Owl](https://www.youtube.com/c/RaidOwl)
+  
+  - [NextCloud](https://www.youtube.com/c/Nextcloud)
+  
+  - [Raspberry Pi](https://www.youtube.com/c/raspberrypi)
+  
+  - [Wolfgang's Channel](https://www.youtube.com/c/WolfgangsChannel)
+  
+  - [Pro Tech Show](https://www.youtube.com/c/ProTechShow)
+  
+  - [Geeked](https://www.youtube.com/c/GeekedTV)
+  
+  - [The Tinker Dad](https://www.youtube.com/c/TheTinkerDad)
+  
+  - [DB Tech](https://www.youtube.com/c/DBTechYT)
+  
+  - [The Digital Life](https://www.youtube.com/c/TheDigitalLifeTech)
+ 
+  - [censiCLICK](https://www.youtube.com/c/censiCLICK)
+  
+  - [Home Network Geek](https://www.youtube.com/channel/UCCniXOLmZ85FHN8c8K_c0LA/featured)
+  
   
 ### Tutorials & Resources
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
