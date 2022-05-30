@@ -143,6 +143,24 @@
 
 [NetHopper](https://www.nethopper.io/) is a Multi-Cloud Application Network as a Service. The easiest way to visualize, connect, secure, protect, and monitor microservices across any cluster, site, cloud, or network.
 
+[Cypress](https://cypress.io/) is a tool that makes it fast, easy and reliable testing for anything that runs in a browser. 
+
+[Kimchi](https://github.com/kimchi-project/kimchi) is an HTML5 based management tool for KVM. It is designed to make it as easy as possible to get started with KVM and create your first guest.
+
+[ION](https://github.com/pion/ion) is a distributed real-time communication system, the goal is to chat anydevice, anytime, anywhere.
+
+[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer(Windows, Mac and Linux) and mobile devices through apps. 
+
+[SnapRAID](http://www.snapraid.it/) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
+
+[FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
+
+[Pimox](https://github.com/pimox/pimox7) is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
+
+[PiKVM](https://github.com/pikvm/pikvm) is a very simple and fully functional Raspberry Pi-based KVM over IP.
+
+[Gladys Assistant](https://github.com/gladysassistant/gladys) is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+
 [Yacht](https://github.com/SelfhostedPro/Yacht) is a container management UI with a focus on templates and 1-click deployments.
 
 [Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
@@ -297,6 +315,8 @@
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
   - [Awesome Self Hosted on LibHunt](https://selfhosted.libhunt.com/) is a directory of free software solutions and web applications which can be hosted locally.
+ 
+  - [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
   
   - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
 
