@@ -211,6 +211,17 @@
 
 [TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
 
+[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
+
+**Cartridge Features**
+
+   - Scan for ROM files and match with IGDB game information
+   - Serve ROM download links alongside game details
+   - Manage access to library with user creation and permissions (WIP)
+   - Allow users to request games (Planned)
+   - Play select ROMs in-browser using JS emulators (Planned)
+   - Track played and favorite games (even ones that aren't available for download) (Planned)
+
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
 
 [Syncthing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time.
