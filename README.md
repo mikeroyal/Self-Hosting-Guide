@@ -18,6 +18,7 @@
 1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
  
     - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
+    - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
     - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
     - [YouTube Channels](https://github.com/mikeroyal/Self-Hosting-Guide#youtube-channels)
@@ -273,6 +274,20 @@
 [Eclipse Foundation](https://www.eclipse.org) provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
 
 [Open Source Hardware Association (OSHWA)](https://www.oshwa.org) is a non-profit organization that advocates for open-source hardware. It aims to act as a hub of open source hardware activity of all types while actively cooperating with other initiatives such as the TAPR Open Hardware License, open-source development groups at CERN, and the Open Source Initiative (OSI).
+
+### Storage
+
+ [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+ 
+  - [Western Digital Hard Drives Storage size range 2TB up to 20TB](https://www.westerndigital.com/c/internal-drives.0_TB-4_TB.11_TB-20_TB.5_TB-10_TB.hard_drives)
+ 
+  - [Seagate Hard Drives Storage size range 2TB up to 18TB](https://www.seagate.com/internal-hard-drives/hdd/)
+ 
+  - [Hard Drives Storage size range 2TB up to 20TB from Bestbuy](https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=harddrivesizerange_facet%3DStorage%20Capacity~2TB%20-%203TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~4TB%20-%207TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~8TB%20-%2011TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~12TB%20or%20More%5Einternalorexternal_facet%3DInternal%20Or%20External~Internal&st=hard+drive)
+ 
+  - [Hard Drives Storage size range 1TB up to 20TB on Newegg](https://www.newegg.com/p/pl?d=hard+drives&N=600003298%20600003311%20600003316%20600003299%20600543907%20600003300%20601331745%20600083978%20600217643%20600486069%20600490667%20600376735%20601192404%20601398066%20601355746%20601334339%20601322010%20600376738%20600003341%20600003347%20100167523)
+
+  - [Hard Drives Storage size range 1TB up to 18TB on Amazon](https://www.amazon.com/s?k=hard+drives&i=computers&rh=n%3A1254762011%2Cp_n_feature_two_browse-bin%3A5446812011%7C5446813011%7C5446815011%7C5446816011%7C7817230011%2Cp_n_feature_keywords_six_browse-bin%3A6158683011&s=review-rank&dc&qid=1653712565&rnid=562234011&ref=sr_st_review-rank)
 
 ### Books
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
