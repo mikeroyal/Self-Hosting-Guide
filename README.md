@@ -19,6 +19,7 @@
  
     - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
     - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
+    - [File systems](https://github.com/mikeroyal/Self-Hosting-Guide#file-systems)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
     - [Podcasts](https://github.com/mikeroyal/Self-Hosting-Guide#podcasts)
     - [YouTube Channels](https://github.com/mikeroyal/Self-Hosting-Guide#youtube-channels)
@@ -290,6 +291,57 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
   - [Hard Drives Storage size range 1TB up to 20TB on Newegg](https://www.newegg.com/p/pl?d=hard+drives&N=600003298%20600003311%20600003316%20600003299%20600543907%20600003300%20601331745%20600083978%20600217643%20600486069%20600490667%20600376735%20601192404%20601398066%20601355746%20601334339%20601322010%20600376738%20600003341%20600003347%20100167523)
 
   - [Hard Drives Storage size range 1TB up to 18TB on Amazon](https://www.amazon.com/s?k=hard+drives&i=computers&rh=n%3A1254762011%2Cp_n_feature_two_browse-bin%3A5446812011%7C5446813011%7C5446815011%7C5446816011%7C7817230011%2Cp_n_feature_keywords_six_browse-bin%3A6158683011&s=review-rank&dc&qid=1653712565&rnid=562234011&ref=sr_st_review-rank)
+
+### File systems
+
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
+[GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
+
+[Ceph](https://ceph.io/) is a software-defined storage solution designed to address the object, block, and file storage needs of data centers adopting open source as the new norm for high-growth block storage, object stores and data lakes. Ceph provides enterprise scalable storage while keeping [CAPEX](https://corporatefinanceinstitute.com/resources/knowledge/modeling/how-to-calculate-capex-formula/) and [OPEX](https://www.investopedia.com/terms/o/operating_expense.asp) costs in line with underlying bulk commodity disk prices.
+
+[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+
+[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
+
+[OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
+
+  - Protection against data corruption.
+  - Integrity checking for both data and metadata.
+  - Continuous integrity verification and automatic "self-healing" repair.
+
+[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
+
+  - Snapshots which do not make the full copy of files
+  - RAID - support for software-based RAID 0, RAID 1, RAID 10
+  - Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
+  
+[MergerFS](https://github.com/trapexit/mergerfs) is a union filesystem geared towards simplifying storage and management of files across numerous commodity storage devices. It is similar to mhddfs, unionfs, and aufs.
+
+**MergerFS Features**
+
+  - Configurable behaviors / file placement
+  - Ability to add or remove filesystems at will
+  - Resistance to individual filesystem failure
+  - Support for extended attributes (xattrs)
+  - Support for file attributes (chattr)
+  - Runtime configurable (via xattrs)
+  - Works with heterogeneous filesystem types
+  - Moving of file when filesystem runs out of space while writing
+  - Ignore read-only filesystems when creating files
+  - Turn read-only files into symlinks to underlying file
+  - Hard link copy-on-write / CoW
+  - Support for POSIX ACLs
+  
+[Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher. 
+
+[Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
+
+[Apple File System (APFS)](https://support.apple.com/guide/disk-utility/file-system-formats-available-in-disk-utility-dsku19ed921c/mac) is  the default file system for Mac computers using macOS 10.13 or later, features strong encryption, space sharing, snapshots, fast directory sizing, and improved file system fundamentals.
+
+[NTFS(New Technology File System)](https://docs.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) is the primary file system for recent versions of Windows and Windows Server—provides a full set of features including security descriptors, encryption, disk quotas, and rich metadata, and can be used with Cluster Shared Volumes (CSV) to provide continuously available volumes that can be accessed simultaneously from multiple nodes of a failover cluster.
+
+[exFAT(Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
 
 ### Books
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
