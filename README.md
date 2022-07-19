@@ -173,8 +173,6 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
-[Scrutiny](https://github.com/AnalogJ/scrutiny) is a WebUI for smartd Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds.
-
 [Mistborn](https://gitlab.com/cyber5k/mistborn) is a secure platform for easily standing up and managing your own cloud services: including firewall, ad-blocking, and multi-factor WireGuard VPN access.
 
 [Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
@@ -301,6 +299,16 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
   - [Hard Drives Storage size range 1TB up to 20TB on Newegg](https://www.newegg.com/p/pl?d=hard+drives&N=600003298%20600003311%20600003316%20600003299%20600543907%20600003300%20601331745%20600083978%20600217643%20600486069%20600490667%20600376735%20601192404%20601398066%20601355746%20601334339%20601322010%20600376738%20600003341%20600003347%20100167523)
 
   - [Hard Drives Storage size range 1TB up to 18TB on Amazon](https://www.amazon.com/s?k=hard+drives&i=computers&rh=n%3A1254762011%2Cp_n_feature_two_browse-bin%3A5446812011%7C5446813011%7C5446815011%7C5446816011%7C7817230011%2Cp_n_feature_keywords_six_browse-bin%3A6158683011&s=review-rank&dc&qid=1653712565&rnid=562234011&ref=sr_st_review-rank)
+
+**Useful Tools for Storage Management**
+
+[Scrutiny](https://github.com/AnalogJ/scrutiny) is a WebUI for smartd Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds.
+  
+[DUA (Disk Usage Analyzer)](https://lib.rs/crates/dua-cli) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible. Optionally delete superfluous data, and do so more quickly than rm.
+
+[Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/). 
+
+[Dutree](https://github.com/nachoparker/dutree) is a tool to analyze file system usage written in Rust.
 
 ### File systems
 
