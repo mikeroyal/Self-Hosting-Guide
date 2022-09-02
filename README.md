@@ -21,7 +21,7 @@
         * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
         * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
         * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
-        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#pasword-management)
+        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
         * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
         * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
         * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
@@ -134,7 +134,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 ## Tools for Self-Hosting
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-### Conatiners
+### Containers
 
 [Back to the Top](#table-of-contents)
 
@@ -514,7 +514,7 @@ Automation systems.
    - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
    - [r/Roms](https://www.reddit.com/r/Roms/)
 
-### Foundatons/Projects
+### Foundations/Projects
 
 [Back to the Top](#table-of-contents)
 
