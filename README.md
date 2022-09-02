@@ -18,6 +18,23 @@
 1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
  
     - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
+        * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
+        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
+        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
+        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#pasword-management)
+        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
+        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
+        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
+        * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
+        * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
+        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
+        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
+        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
+        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
+        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
+        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
+
     - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
     - [File systems](https://github.com/mikeroyal/Self-Hosting-Guide#file-systems)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
@@ -117,29 +134,79 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 ## Tools for Self-Hosting
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-[Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs. 
+### Conatiners
 
-[Traefik](https://traefik.io/traefik/) is an open source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it automatically discovers the right configuration for your services.
-
-[Drone](https://drone.io/) is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
+[Back to the Top](#table-of-contents)
 
 [Portainer Community Edition](https://github.com/portainer/portainer) is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. It is designed to be as simple to deploy as it is to use.
 
-[Caddy](https://caddyserver.com/) is the only web server to use HTTPS automatically and by default. Caddy obtains and renews TLS certificates for your sites automatically.
+[Yacht](https://github.com/SelfhostedPro/Yacht) is a container management UI with a focus on templates and 1-click deployments.
 
-[Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. 
+[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
 
-[Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr) 
+[Autoheal](https://hub.docker.com/r/willfarrell/autoheal) monitors and restarts unhealthy docker containers. 
 
-[Supabase](https://github.com/supabase/supabase) is an open source Firebase alternative. It is building the features of Firebase using enterprise-grade open source tools.
+[Dozzle](https://hub.docker.com/r/amir20/dozzle) is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only. 
 
-[Plik](https://github.com/root-gg/plik) is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
+[Diun](https://crazymax.dev/diun/) is a tool that receive notifications when a Docker image is updated on a Docker registry. 
+
+[WatchTower](https://hub.docker.com/r/containrrr/watchtower) is a process for automating Docker container base image updates.
+
+### CI/CD
+
+[Back to the Top](#table-of-contents)
+
+ * **CI/CD: Continuous Integration and Continuous Delivery**
+
+[Drone](https://drone.io/) is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
+
+[Travis CI](https://travis-ci.org/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
+
+[Circle CI](https://circleci.com/) is a continuous integration and continuous delivery platform that helps software teams work smarter, faster.
+
+[Buddy](https://buddy.works/) is a fully-featured DevOps platform with no learning curve that packs everything you need from a CI/CD tool. 
+
+[Buildbot](https://www.buildbot.net/) is a continuous integration tool which automates the compile or test cycle required to validate changes to the project code base. It queues jobs, executes the jobs when the required resources are available, and reports the results.
+
+### Development
+
+[Back to the Top](#table-of-contents)
+
+[Code-Server](https://github.com/coder/code-server) is Visual Studio Code running on a remote server, accessible through the browser. 
+
+[Gitea](https://gittea.dev/) is a community managed painless self-hosted Git service.
+
+[Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
+
+### Password Management
+
+[Back to the Top](#table-of-contents)
 
 [Bitwarden](https://bitwarden.com/host/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault. 
 
 [Bitwarden Server](https://github.com/bitwarden/server) is a project contains the APIs, database, and other core infrastructure items needed for the "backend" of all bitwarden client applications. Checkout [Bitwarden's self-hosted release repository](https://github.com/bitwarden/self-host).
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) is an unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs.
+
+### Network Tools
+
+[Back to the Top](#table-of-contents)
+
+[MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
+
+[Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+
+[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
+
+[Supabase](https://github.com/supabase/supabase) is an open source Firebase alternative. It is building the features of Firebase using enterprise-grade open source tools.
+
+[Plik](https://github.com/root-gg/plik) is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
+
+[Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs. 
+
+[Traefik](https://traefik.io/traefik/) is an open source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it automatically discovers the right configuration for your services.
 
 [Hugo](https://github.com/gohugoio/hugo) is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
@@ -153,96 +220,31 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [ION](https://github.com/pion/ion) is a distributed real-time communication system, the goal is to chat anydevice, anytime, anywhere.
 
-[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer(Windows, Mac and Linux) and mobile devices through apps. 
-
-[SnapRAID](http://www.snapraid.it/) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
-
 [FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
 
 [Pimox](https://github.com/pimox/pimox7) is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
 
 [PiKVM](https://github.com/pikvm/pikvm) is a very simple and fully functional Raspberry Pi-based KVM over IP.
 
-[Gladys Assistant](https://github.com/gladysassistant/gladys) is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+### Monitoring
 
-[Yacht](https://github.com/SelfhostedPro/Yacht) is a container management UI with a focus on templates and 1-click deployments.
+[Back to the Top](#table-of-contents)
 
-[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
+[M2MLabs MainSpring](http://www.m2mlabs.com/) is an application framework for building machine-to-machine applications like vehicle tracking or machine remote monitoring. In such applications typically a remote device equipped with sensors (e.g. gps, temperature, pressure) and actors communicates with a server application that is running the device communication protocol, device configuration, storage of data sent by the devices as well as the application business logic and the presentation layer. 
 
-[Audiobookshelf](https://github.com/advplyr/audiobookshelf) is a self-hosted audiobook and podcast server.
+[InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
-[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
+[Grafana](https://grafana.com/oss/grafana/) is atool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
 
-[Mistborn](https://gitlab.com/cyber5k/mistborn) is a secure platform for easily standing up and managing your own cloud services: including firewall, ad-blocking, and multi-factor WireGuard VPN access.
+[Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
 
-[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+[Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
 
-[OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
-
-[Matomo](https://matomo.org/) is an ethical alternative where you won't make privacy sacrifices or compromise your site. Matomo is the Google Analytics alternative that protects your data and your customer's privacy. 
-
-[Plausible Analytics](https://plausible.io/) is a simple, lightweight (< 1 KB), open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. You can self-host Plausible or have us run it for you in the Cloud. 
-
-[Odoo](https://www.odoo.com/) is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
-
-[Eden Workplace](https://www.edenworkplace.com/products) is a complete workplace management platform that lets you achieve more. Desk Booking Software to make desk reservations easier for your team, including assigning permanent and hybrid desks, providing wayfinding solutions for employees.
-
-[Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
-
-[Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
-
-[Matrix](https://matrix.org/) is a tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history, formatted messages, read receipts and more.
-
-[Synology](https://www.synology.com/) is a tool that allows you to easily access and manage files in your Synology Drive on the go. Apart from common file types, such as documents, images, videos and music, you can also open Synology Office document, spreadsheets and slides in the user-friendly viewer provided by Drive.
-
-[QNAP Switch System (QSS)](https://www.qnap.com/) is a configuration interface for QNAP's managed switch series. Enable management functions such as link aggregation, VLAN, and RSTP, to take care of your network topology with ease.
-
-[ASUSTOR](https://www.asustor.com/) is a subsidiary of ASUS and a leading provider of network attached storage (NAS). It specializes in the development and integration of storage, backup, multimedia, video surveillance and mobile applications for home and enterprise users.
-
-[FreeNAS](https://www.truenas.com/freenas/) is an Open Source Storage Platform and supports sharing across Windows, Apple, and UNIX-like systems. This includes ZFS (high storage capacities and integrates file systems and volume management into a single piece of software). It supports UPS, CIFS/SMB, FTP, NFS, RSYNC, SSH, AFP, Unison, UPnP, Webserver, iSCSI protocols, local and MS AD authentication, and disk enctyption.
-
-[Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
-
-[Jellyfin](https://jellyfin.org/) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
-
-[OpenMediaVault](https://www.openmediavault.org/) is a next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, BitTorrent client and many more.
-
-[Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
-
-[PhotoPrism®](https://docs.photoprism.app/license/docs/) is an AI-powered app for browsing, organizing & sharing your photo collection. It makes use of the latest technologies to tag and find pictures automatically without getting in your way. You can run it at home, on a private server, or in the cloud.
-
-[Gimme-iPhotos](https://github.com/Zebradil/Gimme-iPhotos) is a tool uses [pyicloud](https://github.com/picklepete/pyicloud) to synchronize photos and videos from iCloud to your local machine.
-
-[PyiCloud](https://github.com/picklepete/pyicloud) is a module which allows pythonistas to interact with iCloud webservices. It's powered by the fantastic [requests](https://github.com/kennethreitz/requests) HTTP library.
-
-[TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
-
-[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
-
-**Cartridge Features**
-
-   - Scan for ROM files and match with IGDB game information
-   - Serve ROM download links alongside game details
-   - Manage access to library with user creation and permissions (WIP)
-   - Allow users to request games (Planned)
-   - Play select ROMs in-browser using JS emulators (Planned)
-   - Track played and favorite games (even ones that aren't available for download) (Planned)
-
-[Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
-
-[Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices. 
-
-[TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
-
-[PM2](https://github.com/Unitech/pm2) is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
-
-[authentik](https://github.com/goauthentik/authentik) is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
-
-[Tdarr](https://tdarr.io/) is a distributed transcode automation application using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker). A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
-
-[Syncthing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time.
+[Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 
 [Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world. 
+
+[Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
 [Restic](https://restic.net/) is a modern backup program that can back up your files: from Linux, BSD, Mac and Windows. To many different storage types, including self-hosted and online services. easily, being a single executable that you can run without a server or complex setup. effectively, only transferring the parts that actually changed in the files you back up.
 
@@ -260,31 +262,276 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
 
-[M2MLabs MainSpring](http://www.m2mlabs.com/) is an application framework for building machine-to-machine applications like vehicle tracking or machine remote montoring. In such applications typically a remote device equipped with sensors (e.g. gps, temperature, pressure) and actors communicates with a server application that is running the device communication protocol, device configuration, storage of data sent by the devices as well as the application business logic and the presentation layer. 
+### Communications
 
-[Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+[Matrix](https://matrix.org/) is a tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history, formatted messages, read receipts and more.
 
-[InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
+[Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk).
 
-[Grafana](https://grafana.com/oss/grafana/) is atool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
+[Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
 
-[Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
+[Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
 
-[Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
+[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
-[Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
+[Nextcloud Talk](https://nextcloud.com/talk/) is a on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.
 
-[Travis CI](https://travis-ci.org/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
+### Business Management
 
-[Circle CI](https://circleci.com/) is a continuous integration and continuous delivery platform that helps software teams work smarter, faster.
+[Back to the Top](#table-of-contents)
 
-[EdgeX Foundry](https://www.edgexfoundry.org) is a vendor-neutral project under the Linux Foundation. The initiative is aligned around a common goal: the simplification and standardization of the foundation for edge computing architectures in the Industrial IoT market, while still allowing the ecosystem to add significant value.
+[Nextcloud](http://nextcloud.com/) is a suite of enterprise client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces. 
+
+[Odoo](https://www.odoo.com/) is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
+
+[Eden Workplace](https://www.edenworkplace.com/products) is a complete workplace management platform that lets you achieve more. Desk Booking Software to make desk reservations easier for your team, including assigning permanent and hybrid desks, providing wayfinding solutions for employees.
+
+[Matomo](https://matomo.org/) is an ethical alternative where you won't make privacy sacrifices or compromise your site. Matomo is the Google Analytics alternative that protects your data and your customer's privacy. 
+
+[Plausible Analytics](https://plausible.io/) is a simple, lightweight (< 1 KB), open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. You can self-host Plausible or have us run it for you in the Cloud. 
+
+[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
+
+
+### Collaboration & Synchronization
+
+[Back to the Top](#table-of-contents)
+
+[Syncthing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time.
+
+[Synology](https://www.synology.com/) is a tool that allows you to easily access and manage files in your Synology Drive on the go. Apart from common file types, such as documents, images, videos and music, you can also open Synology Office document, spreadsheets and slides in the user-friendly viewer provided by Drive.
+
+[Nextcloud](http://nextcloud.com/) is a suite of client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces. 
+
+[FileRun](https://hub.docker.com/r/filerun/filerun) is a self-hosted Google Drive alternative. It is a full featured web based file manager with an easy to use user interface.
+
+[FileBrowser](https://hub.docker.com/r/filebrowser/filebrowser) provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory.
+
+### Backups
+
+[Back to the Top](#table-of-contents)
+
+[Borgmatic](https://github.com/modem7/docker-borgmatic) is a simple, configuration-driven backup software for servers and workstations. It protects your files with client-side encryption. Backup your databases too. Monitor it all with integrated third-party services. 
+
+[Vorta](https://vorta.borgbase.com/) is a backup client for macOS and Linux desktops. It integrates the mighty Borg Backup with your favorite desktop environment to protect your data from disk failure, ransomware and theft. 
+
+### Home Server
+
+[Back to the Top](#table-of-contents)
+
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+Automation systems.
+
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+
+[Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
+
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+
+[Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
+
+[Caddy](https://caddyserver.com/) is the only web server to use HTTPS automatically and by default. Caddy obtains and renews TLS certificates for your sites automatically.
+
+[Bazarr](https://hub.docker.com/r/linuxserver/bazarr) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. 
+
+[Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. 
+
+[Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr) 
+
+[Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices. 
+
+[TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
+
+[PM2](https://github.com/Unitech/pm2) is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
+
+[authentik](https://github.com/goauthentik/authentik) is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
+
+[Tdarr](https://tdarr.io/) is a distributed transcode automation application using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker). A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
+
+[QNAP Switch System (QSS)](https://www.qnap.com/) is a configuration interface for QNAP's managed switch series. Enable management functions such as link aggregation, VLAN, and RSTP, to take care of your network topology with ease.
+
+[ASUSTOR](https://www.asustor.com/) is a subsidiary of ASUS and a leading provider of network attached storage (NAS). It specializes in the development and integration of storage, backup, multimedia, video surveillance and mobile applications for home and enterprise users.
+
+[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer(Windows, Mac and Linux) and mobile devices through apps. 
+
+[SnapRAID](http://www.snapraid.it/) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
+
+[FreeNAS](https://www.truenas.com/freenas/) is an Open Source Storage Platform and supports sharing across Windows, Apple, and UNIX-like systems. This includes ZFS (high storage capacities and integrates file systems and volume management into a single piece of software). It supports UPS, CIFS/SMB, FTP, NFS, RSYNC, SSH, AFP, Unison, UPnP, Webserver, iSCSI protocols, local and MS AD authentication, and disk enctyption.
+
+[Gladys Assistant](https://github.com/gladysassistant/gladys) is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+
+[Audiobookshelf](https://github.com/advplyr/audiobookshelf) is a self-hosted audiobook and podcast server.
+
+[Mistborn](https://gitlab.com/cyber5k/mistborn) is a secure platform for easily standing up and managing your own cloud services: including firewall, ad-blocking, and multi-factor WireGuard VPN access.
+
+
+### Media Server
+
+[Back to the Top](#table-of-contents)
+
+[Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
+
+[Jellyfin](https://jellyfin.org/) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
+
+[OpenMediaVault](https://www.openmediavault.org/) is a next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, BitTorrent client and many more.
+
+[Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
+
+[AirSonic](https://hub.docker.com/r/airsonic/airsonic) is a free, web-based media streamer, providing ubiquitous access to your music.
+
+[TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
+
+[Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
+
+
+### Maps
+
+[Back to the Top](#table-of-contents)
+
+[MapTiler Server](https://www.maptiler.com/server/self-host-satellite-maps/) is a self-hosted Aerial and satellite imagery maps of the entire world from your own server or laptop.
+
+[KelperJs](http://keplerjs.io/) is a open source full-stack geosocial network platform.
+
+[OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
+
+[uMap](https://github.com/umap-project/umap) is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site. 
+
+### Photos
+
+[Back to the Top](#table-of-contents)
+
+[PhotoPrism®](https://docs.photoprism.app/license/docs/) is an AI-powered app for browsing, organizing & sharing your photo collection. It makes use of the latest technologies to tag and find pictures automatically without getting in your way. You can run it at home, on a private server, or in the cloud.
+
+[Gimme-iPhotos](https://github.com/Zebradil/Gimme-iPhotos) is a tool uses [pyicloud](https://github.com/picklepete/pyicloud) to synchronize photos and videos from iCloud to your local machine.
+
+[PyiCloud](https://github.com/picklepete/pyicloud) is a module which allows pythonistas to interact with iCloud webservices. It's powered by the fantastic [requests](https://github.com/kennethreitz/requests) HTTP library.
+
+[PiWigo](https://hub.docker.com/r/linuxserver/piwigo) is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+
+[Chevereto](https://hub.docker.com/r/linuxserver/chevereto) is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server.
+
+
+### Gaming
+
+[Back to the Top](#table-of-contents)
+
+[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
+
+**Cartridge Features**
+
+   - Scan for ROM files and match with IGDB game information
+   - Serve ROM download links alongside game details
+   - Manage access to library with user creation and permissions (WIP)
+   - Allow users to request games (Planned)
+   - Play select ROMs in-browser using JS emulators (Planned)
+   - Track played and favorite games (even ones that aren't available for download) (Planned)
+   
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig.
+
+<img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. 
+
+   
+#### Game Emulators
+
+[EmuDeck](https://www.emudeck.com/) is a tool that takes care of everything for your retrogaming needs from RetroArch Configuration, Bezels, Gamepad Configuration for GameCube, Wii, Citra, SNES, etc. EmuDeck will even install EmulationStation Desktop Edition and carry over all their custom configurations and no need to configure ROM paths or anything. 
+
+[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
+
+[RetroPie](https://retropie.org.uk/) is a frontend for emulators that allows you to turn your Raspberry Pi, ODroid C1/C2, or PC into a retro-gaming machine. It builds upon Raspbian, [EmulationStation](https://github.com/Aloshi/EmulationStation), RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/153087555-e1bde100-6079-4089-a33d-804e29064789.png">
+<br />
+</p>
+
+[RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all. [RetroArch Flatpak](https://flathub.org/apps/details/org.libretro.RetroArch)
+
+[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
+
+**Cartridge Features**
+
+   - Scan for ROM files and match with IGDB game information
+   - Serve ROM download links alongside game details
+   - Manage access to library with user creation and permissions (WIP)
+   - Allow users to request games (Planned)
+   - Play select ROMs in-browser using JS emulators (Planned)
+   - Track played and favorite games (even ones that aren't available for download) (Planned)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172274231-d691a850-1879-44fb-8fa0-08e549d7bb29.png">
+<br />
+ Cartridge UI
+</p>
+
+[Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more. 
+
+[Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games. 
+
+[yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.[
+
+[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
+
+[DeSmuME](https://desmume.org/) is a Nintendo DS emulator. 
+
+[Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator.  
+
+[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use. 
+
+[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. 
+
+[DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
+
+[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode. 
+
+[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast. 
+
+[PCSX2](https://pcsx2.net/) is a PlayStation 2 'emulator', a free program that tries to replicate the PlayStation 2 console to enable you to play PS2 games on your PC. 
+
+[RPCS3](https://rpcs3.net/) is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL. 
+
+[MAME](https://www.mamedev.org/) is a Arcade Machine Emulator.
+
+[xemu](https://xemu.app/) is an original Xbox emulator.
+
+[Xenia](https://github.com/xenia-project/xenia) is an Xbox 360 Emulator.
+
+**Also checkout these subreddits for more great Game Emulators recommendations**
+  
+   - [r/emulation](https://www.reddit.com/r/emulation/)
+   - [r/emulations](https://www.reddit.com/r/emulators/)
+   - [r/RetroArch](https://www.reddit.com/r/RetroArch/)
+   - [r/RetroPie](https://www.reddit.com/r/RetroPie/)
+   - [r/DolphinEmulator](https://www.reddit.com/r/DolphinEmulator/)
+   - [r/Citra](https://www.reddit.com/r/Citra/)
+   - [r/cemu](https://www.reddit.com/r/cemu/)
+   - [r/yuzu](https://www.reddit.com/r/yuzu/)
+   - [r/OpenEmu](https://www.reddit.com/r/OpenEmu/)
+   - [r/MAME](https://www.reddit.com/r/MAME/)
+   - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
+   - [r/Roms](https://www.reddit.com/r/Roms/)
+
+### Foundatons/Projects
+
+[Back to the Top](#table-of-contents)
+
+[Open Source Hardware Association (OSHWA)](https://www.oshwa.org) is a non-profit organization that advocates for open-source hardware. It aims to act as a hub of open source hardware activity of all types while actively cooperating with other initiatives such as the TAPR Open Hardware License, open-source development groups at CERN, and the Open Source Initiative (OSI).
 
 [The Open Connectivity Foundation](https://openconnectivity.org) is dedicated to ensuring secure interoperability for consumers, businesses and industries by delivering a standard communications platform, a bridging specification, an open source implementation and a certification program allowing devices to communicate regardless of form factor, operating system, service provider, transport technology or ecosystem.
 
+[Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies. 
+
+[OpenSSF(Open Source Security Foundation)](https://openssf.org/) is a cross-industry forum for a collaborative effort to improve open source software security. 
+
+[OpenJS Foundation](https://openjsf.org/) is the premier home for critical open source JavaScript projects, including Appium, Dojo, jQuery, Node.js, and webpack, and 27 more.
+
+[EdgeX Foundry](https://www.edgexfoundry.org) is a vendor-neutral project under the Linux Foundation. The initiative is aligned around a common goal: the simplification and standardization of the foundation for edge computing architectures in the Industrial IoT market, while still allowing the ecosystem to add significant value.
+
 [Eclipse Foundation](https://www.eclipse.org) provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
 
-[Open Source Hardware Association (OSHWA)](https://www.oshwa.org) is a non-profit organization that advocates for open-source hardware. It aims to act as a hub of open source hardware activity of all types while actively cooperating with other initiatives such as the TAPR Open Hardware License, open-source development groups at CERN, and the Open Source Initiative (OSI).
 
 ### Storage
 
