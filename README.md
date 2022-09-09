@@ -404,13 +404,21 @@ Automation systems.
 
 [PhotoPrism®](https://docs.photoprism.app/license/docs/) is an AI-powered app for browsing, organizing & sharing your photo collection. It makes use of the latest technologies to tag and find pictures automatically without getting in your way. You can run it at home, on a private server, or in the cloud.
 
+[Immich](https://immich.app/) is a high performance self-hosted photo and video backup solution directly from your mobile phone.
+
+[Piwigo](https://piwigo.org/) is a full featured, self-hosted, and open source photo gallery application for the web. It comes with more than 200 templates, plugins, and configurations that let you personalize how your photos are presented. It allows users to upload photos from digiKam, Shotwell, Lightroom or mobile applications. Lastly, users can create galleries and give viewing permissions to their clients. They can download individual photos or whole albums, post comments, give ratings, mark photos as favorites, and perform searches.
+
+[Lychee](https://lycheeorg.github.io/) is a great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. 
+
+[Photoview](https://photoview.github.io/) is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos. 
+
 [Gimme-iPhotos](https://github.com/Zebradil/Gimme-iPhotos) is a tool uses [pyicloud](https://github.com/picklepete/pyicloud) to synchronize photos and videos from iCloud to your local machine.
 
 [PyiCloud](https://github.com/picklepete/pyicloud) is a module which allows pythonistas to interact with iCloud webservices. It's powered by the fantastic [requests](https://github.com/kennethreitz/requests) HTTP library.
 
-[PiWigo](https://hub.docker.com/r/linuxserver/piwigo) is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
-
 [Chevereto](https://hub.docker.com/r/linuxserver/chevereto) is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server.
+
+[Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS. 
 
 
 ### Gaming
