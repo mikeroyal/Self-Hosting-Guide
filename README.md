@@ -663,7 +663,11 @@ Automation systems.
 ### Tutorials & Resources
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-  - [Awesome Self Hosted on LibHunt](https://selfhosted.libhunt.com/) is a directory of free software solutions and web applications which can be hosted locally.
+  - [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) is a directory of free software solutions and web applications which can be hosted locally.
+  
+  - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
+
+  - [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services. 
  
   - [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
   
