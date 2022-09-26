@@ -246,6 +246,14 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world. 
 
+[Uptime Kuma](https://uptime.kuma.pet/) is a fancy self-hosted monitoring tool.
+
+[Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket. 
+
+[Blocky](https://github.com/0xERR0R/blocky) is a fast and lightweight DNS proxy as ad-blocker for local network with many features 
+
+[Dashy](https://dashy.to/) is a self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more.
+
 [Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
 [Restic](https://restic.net/) is a modern backup program that can back up your files: from Linux, BSD, Mac and Windows. To many different storage types, including self-hosted and online services. easily, being a single executable that you can run without a server or complex setup. effectively, only transferring the parts that actually changed in the files you back up.
