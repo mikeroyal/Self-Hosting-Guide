@@ -373,9 +373,11 @@ Automation systems.
 
 [Back to the Top](#table-of-contents)
 
-[Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
+[Overseerr](https://overseerr.dev/) is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as [Sonarr](https://sonarr.tv/), [Radarr](https://radarr.video/), and [Plex](https://www.plex.tv/).
 
 [Jellyfin](https://jellyfin.org/) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
+
+[Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
 
 [OpenMediaVault](https://www.openmediavault.org/) is a next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, BitTorrent client and many more.
 
