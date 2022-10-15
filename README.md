@@ -697,6 +697,8 @@ Automation systems.
   - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
 
   - [How I fell into the self-hosting rabbit hole in 2021](https://www.windowscentral.com/self-hosting-2021)
+  
+  - [The (hardware) key to making phishing defense seamless with Cloudflare Zero Trust and Yubico](https://blog.cloudflare.com/making-phishing-defense-seamless-cloudflare-yubico/)
 
   - [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
   
