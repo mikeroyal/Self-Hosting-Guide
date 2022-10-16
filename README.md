@@ -302,6 +302,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
+[InvoicePlane](https://www.invoiceplane.com/) is a self-hosted open source application for managing your quotes, invoices, clients and payments.
 
 ### Collaboration & Synchronization
 
