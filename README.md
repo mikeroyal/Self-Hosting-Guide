@@ -397,6 +397,11 @@ Automation systems.
 
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
 
+[RuneAudio](https://www.runeaudio.com/) is a free and open source software that turns embedded hardware into Hi-Fi music players.
+
+[Volumio (The Audiophile Music Player)](https://volumio.com/) is a very powerful and convenient music aggregator, now Volumio can also be used with great results in all sorts of different situations.
+
+[Snapcast](https://github.com/badaix/snapcast) is a multiroom client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multiroom solution.
 
 ### Maps
 
