@@ -188,6 +188,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) is an unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs.
 
+[AuthPass.app](https://authpass.app/) is an Open-Source Password Manager for mobile and desktop that is Keepass 2.x (kdbx 3.x) compatible.
+
 ### Network Tools
 
 [Back to the Top](#table-of-contents)
