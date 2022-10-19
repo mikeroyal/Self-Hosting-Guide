@@ -551,6 +551,8 @@ Automation systems.
 
 [Back to the Top](#table-of-contents)
 
+[Matter](https://buildwithmatter.com/) is an open standard for smart home technology that lets your device work with any Matter-certified ecosystem using a single protocol. Matter comes from the [Connectivity Standards Alliance](https://csa-iot.org/), an organization of hundreds of companies(Amazon, Apple, Google, Comcast, Zigbee Alliance, and Connectivity Standards Alliance (CSA) creating products for the smart home.
+
 [Open Source Hardware Association (OSHWA)](https://www.oshwa.org) is a non-profit organization that advocates for open-source hardware. It aims to act as a hub of open source hardware activity of all types while actively cooperating with other initiatives such as the TAPR Open Hardware License, open-source development groups at CERN, and the Open Source Initiative (OSI).
 
 [The Open Connectivity Foundation](https://openconnectivity.org) is dedicated to ensuring secure interoperability for consumers, businesses and industries by delivering a standard communications platform, a bridging specification, an open source implementation and a certification program allowing devices to communicate regardless of form factor, operating system, service provider, transport technology or ecosystem.
