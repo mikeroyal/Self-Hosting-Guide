@@ -240,6 +240,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
+[Proxmox Mail Gateway](https://www.proxmox.com/en/proxmox-mail-gateway) is an open-source email security solution protecting your mail server against all email threats from the moment they emerge. 
+
 [M2MLabs MainSpring](http://www.m2mlabs.com/) is an application framework for building machine-to-machine applications like vehicle tracking or machine remote monitoring. In such applications typically a remote device equipped with sensors (e.g. gps, temperature, pressure) and actors communicates with a server application that is running the device communication protocol, device configuration, storage of data sent by the devices as well as the application business logic and the presentation layer. 
 
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
