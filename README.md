@@ -815,6 +815,8 @@ Automation systems.
   
   - [GitLab self-managed subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/)
   
+  - [Proxmox VE Training Courses](https://www.proxmox.com/en/training)
+  
   - [Self-Hosted GitLab with CodeFlow](https://www.getcodeflow.com/self-hosted-gitlab.html)
   
   - [Self-host Appsmith in Just a Few Minutes on Digital Ocean AppSmith](https://www.appsmith.com/blog/self-host-appsmith-in-just-a-few-minutes-on-digital-ocean)
