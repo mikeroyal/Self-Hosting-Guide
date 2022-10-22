@@ -21,6 +21,7 @@
         * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
         * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
         * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
+	* [Remote Desktop](#Remote-Desktop)
 	* [Virtualization](#Virtualization)
         * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
         * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
@@ -212,6 +213,40 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Gitea](https://gittea.dev/) is a community managed painless self-hosted Git service.
 
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
+
+### Remote Desktop
+
+[Back to the Top](#table-of-contents)
+
+[FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
+
+[Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices.
+
+[TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
+
+[X2Go](https://wiki.x2go.org/) is open source remote desktop software for Linux that uses a modified NX 3 protocol. It gives remote access to a Linux system's GUI.
+
+[Apache Guacamole](https://guacamole.apache.org/) is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.
+
+[Remotely](https://github.com/immense/Remotely) is a  remote control and remote scripting solution, built with .NET 6, Blazor, SignalR Core, and WebRTC. 
+
+[P2P Remote Desktop](https://github.com/miroslavpejic85/p2p) is a portable, no configuration or installation needed remote desktop tool.
+
+[Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide) is a tunneling daemon that proxies traffic from the Cloudflare network to your origins. This daemon sits between Cloudflare network and your origin (a webserver). This attracts client requests and sends them to you via this daemon, without requiring you to poke holes on your firewall and your origin(webserver) can remain as closed as possible. 
+
+[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable.
+
+[NetBird](https://netbird.io/) is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
+
+[Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an overlay network between the computers of your networks using all kinds of NAT traversal sorcery.
+
+[Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
+
+[MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage. 
+
+[VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) is a free remote desktop application that use can use on your iPhone, iPad, Mac, Windows and Linux computers from anywhere in the world.
+
+[TightVNC](https://www.tightvnc.com/) is a free remote desktop application. It can see the desktop of a remote machine and control it with your local mouse and keyboard, just like you would do it sitting in the front of that computer.
 
 ### Virtualization Tools
 
