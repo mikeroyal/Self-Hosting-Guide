@@ -139,9 +139,41 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
+**Container** is a standard unit of software that packages up code and all its dependencies(including CPU, memory, file storage, and network connections) so the application runs quickly and reliably from one computing environment to another. 
+
+  * [Application Container Security Guide | NIST (PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
+
+**Container Image** is a lightweight, standalone, executable package of software that includes everything needed to run an application such as the code, runtime, system tools, system libraries, and settings. 
+
+**Best places to get Container Images:**
+
+ * [DockerHub Container Images](https://hub.docker.com/search?image_filter=official&q=&type=image)
+ * [LinuxServer.io Container Images](https://fleet.linuxserver.io/)
+ * [Quay Container Images](https://quay.io/search)
+
+[Docker Compose](https://github.com/docker/compose) is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
+
+[Containerd](https://containerd.io/) is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows.
+
+[Podman](https://podman.io/) is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface (CLI) familiar to anyone who has used the Docker Container Engine.
+
+[Lima](https://github.com/lima-vm/lima) is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It's a great free and open-source alternative for [Docker Desktop](https://www.docker.com/products/docker-desktop).
+
+[Colima](https://github.com/abiosoft/colima) is a container runtimes on macOS (and Linux) with minimal setup.
+
 [Portainer Community Edition](https://github.com/portainer/portainer) is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. It is designed to be as simple to deploy as it is to use.
 
 [Yacht](https://github.com/SelfhostedPro/Yacht) is a container management UI with a focus on templates and 1-click deployments.
+
+[Kitematic](https://kitematic.com/) is a simple application for managing Docker containers on Mac, Linux and Windows letting you control your app containers from a graphical user interface (GUI).
+
+[Open Container Initiative](https://opencontainers.org/about/overview/) is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.
+
+[Buildah](https://buildah.io/) is a command line tool to build Open Container Initiative (OCI) images. It can be used with Docker, Podman, Kubernetes.
+
+[Red Hat Quay](https://quay.io/) is a project that Builds, Stores, and Distributes your Applications and Containers.
+
+[Clair](https://github.com/quay/clair) is an open source project for the static analysis of vulnerabilities in application containers (currently including [OCI](https://github.com/opencontainers/image-spec/blob/master/spec.md) and [Docker](https://github.com/docker/docker/blob/master/image/spec/v1.2.md)).
 
 [Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
 
