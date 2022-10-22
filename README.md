@@ -248,7 +248,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [TightVNC](https://www.tightvnc.com/) is a free remote desktop application. It can see the desktop of a remote machine and control it with your local mouse and keyboard, just like you would do it sitting in the front of that computer.
 
-### Virtualization Tools
+### Virtualization
 
 [Back to the Top](#table-of-contents)
 
