@@ -795,6 +795,12 @@ Automation systems.
   - Hard link copy-on-write / CoW
   - Support for POSIX ACLs
   
+[Proxmox Cluster File System (PMXCFS)](https://pve.proxmox.com/wiki/Cluster_Manager) is a File System used to transparently distribute the cluster configuration to all cluster nodes.
+
+[UnionFS](https://unionfs.filesystems.org/) is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system. 
+
+[OverlayFS](https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html) is a modern union filesystem that is similar to [AUFS](https://en.wikipedia.org/wiki/Aufs), but faster and with a simpler implementation. It's typically used on systems running on embed devices, like OpenWRT, where is useful to preserve a basic set of configurations and at the same time allowing the user to perform modifications.
+  
 [Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher. 
 
 [Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
