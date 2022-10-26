@@ -374,6 +374,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Traefik](https://traefik.io/traefik/) is an open source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it automatically discovers the right configuration for your services.
 
+[DuckDNS](https://www.duckdns.org/) is a free service that allows you to bind your own favorite subdomain under ```duckdns.org``` to the public IP address in use from your router, even though such address is dynamically allocated by your internet service provider and therefore changes over time.
+
+[Trust-DNS](https://github.com/bluejekyll/trust-dns) is a Rust based DNS client, server, and Resolver, built to be safe and secure from the ground up.
+
 [Hugo](https://github.com/gohugoio/hugo) is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
 [sshuttle](https://github.com/sshuttle/sshuttle) is a transparent proxy server that works as a poor man's VPN that forwards connection over ssh. It works with Linux and MacOS and supports DNS tunneling. 
