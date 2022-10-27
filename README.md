@@ -452,6 +452,14 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
+[iRedMail](https://www.iredmail.org/) is a self-hosted email server.
+
+[iRedMail Easy](https://www.iredmail.org/easy.html) is a web-based deployment platform, it offers an easy to use web interface to help you deploy iRedMail server, keep your server up to date, also get fast and professional technical support from iRedMail team.
+
+[Spider Email Archiver](https://spiderd.io/) is  an On-Premises Email Archiving Software.
+
+[MailCow](https://github.com/mailcow/mailcow-dockerized) is a self-hosted email server.
+
 [Nextcloud Talk](https://nextcloud.com/talk/) is a on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.
 
 ### Business Management
