@@ -408,7 +408,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
-[Grafana](https://grafana.com/oss/grafana/) is atool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
+[Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
 
 [Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
 
@@ -435,6 +435,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [MinIO](https://min.io/) is a high performance object storage tool that provides the world's fastest object storage server. With READ/WRITE speeds of 325 GiB/s and 165 GiB/s on standard hardware with default parity (EC:4), object storage can operate as the primary storage tier for a diverse set of workloads ranging from Spark, Presto, TensorFlow.
 
 [Greyhole](https://www.greyhole.net/) is a tool that uses Samba to create a storage pool of all your available hard drives (whatever their size, however they are connected), and allows you to create redundant copies of the files you store, in order to prevent data loss when part of your hardware fails.
+
+[Googerteller](https://github.com/berthubert/googerteller) is a tool that makes an audible sound any time your computer sends a packet to a Google tracker or a Google service, which excludes Google Cloud users.
 
 [DeviceHive](https://www.devicehive.com) is a free, highly scalable open-source IoT platform for data collection, processing and analysis, visualization, and device management with the broad range of integration options.
 
