@@ -515,7 +515,6 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
 
 [ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
-Automation systems.
 
 [Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
 
