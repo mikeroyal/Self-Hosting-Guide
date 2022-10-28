@@ -544,6 +544,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [authentik](https://github.com/goauthentik/authentik) is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
 
+[ESPHome Remote](https://github.com/landonr/esphome-remote) IS a WI-FI smart home remote with display that runs on ESPHome. It uses Lilygo T-Display or M5Stack Fire.
+
 [Tdarr](https://tdarr.io/) is a distributed transcode automation application using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker). A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
 
 [QNAP Switch System (QSS)](https://www.qnap.com/) is a configuration interface for QNAP's managed switch series. Enable management functions such as link aggregation, VLAN, and RSTP, to take care of your network topology with ease.
