@@ -346,6 +346,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [AuthPass.app](https://authpass.app/) is an Open-Source Password Manager for mobile and desktop that is Keepass 2.x (kdbx 3.x) compatible.
 
+[pass](https://www.passwordstore.org/) is an open-source unix-based password utilitiy with various [gui clients](https://www.passwordstore.org/#other)
+
 ### Network Tools
 
 [Back to the Top](#table-of-contents)
