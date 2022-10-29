@@ -436,6 +436,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Greyhole](https://www.greyhole.net/) is a tool that uses Samba to create a storage pool of all your available hard drives (whatever their size, however they are connected), and allows you to create redundant copies of the files you store, in order to prevent data loss when part of your hardware fails.
 
+[Falcon LogScale](https://www.crowdstrike.com/products/observability/falcon-logscale/) is purpose-built to help any organization achieve the benefits of large-scale logging and analysis. Falcon LogScale has virtually no latency, even at ingest volumes of 1PB(Petabyte) per day. 
+
 [Googerteller](https://github.com/berthubert/googerteller) is a tool that makes an audible sound any time your computer sends a packet to a Google tracker or a Google service, which excludes Google Cloud users.
 
 [DeviceHive](https://www.devicehive.com) is a free, highly scalable open-source IoT platform for data collection, processing and analysis, visualization, and device management with the broad range of integration options.
