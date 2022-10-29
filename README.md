@@ -33,6 +33,7 @@
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
+       * [Bookmarks](#Bookmarks)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
@@ -611,6 +612,22 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
 
 [uMap](https://github.com/umap-project/umap) is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site. 
+
+### Bookmarks
+
+[Back to the Top](#table-of-contents)
+
+[Linkding](https://github.com/sissbruecker/linkding/) is a simple bookmark service that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker.
+
+[LinkAce](https://www.linkace.org/) is a self-hosted bookmark archive to collect links of your favorite websites.
+
+[Eagle](https://eagle.cool/) is a tool to collect, search and organize your design files in a logical way and all in one place.
+
+[Shlink](https://shlink.io/) is a self-hosted URL shortener that keeps control over all your shortened URLs, by serving them under your own domains, using this simple yet powerful tool.
+
+[Pinry](https://docs.getpinry.com/) is a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy to skim through format.
+
+[Shaark](https://github.com/MarceauKa/shaark) is a self-hosted platform to keep and share your content: web links, posts, passwords and pictures.
 
 ### Photos
 
