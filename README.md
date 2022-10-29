@@ -32,6 +32,8 @@
        * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
+       * [Podcasting](#Podcasting)
+       * [Audiobooks](#Audiobooks)
        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
@@ -599,6 +601,38 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Volumio (The Audiophile Music Player)](https://volumio.com/) is a very powerful and convenient music aggregator, now Volumio can also be used with great results in all sorts of different situations.
 
 [Snapcast](https://github.com/badaix/snapcast) is a multiroom client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multiroom solution.
+
+
+### Podcasting
+
+[Back to the Top](#table-of-contents)
+
+[Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience.
+
+[Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
+
+[Podverse](https://podverse.fm/) is creating an open source podcast app for iOS, Android, F-Droid, and Web.
+
+[Alby](https://getalby.com/) is a Bitcoin Lightning App for your Browser.
+
+[Alby wallet API](https://blog.getalby.com/introducing-the-alby-wallet-api/) is an implemented OAuth an open standard that apps use to provide client applications with secure delegated access. Thus Podverse users create an Alby wallet account or use their existing Alby account to grant specific access rights to their Alby wallet. 
+
+[AntennaPod](https://antennapod.org/) is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial interest, so it respects your privacy while giving you full control.
+
+[Podify](https://github.com/podify-org/podify) is a self-hosted service that allows you to download videos and audio from any source supported by youtube-dl, sort the downloads into feeds, and subscribe to these feeds using your favorite podcast app.
+
+[dir2cast](https://github.com/ben-xo/dir2cast/) is designed to turn a directory of MP3s into a podcast - automatically. Perfect for, say, radio shows - upload the MP3s to a folder, and use dir2cast.php as your PodCast URL.
+
+### AudioBooks
+
+[Back to the Top](#table-of-contents)
+
+[Audioserve](https://github.com/izderadicka/audioserve) is a simple personal server to serve audio files from directories. Intended primarily for audio books, but anything with decent directories structure will do. Focus here is on simplicity and minimalist design.
+
+[Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
+
+[Jellyfin Bookshelf Plugin](https://github.com/jellyfin/jellyfin-plugin-bookshelf)
+
 
 ### Maps
 
