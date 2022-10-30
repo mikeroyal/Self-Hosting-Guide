@@ -639,6 +639,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [AntennaPod](https://antennapod.org/) is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial interest, so it respects your privacy while giving you full control.
 
+[Podgrab](https://github.com/akhilrex/podgrab) is a self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player.
+
 [Podify](https://github.com/podify-org/podify) is a self-hosted service that allows you to download videos and audio from any source supported by youtube-dl, sort the downloads into feeds, and subscribe to these feeds using your favorite podcast app.
 
 [dir2cast](https://github.com/ben-xo/dir2cast/) is designed to turn a directory of MP3s into a podcast - automatically. Perfect for, say, radio shows - upload the MP3s to a folder, and use dir2cast.php as your PodCast URL.
