@@ -483,6 +483,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Nextcloud Talk](https://nextcloud.com/talk/) is a on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.
 
+[Poste.io Email Server](https://poste.io/) is self-hosted SMTP + IMAP + POP3 + Antispam + Antivirus Web administration + Web email. easy setup with DNS guide for protect from spam sending (https://poste.io/doc/configuring-dns)
+
 ### Business Management
 
 [Back to the Top](#table-of-contents)
