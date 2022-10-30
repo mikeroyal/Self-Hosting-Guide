@@ -40,7 +40,8 @@
        * [Note-Taking](#Note-Taking)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
-
+       
+    - [Operating Systems](#Operating-Systems)
     - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
     - [File systems](https://github.com/mikeroyal/Self-Hosting-Guide#file-systems)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
@@ -847,6 +848,160 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Eclipse Foundation](https://www.eclipse.org) provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
 
+### Operating Systems
+
+[Back to the Top](table-of-contents)
+
+**Creating a bootable media device(USB/MicroSD card)**
+
+[Rufus](https://rufus.ie/) is a utility that helps format and create bootable USB flash drives.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158471950-74640216-66ed-407b-a615-e643284ba0b8.png">
+  <br />
+  Rufus
+</p>
+
+**OR**
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/157350348-e43ea5a2-2346-4b0b-acc0-fc3352c3d820.png">
+  <br />
+  Etcher UI
+</p>
+
+**A List of Operating Systems that are great for either settig up a personal Home Server or a Enterprise Server for your Organization/Company.**
+
+[Umbrel](https://umbrel.com/) is an OS for running a personal server in your home. It can Self-host open source apps like Nextcloud, Bitcoin node, and more. 
+
+<h2 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/198820005-e10b3c23-f87e-4f3a-bbd2-efe74db3681f.png">
+  <br />
+  Umbrel
+</h2>
+
+[Home Assistant OS](https://home-assistant.io/hassio/) is a container-based system for managing your Home Assistant Core installation and related applications. The system is controlled via Home Assistant which communicates with the Supervisor. The Supervisor provides an API to manage the installation. This includes changing network settings or installing and updating software.
+
+<h2 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
+  <br />
+ Home Assistant OS 
+</h2>
+
+[Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical. 
+
+ * [Ubuntu Server](https://ubuntu.com/download/server)
+ 
+ * [Ubuntu for ARM](https://ubuntu.com/download/server/arm)
+ 
+ * [Ubuntu for Raspberry Pi](https://ubuntu.com/raspberry-pi)
+
+ * [Ubuntu Flavours](https://www.ubuntu.com/download/flavours) is for those that prefer an alternative desktop environment such as [KDE Plasma Desktop](https://kubuntu.org/), [MATE](https://ubuntu-mate.org/), [Xfce](https://xubuntu.org/), [LXQt](https://lubuntu.me/), [Budgie](https://ubuntubudgie.org/), and [UKUI](https://www.ubuntukylin.com/) you can download a Flavour for your preferred desktop environment and use that to install Ubuntu, pre-configured for the desktop environment of your choice.
+ 
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/164793005-67371e3c-d74d-4b40-9fd1-b9a71bd4172a.png">
+  <br />
+  Ubuntu 
+</h3>
+
+[Debian](https://www.debian.org/) is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/129622953-4b379400-9145-4d5b-9572-bcda571894f4.png">
+  <br />
+  Debian 11 
+</h3>
+  
+[Linux Mint](https://linuxmint.com/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. The flagsip version of Linux Mint uses the [Cinnamon desktop environment](https://cinnamon-spices.linuxmint.com/) similiar to Windows 7.
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/157350295-4c6b8ab5-17d2-4e2f-91ca-a111bcdb2a34.png">
+  <br />
+  Linux Mint 
+</h3>
+
+[Linux Mint Debian Edition (LMDE)](https://www.linuxmint.com/download_lmde.php) uses [Debian Bullseye](https://www.debian.org/) as the base for a very stable and rock solid user experience with the Cinnamon desktop.
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/157350295-4c6b8ab5-17d2-4e2f-91ca-a111bcdb2a34.png">
+  <br />
+  Linux Mint Debian Edition (LMDE)
+</h3>
+
+**[Pop!_OS](https://pop.system76.com)** created by [System76](https://system76.com).
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/142779593-390dfd58-a246-4299-baf2-adf0207da696.png">
+  <br />
+Pop!_OS 
+</h3>
+
+[Fedora Linux](https://getfedora.org/) is a polished, easy to use operating system for laptop & desktop computers, with a complete set of tools for developers and makers of all kinds. The OS serves as the foundation for which you can scale existing apps and roll out emerging technologies across bare-metal, virtual, container, and all types of cloud environments.
+
+ * [Fedora Spins](https://spins.fedoraproject.org/) is for those that prefer an alternative desktop environment such as KDE Plasma Desktop, MATE; or Xfce, you can download a spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
+
+ * [Fedora Server](https://getfedora.org/) is a powerful, flexible operating system that includes the best and latest datacenter technologies. It puts you in control of all your infrastructure and services.
+
+ * [Fedora ARM](https://arm.fedoraproject.org/) is an initiative to bring versions of Fedora tailored for running on ARM-based systems.
+
+ * [Fedora Silverblue](https://silverblue.fedoraproject.org/) is a variant of the Fedora Workstation that uses rpm-ostree to provide an immutable OS image with reliable updates and easy rollbacks.
+
+ * [Fedora Kinoite](https://kinoite.fedoraproject.org/) is an immutable desktop operating system. It aims to be extremely stable and reliable. It also aims to be an excellent platform for developers and for those using container-focused workflows. Kinoite is a variant of the Fedora KDE Spin.
+
+ * [Fedora CoreOS](https://getfedora.org/coreos?stream=stable) is an automatically-updating, minimal operating system for running containerized workloads securely and at scale.
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/142779592-8b70c81e-ac10-4bb3-91b5-efe25fa9afb4.png">
+  <br />
+Fedora Linux
+</h3>
+
+
+[CentOS Stream](https://www.centos.org/centos-stream/) is a continuously delivered distro(uses the Fedora OS base) that tracks just ahead of Red Hat Enterprise Linux (RHEL) development, positioned as a midstream between Fedora Linux and RHEL.
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145488524-ebfd666a-bf90-43d8-bc41-8c363e4e233a.png">
+  <br />
+ CentOS Stream
+</h3>
+
+[Red Hat® Enterprise Linux® (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) the world's leading enterprise Linux platform. The OS serves as the foundation for which you can scale existing apps and roll out emerging technologies across bare-metal, virtual, container, and all types of cloud environments.
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/171923060-f9276330-5d4d-4d6a-9d41-99b9972f0cb2.png">
+  <br />
+Red Hat Enterprise Linux Desktop
+</h3>
+
+
+[SUSE](https://www.suse.com/) is a leading Linux OS most adaptable Linux operating system and the only open Kubernetes management platform thanks to their acquistion of [Rancher](https://rancher.com/). They also developer of [SUSE Linux Enterprise](https://www.suse.com/download/) and the primary sponsor of the community-supported [openSUSE Project](https://software.opensuse.org/), which develops the openSUSE Linux distribution.
+
+* [openSUSE Leap](https://en.opensuse.org/Portal:Leap) is a brand new way of building openSUSE and is new type of a hybrid Linux distribution. Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available. 
+
+ * [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) is a pure rolling release version of openSUSE containing the latest "stable" versions of all software instead of relying on rigid periodic release cycles. The project does this for users that want the newest stable software. 
+
+ * [openSUSE Kubic](https://get.opensuse.org/kubic/) is a multi-purpose Standalone & Kubernetes Container Operating System based on openSUSE MicroOS. Kubic uses kubeadm to provide an easy way of configuring a Kubernetes cluster across multiple machines, while our MicroOS base keeps your operating system updated automatically, with fully atomic rollbacks if required.
+
+ * [openSUSE MicroOS](https://get.opensuse.org/microos/) is a M icro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem. It's designed to host container workloads with automated administration & patching.
+ 
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145488499-6aae18fa-1dab-4a1f-96dc-fcd73fec5f19.png">
+  <br />
+</p>
+
+ <h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/110253144-9f766080-7f3d-11eb-9a01-2ac6738637e9.png">
+  <br />
+  SUSE Linux Enterprise 12
+</h3>
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/110253145-a00ef700-7f3d-11eb-9b5c-d3cee3cbce84.png">
+  <br />
+  openSUSE 
+</h3>
 
 ### Storage
 
