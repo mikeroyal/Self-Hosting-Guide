@@ -4,7 +4,7 @@
  Self Hosting Guide
 </h1>
 
- #### A guide for getting started with Self Hosting devices including software and hardware that will make you a better and more efficient Self Hosting.
+ #### A guide for getting started with self-hosting devices, including software and hardware that will make you a better and more efficient self-hoster.
  
  **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
  
@@ -124,7 +124,7 @@
 # Getting Started with Self-Hosting
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-[Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).  
+[Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting (on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).  
 
 Most self-hosted software can be installed using [Docker](https://en.wikipedia.org/wiki/Docker_(software)), a packaging system which allows software to bundle their configuration and dependencies and isolate them from your operating system.  Software using docker can be installed using the command line or via graphical interfaces such as [Portainer](https://github.com/portainer/portainer).  Software is installed with Docker by downloading an image file containing the application, then creating a copy that sets up its own dependencies and configuration within what is called a container.  Without containers you would often need to install different versions of the same programming languages or tools to satisfy the dependencies for the software you want to use which can get complicated.
 
@@ -140,7 +140,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
-**Container** is a standard unit of software that packages up code and all its dependencies(including CPU, memory, file storage, and network connections) so the application runs quickly and reliably from one computing environment to another. 
+**Container** is a standard unit of software that packages up code and all its dependencies (including CPU, memory, file storage, and network connections) so the application runs quickly and reliably from one computing environment to another. 
 
   * [Application Container Security Guide | NIST (PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
 
@@ -208,7 +208,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
-[Proxmox VE(Virtual Environment)](https://www.proxmox.com/en/proxmox-ve) is an open-source platform for enterprise virtualization. It has a built-in web interface that you can use to easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
+[Proxmox VE (Virtual Environment)](https://www.proxmox.com/en/proxmox-ve) is an open-source platform for enterprise virtualization. It has a built-in web interface that you can use to easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [Code-Server](https://github.com/coder/code-server) is Visual Studio Code running on a remote server, accessible through the browser. 
 
@@ -234,7 +234,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [P2P Remote Desktop](https://github.com/miroslavpejic85/p2p) is a portable, no configuration or installation needed remote desktop tool.
 
-[Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide) is a tunneling daemon that proxies traffic from the Cloudflare network to your origins. This daemon sits between Cloudflare network and your origin (a webserver). This attracts client requests and sends them to you via this daemon, without requiring you to poke holes on your firewall and your origin(webserver) can remain as closed as possible. 
+[Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide) is a tunneling daemon that proxies traffic from the Cloudflare network to your origins. This daemon sits between Cloudflare network and your origin (a webserver). This attracts client requests and sends them to you via this daemon, without requiring you to poke holes on your firewall and your origin (webserver) can remain as closed as possible. 
 
 [WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable.
 
@@ -256,7 +256,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [HVM (Hardware Virtual Machine)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/virtualization_types.html) is a virtualization type that provides the ability to run an operating system directly on top of a virtual machine without any modification, as if it were run on the bare-metal hardware.
 
-[PV(ParaVirtualization)](https://wiki.xenproject.org/wiki/Paravirtualization_(PV)) is an efficient and lightweight virtualization technique introduced by the Xen Project team, later adopted by other virtualization solutions. PV does not require virtualization extensions from the host CPU and thus enables virtualization on hardware architectures that do not support Hardware-assisted virtualization.
+[PV (ParaVirtualization)](https://wiki.xenproject.org/wiki/Paravirtualization_(PV)) is an efficient and lightweight virtualization technique introduced by the Xen Project team, later adopted by other virtualization solutions. PV does not require virtualization extensions from the host CPU and thus enables virtualization on hardware architectures that do not support Hardware-assisted virtualization.
 
 [Network functions virtualization (NFV)](https://www.vmware.com/topics/glossary/content/network-functions-virtualization-nfv) is the replacement of network appliance hardware with virtual machines. The virtual machines use a hypervisor to run networking software and processes such as routing and load balancing. NFV allows for the separation of communication services from dedicated hardware, such as routers and firewalls. This separation means network operations can provide new services dynamically and without installing new hardware. Deploying network components with network functions virtualization only takes hours compared to months like with traditional networking solutions.
 
@@ -264,25 +264,25 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Virtualized Infrastructure Manager (VIM)](https://www.cisco.com/c/en/us/td/docs/net_mgmt/network_function_virtualization_Infrastructure/3_2_2/install_guide/Cisco_VIM_Install_Guide_3_2_2/Cisco_VIM_Install_Guide_3_2_2_chapter_00.html) is a service delivery and reduce costs with high performance lifecycle management Manage the full lifecycle of the software and hardware comprising your NFV infrastructure (NFVI), and maintaining a live inventory and allocation plan of both physical and virtual resources.
 
-[Management and Orchestration(MANO)](https://www.etsi.org/technologies/open-source-mano) is an ETSI-hosted initiative to develop an Open Source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV. Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO.
+[Management and Orchestration (MANO)](https://www.etsi.org/technologies/open-source-mano) is an ETSI-hosted initiative to develop an Open Source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV. Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO.
 
 [Magma](https://www.magmacore.org/) is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.
 
-[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
+[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network (RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
 
-[Open vSwitch(OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
+[Open vSwitch (OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
 
 [Edge](https://www.ibm.com/cloud/what-is-edge-computing) is a distributed computing framework that brings enterprise applications closer to data sources such as IoT devices or local edge servers. This proximity to data at its source can deliver strong business benefits, including faster insights, improved response times and better bandwidth availability.
 
 [Multi-access edge computing (MEC)](https://www.etsi.org/technologies/multi-access-edge-computing) is an Industry Specification Group (ISG) within ETSI to create a standardized, open environment which will allow the efficient and seamless integration of applications from vendors, service providers, and third-parties across multi-vendor Multi-access Edge Computing platforms.
 
-[Virtualized network functions(VNFs)](https://www.juniper.net/documentation/en_US/cso4.1/topics/concept/nsd-vnf-overview.html) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.
+[Virtualized network functions (VNFs)](https://www.juniper.net/documentation/en_US/cso4.1/topics/concept/nsd-vnf-overview.html) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.
 
-[Cloud-Native Network Functions(CNF)](https://www.cncf.io/announcements/2020/11/18/cloud-native-network-functions-conformance-launched-by-cncf/) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes(K8s) lifecycle management, agility, resilience, and observability.
+[Cloud-Native Network Functions (CNF)](https://www.cncf.io/announcements/2020/11/18/cloud-native-network-functions-conformance-launched-by-cncf/) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes (K8s) lifecycle management, agility, resilience, and observability.
 
-[Physical Network Function(PNF)](https://www.mpirical.com/glossary/pnf-physical-network-function) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.
+[Physical Network Function (PNF)](https://www.mpirical.com/glossary/pnf-physical-network-function) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.
 
-[Network functions virtualization infrastructure(NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
+[Network functions virtualization infrastructure (NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
 
 [Virtualization-based Security (VBS)](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-vbs) is a hardware virtualization feature to create and isolate a secure region of memory from the normal operating system.
 
@@ -292,7 +292,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [AMD MxGPU](https://www.amd.com/en/graphics/workstation-virtual-graphics) is a hardware-based virtualized GPU solution, is built on industry standard SR-IOV (Single-Root I/O Virtualization) technology and allows multiple virtualized users per physical GPU to work remotely.
 
-[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
+[Proxmox Virtual Environment (VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [KVM (for Kernel-based Virtual Machine)](https://www.linux-kvm.org/page/Main_Page) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
 
@@ -318,7 +318,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [HyperKit](https://github.com/moby/hyperkit) is a toolkit for embedding hypervisor capabilities in your application. It includes a complete hypervisor, based on [xhyve](https://github.com/mist64/xhyve)/[bhyve](https://bhyve.org/), which is optimized for lightweight virtual machines and container deployment. It is designed to be interfaced with higher-level components such as the [VPNKit](https://github.com/moby/vpnkit) and [DataKit](https://github.com/moby/datakit). HyperKit currently only supports macOS using the [Hypervisor.framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/index.html) making it a core component of Docker Desktop for Mac.
 
-[Intel® Graphics Virtualization Technology (Intel® GVT)](https://github.com/intel/gvt-linux) is a full GPU virtualization solution with mediated pass-through, starting from 4th generation Intel Core (TM) processors with Intel processor graphics(Broadwell and newer). It can be used to virtualize the GPU for multiple guest virtual machines, effectively providing near-native graphics performance in the virtual machine and still letting your host use the virtualized GPU normally.
+[Intel® Graphics Virtualization Technology (Intel® GVT)](https://github.com/intel/gvt-linux) is a full GPU virtualization solution with mediated pass-through, starting from 4th generation Intel Core (TM) processors with Intel processor graphics (Broadwell and newer). It can be used to virtualize the GPU for multiple guest virtual machines, effectively providing near-native graphics performance in the virtual machine and still letting your host use the virtualized GPU normally.
 
 [Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a frameowrk that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
 
@@ -458,7 +458,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Expanse](https://github.com/jc9108/expanse) is a fully selfhosted multi-user web app for externally storing Reddit items (saved, created, upvoted, downvoted, hidden) to bypass Reddit's 1000-item listing limits.
 
-[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
+[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security ( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
 [iRedMail](https://www.iredmail.org/) is a self-hosted email server.
 
@@ -484,7 +484,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Plausible Analytics](https://plausible.io/) is a simple, lightweight (< 1 KB), open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. You can self-host Plausible or have us run it for you in the Cloud. 
 
-[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
+[Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security ( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
 [InvoicePlane](https://www.invoiceplane.com/) is a self-hosted open source application for managing your quotes, invoices, clients and payments.
 
@@ -561,7 +561,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [ASUSTOR](https://www.asustor.com/) is a subsidiary of ASUS and a leading provider of network attached storage (NAS). It specializes in the development and integration of storage, backup, multimedia, video surveillance and mobile applications for home and enterprise users.
 
-[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer(Windows, Mac and Linux) and mobile devices through apps. 
+[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer (Windows, Mac and Linux) and mobile devices through apps. 
 
 [SnapRAID](http://www.snapraid.it/) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
 
@@ -608,7 +608,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [KelperJs](http://keplerjs.io/) is a open source full-stack geosocial network platform.
 
-[OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
+[OpenStreetMap (OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
 
 [uMap](https://github.com/umap-project/umap) is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site. 
 
@@ -664,7 +664,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [EmuDeck](https://www.emudeck.com/) is a tool that takes care of everything for your retrogaming needs from RetroArch Configuration, Bezels, Gamepad Configuration for GameCube, Wii, Citra, SNES, etc. EmuDeck will even install EmulationStation Desktop Edition and carry over all their custom configurations and no need to configure ROM paths or anything. 
 
-[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
+[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS (M1 & Intel) and Windows.
 
 [RetroPie](https://retropie.org.uk/) is a frontend for emulators that allows you to turn your Raspberry Pi, ODroid C1/C2, or PC into a retro-gaming machine. It builds upon Raspbian, [EmulationStation](https://github.com/Aloshi/EmulationStation), RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up.
 
@@ -743,7 +743,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
-[Matter](https://buildwithmatter.com/) is an open standard for smart home technology that lets your device work with any Matter-certified ecosystem using a single protocol. Matter comes from the [Connectivity Standards Alliance](https://csa-iot.org/), an organization of hundreds of companies(Amazon, Apple, Google, Comcast, Zigbee Alliance, and Connectivity Standards Alliance (CSA) creating products for the smart home.
+[Matter](https://buildwithmatter.com/) is an open standard for smart home technology that lets your device work with any Matter-certified ecosystem using a single protocol. Matter comes from the [Connectivity Standards Alliance](https://csa-iot.org/), an organization of hundreds of companies (Amazon, Apple, Google, Comcast, Zigbee Alliance, and Connectivity Standards Alliance (CSA) creating products for the smart home.
 
 [Open Source Hardware Association (OSHWA)](https://www.oshwa.org) is a non-profit organization that advocates for open-source hardware. It aims to act as a hub of open source hardware activity of all types while actively cooperating with other initiatives such as the TAPR Open Hardware License, open-source development groups at CERN, and the Open Source Initiative (OSI).
 
@@ -751,7 +751,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies. 
 
-[OpenSSF(Open Source Security Foundation)](https://openssf.org/) is a cross-industry forum for a collaborative effort to improve open source software security. 
+[OpenSSF (Open Source Security Foundation)](https://openssf.org/) is a cross-industry forum for a collaborative effort to improve open source software security. 
 
 [OpenJS Foundation](https://openjsf.org/) is the premier home for critical open source JavaScript projects, including Appium, Dojo, jQuery, Node.js, and webpack, and 27 more.
 
@@ -839,9 +839,9 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Apple File System (APFS)](https://support.apple.com/guide/disk-utility/file-system-formats-available-in-disk-utility-dsku19ed921c/mac) is  the default file system for Mac computers using macOS 10.13 or later, features strong encryption, space sharing, snapshots, fast directory sizing, and improved file system fundamentals.
 
-[NTFS(New Technology File System)](https://docs.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) is the primary file system for recent versions of Windows and Windows Server—provides a full set of features including security descriptors, encryption, disk quotas, and rich metadata, and can be used with Cluster Shared Volumes (CSV) to provide continuously available volumes that can be accessed simultaneously from multiple nodes of a failover cluster.
+[NTFS (New Technology File System)](https://docs.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) is the primary file system for recent versions of Windows and Windows Server—provides a full set of features including security descriptors, encryption, disk quotas, and rich metadata, and can be used with Cluster Shared Volumes (CSV) to provide continuously available volumes that can be accessed simultaneously from multiple nodes of a failover cluster.
 
-[exFAT(Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
+[exFAT (Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
 
 ### Books
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
@@ -850,14 +850,14 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
   
   - [Geek's Cookbook](https://github.com/geek-cookbook/geek-cookbook) is a collection of guides for establishing your own highly-available "private cloud" and using it to run self-hosted services such as GitLab, Plex, NextCloud, etc. 
  
-  - [Database Books(PDFs)](https://github.com/miollek/Free-Database-Books)
+  - [Database Books (PDFs)](https://github.com/miollek/Free-Database-Books)
   
 ### Podcasts
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
   
   - [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones. 
   
-  - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
+  - [Self-Hosted SRE (Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
 
 ### YouTube Channels
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
@@ -1094,7 +1094,7 @@ Nexcloud Hub
 
 [ONLYOFFICE integration in Nextcloud](https://nextcloud.com/onlyoffice/) is a service that empowers your users to collaborate on office documents with team members in real time. It has compatibility with Microsoft Office formats means perfect documents, every time.
 
-[Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
+[Nextcloud VM (virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
 
 # Raspberry Pi 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
@@ -1184,7 +1184,7 @@ Nexcloud Hub
 ## Raspberry Pi Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-[Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
+[Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer (SBC) that is the size of a credit card and costs around $35.
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.
 
@@ -1216,9 +1216,9 @@ Nexcloud Hub
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
 
-[Hass.io(Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
+[Hass.io (Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
 
-[OmniROM(Android 11) based on ASOP](https://forum.xda-developers.com/t/omnirom-android-r-11-for-pi-4.4183121/)
+[OmniROM (Android 11) based on ASOP](https://forum.xda-developers.com/t/omnirom-android-r-11-for-pi-4.4183121/)
 
 [Manjaro Linux ARM](https://manjaro.org/download/#ARM)
 
@@ -1264,7 +1264,7 @@ Nexcloud Hub
 
 [Raspberry Pi Network Install (Beta)](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-over-the-network-beta) is a feature can be used to start the Raspberry Pi Imager application directly on a Raspberry Pi 4, or a Raspberry Pi 400, by downloading it from the internet using an Ethernet cable. The Raspberry Pi Imager application, which will run in memory on your Raspberry Pi, can then be used to flash the operating system onto a blank SD Card or USB disk, just like normal. 
 
-[Raspberry Pi Bootloader](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#updating-the-bootloader) is a feature, which is now available in beta, that utilize an **EEPROM(Electrically Erasable Programmable Read-Only Memory)** to store the system’s bootloader. This EEPROM is persistent storage that is located on the Pi’s mainboard. The advantage of using the EEPROM instead is that the Raspberry Pi 4 can perform tasks without needing any storage to be attached.
+[Raspberry Pi Bootloader](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#updating-the-bootloader) is a feature, which is now available in beta, that utilize an **EEPROM (Electrically Erasable Programmable Read-Only Memory)** to store the system’s bootloader. This EEPROM is persistent storage that is located on the Pi’s mainboard. The advantage of using the EEPROM instead is that the Raspberry Pi 4 can perform tasks without needing any storage to be attached.
 
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
@@ -1282,7 +1282,7 @@ Nexcloud Hub
 
 [RPiPlay](https://github.com/FD-/RPiPlay) is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
 
-[Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
+[Gpiozero](https://github.com/gpiozero/gpiozero) is a simple interface to GPIO (General-Purpose Input/Output) devices with the Raspberry Pi.
 
 [Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
 
@@ -1404,11 +1404,11 @@ Nexcloud Hub
 
 [Grafana Tempo](https://grafana.com/oss/tempo/) is an open source high-scale distributed tarcing backend. Tempo is cost-efficient, requiring only object storage to operate, and is deeply integrated with Grafana, Loki, and Prometheus.
 
-[Grafana MetricTank](https://grafana.com/oss/metrictank/) is a multi-tenant timeseries platform for Graphite developed by Grafana Labs. MetricTank provides high-availability(HA) and efficient long-term storage, retrieval, and processing for large-scale environments.
+[Grafana MetricTank](https://grafana.com/oss/metrictank/) is a multi-tenant timeseries platform for Graphite developed by Grafana Labs. MetricTank provides high-availability (HA) and efficient long-term storage, retrieval, and processing for large-scale environments.
 
 [Grafana Tanka](https://grafana.com/oss/tanka/) is a robust configuration utility for your [Kubernetes](https://kubernetes.io/) cluster, powered by the [Jsonnet](https://jsonnet.org/) language.
 
-[Grafana Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available(HA), multi-tenant log aggregation system inspired by Prometheus.
+[Grafana Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available (HA), multi-tenant log aggregation system inspired by Prometheus.
 
 [Cortex](https://grafana.com/oss/cortex/) is a project that lets users query metrics from many Prometheusservers in a single place, without any gaps in the grpahs due to server failture. Also, Cortex lets you store Prometheus metrics for long term capacity planning and performance analysis.
 
@@ -1425,7 +1425,7 @@ Nexcloud Hub
 
 ## Networking Tools & Concepts
 
-[cURL](https://curl.se/) is a computer software project providing a library and command-line tool for transferring data using various network protocols(HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP or SMTPS). cURL is also used in cars, television sets, routers, printers, audio equipment, mobile phones, tablets, settop boxes, media players and is the Internet transfer engine for thousands of software applications in over ten billion installations.
+[cURL](https://curl.se/) is a computer software project providing a library and command-line tool for transferring data using various network protocols (HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP or SMTPS). cURL is also used in cars, television sets, routers, printers, audio equipment, mobile phones, tablets, settop boxes, media players and is the Internet transfer engine for thousands of software applications in over ten billion installations.
 
 [cURL Fuzzer](https://github.com/curl/curl-fuzzer) is a quality assurance testing for the curl project.
 
@@ -1433,9 +1433,9 @@ Nexcloud Hub
 
 [Authelia](https://www.authelia.com/) is an open-source highly-available authentication server providing single sign-on capability and two-factor authentication to applications running behind [NGINX](https://nginx.org/en/).
 
-[nginx(engine x)](https://nginx.org/en/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
+[nginx (engine x)](https://nginx.org/en/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
 
-[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
+[Proxmox Virtual Environment (VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [Wireshark](https://www.wireshark.org/) is a very popular network protocol analyzer that is commonly used for network troubleshooting, analysis, and communications protocol development. Learn more about the other useful [Wireshark Tools](https://wiki.wireshark.org/Tools) available.
 
@@ -1514,7 +1514,7 @@ The communication takes place between peers network.
 
 Networking works by piggybacks on a number of different protocols on top of each other. In this way, one piece of data can be transmitted using multiple protocols encapsulated within one another.
 
-**Media Access Control(MAC)** is a communications protocol that is used to distinguish specific devices. Each device is supposed to get a unique MAC address during the manufacturing process that differentiates it from every other device on the internet. Addressing hardware by the MAC address allows you to reference a device by a unique value even when the software on top may change the name for that specific device during operation. Media access control is one of the only protocols from the link layer that you are likely to interact with on a regular basis.
+**Media Access Control (MAC)** is a communications protocol that is used to distinguish specific devices. Each device is supposed to get a unique MAC address during the manufacturing process that differentiates it from every other device on the internet. Addressing hardware by the MAC address allows you to reference a device by a unique value even when the software on top may change the name for that specific device during operation. Media access control is one of the only protocols from the link layer that you are likely to interact with on a regular basis.
 
 **The IP protocol** is one of the fundamental protocols that allow the internet to work. IP addresses are unique on each network and they allow machines to address each other across a network. It is implemented on the internet layer in the IP/TCP model. Networks can be linked together, but traffic must be routed when crossing network boundaries. This protocol assumes an unreliable network and multiple paths to the same destination that it can dynamically change between. There are a number of different implementations of the protocol. The most common implementation today is IPv4, although IPv6 is growing in popularity as an alternative due to the scarcity of IPv4 addresses available and improvements in the protocols capabilities.
 
@@ -1532,7 +1532,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 **SSH: Secure shell** is an encrypted protocol implemented in the application layer that can be used to communicate with a remote server in a secure way. Many additional technologies are built around this protocol because of its end-to-end encryption and ubiquity. There are many other protocols that we haven't covered that are equally important. However, this should give you a good overview of some of the fundamental technologies that make the internet and networking possible.
 
-[REST(REpresentational State Transfer)](https://www.codecademy.com/articles/what-is-rest) is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
+[REST (REpresentational State Transfer)](https://www.codecademy.com/articles/what-is-rest) is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
 
 [JSON Web Token (JWT)](https://jwt.io) is a compact URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is digitally signed using JSON Web Signature (JWS).
 
@@ -1768,7 +1768,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 ## Ansible Learning Resources
 
-[Ansible](https://www.ansible.com/) is a simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. It uses a very simple language (YAML, in the form of Ansible Playbooks) that allows you to describe your automation jobs in a way that approaches plain English. Anisble works on Linux (Red Hat EnterPrise Linux(RHEL) and Ubuntu) and Microsoft Windows.
+[Ansible](https://www.ansible.com/) is a simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. It uses a very simple language (YAML, in the form of Ansible Playbooks) that allows you to describe your automation jobs in a way that approaches plain English. Anisble works on Linux (Red Hat EnterPrise Linux (RHEL) and Ubuntu) and Microsoft Windows.
 
 [Red Hat Training for Ansible](https://www.ansible.com/products/training-certification)
 
@@ -1868,7 +1868,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [NoSQL](https://www.ibm.com/cloud/blog/sql-vs-nosql) is a database that is interchangeably referred to as "nonrelational, or "non-SQL" to highlight that the database can handle huge volumes of rapidly changing, unstructured data in different ways than a relational (SQL-based) database with rows and tables.
 
-[Transact-SQL(T-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/language-reference) is a Microsoft extension of SQL with all of the tools and applications communicating to a SQL database by sending T-SQL commands.
+[Transact-SQL (T-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/language-reference) is a Microsoft extension of SQL with all of the tools and applications communicating to a SQL database by sending T-SQL commands.
 
 [Introduction to Transact-SQL](https://docs.microsoft.com/en-us/learn/modules/introduction-to-transact-sql/)
 
@@ -1936,7 +1936,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Extract, transform, and load (ETL)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) is a data pipeline used to collect data from various sources, transform the data according to business rules, and load it into a destination data store.
 
-[Redis(REmote DIctionary Server)](https://redis.io/) is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. It provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams.
+[Redis (REmote DIctionary Server)](https://redis.io/) is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. It provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams.
 
 [FoundationDB](https://www.foundationdb.org/) is an open source distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. FoundationDB was acquired by [Apple in 2015](https://techcrunch.com/2015/03/24/apple-acquires-durable-database-company-foundationdb/).
 
@@ -1990,13 +1990,13 @@ Networking works by piggybacks on a number of different protocols on top of each
  
 ## Telco Learning Resources
 
-[HPE(Hewlett Packard Enterprise) Telco Blueprints overview](https://techhub.hpe.com/eginfolib/servers/docs/Telco/Blueprints/infocenter/index.html#GUID-9906A227-C1FB-4FD5-A3C3-F3B72EC81CAB.html)
+[HPE (Hewlett Packard Enterprise) Telco Blueprints overview](https://techhub.hpe.com/eginfolib/servers/docs/Telco/Blueprints/infocenter/index.html#GUID-9906A227-C1FB-4FD5-A3C3-F3B72EC81CAB.html)
 
 [Network Functions Virtualization Infrastructure (NFVI) by Cisco](https://www.cisco.com/c/en/us/solutions/service-provider/network-functions-virtualization-nfv-infrastructure/index.html)
 
 [Introduction to vCloud NFV Telco Edge from VMware](https://docs.vmware.com/en/VMware-vCloud-NFV-OpenStack-Edition/3.1/vloud-nfv-edge-reference-arch-31/GUID-744C45F1-A8D5-4523-9E5E-EAF6336EE3A0.html)
 
-[VMware Telco Cloud Automation(TCA) Architecture Overview](https://docs.vmware.com/en/VMware-Telco-Cloud-Platform-5G-Edition/1.0/telco-cloud-platform-5G-edition-reference-architecture/GUID-C19566B3-F42D-4351-BA55-DE70D55FB0DD.html)
+[VMware Telco Cloud Automation (TCA) Architecture Overview](https://docs.vmware.com/en/VMware-Telco-Cloud-Platform-5G-Edition/1.0/telco-cloud-platform-5G-edition-reference-architecture/GUID-C19566B3-F42D-4351-BA55-DE70D55FB0DD.html)
 
 [5G Telco Cloud from VMware](https://telco.vmware.com/)
 
@@ -2022,13 +2022,13 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Amazon EC2 Overview and Networking Introduction for Telecom Companies](https://docs.aws.amazon.com/whitepapers/latest/ec2-networking-for-telecom/ec2-networking-for-telecom.pdf)
 
-[Citrix Certified Associate – Networking(CCA-N)](http://training.citrix.com/cms/index.php/certification/networking/)
+[Citrix Certified Associate – Networking (CCA-N)](http://training.citrix.com/cms/index.php/certification/networking/)
 
-[Citrix Certified Professional – Virtualization(CCP-V)](https://www.globalknowledge.com/us-en/training/certification-prep/brands/citrix/section/virtualization/citrix-certified-professional-virtualization-ccp-v/)
+[Citrix Certified Professional – Virtualization (CCP-V)](https://www.globalknowledge.com/us-en/training/certification-prep/brands/citrix/section/virtualization/citrix-certified-professional-virtualization-ccp-v/)
 
 [CCNP Routing and Switching](https://learningnetwork.cisco.com/s/ccnp-enterprise)
 
-[Certified Information Security Manager(CISM)](https://www.isaca.org/credentialing/cism)
+[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 
 [Wireshark Certified Network Analyst (WCNA)](https://www.wiresharktraining.com/certification.html)
 
@@ -2050,25 +2050,25 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Virtualized Infrastructure Manager (VIM)](https://www.cisco.com/c/en/us/td/docs/net_mgmt/network_function_virtualization_Infrastructure/3_2_2/install_guide/Cisco_VIM_Install_Guide_3_2_2/Cisco_VIM_Install_Guide_3_2_2_chapter_00.html) is a service delivery and reduce costs with high performance lifecycle management Manage the full lifecycle of the software and hardware comprising your NFV infrastructure (NFVI), and maintaining a live inventory and allocation plan of both physical and virtual resources.
 
-[Management and Orchestration(MANO)](https://www.etsi.org/technologies/open-source-mano) is an ETSI-hosted initiative to develop an Open Source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV. Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO.
+[Management and Orchestration (MANO)](https://www.etsi.org/technologies/open-source-mano) is an ETSI-hosted initiative to develop an Open Source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV. Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO.
 
 [Magma](https://www.magmacore.org/) is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.
 
-[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
+[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network (RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
 
-[Open vSwitch(OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
+[Open vSwitch (OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
 
 [Edge](https://www.ibm.com/cloud/what-is-edge-computing) is a distributed computing framework that brings enterprise applications closer to data sources such as IoT devices or local edge servers. This proximity to data at its source can deliver strong business benefits, including faster insights, improved response times and better bandwidth availability.
 
 [Multi-access edge computing (MEC)](https://www.etsi.org/technologies/multi-access-edge-computing) is an Industry Specification Group (ISG) within ETSI to create a standardized, open environment which will allow the efficient and seamless integration of applications from vendors, service providers, and third-parties across multi-vendor Multi-access Edge Computing platforms.
 
-[Virtualized network functions(VNFs)](https://www.juniper.net/documentation/en_US/cso4.1/topics/concept/nsd-vnf-overview.html) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.
+[Virtualized network functions (VNFs)](https://www.juniper.net/documentation/en_US/cso4.1/topics/concept/nsd-vnf-overview.html) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.
  
-[Cloud-Native Network Functions(CNF)](https://www.cncf.io/announcements/2020/11/18/cloud-native-network-functions-conformance-launched-by-cncf/) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes(K8s) lifecycle management, agility, resilience, and observability.
+[Cloud-Native Network Functions (CNF)](https://www.cncf.io/announcements/2020/11/18/cloud-native-network-functions-conformance-launched-by-cncf/) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes (K8s) lifecycle management, agility, resilience, and observability.
  
-[Physical Network Function(PNF)](https://www.mpirical.com/glossary/pnf-physical-network-function) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.
+[Physical Network Function (PNF)](https://www.mpirical.com/glossary/pnf-physical-network-function) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.
 
-[Network functions virtualization infrastructure(NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
+[Network functions virtualization infrastructure (NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
 
 # Open Source Security
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
@@ -2110,7 +2110,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [AppArmor](https://www.apparmor.net/) is an effective and easy-to-use Linux application security system. AppArmor proactively protects the operating system and applications from external or internal threats, even zero-day attacks, by enforcing good behavior and preventing both known and unknown application flaws from being exploited. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC). It has been included in the mainline Linux kernel since version 2.6.36 and its development has been supported by Canonical since 2009.
 
-[Control Groups(Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) is a Linux kernel feature that allows you to allocate resources such as CPU time, system memory, network bandwidth, or any combination of these resources for user-defined groups of tasks (processes) running on a system.
+[Control Groups (Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) is a Linux kernel feature that allows you to allocate resources such as CPU time, system memory, network bandwidth, or any combination of these resources for user-defined groups of tasks (processes) running on a system.
 
 [EarlyOOM](https://github.com/rfjakob/earlyoom) is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage. 
 
@@ -2188,7 +2188,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [The Libgcrypt Reference Manual](https://www.gnupg.org/documentation/manuals/gcrypt/)
 
-[The Open Web Application Security Project(OWASP) Foundation Top 10](https://owasp.org/www-project-top-ten/)
+[The Open Web Application Security Project (OWASP) Foundation Top 10](https://owasp.org/www-project-top-ten/)
 
 [Best Practices for Using Open Source Code from The Linux Foundation](https://www.linuxfoundation.org/blog/2017/11/best-practices-using-open-source-code/)
 
@@ -2210,19 +2210,19 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [RSA Certification Program](https://community.rsa.com/community/training/certification)
 
-[Check Point Certified Security Expert(CCSE) Certification](https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Expert%20(CCSE)%20R80.x)
+[Check Point Certified Security Expert (CCSE) Certification](https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Expert%20(CCSE)%20R80.x)
 
-[Check Point Certified Security Administrator(CCSA) Certification](https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Admin%20(CCSA)%20R80.x)
+[Check Point Certified Security Administrator (CCSA) Certification](https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Admin%20(CCSA)%20R80.x)
 
 [Check Point Certified Security Master (CCSM) Certification](https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Master%20(CCSM)%20R80.x)
 
-[Certified Cloud Security Professional(CCSP) Certification](https://www.isc2.org/Certifications/CCSP)
+[Certified Cloud Security Professional (CCSP) Certification](https://www.isc2.org/Certifications/CCSP)
 
 [Certified Information Systems Security Professional (CISSP) Certification](https://www.isc2.org/Certifications/CISSP)
 
 [CCNP Routing and Switching](https://learningnetwork.cisco.com/s/ccnp-enterprise)
 
-[Certified Information Security Manager(CISM)](https://www.isaca.org/credentialing/cism)
+[Certified Information Security Manager (CISM)](https://www.isaca.org/credentialing/cism)
 
 [Wireshark Certified Network Analyst (WCNA)](https://www.wiresharktraining.com/certification.html)
 
@@ -2251,7 +2251,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Laplacian Noise](https://en.wikipedia.org/wiki/Laplace_distribution) is a mechanism that adds Laplacian-distributed noise to a function.
 
-[Differential Privacy Blog Series by the National Institute of Standards and Technology(NIST)](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog)
+[Differential Privacy Blog Series by the National Institute of Standards and Technology (NIST)](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog)
 
 [Apple's Differential Privacy Overview](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf)
 
@@ -2265,7 +2265,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Preserve data privacy by using differential privacy and the SmartNoise package](https://docs.microsoft.com/en-us/azure/machine-learning/concept-differential-privacy)
 
-[Open Differential Privacy(OpenDP) Initiative by Microsoft and Harvard](https://projects.iq.harvard.edu/opendp)
+[Open Differential Privacy (OpenDP) Initiative by Microsoft and Harvard](https://projects.iq.harvard.edu/opendp)
 
 [Google's Differential Privacy Library](https://github.com/google/differential-privacy)
 
@@ -2277,7 +2277,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Federated Analytics: Collaborative Data Science without Data Collection](https://ai.googleblog.com/2020/05/federated-analytics-collaborative-data.html)
 
-[Differentially-Private Stochastic Gradient Descent(DP-SGD)](https://github.com/tensorflow/privacy/blob/master/tutorials/walkthrough/README.md)
+[Differentially-Private Stochastic Gradient Descent (DP-SGD)](https://github.com/tensorflow/privacy/blob/master/tutorials/walkthrough/README.md)
 
 [Learning Differential Privacy from Harvard University Privacy Tools Project](https://privacytools.seas.harvard.edu/differential-privacy)
 
@@ -2357,7 +2357,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Apache Airflow](https://airflow.apache.org) is an open-source workflow management platform created by the community to programmatically author, schedule and monitor workflows. Install. Principles. Scalable. Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.
 
-[Open Neural Network Exchange(ONNX)](https://github.com/onnx) is an open ecosystem that empowers AI developers to choose the right tools as their project evolves. ONNX provides an open source format for AI models, both deep learning and traditional ML. It defines an extensible computation graph model, as well as definitions of built-in operators and standard data types.
+[Open Neural Network Exchange (ONNX)](https://github.com/onnx) is an open ecosystem that empowers AI developers to choose the right tools as their project evolves. ONNX provides an open source format for AI models, both deep learning and traditional ML. It defines an extensible computation graph model, as well as definitions of built-in operators and standard data types.
 
 [Apache MXNet](https://mxnet.apache.org/) is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scaling effectively to multiple GPUs and multiple machines. Support for Python, R, Julia, Scala, Go, Javascript and more.
 
@@ -2389,7 +2389,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Apache PredictionIO](https://predictionio.apache.org/) is an open source machine learning framework for developers, data scientists, and end users. It supports event collection, deployment of algorithms, evaluation, querying predictive results via REST APIs. It is based on scalable open source services like Hadoop, HBase (and other DBs), Elasticsearch, Spark and implements what is called a Lambda Architecture.
 
-[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
+[Cluster Manager for Apache Kafka (CMAK)](https://github.com/yahoo/CMAK) is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
 
 [BigDL](https://bigdl-project.github.io/) is a distributed deep learning library for Apache Spark. With BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters.
 
@@ -2405,7 +2405,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 **[Model Registry](https://mlflow.org/docs/latest/model-registry.html)**: Store, annotate, discover, and manage models in a central repository.
 
-[Eclipse Deeplearning4J (DL4J)](https://deeplearning4j.konduit.ai/) is a set of projects intended to support all the needs of a JVM-based(Scala, Kotlin, Clojure, and Groovy) deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks.
+[Eclipse Deeplearning4J (DL4J)](https://deeplearning4j.konduit.ai/) is a set of projects intended to support all the needs of a JVM-based (Scala, Kotlin, Clojure, and Groovy) deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks.
 
 [Numba](https://github.com/numba/numba) is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
@@ -2451,7 +2451,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
 
-[Hass.io(Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
+[Hass.io (Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
 
 [Manjaro Linux ARM](https://manjaro.org/download/#ARM)
 
@@ -2616,7 +2616,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [The JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
-[Light Detection and Ranging(LiDAR)](https://en.wikipedia.org/wiki/Lidar) is a remote sensing method that uses light in the form of a pulsed laser at an object, and uses the time and wavelength of the reflected beam of light to estimate the distance and in some applications ([Laser Imaging](https://en.wikipedia.org/wiki/Laser_scanning)), to create a 3D representation of the object and its surface characteristics. This technology is commonly used in aircraft and self-driving vehicles.
+[Light Detection and Ranging (LiDAR)](https://en.wikipedia.org/wiki/Lidar) is a remote sensing method that uses light in the form of a pulsed laser at an object, and uses the time and wavelength of the reflected beam of light to estimate the distance and in some applications ([Laser Imaging](https://en.wikipedia.org/wiki/Laser_scanning)), to create a 3D representation of the object and its surface characteristics. This technology is commonly used in aircraft and self-driving vehicles.
 
 [Neurorobotics Platform (NRP)](https://neurorobotics.net/) is an Internet-accessible simulation system that allows the simulation of robots controlled by spiking neural networks.
 
@@ -2983,7 +2983,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## Java Learning Resources
 
-[Java](https://www.oracle.com/java/) is a popular programming language and development platform(JDK). It reduces costs, shortens development timeframes, drives innovation, and improves application services. With millions of developers running more than 51 billion Java Virtual Machines worldwide.
+[Java](https://www.oracle.com/java/) is a popular programming language and development platform (JDK). It reduces costs, shortens development timeframes, drives innovation, and improves application services. With millions of developers running more than 51 billion Java Virtual Machines worldwide.
 
 [The Eclipse Foundation](https://www.eclipse.org/downloads/) is home to a worldwide community of developers, the Eclipse IDE, Jakarta EE and over 375 open source projects, including runtimes, tools and frameworks for Java and other languages.
 
@@ -3131,7 +3131,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [PyCharm](https://www.jetbrains.com/pycharm/) is the best IDE I've ever used. With PyCharm, you can access the command line, connect to a database, create a virtual environment, and manage your version control system all in one place, saving time by avoiding constantly switching between windows.
 
-[Python Tools for Visual Studio(PTVS)](https://microsoft.github.io/PTVS/) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.
+[Python Tools for Visual Studio (PTVS)](https://microsoft.github.io/PTVS/) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.
 
 [Pylance](https://github.com/microsoft/pylance-release) is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
 
@@ -3169,7 +3169,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Falcon](https://falconframework.org/) is a reliable, high-performance Python web framework for building large-scale app backends and microservices with support for MongoDB, Pluggable Applications and autogenerated Admin.
 
-[Neural Network Intelligence(NNI)](https://github.com/microsoft/nni) is an open source AutoML toolkit for automate machine learning lifecycle, including [Feature Engineering](https://github.com/microsoft/nni/blob/master/docs/en_US/FeatureEngineering/Overview.md), [Neural Architecture Search](https://github.com/microsoft/nni/blob/master/docs/en_US/NAS/Overview.md), [Model Compression](https://github.com/microsoft/nni/blob/master/docs/en_US/Compressor/Overview.md) and [Hyperparameter Tuning](https://github.com/microsoft/nni/blob/master/docs/en_US/Tuner/BuiltinTuner.md).
+[Neural Network Intelligence (NNI)](https://github.com/microsoft/nni) is an open source AutoML toolkit for automate machine learning lifecycle, including [Feature Engineering](https://github.com/microsoft/nni/blob/master/docs/en_US/FeatureEngineering/Overview.md), [Neural Architecture Search](https://github.com/microsoft/nni/blob/master/docs/en_US/NAS/Overview.md), [Model Compression](https://github.com/microsoft/nni/blob/master/docs/en_US/Compressor/Overview.md) and [Hyperparameter Tuning](https://github.com/microsoft/nni/blob/master/docs/en_US/Tuner/BuiltinTuner.md).
 
 [Dash](https://plotly.com/dash) is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.
 
@@ -3181,7 +3181,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [NumPy](https://www.numpy.org/) is the fundamental package needed for scientific computing with Python.
 
-[Pillow](https://python-pillow.org/) is a friendly PIL(Python Imaging Library) fork.
+[Pillow](https://python-pillow.org/) is a friendly PIL (Python Imaging Library) fork.
 
 [IPython](https://ipython.org/) is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.
 
@@ -3266,7 +3266,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Rustlings](https://github.com/rust-lang/rustlings) is a small set of exercises to get you used to reading and writing Rust code.
 
-[Krustlet](https://krustlet.dev/) acts as a Kubernetes Kubelet(written in Rust) by listening on the event stream for new pods that the scheduler assigns to it based on specific Kubernetes [tolerations](https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/). The project is currently experimental.
+[Krustlet](https://krustlet.dev/) acts as a Kubernetes Kubelet (written in Rust) by listening on the event stream for new pods that the scheduler assigns to it based on specific Kubernetes [tolerations](https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/). The project is currently experimental.
 
 ## Operating System
 
@@ -3338,7 +3338,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [AppKit](https://developer.apple.com/documentation/appkit) is a graphical user interface toolkit that contains all the objects you need to implement the user interface for a macOS app such as windows, panels, buttons, menus, scrollers, and text fields, and it handles all the details for you as it efficiently draws on the screen, communicates with hardware devices and screen buffers, clears areas of the screen before drawing, and clips views.
 
-[ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
+[ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro (2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
 
 [RealityKit](https://developer.apple.com/documentation/realitykit) is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.
 
@@ -3380,7 +3380,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## XML Learning Resources
 
-[XML(Extensible Markup Language)](https://www.w3.org/XML/) is a markup language that is similar to HTML but without predefined tags. Instead, the user define their own tags designed specifically for their needs. 
+[XML (Extensible Markup Language)](https://www.w3.org/XML/) is a markup language that is similar to HTML but without predefined tags. Instead, the user define their own tags designed specifically for their needs. 
 
 [XAML](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/fundamentals/xaml) is a declarative XML-based markup language that is applied to the .NET Core programming model, which XAML simplifies creating a UI for a [.NET Core app](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-overview).
 
@@ -3426,7 +3426,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [MSBuild](https://github.com/dotnet/msbuild) is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
 
-[WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
+[WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript (including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks ([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
 [Uno Platform](https://platform.uno/) is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, macOS, WebAssembly, Linux and Windows. It provides the full definitions of the UWP [Windows 10 2004 (19041)](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-19041), and the implementation of a growing number of parts of the UWP API, such as Windows.UI.Xaml, to enable UWP and WinUI applications to run on these platforms.
 
