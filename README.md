@@ -874,6 +874,14 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 **A List of Operating Systems that are great for either settig up a personal Home Server or a Enterprise Server for your Organization/Company.**
 
+[Home Assistant OS](https://home-assistant.io/hassio/) is a container-based system for managing your Home Assistant Core installation and related applications. The system is controlled via Home Assistant which communicates with the Supervisor. The Supervisor provides an API to manage the installation. This includes changing network settings or installing and updating software.
+
+<h2 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
+  <br />
+ Home Assistant OS 
+</h2>
+
 [Umbrel](https://umbrel.com/) is an OS for running a personal server in your home. It can Self-host open source apps like Nextcloud, Bitcoin node, and more. 
 
 <h2 align="center">
@@ -882,12 +890,12 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
   Umbrel
 </h2>
 
-[Home Assistant OS](https://home-assistant.io/hassio/) is a container-based system for managing your Home Assistant Core installation and related applications. The system is controlled via Home Assistant which communicates with the Supervisor. The Supervisor provides an API to manage the installation. This includes changing network settings or installing and updating software.
+[CasaOS](https://casaos.io/) is a simple, easy-to-use, elegant open-source Home Cloud system. 
 
 <h2 align="center">
- <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
+ <img src="https://user-images.githubusercontent.com/45159366/198867868-bdf3c448-0c0d-49a2-be7b-c32ae5f2ad3a.png">
   <br />
- Home Assistant OS 
+  CasaOS
 </h2>
 
 [Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical. 
@@ -1002,6 +1010,36 @@ Red Hat Enterprise Linux Desktop
   <br />
   openSUSE 
 </h3>
+
+[NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks. [NixOS Guide](https://github.com/mikeroyal/NixOS-Guide)
+
+ * [Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
+
+ * [Nix](https://nixos.wiki/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
+
+ * [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
+
+ * [Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+
+ * [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/173939766-8972583c-855e-4a9b-b9f1-761b60ea255e.png">
+  <br />
+  NixOS Packages Search
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/173939768-31847173-88ab-45f0-8501-0980d1a2a29e.png">
+  <br />
+  NixOS Desktop with the new Calamares Installer
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/128645111-b2a92dd2-f246-4df0-b05c-5b0ffce05448.png">
+  <br />
+  NixOS with the Plasma Desktop
+</p>
 
 ### Storage
 
