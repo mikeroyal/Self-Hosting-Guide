@@ -37,6 +37,7 @@
        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
        * [Bookmarks](#Bookmarks)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
+       * [Note-Taking](#Note-Taking)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
 
@@ -702,6 +703,25 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS. 
 
+### Note-Taking
+
+[Back to the Top](#table-of-contents)
+
+[Joplin](https://joplinapp.org/) is an open source note-taking app that you can securely access from any device. 
+
+[HedgeDoc](https://hedgedoc.org/) is an open-source, web-based, self-hosted, collaborative markdown editor. 
+
+[Turtl](https://turtlapp.com/) is a secure, collaborative notebook for bookmarks or passwords, files or shopping lists.
+
+[TiddlyWiki](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
+
+[Milanote](https://milanote.com/) is a tool for organizing creative projects into beautiful visual boards.
+
+[Laverna](https://laverna.cc/) is a note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. 
+
+[Zettlr](https://www.zettlr.com/) is an open-source Markdown editor for the 21st century.
+
+[Carnet](https://www.getcarnet.app/) is a complete open source note taking app. It has extensions for all the major browsers.
 
 ### Gaming
 
