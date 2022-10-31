@@ -40,7 +40,8 @@
        * [Note-Taking](#Note-Taking)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
-       
+    
+    - [System Hardware](#System-Hardware)
     - [Operating Systems](#Operating-Systems)
     - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
     - [File systems](https://github.com/mikeroyal/Self-Hosting-Guide#file-systems)
@@ -859,6 +860,68 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [EdgeX Foundry](https://www.edgexfoundry.org) is a vendor-neutral project under the Linux Foundation. The initiative is aligned around a common goal: the simplification and standardization of the foundation for edge computing architectures in the Industrial IoT market, while still allowing the ecosystem to add significant value.
 
 [Eclipse Foundation](https://www.eclipse.org) provides our global community of individuals and organizations with a mature, scalable and commercially-friendly environment for open source software collaboration and innovation.
+
+### System Hardware
+
+[Back to the Top](table-of-contents)
+ 
+ * [Refurbished Servers on Amazon](https://www.amazon.com/refurbished-servers/s?k=refurbished+servers&rh=p_36%3A10000-60000&qid=1667083059&rnid=386442011&ref=sr_nr_p_36_2)
+ * [Network Switches & Hubs on ebay](https://www.ebay.com/b/Enterprise-Network-Switches-Hubs/182091/bn_887002)
+ * [Server Monkey](https://www.servermonkey.com/servers.html)
+ * [The Server Store](https://www.theserverstore.com/)
+ 
+
+#### CPUs
+
+**Intel Processors(x86)**
+
+[Back to the Top](table-of-contents)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/198867859-20c9906d-4b0f-41b8-8ed5-cb3b8425c7fd.png">
+  <br />
+</p>
+
+I recommend using Intel CPUs no older than the second generation of the Intel Core processors (Core i7, i5, i3) AKA **Sandy Bridge(Jan. 2011)** for those that want to utilize [Intel® Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html). Though, if you're concerned about power efficiency I would recommend 7th Generation or newer.
+
+ 
+ * [Intel Celeron Processor N Series](https://ark.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html)
+ * [Intel Atom Series](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29035)
+ * [Intel Pentium](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29862)
+ * [Intel i3](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+ * [Intel i5](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+ * [Intel i7](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+ * [Intel Xeon](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel595)
+
+**AMD Processors(x86)**
+
+[Back to the Top](table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/198867861-ff988ac9-a6f8-4db5-90e4-1f2d8c933fed.png">
+  <br />
+</p>
+
+ * [AMD Athlon](https://www.amd.com/en/processors/athlon-pro)
+ * [AMD Ryzen G-Series](https://cpuarchive.com/CPU/AMD/Ryzen)
+ * [AMD Ryzen 3](https://cpuarchive.com/CPU/AMD/Ryzen)
+ * [AMD Ryzen 5](https://cpuarchive.com/CPU/AMD/Ryzen)
+ * [AMD Ryzen 7](https://cpuarchive.com/CPU/AMD/Ryzen)
+ * [AMD Threadripper](https://www.amd.com/en/processors/threadripper-creators)
+
+
+#### Devices
+
+[Back to the Top](table-of-contents)
+
+**Note: Will be adding more device soon!**
+
+ * [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
+ * [Turing Pi 2](https://turingpi.com/)
+ * [ODROID-H3 and H3+](https://ameridroid.com/products/odroid-h3)
+ * [Intel® NUC Mini PCs](https://www.intel.com/content/www/us/en/products/details/nuc.html)
+ * [Beelink mini PC](https://www.bee-link.com/)
+ * [M1 Mac Mini](https://www.apple.com/mac-mini/)
 
 ### Operating Systems
 
