@@ -221,6 +221,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Gitea](https://gittea.dev/) is a community managed painless self-hosted Git service.
 
+[GitLab](https://about.gitlab.com/) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider. 
+
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
 ### Remote Desktop
