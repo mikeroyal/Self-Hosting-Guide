@@ -223,6 +223,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [GitLab](https://about.gitlab.com/) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider. 
 
+[Soft Serve](https://github.com/charmbracelet/soft-serve) is a tasty, self-hostable Git server for the command line.
+
+[Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere. 
+
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
 ### Remote Desktop
