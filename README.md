@@ -638,6 +638,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Snapcast](https://github.com/badaix/snapcast) is a multiroom client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multiroom solution.
 
+[SonoBus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
+
 ### Video and Audio Processing
 
 [Back to the Top](#table-of-contents)
