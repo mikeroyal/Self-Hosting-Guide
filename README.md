@@ -928,8 +928,9 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
   <br />
 </p>
 
-I recommend using Intel CPUs no older than the second generation of the Intel Core processors (Core i7, i5, i3) AKA **Sandy Bridge(Jan. 2011)** for those that want to utilize [Intel® Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html). Though, if you're concerned about power efficiency I would recommend 7th Generation or newer.
+I recommend using Intel CPUs no older than the second generation of the Intel Core processors (Core i7, i5, i3) AKA **Sandy Bridge(Jan. 2011)** for those that want to utilize [Intel® Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html). Though, if you're concerned about power efficiency(~5W idle) I would recommend 7th Generation or newer.
 
+Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-quick-assist-technology-overview.html)** a scalable, flexible, and extendable way to accelerate data encryption/decryption and compression for applications from networking to enterprise, cloud to storage, and content delivery to database. Available in 3rd Gen Intel® Xeon® Scalable Processors and Intel Atom® Processor C Series/P Series.
  
  * [Intel Celeron Processor N Series](https://ark.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html)
  * [Intel Atom Series](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29035)
