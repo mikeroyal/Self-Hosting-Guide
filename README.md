@@ -656,6 +656,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Intel® Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html) is a tools that uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
 
+[Intel® QuickAssist Technology (Intel® QAT)](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-quick-assist-technology-overview.html) is a scalable, flexible, and extendable way to accelerate data encryption/decryption and compression for applications from networking to enterprise, cloud to storage, and content delivery to database. 
+
 [FFmpeg](https://ffmpeg.org) is a leading multimedia framework that can decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge ones on multiple platforms such as Windows, macOS, and Linux.
 
 [FFmpeg.guide](https://ffmpeg.guide/) is a simple GUI tool to create complex FFmpeg filtergraphs quickly and correctly, without having to mess with the cumbersome filter syntax.
