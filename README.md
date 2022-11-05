@@ -973,11 +973,12 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 
  * [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
  * [Turing Pi 2](https://turingpi.com/)
+ * [ZimaBoard](https://www.zimaboard.com/) 
  * [ODROID-H3 and H3+](https://ameridroid.com/products/odroid-h3)
  * [Intel® NUC Mini PCs](https://www.intel.com/content/www/us/en/products/details/nuc.html)
  * [Beelink mini PC](https://www.bee-link.com/)
- * [M1 Mac Mini](https://www.apple.com/mac-mini/)
-
+ * [M1 Mac Mini](https://www.apple.com/mac-mini/) 
+ 
 ### Operating Systems
 
 [Back to the Top](table-of-contents)
