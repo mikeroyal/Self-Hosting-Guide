@@ -21,7 +21,7 @@
        * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
-       * [Remote Desktop](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Desktop)
+       * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
@@ -235,7 +235,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
-### Remote Desktop
+### Remote Access
 
 [Back to the Top](#table-of-contents)
 
