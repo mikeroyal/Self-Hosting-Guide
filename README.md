@@ -195,6 +195,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [WatchTower](https://hub.docker.com/r/containrrr/watchtower) is a process for automating Docker container base image updates.
 
+[Visual Studio Code Dev Containers](https://github.com/microsoft/vscode-dev-containers) is an extension that lets you use a [Docker container](https://docker.com/) as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set. A [devcontainer.json file](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file) in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. 
+
 ### CI/CD
 
 [Back to the Top](#table-of-contents)
