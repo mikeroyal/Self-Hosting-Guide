@@ -979,6 +979,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 
  * [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
  * [Turing Pi 2](https://turingpi.com/)
+ * [Home Assistant Yellow](https://www.home-assistant.io/blog/2021/09/13/home-assistant-yellow/)
  * [ZimaBoard](https://www.zimaboard.com/) 
  * [ODROID-H3 and H3+](https://ameridroid.com/products/odroid-h3)
  * [Intel® NUC Mini PCs](https://www.intel.com/content/www/us/en/products/details/nuc.html)
