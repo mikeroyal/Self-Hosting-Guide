@@ -53,6 +53,15 @@
     - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
 
 2. [WireGuard](https://github.com/mikeroyal/Self-Hosting-Guide#wireguard)
+     * [What is WireGuard?](#what-is-wireguard)
+     * [What is Tailscale?](#what-is-tailscale)
+     * [What is Netmaker?](#what-is-netmaker)
+     * [WireGuard Tools](#wireguard-tools)
+     * [Setting up WireGuard with PiVPN](#setting-up-wireguard-with-pivpn)
+     * [Setting up WireGuard on Unraid](#setting-up-wireguard-on-unraid)
+     * [Setting up WireGuard on pfSense](#setting-up-wireguard-on-pfsense)
+     * [Setting up WireGuard on OpenWRT](#setting-up-wireguard-on-openwrt)
+     * [Setting up WireGuard on Home Assistant](#setting-up-wireguard-on-home-assistant)
 
 3. [Nextcloud](https://github.com/mikeroyal/Self-Hosting-Guide#nextcloud)
 
@@ -1413,15 +1422,59 @@ Red Hat Enterprise Linux Desktop
  
 
 # WireGuard
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/147891038-00f57362-e843-4bfb-be31-606c954d4e6c.png">
   <br />
 </p>
 
+### What is WireGuard?
 
-[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under a massive development, but it already might be regarded as the most secure, most comfortable to use, and the simplest VPN solution in the industry.
+[Back to the Top](#table-of-contents)
+
+[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190848622-d1c8b109-f08c-4a89-b43d-816c510e4f2e.png">
+  <br />
+</p>
+
+### What is Tailscale?
+
+[Back to the Top](#table-of-contents)
+
+[Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an [overlay network](https://tailscale.com/blog/how-tailscale-works/) between the computers of your networks using all kinds of [NAT traversal sorcery](https://tailscale.com/blog/how-nat-traversal-works/).
+
+ * [Tailscale Terraform Provider](https://github.com/tailscale/terraform-provider-tailscale)
+ * [Tailscale Docker extension](https://github.com/tailscale/docker-extension)
+ * [Tailscale Synology](https://github.com/tailscale/tailscale-synology)
+
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/191301110-4c688e1b-da46-4f19-a25f-c285d66403e5.png">
+  <br />
+</p>
+
+How NAT Traversal works on a Home router. Credit: [Tailscale](https://tailscale.com/blog/how-nat-traversal-works/).
+
+[Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
+
+### What is Netmaker?
+
+[Back to the Top](#table-of-contents)
+
+[Netmaker](https://www.netmaker.org/) is a tool that enables you to create relays, gateways, full VPN meshes, and even zero trust networks. It's fully configurable to let you maximize the power of Wireguard.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/191140241-4ad71f9a-7f1f-4d93-be3a-2d625b144dca.png">
+  <br />
+</p>
+
+NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.7.2/index.html).
+
+### WireGuard Tools
+[Back to the Top](#table-of-contents)
 
 [Wiretrustee](https://wiretrustee.com/) is a WireGuard®-based mesh network that connects your devices into a single private network.
 
@@ -1462,6 +1515,311 @@ Red Hat Enterprise Linux Desktop
 [Gluetun](https://github.com/qdm12/gluetun) is a lightwieght VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
 
 [Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
+
+### Setting up WireGuard with PiVPN
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190881122-3accce96-dbc1-46ba-9e67-bff78f160475.png">
+  <br />
+</p>
+
+**Installing PiVPN:**
+
+```sudo apt install curl -y```
+
+```curl -L https://install.pivpn.io | bash```
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880700-48034b3b-c3d2-459e-b52b-ed5d699fe31a.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880702-9da353e8-2a25-4b9c-bb48-4d28af696e1e.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880703-5d71fb3c-1ad9-4511-bb21-da60da25c9d7.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880704-2042e18b-bc60-4b53-8251-2e3628b3083e.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880705-8270b271-2cf4-49b7-b133-a04509167425.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880706-401973df-8d3d-4c18-bd79-49948b8d1ee2.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880708-9c8aedf5-81bd-4f93-bf87-d5c713194b13.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880709-28f88ff7-38bf-4ebe-916c-8228c13050ea.png">
+  <br />
+</p>
+
+
+### Setting up WireGuard on Unraid
+
+[Back to the Top](#table-of-contents)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190881124-635b4c29-41c6-423d-bff9-07e811a5f319.png">
+  <br />
+</p>
+
+ Select Apps, then search for WireGuard and install **Wireguard-Easy**.
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880956-9ad5d1e6-5905-46ec-9d94-6f1c0a42a997.jpg">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880957-d20e3fa1-b219-407a-b80b-b84cc59bb2a0.png">
+  <br />
+  VPN manager
+</p>
+
+ Almost all of the settings can stay as default, however, there are a few that we will modify.
+
+   * Set the WG_HOST variable to be the IP address of your Unraid server.
+   * If you’d like to modify the WireGuard port (51820), you can do that here.
+   * Change the default Web GUI password. 
+    
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880958-e5c2c3f8-fd85-47c5-beb4-cc06d19899b4.png">
+  <br />
+</p>
+
+    
+### Setting up WireGuard on pfSense
+  
+  [Back to the Top](#table-of-contents)
+  
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190881128-e03216b9-ecc6-4c12-a41e-0de7d1b51579.png">
+  <br />
+</p>
+   
+   When looking at how to set up WireGuard on pfSense, the first thing that we need to do is install the package. Follow the instructions below to install the WireGuard package on pfSense.
+   
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880975-b103fead-2596-4819-bb82-18414baa4fb4.jpg">
+  <br />
+</p>
+
+
+* Open the Package Manager and search for WireGuard, then Install the latest version of the package.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880976-1c7d0b18-8e50-4072-8f32-a6991b7d3923.jpg">
+  <br />
+</p>
+
+* After the package has installed, select VPN then WireGuard and under the Tunnels section, select Add Tunnel. 
+
+* In the Tunnel Configuration, set the Description as WireGuard, the Listen Port as 51820, then Generate private and public keys.
+
+* Copy the Public Key. We will need this for our client configuration.
+
+* Create the tunnel, then select Settings, and ensure that Enable WireGuard is selected. Then Save and Apply. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880978-70ccc9f1-f5be-479a-9f95-234a4f90ee87.jpg">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190880979-6a1db7b4-bace-47ea-8ba5-43b375a821ba.jpg">
+  <br />
+</p>
+
+### Setting up WireGuard on OpenWRT
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190891717-a0972531-ec9d-4b7d-8543-2a68fb1792d2.png">
+  <br />
+</p>
+
+**Quick Links:**
+
+ * [WireGuard route all traffic through wireguard tunnel](https://openwrt.org/docs/guide-user/services/vpn/wireguard/all-traffic-through-wireguard)
+ * [Automated WireGuard Server and Multi-client](https://openwrt.org/docs/guide-user/services/vpn/wireguard/automated)
+ * [WireGuard basics](https://openwrt.org/docs/guide-user/services/vpn/wireguard/basics)
+ * [WireGuard client](https://openwrt.org/docs/guide-user/services/vpn/wireguard/client)
+ * [WireGuard extras](https://openwrt.org/docs/guide-user/services/vpn/wireguard/extras)
+ * [WireGuard performance](https://openwrt.org/docs/guide-user/services/vpn/wireguard/performance)
+ * [WireGuard Road-Warrior Configuration](https://openwrt.org/docs/guide-user/services/vpn/wireguard/road-warrior)
+ * [WireGuard](https://openwrt.org/docs/guide-user/services/vpn/wireguard/start)
+ * [WireGuard server](https://openwrt.org/docs/guide-user/services/vpn/wireguard/server)
+ * [WireGuard peers](https://openwrt.org/docs/guide-user/services/vpn/wireguard/serverclient)
+ * [Automated WireGuard site-to-site VPN configuration](https://openwrt.org/docs/guide-user/services/vpn/wireguard/site-to-site)
+ 
+
+In your router’s webUI, navigate to System - Software, click Update lists:
+
+In the Filter field, type WireGuard, locate and install the **wireguard, wireguard-tools, kmod-wireguard, and luci-app-wireguard packages.** **Note: The wireguard package is included in version 22.02.**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190891718-b56b1152-2236-4d2c-bfbd-0f9f8f064e01.jpeg">
+  <br />
+</p>
+
+**Generate WireGuard keypair**
+
+ SSH into your router as ‘root’ ([OpenWrt Wiki](https://openwrt.org/docs/guide-quick-start/sshadministration)):
+
+   ```ssh root@192.168.1.1```
+
+ Generate WireGuard keys:
+
+  ```wg genkey | tee privatekey | wg pubkey > publickey```
+     
+  ```chmod 600 privatekey```
+
+  Note your Private & Public keys, you will need them later:
+
+  ```cat privatekey```
+    
+  ``` cat publickey```
+
+**Creating an Interface**
+
+ Navigate to Network - Interface,
+
+ Click the Add new interface... button and enter the following configuration:
+   * Name - give it any name
+   * Protocol - WireGuard VPN
+
+ Create interface
+
+ In the General Settings tab:
+   * Bring up on boot - Checked
+   * Private Key - copy and paste the generated previously Private key
+   * IP Address - enter the WireGuard IP Address obtained in the Client Area ending with /32, e.g. 172.27.124.169/32
+        
+        
+**Add a Firewall zone**
+
+ Navigate to Network - Firewall
+
+ Click the Add button and enter the following configuration:
+   * Name - Give it any name
+   *  Input - Reject
+   *  Output - Accept
+   *  Forward - Reject
+   *  Masquerading - Checked
+   *  MSS clamping - Checked
+   *  Covered networks - select the previously created VPN tunnel interface
+   *  Allow forward to destination zones - Unspecified
+   *  Allow forward from source zones - lan
+      
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190891722-8e64c915-9fbf-48e2-ae4d-73a1bd4c9489.jpeg">
+  <br />
+</p>
+       
+**DNS**
+
+ Navigate to Network - Interfaces
+
+ Click on the Edit button next to the WAN interface
+
+  In the Advanced Settings tab, uncheck the Use DNS servers advertised by peer and specify one of the following DNS servers in the Use custom DNS servers field:
+  
+  * 172.16.0.1 = regular DNS with no blocking
+  * 10.0.254.2 = standard AntiTracker to block advertising and malware domains
+  * 10.0.254.3 = Hardcore Mode AntiTracker to also block Google and Facebook domains
+      
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190891723-43aa1b88-ab91-4f87-935b-03f052add368.jpeg">
+  <br />
+</p> 
+
+Click the Save button.
+
+**Last Steps**
+
+  * A device reboot is not required, though it may be useful to confirm that everything behaves as expected.
+  * Run a leak test at [https://www.dnsleaktest.com](https://www.dnsleaktest.com/) via one of the internal network clients attached to your OpenWRT router.
+  
+### Setting up WireGuard on Home Assistant
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190974554-6611b441-2487-4e82-a5f5-018e6ee887d8.png">
+  <br />
+</p>
+
+**Install Wireguard Add-on in Home Assistant**
+
+ * Next, open up Home Assistant. Go to Supervisor > Add-on store, and search for WireGuard.
+ 
+ * Click the WireGuard addon, and the click Install.
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190974557-6e466f3a-75c5-46fe-ab95-406fad796318.png">
+  <br />
+</p>
+ 
+**Configure Wireguard Settings**
+
+After installing WireGuard, do not start it yet. We need to configure a few options first.
+
+ * Click the Configuration tab at the very top.
+
+ * There are **two blocks of code here: server and peers.** The server section is the WireGuard server info, and the peers section is where you’d add new devices that will connect to your VPN.
+ 
+ **Server Configuration**
+
+   * **Host:** add the subdomain you just created. (vpn.mydomain.com)
+   * **Addresses:** If your internal network is using the 192.168.x.x or 10.x.x.x range, you can leave the default IP addresses WireGuard has provided. (see note above)
+   * **DNS:** Set to your router’s internal IP address (**Open CMD > ipconfig /all > Under DNS servers**)
+        If you have Adguard or PiHole installed, you can use the IP address of those instead. This will allow you to block ads even when connected to the WireGuard VPN.
+
+**Peers Configuration**
+
+This is where you’ll create WireGuard configuration files for each of the devices you want to connect to WireGuard with. For this example, I’m using my phone and leaving ```allowed_ips``` and ```client_allowed_ips``` as is. If you adding multiple devices, then you’ll need to copy the entire block of code starting at name, give it a different name, and add the next available IP address (For example: 172.27.66.4)
+
+Click **Save** once finished.
+
+Then, go back to the Info tab and click **Start**.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/190974558-dad4b4e4-295d-4074-84b8-44ca1be7078a.png">
+  <br />
+</p>
+
+**Port Forward**
+
+The next step is to forward port 51820 from your Home Assistant server through your router. Unfortunately, there are so many different types of routers, each with different steps to port forward. The important thing to note is that you’ll be **port forwarding 51820(wireguard port)** from the internal IP of your Home Assistant instance (for example: 192.168.68.24) and choosing the **UDP protocol only**.
+ 
+ **Download Wireguard app on mobile device**
+
+Download the WireGuard app from the [Apple App Store](https://apps.apple.com/us/app/wireguard/id1441195209) or [Google Play Store](https://play.google.com/store/apps/details?id=com.wireguard.android&hl=en_US&gl=US). You will need it for the next step.
+
+If all goes well, you can click into the new tunnel connection from within the app. If you see data flowing under the Transfer section, that means you are good to go.
+
+**Improving Security**
+
+Once you have everything setup and working correctly, you should read through the [WireGuard Addon docs](https://github.com/hassio-addons/addon-wireguard/blob/main/wireguard/DOCS.md) to setup up ```allowed_ips``` and ```client_allowed_ips``` to further secure your VPN instance. There’s also some other helpful options you can configure such as log level, but these are all optional.
 
 # Nextcloud
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
