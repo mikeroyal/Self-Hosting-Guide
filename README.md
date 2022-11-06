@@ -587,6 +587,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
 
+[Homey](https://homey.app/) is an applciation to control, automate and monitor your entire smart home from your phone, tablet or desktop. 
+
 [Caddy](https://caddyserver.com/) is the only web server to use HTTPS automatically and by default. Caddy obtains and renews TLS certificates for your sites automatically.
 
 [Bazarr](https://hub.docker.com/r/linuxserver/bazarr) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. 
