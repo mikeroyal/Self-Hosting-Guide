@@ -512,6 +512,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
+[Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database. 
+
 [iRedMail](https://www.iredmail.org/) is a self-hosted email server.
 
 [iRedMail Easy](https://www.iredmail.org/easy.html) is a web-based deployment platform, it offers an easy to use web interface to help you deploy iRedMail server, keep your server up to date, also get fast and professional technical support from iRedMail team.
@@ -522,7 +524,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Nextcloud Talk](https://nextcloud.com/talk/) is a on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.
 
-[Poste.io Email Server](https://poste.io/) is self-hosted SMTP + IMAP + POP3 + Antispam + Antivirus Web administration + Web email. easy setup with DNS guide for protect from spam sending (https://poste.io/doc/configuring-dns)
+[Poste.io Email Server](https://poste.io/) is self-hosted SMTP + IMAP + POP3 + Antispam + Antivirus Web administration + Web email. It is easy setup with a [DNS guide]((https://poste.io/doc/configuring-dns)) for protect from spam.
 
 ### Business Management
 
