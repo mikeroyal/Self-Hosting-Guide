@@ -29,6 +29,7 @@
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
        * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
+       * [Encryption](#Encryption)
        * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
@@ -481,6 +482,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 ### Communications
 
+[Back to the Top](#table-of-contents)
+
 [Matrix](https://matrix.org/) is a tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history, formatted messages, read receipts and more.
 
 [Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk).
@@ -553,6 +556,12 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. 
 
+
+### Encryption
+
+[Back to the Top](#table-of-contents)
+
+[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/) is free open-source disk encryption software for Windows, Mac OS X and Linux. The file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files.
 
 ### Backups
 
