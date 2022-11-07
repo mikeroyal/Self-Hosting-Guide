@@ -68,15 +68,22 @@
 
 4. [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
      
-    - [Models of Raspberry Pi boards](https://github.com/mikeroyal/Self-Hosting-Guide#models-of-raspberry-pi-boards)
+    * [Models of Raspberry Pi boards](#models-of-raspberry-pi-boards)
 
-    - [Raspberry Pi Learning Resources](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-learning-resources)
+    * [Raspberry Pi Learning Resources](#raspberry-pi-learning-resources)
 
-    - [Raspberry Pi Operating Systems](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-operating-systems)
+    * [Raspberry Pi Operating Systems](#raspberry-pi-operating-systems)
 
-    - [Raspberry Pi Tools](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-tools)
+    * [Raspberry Pi Tools](#raspberry-pi-tools)
+    
+      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
+      - [Getting Started with Homebridge](#Homebridge)
+      - [Getting Started with ESPHome](#ESPHome)
+      - [Turning Raspberry Pi into a Router](#Turning-Raspberry-Pi-into-a-Router)
+      - [Setting up Watchdog Time (WDT) on Raspberry Pi](#setting-watchdog-timer-wdt-on-raspberry-pi)
 
-    - [Raspberry Pi Upgrades](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi-upgrades)
+    * [Raspberry Pi Upgrades](#raspberry-pi-upgrades)
+    
 
 5. [Grafana](https://github.com/mikeroyal/Self-Hosting-Guide#Grafana)
 
@@ -2050,7 +2057,7 @@ Nexcloud Hub
 
 
 ## Raspberry Pi Tools
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 
@@ -2082,7 +2089,315 @@ Nexcloud Hub
 
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
 
-# Raspberry Pi Upgrades
+### Home Assistant
+[Back to the Top](#table-of-contents)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
+  <br />
+</p>
+
+[Home Assistant](https://home-assistant.io/hassio/) is a container-based system for managing your Home Assistant Core installation and related applications. The system is controlled via Home Assistant which communicates with the Supervisor. The Supervisor provides an API to manage the installation. This includes changing network settings or installing and updating software.
+
+**Quick Links**
+
+ - [Getting Started with Home Assistant](https://home-assistant.io/getting-started)
+ - [Home Assistant for Raspberry Pi](https://www.home-assistant.io/installation/raspberrypi/)
+ - [Installing Home Assistant OS using Proxmox 7](https://github.com/Kanga-Who/home-assistant/blob/master/Home%20Assistant%20with%20Proxmox%20installation.md)
+
+[Home Assistant Frontend](https://demo.home-assistant.io/) is a frontend for Home Assistant. 
+
+#### Tools to write the HA image to your boot media(microSD card or USB device)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719735-575326e7-3f29-4175-8ca1-b9eabb15e2e6.png">
+  <br />
+</p>
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719741-a88c162f-bfa9-469f-a87e-e9f12c175e07.png">
+  <br />
+</p>
+
+### Home Assistant integrations
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719765-602b4658-c8bf-4952-a238-4b986efbb7cb.png">
+  <br />
+</p>
+
+Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant.io/integrations/)
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+
+[Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
+
+[Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
+
+[Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
+
+[Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
+
+[Samsung SmartThings](https://www.smartthings.com/) is a sofwtare frmaeowrk that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
+
+[Ecobee](https://www.ecobee.com) is a home automation company in Canada that makes thermostats for residential and commercial use.
+
+[Lutron Caséta](https://www.lutron.com/en-US/Products/Pages/SingleRoomControls/CasetaWireless/Overview.aspx) is a smart lighting control system that is a great solution for giving any client smart lighting control. It was purposely built to work in homes of all ages and it works with older wiring as well as new.
+
+[Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
+
+[Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
+
+[MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
+
+[Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
+
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+
+[Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
+
+[Zwavejs2Mqtt](https://zwave-js.github.io/zwavejs2mqtt/) is a fully configurable Zwave to MQTT Gateway and Control Panel Web UI.
+
+[Z-Wave JS Server](https://github.com/zwave-js/zwave-js-server) is a small server wrapper around Z-Wave JS to access it via a WebSocket.
+
+[Z-Wave JS Config DB Browser](https://devices.zwave-js.io/) is the official device configuration reference to find out if your device is supported. Currently supports 387 brands, spanning at least 2075 device configurations.
+
+### Homebridge
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177946864-bd962065-a863-4f97-b6be-a8f98861efa4.png">
+  <br />
+</p>
+
+[Homebridge](https://homebridge.io/) is a software frameowrk that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
+
+- [Official Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started)
+- [Setup Homebridge on a Raspberry Pi (Raspbian)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian)
+- [Setup Homebridge on Debian or Ubuntu](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux)
+- [Setup Homebridge on Red Hat, CentOS Stream or Fedora](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Red-Hat%2C-CentOS-or-Fedora-Linux) 
+- [Setup Homebridge on Docker (Linux)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker)
+
+
+#### Tools to write the Homebridge image to your boot media(microSD card or USB device)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719735-575326e7-3f29-4175-8ca1-b9eabb15e2e6.png">
+  <br />
+</p>
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719741-a88c162f-bfa9-469f-a87e-e9f12c175e07.png">
+  <br />
+</p>
+
+[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
+
+   - Install and configure Homebridge plugins.
+   - Monitor your Homebridge server via a fully customisable widget-based dashboard.
+   - View and control Homebridge accessories.
+   - Backup and Restore your Homebridge instance.
+    
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177949596-0d02c572-fa6b-4fc7-adbd-d136f81149fb.png">
+  <br />
+  Homebridge UI
+ </p> 
+ 
+### ESPHome
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178136653-b6e635f6-5fa9-40a6-9903-e0dfb912ed80.png">
+  <br />
+</p>
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+
+#### Quick Links
+
+ - [ESP Web Tools](https://esphome.github.io/esp-web-tools/)
+
+ - [Installing ESPHome Manually | ESPHome](https://esphome.io/guides/installing_esphome.html)
+ 
+ - [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line.html)
+ 
+ - [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
+ 
+ - [ESPHome on the Raspberry Pi Pico! | Jeff Geerling](https://www.jeffgeerling.com/blog/2022/esphome-on-raspberry-pi-pico)
+ 
+ - [How to Start on Raspberry Pi Home Automation | ESPHome](https://www.instructables.com/How-to-Start-on-Raspberry-Pi-Home-Automation-ESPHo/)
+
+ - [ESPHome Setup | Integrating Home Assistant with Adafruit IO](https://learn.adafruit.com/integrating-adafruit-io-with-home-assistant/esphome-setup)
+
+### Install ESPHome using Home Assistant
+
+In [Home Assistant](https://www.home-assistant.io/integrations/esphome/) go to: 
+
+  **Configuration > Add-ons, Backups & Supervisor > Add-on Store (button in the lower right corner) or click on the My Home Assistant Link below:**
+
+Open your Home Assistant instance and show the Supervisor add-on store.
+
+[![ESPHome HA](https://user-images.githubusercontent.com/45159366/178136849-9a5deed7-beb8-4a62-aeda-ce9aec3fac3e.svg)](https://my.home-assistant.io/redirect/config_flow_start?domain=esphome)
+
+   -  Next, search for ESPHome, click on the result and then click on the Install button. 
+   
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178137323-40fb0ec9-f35c-43d7-b60c-08588c89fd33.png">
+  <br />
+</p>
+   
+   -  When the installation is finished, the Install button will be replaced with Start button – click on it to start the ESPHome add-on. 
+   
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178137277-b71897d5-2684-451c-af2f-ab85f9b1affa.png">
+  <br />
+</p>
+
+   -  Wait a few seconds for the ESPHome to start and then click on the Open Web UI button.
+   
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/178137097-7753aed9-c3e7-4fba-9b52-570771609572.png">
+  <br />
+</p>
+   
+### Install ESPHome using Docker
+
+  - First thing is to pull the [ESPHome Docker image from Docker Hub](https://hub.docker.com/u/esphome) (Online). 
+
+    ```docker pull esphome/esphome```
+
+  - Then, start the ESPHome wizard. This wizard will ask you about your device type, your device name, your WiFi credentials and finally will generate a yaml file containing all of the configurations for you. 
+   
+   ```docker run --rm -v "${PWD}":/config -it esphome/esphome wizard stl.yaml```
+  
+   -  Now, connect your ESP device to the device where Docker is running (either using an USB cable or Serial-To-USB adapter) and if you are on Linux type the following command :
+
+   ```dmesg | grep ttyUSB```
+   
+   - Put your device in programming mode (if needed) and execute the next command to install the ESPHome on the device connected to the /dev/ttyUSB1 using the configuration stored in stl.yaml file 
+   
+  ```docker run --rm -v "${PWD}":/config --device=/dev/ttyUSB1 -it esphome/esphome run stl.yaml```
+   
+### Install ESPHome using Python
+
+ - If you are on macOS or Linux check if Python 3.8 or later is installed by executing the command.
+  
+ ```python3 --version```
+  
+ - If you are on macOS, you need to install wheel and esphome packages by using the following command.
+  
+ ```pip3 install wheel esphome```
+  
+ - If you are on Linux, you have to install esphome package by using the following command.
+  
+  ```pip3 install --user esphome```
+   
+ - If you are on macOS or Linux you can start the ESPHome wizard using the following command.
+  
+  ```esphome wizard stl-python.yaml```
+   
+ - Finally, connect your ESP device to your Computer (using USB cable or Serial-To-usb adapter) and put it in programming mode (if needed). Then, Install ESPHome using the configuration in the stl-python.yaml file.
+  
+  ```esphome run stl-python.yaml```
+  
+### Turning Raspberry Pi into a Router
+
+[Back to the Top](#table-of-contents)
+
+#### Software
+
+[OpenWrt Project](https://openwrt.org/) is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. It's primarily used on embedded devices to route network traffic.
+
+  * [OpenWrt Wiki - Raspberry Pi setup](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi)
+
+**Download the appropriate OpenWrt image for your Raspberry PI by going to the link above.**
+
+### Tools to write the Operating System (OS) image to your boot media(microSD card)
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719735-575326e7-3f29-4175-8ca1-b9eabb15e2e6.png">
+  <br />
+</p>
+
+#### Hardware
+
+[Raspberry Pi Router Board for CM4 module (Cost: $55 USD)](https://www.seeedstudio.com/CM4-Router-Board-p-5211.html) is an expansion board based on the Raspberry Pi Compute Module 4. It brings Raspberry Pi CM4 two full-speed gigabit network ports and offers better performance, lower CPU usage, and higher stability for a long time work compared with a USB network card. It's compatible with [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/), [Ubuntu Server](https://ubuntu.com/download/raspberry-pi) and other Raspberry Pi systems.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183271470-728741bd-0d52-480d-8ebe-8c9817589093.png">
+  <br />
+  Raspberry Pi Router Board for CM4 module
+</p>
+
+**Technical Specs:**
+
+ * Compatible Module: Raspberry Pi Compute Module 4 series.
+ * BCM2711 4 core @ 1.5GHz Cortex-A72.
+ * Support standard Raspberry Pi HAT interface.
+ * Support POE HAT to supply power to the board.
+ * Support POE HAT for external power supply.
+ * Full-speed dual gigabit network interface.
+ * Master-slave dual USB2.0 interface.
+ * Micro SD card slot, used to support non-eMMC version of CM4.
+ * Standard HDMI video output interface.
+ * 0.91 inch IIC OLED display.
+ * 5V DC fan interface(Support controlling via PWM signal).
+ * Ethernet: high-performance Gigabit ethernet controller RTL8111E chip, JXD 2111x G2406s chip as isolation transformer.
+   * Port0: Compute Module 4 Built-In.
+   * Port1: PCI Express 1000BASE-T NIC.
+ * GPIO: 40-Pin GPIO compatible with Raspberry Pi.
+
+### Setting Watchdog Timer (WDT) on Raspberry Pi
+[Back to the Top](#table-of-contents)
+
+[Watchdog Timer (WDT)](https://en.wikipedia.org/wiki/Watchdog_timer) is a timer that monitors microcontroller (MCU) programs to see if they are out of control or have stopped operating.
+
+### Installing and enabling WDT service
+
+To enable watchdog you have to change the boot parameters by adding **dtparam=watchdog=on** in **/boot/config.txt** using a text editor such as nano, vim, gedit, etc.. Also, install watchdog package and enable it to start at startup. Also, make sure to restart your Raspberry Pi for these settings to take effect.
+
+```pi@raspberrypi:~ $ sudo apt install watchdog```
+
+```pi@raspberrypi:~ $sudo systemctl enable watchdog```
+
+### Configure WDT service
+
+Configuration file for watchdog can be found in **/etc/watchdog.conf**. 
+
+```
+max-load-1 = 24
+watchdog-device = /dev/watchdog
+realtime = yes
+priority = 1
+```
+
+**To start the WTD service:**
+
+```pi@raspberrypi:~ $ sudo systemctl start watchdog```
+
+**Check watchdog status:**
+
+```pi@raspberrypi:~ $ sudo systemctl status watchdog```
+
+**To stop the service:**
+
+```pi@raspberrypi:~ $ sudo systemctl stop watchdog```
+
+## Raspberry Pi Upgrades
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Raspberry Pi Cases from Pi-Shop US](https://www.pishop.us/product-category/raspberry-pi/pi-cases/)
