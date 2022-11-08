@@ -577,7 +577,46 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
-[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/) is free open-source disk encryption software for Windows, Mac OS X and Linux. The file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files.
+[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/) is free open-source disk encryption software for Windows, Mac OS X and Linux. The file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files.   
+
+[AxCrypt](https://axcrypt.net/) is an inexpensive and effective encryption tool for Windows, macOS, iOS, and Android.
+
+[AESCrypt](https://www.aescrypt.com/) is an advanced file encryption utility that integrates with the Windows shell or runs from the Linux command prompt to provide a simple, yet powerful, tool for encrypting files using the Advanced Encryption Standard (AES). It is available for Windows, MacOS, and Linux.
+
+[Linux Unified Key Setup (LUKS)](https://www.redhat.com/sysadmin/disk-encryption-luks) is a disk encryption specification created by Clemens Fruhwirth in 2004 and was originally intended for Linux. It uses device mapper crypt ( dm-crypt) as a kernel module to handle encryption on the block device level.
+
+[GNU Privacy Guard (GnuPG)](https://gnupg.org/) is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP ). It allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.
+
+[Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) is an encryption program that provides cryptographic privacy and authentication for data communication. It's used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. 
+
+ **How Encryption Keys work**
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/196625534-1cebcd35-7654-41cc-bbb2-33913a391a53.png">
+  <br />
+</p>
+ 
+  * **Symmetric** is a data encryption method whereby the same private key is used to encode and decode information.
+  
+  * **Asymmetric** is a data encryption method that allows users to encrypt information using shared keys. For example, if you need to send a message across the internet, but you don't want anyone but the intended recipient to see what you've written.
+ 
+ **Types of Encryption**
+ 
+  * **Triple DES (Triple Data Encryption Algorithm)** is a symmetric-key block cipher, which applies the DES cipher algorithm three times to each data block(contains 64 bits of data).
+  
+  * **AES (Advanced Encryption Standard)** is an algorithm that encrypts and decrypts data in blocks of 128 bits. It can do this using 128-bit, 192-bit, or 256-bit keys.
+  
+  * **RSA (Rivest–Shamir–Adleman)** is a type of public-key cryptography used for secure data transmission of e-mail and other digital transactions over the Internet. 
+  
+   * **Twofish**  is a symmetric key block cipher with a block size of 128 bits and key sizes up to 256 bits. It is an advanced version of Blowfish encryption.
+  
+  * **Format Preserving Encryption (FPE)** is a valid encryption algorithm to be used for compliance with NIST standards. It is mostly used in on-premise encryption and tokenization solutions.
+ 
+ **Application Level Encryption**
+ 
+  * **Hashes** is a function that converts an input of letters and numbers into an encrypted output of a fixed length. For example, algorithms such as [MD5 (Message Digest 5)](https://en.wikipedia.org/wiki/MD5) or [SHA (Secure Hash Algorithm)](https://en.wikipedia.org/wiki/Secure_hash_algorithms).
+  
+  * **Digital Certificates** is a file that verifies the identity of a device or user and enables encrypted connections. A digital signature is a hashing approach that uses a numeric string to provide authenticity and validate identity. Digital certificates are typically issued by a **certificate authority (CA)**, which is a trusted third-party entity that issues digital certificates for use by other parties.
 
 ### Backups
 
