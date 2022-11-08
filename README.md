@@ -470,6 +470,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket. 
 
+[Ngxtop](https://github.com/lebinh/ngxtop) is a real-time metrics for nginx server (and others).
+
 [Blocky](https://github.com/0xERR0R/blocky) is a fast and lightweight DNS proxy as ad-blocker for local network with many features 
 
 [Dashy](https://dashy.to/) is a self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more.
