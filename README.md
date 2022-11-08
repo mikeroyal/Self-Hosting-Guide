@@ -578,6 +578,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. 
 
+[Listmonk](https://listmonk.app/) is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. 
 
 ### Encryption
 
