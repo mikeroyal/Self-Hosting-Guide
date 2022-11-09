@@ -470,6 +470,14 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Uptime Kuma](https://uptime.kuma.pet/) is a fancy self-hosted monitoring tool.
 
+[Gatus](https://gatus.io/) is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS queries as well as evaluate the result of said queries by using a list of conditions on values like the status code, the response time, the certificate expiration, the body and many others. 
+
+[Upptime](https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages.
+
+[HertzBeat](https://github.com/dromara/hertzbeat) is an open-source, real-time monitoring system with custom-monitor and agentless. It supports web service, database, os, middleware and more.
+
+[Ciao](https://github.com/brotandgames/ciao) is a tool that checks HTTP(S) URL endpoints for a HTTP status code (or errors on the lower TCP stack) and sends a notification on status change via E-Mail or Webhooks.
+
 [Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket. 
 
 [Ngxtop](https://github.com/lebinh/ngxtop) is a real-time metrics for nginx server (and others).
