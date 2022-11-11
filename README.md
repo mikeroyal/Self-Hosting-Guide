@@ -546,6 +546,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Odoo](https://www.odoo.com/) is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
 
+[Kanboard](https://kanboard.org/) is project management software that focuses on the Kanban methodology.
+
 [Eden Workplace](https://www.edenworkplace.com/products) is a complete workplace management platform that lets you achieve more. Desk Booking Software to make desk reservations easier for your team, including assigning permanent and hybrid desks, providing wayfinding solutions for employees.
 
 [Matomo](https://matomo.org/) is an ethical alternative where you won't make privacy sacrifices or compromise your site. Matomo is the Google Analytics alternative that protects your data and your customer's privacy. 
