@@ -476,6 +476,16 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [HertzBeat](https://github.com/dromara/hertzbeat) is an open-source, real-time monitoring system with custom-monitor and agentless. It supports web service, database, os, middleware and more.
 
+[Tautulli](https://tautulli.com/) is a python based web application for monitoring, analytics and notifications for [Plex Media Server](https://plex.tv/).
+
+[Flower](https://flower.readthedocs.io/) is a web based tool for monitoring and administrating Celery clusters.
+
+[Weave Scope](https://www.weave.works/oss/scope/) is a tool for Troubleshooting & Monitoring for Docker & Kubernetes. It automatically generates a map of your application, enabling you to intuitively understand, monitor, and control your containerized, microservices-based application.
+
+[Statping (Status Page & Monitoring Server)](https://github.com/statping/statping) is an easy to use Status Page for your websites and applications. Statping will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page.
+
+[Vector](https://vector.dev/) is a high-performance, end-to-end (agent & aggregator) observability data pipeline that puts you in control of your observability data. [Collect](https://vector.dev/docs/reference/configuration/sources/), [transform](https://vector.dev/docs/reference/configuration/transforms/), and [route](https://vector.dev/docs/reference/configuration/sinks/) all your logs, metrics, and traces to any vendors you want today and any other vendors you may want tomorrow.
+
 [Ciao](https://github.com/brotandgames/ciao) is a tool that checks HTTP(S) URL endpoints for a HTTP status code (or errors on the lower TCP stack) and sends a notification on status change via E-Mail or Webhooks.
 
 [Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket. 
