@@ -21,6 +21,7 @@
        * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
+       * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
        * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
@@ -255,6 +256,134 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere. 
 
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
+
+### Cloud
+
+[Back to the Top](table-of-contents)
+
+#### Linode
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/131386177-004d86df-a21b-4257-a502-0fe6c1e0ff4c.png">
+  <br />
+
+</p>
+
+[Linode](https://www.linode.com/) is a cloud hosting company that provides virtual private servers and variety of other cloud services.
+
+  * [Linode Documentation](https://www.linode.com/docs)
+
+  * [Linode Guides & Tutorials ](https://www.linode.com/docs/guides/)
+
+  * [Linode API Guides](https://developers.linode.com/guides/)
+  
+  * [Linode Marketplace](https://www.linode.com/marketplace/apps/)
+  
+  * [Self-Hosting the vaultwarden Password Manager](https://www.linode.com/docs/guides/how-to-self-host-the-vaultwarden-password-manager/)
+
+  * [Linode Cloud Community](https://www.linode.com/community/)
+
+  * [Linode Developer Portal](https://www.linode.com/developers/)
+
+  * [Linode Content Resources](https://www.linode.com/content/)
+ 
+**Linode Tools**
+
+[Linode Cloud Manager](https://www.linode.com/products/cloud-manager/) is a user- and mobile-friendly interface to deploy and manage virtual machines, configure networking, and control user accounts.
+
+[Linode API](https://developers.linode.com/api/v4/) is a tool that makes easy to configure, manage, and deploy user management, billing, support tickets, and more with programmatic access to Linode products and services.
+
+[Linode CLI](https://www.linode.com/docs/cli/) is a tool to deploy and manage Linux servers from Linode without leaving the command line.
+
+[Linode Images](https://www.linode.com/products/images/) is a service to capture, store, and deploy your custom images across Linodes or data centers. Easily create your own raw disk image and upload a compressed .gz image file (up to 5 GB) using the Cloud Manager or API to easily deploy to the Linode size and data center you need.
+
+[Linode Integrations](https://www.linode.com/products/integrations/) is a collection of integrations lets you connect infrastructure and dev tools to the Linode platform. That let's you manage your Linode resources using the tools you know and love.
+
+[StackScripts](https://www.linode.com/products/stackscripts/) is a tool to automatically configure new Linode instances using simple scripts. Create [your own StackScript](https://www.linode.com/docs/platform/stackscripts/) or browse the community StackScript library.
+
+[Linode Bare Metal](https://www.linode.com/products/bare-metal/) is the single-tenant solution for applications and organizations with security, compliance, and performance needs. Bare Metal combines direct hardware access and the flexibility of a virtual machine.
+
+#### NextCloud
+
+[Back to the Top](table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701955-f1f514a8-82e6-462f-9fc9-8926b6b7de3e.png">
+  <br />
+</p>
+
+[Nextcloud](https://nextcloud.com) is an industry-leading, on-premises content collaboration platform for file sync & share and communication server. It is fully open source and you can host it yourself or pay a company to do it for you. Also checkout the following links below:
+
+   - [Nextcloud App Store](https://apps.nextcloud.com)
+
+   - [Nextcloud GitHub](https://github.com/nextcloud)
+
+   - [Nextcloud Developer Program](https://nextcloud.com/developer)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701961-ac8be115-34c1-4012-bd69-d1f22a10e48c.png">
+  <br />
+Nexcloud login screen
+</p>
+
+[Nextcloud Hub](https://nextcloud.com/hub/) is a tool that allows you to share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks. As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701964-df1dd8d9-1d3a-4376-81e8-f49439fb4356.png">
+  <br />
+Nexcloud Hub
+</p>
+
+[Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
+
+[Nextcloud Deck](https://apps.nextcloud.com/apps/deck) is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.
+
+[Nextcloud Files](https://nextcloud.com/files/) is a tool tool that allows your employees have easy access to their files, photos and documents to work and can share and collaborate with team members, customers and partners. So IT knows nobody besides those they shared with has access to those files.
+
+[Nextcloud Talk](https://nextcloud.com/talk/) is a tool that protects your communication better than other team collaboration platforms like Microsoft Teams or Slack, making sure your data stays on your servers. It also goes further than other encrypted communication technologies by keeping even metadata from leaking.
+
+[Nextcloud Home](https://nextcloud.com/athome/) is a tool that allows you store your documents, calendar, contacts and photos on your server at home, at one of at one Nextcloud's providers or in a data center you trust.
+
+[Nextcloud Enterprise](https://nextcloud.com/enterprise/) is a service that gives professional organizations software optimized and tested for mission critical environments.
+
+[Nextcloud Outlook Integration](https://nextcloud.com/outlook/ is a tool that automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook.
+
+[Collabora Online in Nextcloud](https://nextcloud.com/collaboraonline/) is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.
+
+[ONLYOFFICE integration in Nextcloud](https://nextcloud.com/onlyoffice/) is a service that empowers your users to collaborate on office documents with team members in real time. It has compatibility with Microsoft Office formats means perfect documents, every time.
+
+[Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
+
+#### DigitalOcean
+
+[Back to the Top](table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/117214946-5bbf9c00-adb2-11eb-96cc-fef7d13d4d06.png">
+  <br />
+</p>
+
+[DigitalOcean](https://www.digitalocean.com/) is a cloud infrastructure provider that provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers with data centers worldwide. 
+
+  * [DigitalOcean Pricing](https://www.digitalocean.com/pricing/)
+
+  * [DigitalOcean GitHub](https://github.com/digitalocean)
+
+  * [DigitalOcean Tutorials](https://www.digitalocean.com/community/tutorials)
+  
+**DigitalOcean Tools**
+
+[DigitalOcean API](https://developers.digitalocean.com/documentation/v2/) is a service that manages your DigitalOcean infrastructure with our RESTful API.
+
+[DigitalOcean Client libraries](https://developers.digitalocean.com/libraries/) is a collection of libraries lets you use the DigitalOcean API in a variety of programming languages.
+
+[DigitalOcean CLI](https://github.com/digitalocean/doctl) is a service that manages your DigitalOcean infrastructure through your terminal with our open source Command Line Interface (CLI).
+
+[Terraform provider](https://www.terraform.io/docs/providers/do/index.html) is a service that allows the user treat their DigitalOcean infrastructure like code with [Terraform](https://www.terraform.io/).
+
+[DigitalOcean Custom images](https://www.digitalocean.com/docs/images/custom-images/) is a service that quickly builds your environment in the cloud by provisioning servers with your own custom image, or choose from various Linux distributions.
+
+[Container Registry](https://www.digitalocean.com/products/container-registry/) is a service that easily stores, manages, and protects private container images.
 
 ### Remote Access
 
