@@ -533,6 +533,10 @@ Nexcloud Hub
 
 [SmokePing](https://oss.oetiker.ch/smokeping/) is a deluxe latency measurement tool. It can measure, store and display latency, latency distribution and packet loss. It uses RRDtool to maintain a longterm data-store and to draw pretty graphs, giving up to the minute information on the state of each network connection.
 
+[Cockpit](https://cockpit-project.org/) is a web-based graphical interface for servers, intended for everyone. It uses [your system’s normal user logins and privileges](https://cockpit-project.org/guide/latest/privileges). Network-wide logins are also supported through [single-sign-on](https://cockpit-project.org/guide/latest/sso) and other [authentication](https://cockpit-project.org/guide/latest/authentication) techniques.
+
+[NetBox](https://docs.netbox.dev/) is a leading solution for modeling and documenting modern networks. It combines the traditional disciplines of IP address management (IPAM) and datacenter infrastructure management (DCIM) with powerful APIs and extensions, NetBox provides the ideal "source of truth" to power network automation.
+
 [Nginx proxy manager (NPM)](https://nginxproxymanager.com/) is a reverse proxy management system running on Docker. It's easy to set up and does not require users to know how to work with Nginx servers or SSL certificates.
 
 [Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
