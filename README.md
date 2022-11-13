@@ -1075,6 +1075,10 @@ Nexcloud Hub
 
 [RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all. [RetroArch Flatpak](https://flathub.org/apps/details/org.libretro.RetroArch)
 
+[Pterodactyl](https://pterodactyl.io/) is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive UI to end users.
+
+[LinuxGSM (Linux Game Server Managers)](https://linuxgsm.com/) is a command-line tool for quick, simple deployment and management of Linux dedicated game servers.
+
 [Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
 
 **Cartridge Features**
