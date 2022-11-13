@@ -946,6 +946,12 @@ Nexcloud Hub
 
 [dir2cast](https://github.com/ben-xo/dir2cast/) is designed to turn a directory of MP3s into a podcast - automatically. Perfect for, say, radio shows - upload the MP3s to a folder, and use dir2cast.php as your PodCast URL.
 
+[Snipd](https://www.snipd.com/) is an AI-powered podcast player. Search for moments in the transcript, get summaries, share clips to social media, and export to your second brain & note taking apps. Discover, save, and share highlights from podcasts. 
+
+[Wave Share](https://ggerganov.github.io/wave-share) is a serverless, peer-to-peer, local file sharing through sound.
+
+[KBD Audio](https://github.com/ggerganov/kbd-audio) is a collection of command-line and GUI tools for capturing and analyzing audio data.
+
 ### AudioBooks
 
 [Back to the Top](#table-of-contents)
