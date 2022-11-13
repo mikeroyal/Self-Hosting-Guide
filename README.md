@@ -1425,6 +1425,45 @@ Red Hat Enterprise Linux Desktop
   NixOS with the Plasma Desktop
 </p>
 
+### BSD
+
+[Back to the Top](#table-of-contents)
+
+[FreeBSD](https://www.freebsd.org/) is an Unix-like operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/125211868-67ba5500-e25e-11eb-86eb-440fbaf28b7d.png">
+<br />
+</p>
+
+**FreeBSD Software ports. Source: [FreeBSD Software](https://www.freebsdsoftware.org)**
+
+[OpenBSD](https://www.openbsd.org/) is a security-focused, free and open-source, Unix-like operating system based on the Berkeley Software Distribution. It comes with a secure minimal firewall, webserver, mailserver, and an optional graphical desktop.
+
+[NetBSD](https://netbsd.org/)  is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
+
+ * [NetBSD Documentation](http://netbsd.org/docs/)
+
+[DragonFly BSD](https://www.dragonflybsd.org/) is a free and open-source Unix-like operating system forked from FreeBSD 4.8.
+
+ * [DragonFly Documentation](https://www.dragonflybsd.org/docs/)
+
+### The BSD Desktop for the average user
+
+[GhostBSD](https://www.ghostbsd.org/) is a simple desktop-oriented operating system based on FreeBSD with MATE, OpenRC and OS packages for simplicity. GhostBSD has a selection of commonly used software preinstalled and required to start using it to its full potential.
+
+ * [GhostBSD Wiki](https://wiki.ghostbsd.org/index.php/Main_Page)
+
+ * [GhostBSD Community](https://forums.ghostbsd.org/index.php)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/125211866-66892800-e25e-11eb-985b-26588de87615.png">
+  <br />
+</p>
+
+**GhostBSD Desktop. Source:[GhostBSD](https://www.ghostbsd.org/)**
+
+
 ### Storage
 
  [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
