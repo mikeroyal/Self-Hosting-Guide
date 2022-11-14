@@ -1035,6 +1035,8 @@ Nexcloud Hub
 
 [Laverna](https://laverna.cc/) is a note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. 
 
+[Notesnook](https://notesnook.com/) is a fully open source & end-to-end encrypted note taking alternative to Evernote. 
+
 [Zettlr](https://www.zettlr.com/) is an open-source Markdown editor for the 21st century.
 
 [Carnet](https://www.getcarnet.app/) is a complete open source note taking app. It has extensions for all the major browsers.
