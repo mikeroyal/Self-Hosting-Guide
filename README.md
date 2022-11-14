@@ -2131,6 +2131,19 @@ Nexcloud login screen
 Nexcloud Hub
 </p>
 
+[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance. 
+
+**Features it includes:**
+
+   * Nextcloud
+   * Nextcloud Office
+   * High performance backend for Nextcloud Files
+   * High performance backend for Nextcloud Talk
+   * Backup solution (based on BorgBackup)
+   * Imaginary
+   * ClamAV
+   * Fulltextsearch
+
 [Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
 
 [Nextcloud Deck](https://apps.nextcloud.com/apps/deck) is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.
