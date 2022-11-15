@@ -34,6 +34,7 @@
        * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
+       * [Smart Home Automation](#Smart-Home-Automation)
        * [Video and Audio Processing](#Video-and-Audio-Processing)
        * [Podcasting](#Podcasting)
        * [Audiobooks](#Audiobooks)
@@ -891,6 +892,81 @@ Nexcloud Hub
 [Snapcast](https://github.com/badaix/snapcast) is a multiroom client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multiroom solution.
 
 [SonoBus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
+
+### Smart Home Automation
+
+[Back to the Top](#table-of-contents)
+
+**Smart home** is a process that allows homeowners to control appliances, thermostats, lights, and other smart devices remotely using a smartphone or tablet through an internet connection.
+
+Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https://en.wikipedia.org/wiki/VLAN) with little to no internet access with broadcasts forwarding to LAN [Subnet aka Subnetwork](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/) for discovery. Using software such as **Home Assistant, HomeKit, ESPHome, etc.** help simplify the process of controlling and automating all your smart devices.
+
+**Proprietary Smart Devices**
+
+ * [Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
+
+ * [Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
+
+ * [Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
+
+ * [Samsung SmartThings](https://www.smartthings.com/) is a sofwtare framework that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
+
+ * [Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
+
+ * [Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
+**----------------------------------------------------------**
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/177719765-602b4658-c8bf-4952-a238-4b986efbb7cb.png">
+  <br />
+</p>
+
+Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant.io/integrations/)
+
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+
+[Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
+
+[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
+
+   - Install and configure Homebridge plugins.
+   - Monitor your Homebridge server via a fully customisable widget-based dashboard.
+   - View and control Homebridge accessories.
+   - Backup and Restore your Homebridge instance.
+
+[ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS.
+
+[Homey](https://homey.app/) is an applciation to control, automate and monitor your entire smart home from your phone, tablet or desktop. 
+
+[Ecobee](https://www.ecobee.com) is a home automation company in Canada that makes thermostats for residential and commercial use.
+
+[Lutron Caséta](https://www.lutron.com/en-US/Products/Pages/SingleRoomControls/CasetaWireless/Overview.aspx) is a smart lighting control system that is a great solution for giving any client smart lighting control. It was purposely built to work in homes of all ages and it works with older wiring as well as new.
+
+[Insteon switches](https://www.insteon.com/) is a Hub for controlling and configuring your home's devices is quick, easy and fun. The setup takes a couple of minutes and a few moments per light switch, sensor, etc. It bridges your devices to 3rd party services like Amazon Alexa and Google Assistant, while being controlled from any smartphone or tablet.
+
+[Jeedom](https://www.jeedom.com/) is an open source software; taht gives you complete access to the software that manages your home automation. It's compatible with various protocols such as, ZigBee, Z-Wave, EnOcean, KNX, LoRaWAN, BACnet, Modbus, etc..
+
+[MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
+
+[Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
+
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+
+[Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
+
+[pfSense](https://www.pfsense.org/) is a firewall/router computer software distribution based on FreeBSD.
+
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+
+[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
+
+[OpenWRT](https://openwrt.org/) is an open-source project for embedded operating systems based on Linux, primarily used on embedded devices to route network traffic.
+
+[ZoneMinder](https://zoneminder.com/) is a full-featured, open source, state-of-the-art video surveillance software system. Monitor your home, office, or wherever you want.
+
+[Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
 
 ### Video and Audio Processing
 
