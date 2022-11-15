@@ -901,6 +901,8 @@ Nexcloud Hub
 
 Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https://en.wikipedia.org/wiki/VLAN) with little to no internet access with broadcasts forwarding to LAN [Subnet aka Subnetwork](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/) for discovery. Using software such as **Home Assistant, HomeKit, ESPHome, etc.** help simplify the process of controlling and automating all your smart devices.
 
+[Matter](https://buildwithmatter.com/) is an open standard for smart home technology that lets your device work with any Matter-certified ecosystem using a single protocol. Matter comes from the [Connectivity Standards Alliance](https://csa-iot.org/), an organization of hundreds of companies(Amazon, Apple, Google, Comcast, Zigbee Alliance, and Connectivity Standards Alliance (CSA) creating products for the smart home.
+
 **Proprietary Smart Devices**
 
  * [Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
