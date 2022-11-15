@@ -2256,6 +2256,8 @@ Nexcloud Hub
 
 [Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.
 
+[Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+
 [Getting Started with Raspberry Pi Projects](https://projects.raspberrypi.org/)
 
 [Online learning for the Raspberry Pi](https://www.raspberrypi.org/training/online/)
