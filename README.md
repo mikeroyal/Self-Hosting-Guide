@@ -914,7 +914,10 @@ Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https:
  * [Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
 
  * [Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
+ 
 **----------------------------------------------------------**
+
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/177719765-602b4658-c8bf-4952-a238-4b986efbb7cb.png">
@@ -922,8 +925,6 @@ Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https:
 </p>
 
 Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant.io/integrations/)
-
-[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
 
 [Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
 
