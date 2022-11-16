@@ -795,6 +795,8 @@ Nexcloud Hub
 
 [Kopia](https://kopia.io/) is a user-friendly desktop app for Windows, macOS, and Linux which allows you to create snapshots, define policies, and restore files quickly with Fast and Encrypted Backups. 
 
+[rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
+
 ### Home Server
 
 [Back to the Top](#table-of-contents)
