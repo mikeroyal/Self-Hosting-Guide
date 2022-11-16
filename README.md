@@ -903,7 +903,7 @@ Nexcloud Hub
 
 **Smart home** is a process that allows homeowners to control appliances, thermostats, lights, and other smart devices remotely using a smartphone or tablet through an internet connection.
 
-Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https://en.wikipedia.org/wiki/VLAN) with little to no internet access with broadcasts forwarding to LAN [Subnet aka Subnetwork](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/) for discovery. Using software such as **Home Assistant, HomeKit, ESPHome, etc.** help simplify the process of controlling and automating all your smart devices.
+Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https://en.wikipedia.org/wiki/VLAN) with little to no internet access with broadcasts forwarding to LAN [Subnet aka Subnetwork](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/) for discovery. Using software such as **Home Assistant, Homebridge, ESPHome, etc.** help simplify the process of controlling and automating all your smart devices.
 
 [Matter](https://buildwithmatter.com/) is an open standard for smart home technology that lets your device work with any Matter-certified ecosystem using a single protocol. Matter comes from the [Connectivity Standards Alliance](https://csa-iot.org/), an organization of hundreds of companies(Amazon, Apple, Google, Comcast, Zigbee Alliance, and Connectivity Standards Alliance (CSA) creating products for the smart home.
 
@@ -921,7 +921,7 @@ Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https:
 
  * [Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
  
-**----------------------------------------------------------**
+**------------------------------------------------------------------**
 
 [Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
 
