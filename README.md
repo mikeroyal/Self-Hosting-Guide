@@ -1318,6 +1318,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
  * [Intel® NUC Mini PCs](https://www.intel.com/content/www/us/en/products/details/nuc.html)
  * [Beelink mini PC](https://www.bee-link.com/)
  * [M1 Mac Mini](https://www.apple.com/mac-mini/) 
+ * [Nexcom Industrial Computers](https://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance)
  
 ### Operating Systems
 
