@@ -1702,6 +1702,10 @@ Red Hat Enterprise Linux Desktop
   - [How I fell into the self-hosting rabbit hole in 2021](https://www.windowscentral.com/self-hosting-2021)
   
   - [The (hardware) key to making phishing defense seamless with Cloudflare Zero Trust and Yubico](https://blog.cloudflare.com/making-phishing-defense-seamless-cloudflare-yubico/)
+  
+  - [Shelly 2.5: Flash ESPHome Over The Air](https://savjee.be/blog/shelly-2.5-flash-esphome-over-the-air/)
+  
+  - [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
 
   - [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
   
