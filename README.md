@@ -35,6 +35,8 @@
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
        * [Smart Home Automation](#Smart-Home-Automation)
+       * [Video Surveillance](#Video-Surveillance)
+       * [Text-To-Speech Synthesis (TTS)](#Text-To-Speech-Synthesis-TTS)
        * [Video and Audio Processing](#Video-and-Audio-Processing)
        * [Podcasting](#Podcasting)
        * [Audiobooks](#Audiobooks)
@@ -1083,6 +1085,33 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [ZoneMinder](https://zoneminder.com/) is a full-featured, open source, state-of-the-art video surveillance software system. Monitor your home, office, or wherever you want.
 
 [Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
+
+### Video Surveillance
+
+[Back to the Top](#table-of-contents)
+
+[Frigate](https://frigate.video/) is an open source NVR built around real-time AI object detection. All processing is performed locally on your own hardware, and your camera feeds never leave your home.
+
+[Viseron](https://github.com/roflcoopter/viseron) is a Self-hosted, local only NVR and AI Computer Vision software. 
+
+[zmninja](http://zmninja.zoneminder.com/) is a high performance, cross platform ionic app for Home/Commerical Security Surveillance using ZoneMinder.
+
+[Moonfire NVR](https://github.com/scottlamb/moonfire-nvr) is a security camera network video recorder.
+
+[Shinobi Pro](https://gitlab.com/Shinobi-Systems/Shinobi) is a Next Generation in Open-Source Video Management Software with support for over 6000 IP and USB Cameras.
+
+
+### Text-To-Speech Synthesis (TTS)
+
+[Back to the Top](#table-of-contents)
+
+[Coqui TTS](http://coqui.ai/) is a deep learning toolkit for Text-to-Speech, battle-tested in research and production.
+
+[Mozilla TTS](https://github.com/mozilla/TTS) is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
+
+[NVIDIA NeMo](https://github.com/NVIDIA/NeMo) is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP). 
+
+[whisper.cpp](https://github.com/ggerganov/whisper.cpp) is a high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
 
 ### Video and Audio Processing
 
