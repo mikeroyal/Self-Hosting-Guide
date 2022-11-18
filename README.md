@@ -1051,6 +1051,27 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
    - Monitor your Homebridge server via a fully customisable widget-based dashboard.
    - View and control Homebridge accessories.
    - Backup and Restore your Homebridge instance.
+   
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/202679713-5cc8dede-7e61-42e1-ab71-def824bc70de.png">
+  <br />
+</p>
+   
+[Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image) is a free Raspbian based Raspberry Pi image with Homebridge and Homebridge Config UI X pre-installed.
+
+[Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x) is a web based management tool for [Homebridge](https://github.com/homebridge/homebridge) that allows you to manage all aspects of your Homebridge setup.
+
+[Homebridge webOS TV](https://github.com/merdok/homebridge-webos-tv) is a plugin for homebridge which allows you to control your LG webOS TV from your Home app! It should work with all TVs that support webOS2 and newer.
+
+[Homebridge Unifi Protect](https://github.com/hjdhjd/homebridge-unifi-protect) is a Homebridge plugin that provides HomeKit support to the [UniFi Protect](https://ui.com/camera-security) device ecosystem. UniFi Protect is [Ubiquiti's](https://www.ui.com/) next-generation video security platform, with rich camera, doorbell, and NVR controller hardware options for you to choose from, as well as an app which you can use to view, configure and manage your video camera and doorbells.
+
+[Homebridge Camera FFmpeg](https://github.com/Sunoo/homebridge-camera-ffmpeg) is a Homebridge Plugin Providing [FFmpeg](https://www.ffmpeg.org/)-based Camera Support.
+
+[Homebridge Mi Aqara](https://github.com/YinHangCode/homebridge-mi-aqara) is a homebridge plugin for XiaoMi Aqara plugin.
+
+[Homebridge Camera UI](https://github.com/seydx/homebridge-camera-ui) is a tool that allows you to expose cameras from camera.ui to HomeKit via Homebridge. 
+
+[HOOBS](https://hoobs.org/) is a tool that makes smart accessories(over 2000 options) compatible with your favorite ecosystem. Whether you prefer Apple Homekit, Google Home, or Amazon Alexa, you’re unlikely to find compatible accessories and services that all work together nicely under one roof.
 
 [ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
 
