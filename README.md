@@ -1804,10 +1804,13 @@ Red Hat Enterprise Linux Desktop
   
 ### Podcasts
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+
   
   - [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones. 
   
   - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
+  
+  -  [Home Assistant Podcast](https://hasspodcast.io) is a biweekly podcast with the latest news and interesting guests.
 
 ### YouTube Channels
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
