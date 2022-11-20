@@ -666,7 +666,17 @@ Nexcloud Hub
 
 [Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
 
+[Mastadon](https://joinmastodon.org/) is a a decentralized social media platform that supports audio, video and picture posts, accessibility descriptions, polls, content warnings, animated avatars, custom emojis, thumbnail crop control, and more, to help you express yourself online.
+
 [Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
+
+[Berty](https://github.com/berty/berty) is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
+
+[Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others. 
+
+[Diaspora](https://diasporafoundation.org/) is a privacy-aware, distributed, open source social network.
+
+[Hubzilla](https://framagit.org/hubzilla/core) is a general purpose communication server integrated with a web publishing system and a decentralised permission system.
 
 [Expanse](https://github.com/jc9108/expanse) is a fully selfhosted multi-user web app for externally storing Reddit items (saved, created, upvoted, downvoted, hidden) to bypass Reddit's 1000-item listing limits.
 
