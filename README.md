@@ -1259,6 +1259,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [PyiCloud](https://github.com/picklepete/pyicloud) is a module which allows pythonistas to interact with iCloud webservices. It's powered by the fantastic [requests](https://github.com/kennethreitz/requests) HTTP library.
 
+[Pixelfed](https://pixelfed.org/) is a fresh take on photo sharing. It decentralized ActivityPub protocol so you can comment, follow, and interact with remote Pixelfed, Mastodon and Pleroma posts and profiles from your Pixelfed account as if you were both on the same website.
+
 [Chevereto](https://hub.docker.com/r/linuxserver/chevereto) is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server.
 
 [Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS. 
