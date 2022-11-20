@@ -889,6 +889,10 @@ Nexcloud Hub
 
 [TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
 
+[PeerTube](https://joinpeertube.org/) is an ActivityPub-federated video streaming platform using P2P directly in your web browser.
+
+[Ant Media Server](https://github.com/ant-media/Ant-Media-Server) is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. 
+
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
 
 [RuneAudio](https://www.runeaudio.com/) is a free and open source software that turns embedded hardware into Hi-Fi music players.
