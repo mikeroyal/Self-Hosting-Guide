@@ -1087,6 +1087,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Jeedom](https://www.jeedom.com/) is an open source software; taht gives you complete access to the software that manages your home automation. It's compatible with various protocols such as, ZigBee, Z-Wave, EnOcean, KNX, LoRaWAN, BACnet, Modbus, etc..
 
+[Beestat](https://github.com/beestat/app) is a tool that connects with your thermostat and provides you with useful charts and analytics so that you can make informed decisions and see how the changes you make lower your energy footprint.
+
 [MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
