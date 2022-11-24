@@ -1496,6 +1496,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
  * [Beelink mini PC](https://www.bee-link.com/)
  * [M1 Mac Mini](https://www.apple.com/mac-mini/) 
  * [Nexcom Industrial Computers](https://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance)
+ * [Aeotec MultiSensor 7, 6-in-1 Zwave Sensors](https://www.amazon.com/dp/B08XHZP7NV)
  
 ### Operating Systems
 
