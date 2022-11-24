@@ -1767,6 +1767,8 @@ Red Hat Enterprise Linux Desktop
 
 [ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
 
+  * [ZFSBootMenu](https://zfsbootmenu.org/) is a Linux bootloader that attempts to provide an experience similar to the FreeBSD bootloader. It takes advantage of ZFS features, it allows a user to have multiple “boot environments” (with different distros, for example), manipulate snapshots before booting, and even bootstrap a system installation via ```zfs recv```.
+
 [OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
 
   - Protection against data corruption.
