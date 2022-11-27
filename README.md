@@ -1265,6 +1265,16 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Piwigo](https://piwigo.org/) is a full featured, self-hosted, and open source photo gallery application for the web. It comes with more than 200 templates, plugins, and configurations that let you personalize how your photos are presented. It allows users to upload photos from digiKam, Shotwell, Lightroom or mobile applications. Lastly, users can create galleries and give viewing permissions to their clients. They can download individual photos or whole albums, post comments, give ratings, mark photos as favorites, and perform searches.
 
+[Czkawka](https://github.com/qarmin/czkawka) is a Multi-functional app to find duplicates, empty folders, similar images, etc.
+
+[Phockup](https://github.com/ivandokov/phockup) is a Media sorting tool to organize photos and videos from your camera in folders by year, month and day. 
+
+[PiGallery 2](https://github.com/bpatrik/pigallery2) is a  fast directory-first photo gallery website, with rich UI, optimized for running on low resource servers (especially on Raspberry Pi).
+
+[Photoview](https://photoview.github.io/) is a simple self-hosted and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
+
+[digiKam](https://www.digikam.org/) is a free and open-source Professional Photo Management tool.
+
 [PhotoSync](https://www.photosync-app.com/home.html) is a service to wirelessly transfer, backup & share photos/videos to your computer, NAS, other phones and popular cloud/photo services. It's available for Windows, MacOS, Linux, Android, and iOS.
 
 [Lychee](https://lycheeorg.github.io/) is a great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. 
