@@ -1275,6 +1275,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [digiKam](https://www.digikam.org/) is a free and open-source Professional Photo Management tool.
 
+[ShareX](https://getsharex.com/) is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
+
 [PhotoSync](https://www.photosync-app.com/home.html) is a service to wirelessly transfer, backup & share photos/videos to your computer, NAS, other phones and popular cloud/photo services. It's available for Windows, MacOS, Linux, Android, and iOS.
 
 [Lychee](https://lycheeorg.github.io/) is a great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. 
