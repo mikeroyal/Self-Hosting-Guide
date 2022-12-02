@@ -1647,6 +1647,31 @@ Red Hat Enterprise Linux Desktop
 </h3>
 
 
+[AlmaLinux](https://almalinux.org/) is an open source enterprise-ready Linux distribution forked from Red Hat Enterprise Linux(RHEL). It's a very stable/solid operating system especially for production envrionments such as servers, though, you can also install a GUI on AlmaLinux and use it as a desktop OS. It was founded by the team behind the [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos).
+
+ * [AlmaLinux Wiki](https://wiki.almalinux.org/)
+
+ * [Migrate from CentOS 8](https://github.com/AlmaLinux/almalinux-deploy)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124993377-24ab7800-dff9-11eb-90b4-4a121eff6de3.png">
+ <br />	
+ AlmaLinux Desktop Setup and Install
+ </p>
+
+
+[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible and forked from Red Hat Enterprise Linux(RHEL) now that its [downstream partner(Red Hat) has shifted direction](https://blog.centos.org/2020/12/future-is-centos-stream/). 
+
+ * [Rocky Linux Wiki](https://wiki.rockylinux.org/)
+
+ * [Rocky Linux Documentation](https://docs.rockylinux.org/)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/124993391-2b39ef80-dff9-11eb-9197-40c84c7f385f.png">
+  <br />
+  Rocky Linux Desktop
+</p>
+
 [SUSE](https://www.suse.com/) is a leading Linux OS most adaptable Linux operating system and the only open Kubernetes management platform thanks to their acquistion of [Rancher](https://rancher.com/). They also developer of [SUSE Linux Enterprise](https://www.suse.com/download/) and the primary sponsor of the community-supported [openSUSE Project](https://software.opensuse.org/), which develops the openSUSE Linux distribution.
 
 * [openSUSE Leap](https://en.opensuse.org/Portal:Leap) is a brand new way of building openSUSE and is new type of a hybrid Linux distribution. Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available. 
