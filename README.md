@@ -1820,6 +1820,8 @@ Red Hat Enterprise Linux Desktop
   - RAID - support for software-based RAID 0, RAID 1, RAID 10
   - Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
   
+[Composefs](https://github.com/containers/composefs) is a native Linux file system designed to help sharing filesystem contents, as well as ensuring said content is not modified. The initial target usecase are container images and ostree commits.
+  
 [MergerFS](https://github.com/trapexit/mergerfs) is a union filesystem geared towards simplifying storage and management of files across numerous commodity storage devices. It is similar to mhddfs, unionfs, and aufs.
 
 **MergerFS Features**
