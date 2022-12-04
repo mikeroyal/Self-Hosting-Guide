@@ -1792,6 +1792,8 @@ Red Hat Enterprise Linux Desktop
 
 [Dutree](https://github.com/nachoparker/dutree) is a tool to analyze file system usage written in Rust.
 
+[Shufflecake](https://shufflecake.net/) is a tool for Linux that allows to create multiple hidden volumes on a storage device in such a way that it is very difficult, even under forensic inspection, to prove the existence of such volumes.
+
 ### File systems
 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
