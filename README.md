@@ -1315,6 +1315,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Carnet](https://www.getcarnet.app/) is a complete open source note taking app. It has extensions for all the major browsers.
 
+[Frog](https://tenderowl.com/work/Frog) is a tool that quickly extract text from almost any source: youtube, screencasts, PDFs, webpages, photos, etc. Grab the image and get the text.
+
 ### Gaming
 
 [Back to the Top](#table-of-contents)
