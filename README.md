@@ -860,6 +860,12 @@ Nexcloud Hub
 
 [Tdarr](https://tdarr.io/) is a distributed transcode automation application using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker). A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
 
+[AppFlowy](https://www.appflowy.io/) is an open-source alternative to Notion where you're in charge of your data and customizations. 
+
+[deemix](https://deemix.app/) is a barebone [deezer](https://www.deezer.com/) downloader library built from the ashes of Deezloader Remix.
+
+[Neko](https://github.com/m1k1o/neko/) is a self hosted virtual browser that runs in docker and uses WebRTC.
+
 [QNAP Switch System (QSS)](https://www.qnap.com/) is a configuration interface for QNAP's managed switch series. Enable management functions such as link aggregation, VLAN, and RSTP, to take care of your network topology with ease.
 
 [ASUSTOR](https://www.asustor.com/) is a subsidiary of ASUS and a leading provider of network attached storage (NAS). It specializes in the development and integration of storage, backup, multimedia, video surveillance and mobile applications for home and enterprise users.
