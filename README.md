@@ -27,6 +27,7 @@
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+       * [Social](#Social)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
        * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
@@ -655,6 +656,38 @@ Nexcloud Hub
 [IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. 
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
+
+### Social
+
+[Back to the Top](#table-of-contents)
+
+[Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
+
+[Mastadon](https://joinmastodon.org/) is a a decentralized social media platform that supports audio, video and picture posts, accessibility descriptions, polls, content warnings, animated avatars, custom emojis, thumbnail crop control, and more, to help you express yourself online.
+
+[Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
+
+[Berty](https://github.com/berty/berty) is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
+
+[Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others. 
+
+[Matrix](https://matrix.org/) is a tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history, formatted messages, read receipts and more.
+
+[Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk).
+
+[Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) is a truly censorship-resistant alternative to Twitter that has a chance of working.
+
+[Diaspora](https://diasporafoundation.org/) is a privacy-aware, distributed, open source social network.
+
+[Hubzilla](https://framagit.org/hubzilla/core) is a general purpose communication server integrated with a web publishing system and a decentralised permission system.
+
+[Expanse](https://github.com/jc9108/expanse) is a fully selfhosted multi-user web app for externally storing Reddit items (saved, created, upvoted, downvoted, hidden) to bypass Reddit's 1000-item listing limits.
+
+[Apollo](https://apolloapp.io/) is a beautiful Reddit app built for fast navigation with an incredibly powerful set of features.  
+
+[Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) is a Reddit client on Android written in Java. It does not have any ads and it features a clean UI and smooth browsing experience.
+
+[RedReader](https://github.com/QuantumBadger/RedReader) is an unofficial open source Reddit client for Android. 
 
 ### Communications
 
