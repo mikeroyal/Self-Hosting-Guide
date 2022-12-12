@@ -783,6 +783,8 @@ Nexcloud Hub
 
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. 
 
+[TagSpaces](https://www.tagspaces.org/) is a free, no vendor lock-in, open source application for organizing, annotating and managing local files with the help of tags. It features advanced note taking functionalities and some capabilities of to-do apps. It's available for Windows, Linux, Mac OS and Android. 
+
 [Listmonk](https://listmonk.app/) is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. 
 
 ### Encryption
