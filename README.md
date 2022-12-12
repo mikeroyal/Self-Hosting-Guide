@@ -257,6 +257,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Soft Serve](https://github.com/charmbracelet/soft-serve) is a tasty, self-hostable Git server for the command line.
 
+[Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative. 
+
 [Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere. 
 
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
