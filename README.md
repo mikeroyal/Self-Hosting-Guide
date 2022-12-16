@@ -651,6 +651,8 @@ Nexcloud Hub
 
 [Googerteller](https://github.com/berthubert/googerteller) is a tool that makes an audible sound any time your computer sends a packet to a Google tracker or a Google service, which excludes Google Cloud users.
 
+[TeslaMate](https://docs.teslamate.org/) is a powerful, self-hosted data logger for your Tesla.
+
 [DeviceHive](https://www.devicehive.com) is a free, highly scalable open-source IoT platform for data collection, processing and analysis, visualization, and device management with the broad range of integration options.
 
 [Distributed Services Architecture (DSA)](https://github.com/IOT-DSA) is an open source IoT platform that facilitates device inter-communication, logic and applications at every layer of the Internet of Things infrastructure. The objective is to unify the disparate devices, services and applications into a structured and adaptable real-time data model.
