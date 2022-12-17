@@ -22,6 +22,9 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
+          - [Linode](#Linode)
+	  - [Nextcloud](#Nextcloud)
+	  - [DigitalOcean](#DigitalOcean)
        * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
@@ -309,7 +312,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Linode Bare Metal](https://www.linode.com/products/bare-metal/) is the single-tenant solution for applications and organizations with security, compliance, and performance needs. Bare Metal combines direct hardware access and the flexibility of a virtual machine.
 
-#### NextCloud
+#### Nextcloud
 
 [Back to the Top](table-of-contents)
 
