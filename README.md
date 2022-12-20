@@ -27,6 +27,7 @@
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+       * [Notifications](#Notifications)
        * [Social](#Social)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
@@ -660,6 +661,22 @@ Nexcloud Hub
 [IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. 
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
+
+### Notifications
+
+[Back to the Top](#table-of-contents)
+
+[Apprise](https://github.com/caronc/apprise) is a tool that allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
+
+[ntfy](https://github.com/dschep/ntfy) is a utility for sending notifications, on demand and when commands finish. 
+
+[Countly](https://github.com/Countly/countly-server) is a product analytics solution and innovation enabler that helps teams track product performance and customer journey and behavior across mobile, web, and desktop applications. [Ensuring privacy by design](https://count.ly/your-data-your-rules), Countly allows you to innovate and enhance your products to provide personalized and customized customer experiences, and meet key business and revenue goals.
+
+[notifiers](https://github.com/liiight/notifiers) is a general wrapper for a variety of 3rd party providers and built in ones (like SMTP) aimed solely at sending notifications.
+
+[Pushover](https://pushover.net/) is a tool that makes it easy to get real-time notifications on your Android, Android Wear, iPhone, iPad, Apple Watch and Desktop.
+
+[Simplepush](https://simplepush.io/) is a tool to send end-to-end encrypted push notifications to your Android and iPhone.
 
 ### Social
 
