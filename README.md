@@ -736,6 +736,8 @@ Nexcloud Hub
 
 [Expanse](https://github.com/jc9108/expanse) is a fully selfhosted multi-user web app for externally storing Reddit items (saved, created, upvoted, downvoted, hidden) to bypass Reddit's 1000-item listing limits.
 
+[giscus](https://giscus.app/) is a comments system powered by GitHub Discussions. Let visitors leave comments and reactions on your website via GitHub.
+
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
 [Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database. 
