@@ -971,6 +971,8 @@ Nexcloud Hub
 
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
 
+[HD HomeRun Scribe 4K](https://www.silicondust.com/product/hdhomerun-scribe-4k/) is a free local live TV with DVR with 4 tuners and 150 hours of recording storage all-in-one amazing box for watching and recording free TV all around your home.
+
 [RuneAudio](https://www.runeaudio.com/) is a free and open source software that turns embedded hardware into Hi-Fi music players.
 
 [Volumio (The Audiophile Music Player)](https://volumio.com/) is a very powerful and convenient music aggregator, now Volumio can also be used with great results in all sorts of different situations.
