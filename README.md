@@ -1270,6 +1270,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Alby wallet API](https://blog.getalby.com/introducing-the-alby-wallet-api/) is an implemented OAuth an open standard that apps use to provide client applications with secure delegated access. Thus Podverse users create an Alby wallet account or use their existing Alby account to grant specific access rights to their Alby wallet. 
 
+[SATurn](https://saturn.fly.dev/) is a tool that lets you connect your getalby.com Account and see which content resonates most with your audience and recognize your top contributors. 
+
 [AntennaPod](https://antennapod.org/) is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial interest, so it respects your privacy while giving you full control.
 
 [Podgrab](https://github.com/akhilrex/podgrab) is a self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player.
