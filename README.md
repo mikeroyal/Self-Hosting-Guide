@@ -2003,6 +2003,8 @@ Red Hat Enterprise Linux Desktop
   
   - [Shelly 2.5: Flash ESPHome Over The Air](https://savjee.be/blog/shelly-2.5-flash-esphome-over-the-air/)
   
+  - [HDMI Distribution over your Home Network? Low-Cost HDMI Matrix using IP-Based Hardware](https://www.apalrd.net/posts/2022/hdmi_ip/)
+  
   - [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
 
   - [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
