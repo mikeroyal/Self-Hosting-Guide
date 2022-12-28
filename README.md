@@ -37,6 +37,7 @@
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
        * [Smart Home Automation](#Smart-Home-Automation)
+       * [Voice Assistants](#Voice-Assistants)
        * [Video Surveillance](#Video-Surveillance)
        * [Text-To-Speech Synthesis (TTS)](#Text-To-Speech-Synthesis-TTS)
        * [Video and Audio Processing](#Video-and-Audio-Processing)
@@ -1190,6 +1191,22 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [ZoneMinder](https://zoneminder.com/) is a full-featured, open source, state-of-the-art video surveillance software system. Monitor your home, office, or wherever you want.
 
 [Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
+
+### Voice Assistants
+
+[Back to the Top](#table-of-contents)
+
+[Conversation](https://www.home-assistant.io/integrations/conversation) is an integration allows you to converse with **Home Assistant.** You can either converse by pressing the microphone in the frontend (supported browsers only (no iOS)) or by calling the ```conversation/process``` service with the transcribed text.
+
+[Mycroft](https://mycroft.ai/) is an open source voice assistant that is private by default and completely customizable.
+
+[DeepSpeech](https://github.com/mozilla/DeepSpeech) is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers.
+
+[Leon](https://github.com/leon-ai/leon) is your open-source personal assistant. 
+
+[Olivia](https://olivia-ai.org/) is an open-source chatbot built in Golang using Machine Learning technologies. Its goal is to provide a free and open-source alternative to big services like DialogFlow.
+
+[Alan SDK](https://github.com/alan-ai/alan-sdk-web) is an voice assistant SDK to build a voice interface for websites and web apps (JavaScript, React, Angular, Vue, Ember, Electron).
 
 ### Video Surveillance
 
