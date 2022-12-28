@@ -728,6 +728,8 @@ Nexcloud Hub
 
 [Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others. 
 
+[ffsend](https://gitlab.com/timvisee/ffsend) is a easily and securely share files from the command line. A fully featured Firefox Send client. 
+
 [Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) is a truly censorship-resistant alternative to Twitter that has a chance of working.
 
 [Diaspora](https://diasporafoundation.org/) is a privacy-aware, distributed, open source social network.
