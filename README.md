@@ -1301,6 +1301,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
+[Magic Earth](https://www.magicearth.com/) is aTurn-by-turn navigation, OpenStreetMap, Crowd-Sourced Traffic, 3D maps, Satellite maps, Offline maps and Transit.
+
 [MapTiler Server](https://www.maptiler.com/server/self-host-satellite-maps/) is a self-hosted Aerial and satellite imagery maps of the entire world from your own server or laptop.
 
 [KelperJs](http://keplerjs.io/) is a open source full-stack geosocial network platform.
