@@ -254,6 +254,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Gitea](https://gittea.dev/) is a community managed painless self-hosted Git service.
 
+[Act](https://github.com/nektos/act) is a a tool to run your GitHub Actions locally.
+
+[Act runner](https://gitea.com/gitea/act_runner) is a runner for Gitea based on [act](https://gitea.com/gitea/act).
+
 [GitLab](https://about.gitlab.com/) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider. 
 
 [Soft Serve](https://github.com/charmbracelet/soft-serve) is a tasty, self-hostable Git server for the command line.
