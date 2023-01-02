@@ -27,6 +27,7 @@
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+       * [Search](#Search)
        * [Notifications](#Notifications)
        * [Social](#Social)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
@@ -666,6 +667,34 @@ Nexcloud Hub
 [IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. 
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
+
+### Search
+
+[Back to the Top](#table-of-contents)
+
+[Meilisearch](https://github.com/meilisearch/meilisearch) is a lightning-fast search engine that fits effortlessly into your apps, websites, and workflow. 
+
+[Shodan](https://www.shodan.io/) is the world's first search engine for Internet-connected (IoT) devices.
+
+[Whoogle Search](https://github.com/benbusby/whoogle-search) is a self-hosted, ad-free, privacy-respecting metasearch engine.
+
+[SearX](https://github.com/searx/searx) is a Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine).
+
+[SearXNG](https://github.com/searxng/searxng) is a free internet metasearch engine which aggregates results from various search services and databases. 
+
+[Sonic](https://github.com/valeriansaliou/sonic) is a fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM. 
+
+[Zinc](https://github.com/zinclabs/zinc) is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. 
+
+[Typesense](https://github.com/typesense/typesense) is a fast, typo-tolerant search engine for building delightful search experiences. 
+
+[Tantivy](https://github.com/quickwit-oss/tantivy) is a full-text search engine library inspired by Apache Lucene and written in Rust.
+
+[Toshi](https://github.com/toshi-search/Toshi) is meant to be a full-text search engine similar to Elasticsearch. Toshi strives to be to Elasticsearch what [Tantivy](https://github.com/tantivy-search/tantivy) is to Lucene.
+
+[FlexSearch](https://github.com/nextapps-de/flexsearch) is a Next-Generation full text search library for Browser and Node.js.
+
+[fd](https://github.com/sharkdp/fd) is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. 
 
 ### Notifications
 
