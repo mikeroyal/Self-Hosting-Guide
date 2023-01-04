@@ -29,6 +29,7 @@
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
        * [Search](#Search)
        * [Notifications](#Notifications)
+       * [RSS](#RSS)
        * [Social](#Social)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
@@ -711,6 +712,16 @@ Nexcloud Hub
 [Pushover](https://pushover.net/) is a tool that makes it easy to get real-time notifications on your Android, Android Wear, iPhone, iPad, Apple Watch and Desktop.
 
 [Simplepush](https://simplepush.io/) is a tool to send end-to-end encrypted push notifications to your Android and iPhone.
+
+### RSS
+
+[Back to the Top](#table-of-contents)
+
+[FreshRSS](https://www.freshrss.org/) is a self-hosted RSS and Atom feed aggregator. It is lightweight, easy to work with, powerful, and customizable.
+
+[ArchiveBox](https://archivebox.io/) is a powerful, self-hosted internet archiving solution to collect, save, and view sites you want to preserve offline. It takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more.
+
+[RSSHub](https://github.com/DIYgod/RSSHub) is an open source, easy to use, and extensible RSS feed generator. It's capable of generating RSS feeds from pretty much everything.
 
 ### Social
 
