@@ -707,7 +707,7 @@ Nexcloud Hub
 
 [Apprise](https://github.com/caronc/apprise) is a tool that allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
 
-[ntfy](https://github.com/dschep/ntfy) is a utility for sending notifications, on demand and when commands finish. 
+[ntfy](https://ntfy.sh/) is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, entirely without signup, cost or setup. It's also open source if you want to run your own.
 
 [Countly](https://github.com/Countly/countly-server) is a product analytics solution and innovation enabler that helps teams track product performance and customer journey and behavior across mobile, web, and desktop applications. [Ensuring privacy by design](https://count.ly/your-data-your-rules), Countly allows you to innovate and enhance your products to provide personalized and customized customer experiences, and meet key business and revenue goals.
 
