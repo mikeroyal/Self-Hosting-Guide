@@ -269,7 +269,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere. 
 
+[Deep Lake](https://github.com/activeloopai/deeplake) is a data lake for deep learning applications. Our open-source dataset format is optimized for rapid streaming and querying of data while training models at scale, and it includes a simple API for creating, storing, and collaborating on AI datasets of any size. It can be deployed locally or in the cloud, and it enables you to store all of your data in one place, ranging from simple annotations to large videos.
+
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
+
 
 ### Cloud
 
