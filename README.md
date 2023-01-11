@@ -639,6 +639,8 @@ Nexcloud Hub
 
 [Vector](https://vector.dev/) is a high-performance, end-to-end (agent & aggregator) observability data pipeline that puts you in control of your observability data. [Collect](https://vector.dev/docs/reference/configuration/sources/), [transform](https://vector.dev/docs/reference/configuration/transforms/), and [route](https://vector.dev/docs/reference/configuration/sinks/) all your logs, metrics, and traces to any vendors you want today and any other vendors you may want tomorrow.
 
+[Open Service Mesh (OSM)](https://openservicemesh.io/) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments. 
+
 [Ciao](https://github.com/brotandgames/ciao) is a tool that checks HTTP(S) URL endpoints for a HTTP status code (or errors on the lower TCP stack) and sends a notification on status change via E-Mail or Webhooks.
 
 [Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket. 
