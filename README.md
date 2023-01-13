@@ -1398,6 +1398,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Shaark](https://github.com/MarceauKa/shaark) is a self-hosted platform to keep and share your content: web links, posts, passwords and pictures.
 
+[Maglit](https://maglit.me/) is an encrypted and privacy respecting Link Shortener service that supports not only your regular website links but also Magnet Links which are extensively used to download and share torrents.
+
 ### Photos
 
 [Back to the Top](#table-of-contents)
