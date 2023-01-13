@@ -22,6 +22,9 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
+       * [Databases](#Databases)
+         - [SQL](#SQL)
+         - [NoSQL](#NoSQL)
        * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
@@ -400,6 +403,128 @@ Nexcloud Hub
 [DigitalOcean Custom images](https://www.digitalocean.com/docs/images/custom-images/) is a service that quickly builds your environment in the cloud by provisioning servers with your own custom image, or choose from various Linux distributions.
 
 [Container Registry](https://www.digitalocean.com/products/container-registry/) is a service that easily stores, manages, and protects private container images.
+
+### Databases
+
+[Back to the Top](#table-of-contents)
+
+#### SQL 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/169607509-ba5e092f-c566-4014-86a1-258bf75266d0.png">
+  <br />
+</p>
+
+**[SQL](https://en.wikipedia.org/wiki/SQL)** is a standard language for storing, manipulating and retrieving data in relational databases.
+
+[MySQL](https://www.mysql.com/) is a fully managed database service to deploy cloud-native applications using the world's most popular open source database. 
+
+[PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+
+[PostgREST](https://github.com/PostgREST/postgrest) is a tool that serves a fully RESTful API from any existing PostgreSQL database. It provides a cleaner, more standards-compliant, faster API than you are likely to write from scratch.
+
+[NocoDB](https://www.nocodb.com/) is an open source #NoCode platform that turns any database into a smart spreadsheet. It turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet. 
+
+[DBeaver](https://dbeaver.io/) is a free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases: MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc.
+
+[OmniDB](https://github.com/OmniDB/OmniDB) is a web-based tool for database management.
+
+[Navicat](https://www.navicat.com/) is a series of graphical database management and development software produced by CyberTech Ltd. for MySQL, MariaDB, MongoDB, Oracle, SQLite, PostgreSQL and Microsoft SQL Server. 
+
+[HeidiSQL](https://www.heidisql.com/) is free software, and has the aim to be easy to learn. It lets you see and edit data and structures from computers running one of the database systems MariaDB, MySQL, Microsoft SQL, PostgreSQL and SQLite. 
+ 
+[Beekeeper Studio](https://www.beekeeperstudio.io/) is a cross-platform SQL editor and database manager(MySQL, Postgres, SQLite, SQL Server, and more.) available for Linux, Mac, and Windows. 
+ 
+[UI Bakery](https://uibakery.io/) is a web-based low-code internal tool builder. It can visualize the data pulled from PostgreSQL, MongoDB, MySQL, MicrosoftSQL, Redis.
+
+[IBM DB2](https://www.ibm.com/analytics/db2) is a collection of hybrid data management products offering a complete suite of AI-empowered capabilities designed to help you manage both structured and unstructured data on premises as well as in private and public cloud environments. Db2 is built on an intelligent common SQL engine designed for scalability and flexibility.
+
+[OracleDB](https://www.oracle.com/database/) is a powerful fully managed database helps developers manage business-critical data with the highest availability, reliability, and security.
+
+[MariaDB](https://mariadb.com/) is an enterprise open source database solution for modern, mission-critical applications.
+
+[EventQL](https://eventql.io/documentation/) is a distributed, analytical database. It allows you to store massive amounts of structured data and explore it using SQL and other programmatic query facilities.
+
+[CockroachDB](https://www.cockroachlabs.com/docs/stable/) is the SQL database for building global, scalable cloud services that survive disasters. 
+
+[SQLite](https://sqlite.org/index.html) is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day.
+
+[SQLite Database Browser](https://sqlitebrowser.org/) is an open source SQL tool that allows users to create, design and edits SQLite database files. It lets users show a log of all the SQL commands that have been issued by them and by the application itself. 
+
+[TimescaleDB](https://github.com/timescale/timescaledb) is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL and packaged as a PostgreSQL extension, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
+
+[InfluxDB](https://www.influxdata.com/) is an open source time series platform.  This includes APIs for storing and querying data, processing it in the background for [ETL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) or monitoring and alerting purposes, user dashboards, Internet of Things sensor data, and visualizing and exploring the data and more. It also has support for processing data from [Graphite](http://graphiteapp.org/).
+
+[Atlas](https://github.com/Netflix/atlas) is an in-memory dimensional [time series database](https://en.wikipedia.org/wiki/Time_series_database).
+
+[dbWatch](https://www.dbwatch.com/) is a complete database monitoring/management solution for SQL Server, Oracle, PostgreSQL, Sybase, MySQL and Azure. Designed for proactive management and automation of routine maintenance in large scale on-premise, hybrid/cloud database environments.
+
+[Adminer](https://www.adminer.org/) is an SQL management client tool for managing databases, tables, relations, indexes, users. Adminer has support for all the popular database management systems such as MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB.
+
+[Knex](https://github.com/knex/knex) is a query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use. 
+
+[rqlite](https://github.com/rqlite/rqlite) is an easy-to-use, lightweight, distributed relational database, which uses [SQLite](https://www.sqlite.org/) as its storage engine.
+
+[osquery](https://github.com/osquery/osquery) is a SQL powered operating system instrumentation, monitoring, and analytics framework. 
+
+[SQLModel](https://github.com/tiangolo/sqlmodel) is a library for interacting with SQL databases from Python code, with Python objects. It is designed to be intuitive, easy to use, highly compatible, and robust.
+
+[Citus](https://github.com/citusdata/citus) is a [PostgreSQL extension](https://www.citusdata.com/blog/2017/10/25/what-it-means-to-be-a-postgresql-extension/) that transforms Postgres into a distributed database—so you can achieve high performance at any scale.
+
+[DbVisualizer](https://dbvis.com/) is a SQL management tool that allows users to manage a wide range of databases such as Oracle, Sybase, SQL Server, MySQL, H3, and SQLite.
+
+[AppDynamics Database](https://www.appdynamics.com/supported-technologies/database) is a management product for Microsoft SQL Server. With AppDynamics you can monitor and trend key performance metrics such as resource consumption, database objects, schema statistics and more, allowing you to proactively tune and fix issues in a High-Volume Production Environment.
+
+[Toad](https://www.quest.com/toad/) is a SQL Server DBMS toolset developed by Quest. It increases productivity by using extensive automation, intuitive workflows, and built-in expertise. This SQL management tool resolve issues, manage change and promote the highest levels of code quality for both relational and non-relational databases.
+
+[Lepide SQL Server](https://www.lepide.com/sql-storage-manager/) is an open source storage manager utility to analyse the performance of SQL Servers. It provides a complete overview of all configuration and permission changes being made to your SQL Server environment through an easy-to-use, graphical user interface.
+
+[Sequel Pro](https://sequelpro.com/) is a fast MacOS database management tool for working with MySQL. This SQL management tool helpful for interacting with your database by easily to adding new databases, new tables, and new rows.
+
+[ElasticSearch](https://www.elastic.co/) is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java.
+
+[Logstash](https://www.elastic.co/products/logstash) is a tool for managing events and logs. When used generically, the term encompasses a larger system of log collection, processing, storage and searching activities.
+
+[Kibana](https://www.elastic.co/products/kibana) is an open source data visualization plugin for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.
+
+[Trino](https://trino.io/) is a Distributed SQL query engine for big data. It is able to tremendously speed up [ETL processes](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl), allow them all to use standard SQL statement, and work with numerous data sources and targets all in the same system.
+
+[Tableau](https://www.tableau.com/) is a Data Visualization software used in relational databases, cloud databases, and spreadsheets. Tableau was acquired by [Salesforce in August 2019](https://investor.salesforce.com/press-releases/press-release-details/2019/Salesforce-Completes-Acquisition-of-Tableau/default.aspx).
+
+[DataGrip](https://www.jetbrains.com/datagrip/) is a professional DataBase IDE developed by Jet Brains that provides context-sensitive code completion, helping you to write SQL code faster. Completion is aware of the tables structure, foreign keys, and even database objects created in code you're editing.
+
+[RStudio](https://rstudio.com/) is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
+
+#### NoSQL 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/169607515-65629e5a-83e1-4578-9eb5-afe915f0fad9.png">
+  <br />
+</p>
+
+**[NoSQL](https://www.ibm.com/cloud/blog/sql-vs-nosql)** is a database that is interchangeably referred to as "nonrelational, or "non-SQL" to highlight that the database can handle huge volumes of rapidly changing, unstructured data in different ways than a relational (SQL-based) database with rows and tables.
+
+[Scylla](https://github.com/scylladb/scylla) is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB. 
+
+[Apache Cassandra™](https://cassandra.apache.org/) is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Cassandra provides linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
+
+[Apache HBase™](https://hbase.apache.org/) is an open-source, NoSQL, distributed big data store. It enables random, strictly consistent, real-time access to petabytes of data. HBase is very effective for handling large, sparse datasets. HBase serves as a direct input and output to the Apache MapReduce framework for Hadoop, and works with Apache Phoenix to enable SQL-like queries over HBase tables.
+
+[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+
+[Redis(REmote DIctionary Server)](https://redis.io/) is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. It provides data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams.
+
+[FoundationDB](https://www.foundationdb.org/) is an open source distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. FoundationDB was acquired by [Apple in 2015](https://techcrunch.com/2015/03/24/apple-acquires-durable-database-company-foundationdb/).
+
+[CouchbaseDB](https://www.couchbase.com/) is an open source distributed [multi-model NoSQL document-oriented database](https://en.wikipedia.org/wiki/Multi-model_database). It creates a key-value store with managed cache for sub-millisecond data operations, with purpose-built indexers for efficient queries and a powerful query engine for executing SQL queries.
+
+[MongoDB](https://www.mongodb.com/) is a document database meaning it stores data in JSON-like documents. 
+
+[NoSQLBooster](https://www.nosqlbooster.com/) is a cross-platform IDE for [MongoDB v2.6-5.0](https://www.mongodb.com/download-center/community/releases), which provides a build-in MongoDB script debugger, SQL query, server monitoring tools, chaining fluent query, query code generator, task scheduling, ES2020 support, and advanced IntelliSense experience.
+
+[ClickHouse®](https://github.com/ClickHouse/ClickHouse) is an open-source column-oriented database management system that allows generating analytical data reports in real-time.
+
+[Neo4j](https://neo4j.com/) is a graph database management system that provides an array of tools, libraries, and frameworks to make development faster and easier. 
 
 ### Remote Access
 
