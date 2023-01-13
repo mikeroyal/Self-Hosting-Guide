@@ -961,6 +961,13 @@ Nexcloud Hub
 
 [Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr) 
 
+[Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
+
+   * Beautifully crafted user interface.
+   * Real-time online statuses.
+   * Simple and easy invite system.
+   * Integrates with your existing services, Radarr and Sonarr.
+
 [Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices. 
 
 [TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
@@ -1015,6 +1022,13 @@ Nexcloud Hub
 [InfuseSync](https://github.com/firecore/InfuseSync) is a plugin for Emby and Jellyfin media servers that tracks all media changes to decrease sync times with Infuse clients. 
 
 [Intro Skipper](https://github.com/ConfusedPolarBear/intro-skipper) is a tool that analyzes the audio of television episodes to detect and skip over intro sequences in Jellyfin.
+
+[Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
+
+   * Beautifully crafted user interface.
+   * Real-time online statuses.
+   * Simple and easy invite system.
+   * Integrates with your existing services, Radarr and Sonarr.
 
 [AirSonic](https://hub.docker.com/r/airsonic/airsonic) is a free, web-based media streamer, providing ubiquitous access to your music.
 
