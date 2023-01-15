@@ -578,6 +578,8 @@ Nexcloud Hub
 
 [Traefik](https://traefik.io/traefik/) is an open source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it automatically discovers the right configuration for your services.
 
+[Traefik Mesh](https://traefik.io/traefik-mesh) is a simple, yet full-featured service mesh. It is container-native and fits as your de-facto service mesh in your Kubernetes cluster. It supports the latest Service Mesh Interface specification [SMI](https://smi-spec.io/) that facilitates integration with pre-existing solution. 
+
 [DuckDNS](https://www.duckdns.org/) is a free service that allows you to bind your own favorite subdomain under ```duckdns.org``` to the public IP address in use from your router, even though such address is dynamically allocated by your internet service provider and therefore changes over time.
 
 [Trust-DNS](https://github.com/bluejekyll/trust-dns) is a Rust based DNS client, server, and Resolver, built to be safe and secure from the ground up.
