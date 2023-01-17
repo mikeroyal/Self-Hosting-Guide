@@ -758,6 +758,8 @@ Nexcloud Hub
 
 [Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) is a truly censorship-resistant alternative to Twitter that has a chance of working.
 
+[Nitter](https://github.com/zedeus/nitter) is a free and open source alternative Twitter front-end focused on privacy and performance. All requests go through the backend, meaning the client never talks to Twitter and prevents Twitter from tracking your IP or JavaScript fingerprint.
+
 [Diaspora](https://diasporafoundation.org/) is a privacy-aware, distributed, open source social network.
 
 [Hubzilla](https://framagit.org/hubzilla/core) is a general purpose communication server integrated with a web publishing system and a decentralised permission system.
