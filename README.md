@@ -282,7 +282,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 ### Cloud
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
 #### Linode
 
@@ -328,7 +328,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 #### Nextcloud
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/150701955-f1f514a8-82e6-462f-9fc9-8926b6b7de3e.png">
@@ -381,7 +381,7 @@ Nexcloud Hub
 
 #### DigitalOcean
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/117214946-5bbf9c00-adb2-11eb-96cc-fef7d13d4d06.png">
@@ -502,6 +502,8 @@ Nexcloud Hub
 [RStudio](https://rstudio.com/) is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
 
 #### NoSQL 
+
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/169607515-65629e5a-83e1-4578-9eb5-afe915f0fad9.png">
