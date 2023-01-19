@@ -1581,6 +1581,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS. 
 
+[Upscayl](https://upscayl.github.io/) is a free and open source desktop application that lets you upscale your low resolution images using advanced AI Models. Upscayl is a Linux-First Application that prioritizes Linux builds but is also cross-platform.
+
 ### Note-Taking
 
 [Back to the Top](#table-of-contents)
