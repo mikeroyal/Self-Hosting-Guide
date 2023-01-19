@@ -227,6 +227,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [WatchTower](https://hub.docker.com/r/containrrr/watchtower) is a process for automating Docker container base image updates.
 
+[Kasm Workspaces](https://www.kasmweb.com/) is a a highly configurable container streaming platform that enables you to stream and deliver containerized applications over the web. It offers tools that you can use to create desktop workspaces and provide access to virtual desktops to end users. It also ensures data loss prevention as well as secure and private web browsing.
+
 [Nginx Proxy](https://github.com/nginx-proxy/nginx-proxy) is an automation tool that sets up a container running nginx and [docker-gen](https://github.com/nginx-proxy/docker-gen). Docker-gen generates reverse proxy configs for nginx and reloads nginx when containers are started and stopped.
 
 [Visual Studio Code Dev Containers](https://github.com/microsoft/vscode-dev-containers) is an extension that lets you use a [Docker container](https://docker.com/) as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set. A [devcontainer.json file](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file) in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. 
