@@ -1100,7 +1100,14 @@ Nexcloud Hub
 
 [Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. 
 
-[Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr) 
+[Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr)
+
+[Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
+
+   * Beautifully crafted user interface.
+   * Real-time online statuses.
+   * Simple and easy invite system.
+   * Integrates with your existing services, Radarr and Sonarr.
 
 [Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices. 
 
@@ -1148,6 +1155,13 @@ Nexcloud Hub
 [Swiftfin](https://github.com/jellyfin/Swiftfin) is a modern video client for the Jellyfin media server. Redesigned in Swift to maximize direct play with the power of VLC and look native on all classes of Apple devices.
 
 [Intro Skipper](https://github.com/ConfusedPolarBear/intro-skipper) is a tool that analyzes the audio of television episodes to detect and skip over intro sequences in Jellyfin.
+
+[Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
+
+   * Beautifully crafted user interface.
+   * Real-time online statuses.
+   * Simple and easy invite system.
+   * Integrates with your existing services, Radarr and Sonarr.
 
 [Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
 
