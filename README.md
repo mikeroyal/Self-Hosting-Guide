@@ -425,6 +425,8 @@ Nexcloud Hub
 
 **[SQL](https://en.wikipedia.org/wiki/SQL)** is a standard language for storing, manipulating and retrieving data in relational databases.
 
+[Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative. 
+
 [MySQL](https://www.mysql.com/) is a fully managed database service to deploy cloud-native applications using the world's most popular open source database. 
 
 [PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
