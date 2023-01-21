@@ -840,6 +840,8 @@ Nexcloud Hub
 
 [fd](https://github.com/sharkdp/fd) is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. 
 
+[k8s at home search](https://nanne.dev/k8s-at-home-search/#/) is a tool that indexs Flux HelmReleases from Github repositories with the ```k8s-at-home topic``` on GitHub. 
+
 ### Notifications
 
 [Back to the Top](#table-of-contents)
