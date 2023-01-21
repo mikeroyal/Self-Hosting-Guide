@@ -1869,6 +1869,38 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   CasaOS
 </h2>
 
+[Alpine Linux](https://www.alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
+
+ * [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page)
+
+ * [Alpine Linux Community](https://alpinelinux.org/community)
+
+#### Xfce4 Desktop
+
+**Enable the [Community repository](https://wiki.alpinelinux.org/wiki/Enable_Community_Repository), then execute command:**
+
+``apk add xfce4``
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/144766372-ec177b63-4d4d-4b00-aee6-889bc15a7597.png">
+  <br />
+  Alpine Linux Xfce
+</p>
+
+
+#### Mate Desktop
+
+**Enable the [Community repository](https://wiki.alpinelinux.org/wiki/Enable_Community_Repository), then execute command:**
+
+``apk add mate-desktop-environment``
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/144766373-b813b402-16cd-4a99-930a-ff893600f016.png">
+  <br />
+  Alpine Linux MATE
+</p>
+
+
 [Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical. 
 
  * [Ubuntu Server](https://ubuntu.com/download/server)
