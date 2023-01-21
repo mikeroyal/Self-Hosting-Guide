@@ -804,6 +804,8 @@ Nexcloud Hub
 
 [TeslaMate](https://docs.teslamate.org/) is a powerful, self-hosted data logger for your Tesla.
 
+[OneUptime](https://oneuptime.com/) is an open-source complete SRE and DevOps platform. It monitors your website, dashboards, API's, and more and alerts your team when downtime happens. 
+
 [DeviceHive](https://www.devicehive.com) is a free, highly scalable open-source IoT platform for data collection, processing and analysis, visualization, and device management with the broad range of integration options.
 
 [Distributed Services Architecture (DSA)](https://github.com/IOT-DSA) is an open source IoT platform that facilitates device inter-communication, logic and applications at every layer of the Internet of Things infrastructure. The objective is to unify the disparate devices, services and applications into a structured and adaptable real-time data model.
