@@ -998,6 +998,8 @@ Nexcloud Hub
 
 [Warpinator](https://github.com/linuxmint/warpinator) is a free, open-source tool for sending and receiving files between computers that are on the same network. 
 
+[LocalSend](https://localsend.org/) is a free and open-source tool that allows you to send files and messages over the local LAN network to nearby devices. Everything is sent securely over HTTPS. The TLS/SSL certificate is generated on the fly on each device. It's avilable on Windows, macOS, Linux, iOS, and Android.
+
 [FileZilla Client](https://filezilla-project.org/) is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface. 
 
 [Dragit](https://github.com/sireliah/dragit) is an application for intuitive file sharing between devices. It's useful for when you want to send file from one computer to another with minimal effort. Dragit automatically detects devices in the local network with help of mDNS protocol and allows you to send file immediately. 
