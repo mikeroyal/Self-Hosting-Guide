@@ -2146,6 +2146,10 @@ Red Hat Enterprise Linux Desktop
 
 [Shufflecake](https://shufflecake.net/) is a tool for Linux that allows to create multiple hidden volumes on a storage device in such a way that it is very difficult, even under forensic inspection, to prove the existence of such volumes.
 
+[btdu](https://github.com/CyberShadow/btdu) is a sampling disk usage profiler for btrfs.
+ 
+[Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, trim or defragmentation.
+
 ### File systems
 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
