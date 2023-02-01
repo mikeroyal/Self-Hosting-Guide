@@ -2328,6 +2328,10 @@ Red Hat Enterprise Linux Desktop
   
   - [Set up a dogcam with Tailscale, Raspberry Pi, and Motion | Tailscale](https://tailscale.com/kb/1076/dogcam/)
   
+  - [Defined Networking is Open for Business by Ryan Huber](https://www.defined.net/blog/open-for-business/)
+  
+  - [Automating Host Creation with the API](https://docs.defined.net/guides/automating-host-creation/)
+  
   - [Azure Self-hosted gateway overview](https://docs.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview)
   
   - [Create and configure a self-hosted integration runtime for Azure Data Factory and Synapse pipelines](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory)
