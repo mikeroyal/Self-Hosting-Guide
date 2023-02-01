@@ -56,6 +56,7 @@
        * [Video and Audio Processing](#Video-and-Audio-Processing)
        * [Podcasting](#Podcasting)
        * [Audiobooks](#Audiobooks)
+       * [Health](#Health)
        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
        * [Bookmarks](#Bookmarks)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
@@ -1542,6 +1543,18 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
 
 [Jellyfin Bookshelf Plugin](https://github.com/jellyfin/jellyfin-plugin-bookshelf)
+
+### Health
+
+[Back to the Top](#table-of-contents)
+
+[Fasten](https://github.com/fastenhealth/fasten-onprem) is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics 
+
+[ERPNext](https://erpnext.com/) is a Free and Open Source Enterprise Resource Planning (ERP) for managing businesses.
+
+[OpenEMR](https://open-emr.org/) is a Free and Open Source electronic health records and medical practice management application. It features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, free support, a vibrant community, and a whole lot more. It runs on Windows, Linux, MacOS, and many other platforms.
+
+[Connect](https://github.com/nextgenhealthcare/connect) is the swiss army knife of healthcare integration.
 
 
 ### Maps
