@@ -1173,6 +1173,8 @@ Nexcloud Hub
 
 [Intro Skipper](https://github.com/ConfusedPolarBear/intro-skipper) is a tool that analyzes the audio of television episodes to detect and skip over intro sequences in Jellyfin.
 
+[Jellyseerr](https://github.com/Fallenbagel/jellyseerr) is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers.
+
 [Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
 
    * Beautifully crafted user interface.
