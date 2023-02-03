@@ -1483,6 +1483,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [SRS](https://github.com/ossrs/srs) is a simple, high efficiency and realtime video server, supports RTMP, WebRTC, HLS, HTTP-FLV, SRT and GB28181.
 
+[obsws-python](https://github.com/aatikturk/obsws-python) is a Python SDK for OBS Studio WebSocket v5.0. 
+
 **Video/Audio Standards**
 
 [AAC(Advanced Audio Coding)](https://mpeg.chiariglione.org/) is an audio coding standard for lossy digital audio compression. It's endorsed by ISO and IEC as MPEG-2 and MPEG-4 standards for video streams.
