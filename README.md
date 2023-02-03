@@ -747,6 +747,8 @@ Nexcloud Hub
 
 [Firezone](https://firezone.dev/) is a self-hosted WireGuard®-based VPN server and Linux firewall.
 
+[Monoid](https://github.com/monoid-privacy/monoid) is an open-source suite of tools for automating data privacy.
+
 ### Monitoring
 
 [Back to the Top](#table-of-contents)
