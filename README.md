@@ -1509,6 +1509,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience.
 
+[Sovereign Feeds](https://sovereignfeeds.com/) is a tool to Search for your podcasts and add them to your favorites.
+
 [Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
 
 [Podverse](https://podverse.fm/) is creating an open source podcast app for iOS, Android, F-Droid, and Web.
