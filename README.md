@@ -1089,6 +1089,10 @@ Nexcloud Hub
 
 [rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
 
+[Duplicity](https://duplicity.us/) is a tool that backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server. Because duplicity uses [librsync](https://github.com/librsync/librsync), the incremental archives are space efficient and only record the parts of files that have changed since the last backup. 
+
+[ZnapZend](https://www.znapzend.org/) is a high performance open source ZFS backup with mbuffer and ssh support. It uses the built-in snapshot functionality of ZFS for fully consistent backups. For each fileset, a pre- and post-snapshot command can be configured to quiet down any software writing to the fileset prior to snapshotting.
+
 ### Home Server
 
 [Back to the Top](#table-of-contents)
