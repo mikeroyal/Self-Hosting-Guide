@@ -884,11 +884,23 @@ Nexcloud Hub
 
 [Back to the Top](#table-of-contents)
 
+[RSS Guard](https://github.com/martinrotter/rssguard) is a simple RSS/ATOM feed reader for Windows, Linux, BSD, OS/2 or macOS which can work with RSS/ATOM/JSON feeds as well as many online feed services:
+
+  * [Feedly](https://feedly.com/)
+  * [Gmail](https://developers.google.com/gmail/api)
+  * Google Reader API ([Bazqux](https://bazqux.com/), [FreshRSS](https://freshrss.org/), [Inoreader](https://www.inoreader.com/), [Miniflux](https://miniflux.app/), [Reedah](http://reedah.com/), [The Old Reader](https://theoldreader.com/) and more)
+  * [Nextcloud News](https://apps.nextcloud.com/apps/news)
+  * [Tiny Tiny RSS](https://tt-rss.org/)
+
+[Feedly](https://feedly.com/) is an RSS tool where you can privately organize and research the topics and trends that matter to you. It offers useful integrations with Facebook, Twitter, Evernote, Buffer, OneNote, Pinterest, LinkedIn, IFTTT, and Zapier so that you can easily share stories with your networks and teammates.
+
 [FreshRSS](https://www.freshrss.org/) is a self-hosted RSS and Atom feed aggregator. It is lightweight, easy to work with, powerful, and customizable.
 
 [ArchiveBox](https://archivebox.io/) is a powerful, self-hosted internet archiving solution to collect, save, and view sites you want to preserve offline. It takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more.
 
 [RSSHub](https://github.com/DIYgod/RSSHub) is an open source, easy to use, and extensible RSS feed generator. It's capable of generating RSS feeds from pretty much everything.
+
+[Miniflux V2](https://github.com/miniflux/v2) is a minimalist and opinionated feed reader.
 
 ### Social
 
@@ -927,6 +939,7 @@ Nexcloud Hub
 [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) is a Reddit client on Android written in Java. It does not have any ads and it features a clean UI and smooth browsing experience.
 
 [RedReader](https://github.com/QuantumBadger/RedReader) is an unofficial open source Reddit client for Android. 
+
 
 ### Communications
 
