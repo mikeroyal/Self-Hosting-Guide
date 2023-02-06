@@ -1926,6 +1926,14 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   CasaOS
 </h2>
 
+[TrueNAS® CORE](https://www.truenas.com/truenas-core/) is the world's most popular storage OS because it gives you the power to build your own professional-grade storage system to use in a variety of data-intensive applications without any software costs. It's based on FreeBSD and Linux, using the OpenZFS file system. 
+
+<h2 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/216557724-bf621a1e-01f6-477b-b71a-2675121d20e8.png">
+  <br />
+  TrueNAS CORE
+</h2>
+
 [Alpine Linux](https://www.alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
  * [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page)
