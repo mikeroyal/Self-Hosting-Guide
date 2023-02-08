@@ -1207,6 +1207,8 @@ Nexcloud Hub
    * Real-time online statuses.
    * Simple and easy invite system.
    * Integrates with your existing services, Radarr and Sonarr.
+   
+[Kirino Media Server](https://kirino.io/) is a lightweight, modular alternative to Plex and Jellyfin.
 
 [Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
 
