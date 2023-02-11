@@ -1098,6 +1098,12 @@ Nexcloud Hub
 
 [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) is an enterprise backup solution for backing up and restoring VMs, containers, and physical hosts. The open-source solution supports incremental backups, deduplication, Zstandard compression, and authenticated encryption.
 
+[BackupPC](https://github.com/backuppc/backuppc) is a high-performance, enterprise-grade system for backing up Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is highly configurable and easy to install and maintain.
+
+[BorgWarehouse](https://borgwarehouse.com/) is a  fast and modern WebUI for a BorgBackup's central repository server.
+
+[Emborg](https://emborg.readthedocs.io/en/latest/) is a simple command line utility to orchestrate backups. It is built as a front-end to Borg, a powerful and fast de-duplicating backup program. 
+
 [Borgmatic](https://github.com/modem7/docker-borgmatic) is a simple, configuration-driven backup software for servers and workstations. It protects your files with client-side encryption. Backup your databases too. Monitor it all with integrated third-party services. 
 
 [Vorta](https://vorta.borgbase.com/) is a backup client for macOS and Linux desktops. It integrates the mighty Borg Backup with your favorite desktop environment to protect your data from disk failure, ransomware and theft. 
@@ -1111,6 +1117,9 @@ Nexcloud Hub
 [Duplicity](https://duplicity.us/) is a tool that backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server. Because duplicity uses [librsync](https://github.com/librsync/librsync), the incremental archives are space efficient and only record the parts of files that have changed since the last backup. 
 
 [ZnapZend](https://www.znapzend.org/) is a high performance open source ZFS backup with mbuffer and ssh support. It uses the built-in snapshot functionality of ZFS for fully consistent backups. For each fileset, a pre- and post-snapshot command can be configured to quiet down any software writing to the fileset prior to snapshotting.
+
+[rsync.net](https://rsync.net/) is a Cloud Storage for Offsite Backup that give you an empty UNIX filesystem to access with any SSH tool. Built on ZFS for data security and fault tolerance with support for rsync/sftp/scp/borg/rclone/restic/git-annex.
+
 
 ### Home Server
 
