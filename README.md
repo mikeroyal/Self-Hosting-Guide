@@ -1244,6 +1244,8 @@ Nexcloud Hub
 
 [SonoBus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
 
+[MythTV](https://www.mythtv.org/) is a Free Open Source software digital video recorder (DVR) project distributed under the terms of the GNU GPL. 
+
 ### Smart Home Automation
 
 [Back to the Top](#table-of-contents)
