@@ -856,6 +856,10 @@ Nexcloud Hub
 
 [Cylect.io](https://cylect.io/) is the ultimate searching tool that is here to assist anyone looking for specific information through vast amounts of websites, search engines, and data collectors. 
 
+[Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript. 
+
+[Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries. 
+
 [Typesense](https://github.com/typesense/typesense) is a fast, typo-tolerant search engine for building delightful search experiences. 
 
 [Tantivy](https://github.com/quickwit-oss/tantivy) is a full-text search engine library inspired by Apache Lucene and written in Rust.
