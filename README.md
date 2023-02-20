@@ -30,6 +30,7 @@
           * [Linode](#Linode)
 	      * [Nextcloud](#Nextcloud)
 	      * [DigitalOcean](#DigitalOcean)
+	      * [MinIO Object Storage](#MinIO-Object-Storage)
        * [Databases](#Databases)
          - [SQL](#SQL)
          - [NoSQL](#NoSQL)
@@ -423,6 +424,167 @@ Nexcloud Hub
 [DigitalOcean Custom images](https://www.digitalocean.com/docs/images/custom-images/) is a service that quickly builds your environment in the cloud by provisioning servers with your own custom image, or choose from various Linux distributions.
 
 [Container Registry](https://www.digitalocean.com/products/container-registry/) is a service that easily stores, manages, and protects private container images.
+
+### MinIO Object Storage
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/219937490-da874c4e-cf91-4f2e-b009-77b7929383ba.png">
+
+</p>
+
+[MinIO](https://min.io/download) is a High Performance Object Storage released under GNU Affero General Public License v3.0. It is API compatible with [Amazon S3 cloud storage service](https://aws.amazon.com/s3/). Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads. It's one of the fastest object storage platforms globally, with a read/write speed of **183GB/s-171GB/s** if you use standard hardware. It can function as the main storage tier for many workloads like **Spark, TensorFlow, Presto, Hadoop HDFS, and H2O.**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/219937492-d47107b5-d2c3-4746-a133-cbdac97fa379.png">
+</br>
+MinIO UI
+</p>
+
+**Run the following command to run the latest stable image of MinIO as a container using an ephemeral data volume:**
+
+## Podman
+
+```
+podman run -p 9000:9000 -p 9001:9001 \
+  quay.io/minio/minio server /data --console-address ":9001"
+```
+
+## Docker
+
+```
+#docker run -p 9000:9000 --name minio -d minio/minio server /export
+```
+**If you're using an SSD mounted at /mnt/sdd, then we can run the following to use it instead:**
+
+```
+# docker run -v /mnt/ssd:/export -p 9000:9000 --name minio -d minio/minio server /export
+```
+
+## MacOS
+
+```
+brew install minio/stable/minio
+minio server /data
+```
+
+## Binary Download for MacOS
+
+```
+wget https://dl.min.io/server/minio/release/darwin-amd64/minio
+chmod +x minio
+./minio server /data
+```
+
+## Linux
+
+```
+wget https://dl.min.io/server/minio/release/linux-amd64/minio
+chmod +x minio
+./minio server /data
+```
+
+|Architecture |	URL|
+|--- | --- | 
+|64-bit Intel/AMD |https://dl.min.io/server/minio/release/linux-amd64/minio|
+|64-bit ARM |https://dl.min.io/server/minio/release/linux-arm64/minio|
+|64-bit PowerPC LE (ppc64le) |https://dl.min.io/server/minio/release/linux-ppc64le/minio|
+|IBM Z-Series (S390X) |	https://dl.min.io/server/minio/release/linux-s390x/minio|
+
+## Windows
+
+To run MinIO on 64-bit Windows hosts, download the MinIO executable from the following URL:
+
+```https://dl.min.io/server/minio/release/windows-amd64/minio.exe```
+
+Use the following command to run a standalone MinIO server on the Windows host. Replace D:\ with the path to the drive or directory in which you want MinIO to store data. You must change the terminal or powershell directory to the location of the minio.exe executable, or add the path to that directory to the system $PATH:
+
+```minio.exe server D:\```
+
+## Install from Source
+
+Use the following commands to compile and run a standalone MinIO server from source. Source installation is only intended for developers and advanced users. If you do not have a working Golang environment, please follow [How to install Golang](https://golang.org/doc/install). The minimum version required is [go1.19](https://golang.org/dl/#stable).
+
+```go install github.com/minio/minio@latest```
+
+**After you install MinIO:**
+
+The MinIO deployment starts using default root credentials ```minioadmin:minioadmin```. You can test the deployment using the MinIO Console, an embedded web-based object browser built into MinIO Server. Point a web browser running on the host machine to ```http://127.0.0.1:9000``` and log in with the root credentials. You can use the Browser to create buckets, upload objects, and browse the contents of the MinIO server.
+
+
+When you run Minio you will be issued a key and a secret. These are used by the client or the web front-end to connect securely. I found my codes by typing in ```docker logs minio```.
+
+```
+Created minio configuration file at /root/.minio
+
+Endpoint:  http://172.17.0.2:9000  http://127.0.0.1:9000
+AccessKey: accessCode
+SecretKey: secretCode
+Region:    us-west-1
+SQS ARNs:  <none>
+
+Browser Access:
+   http://172.17.0.2:9000  http://127.0.0.1:9000
+
+Command-line Access: https://docs.minio.io/docs/minio-client-quickstart-guide
+   $ mc config host add myminio http://172.17.0.2:9000 accessCode secretCode
+
+Object API (Amazon S3 compatible):
+   Go:         https://docs.minio.io/docs/golang-client-quickstart-guide
+   Java:       https://docs.minio.io/docs/java-client-quickstart-guide
+   Python:     https://docs.minio.io/docs/python-client-quickstart-guide
+   JavaScript: https://docs.minio.io/docs/javascript-client-quickstart-guide
+
+Drive Capacity: 50 GiB Free, 70 GiB Total
+```
+
+If you'd like to learn more then most of the Minio client commands support a help flag or give info on the command line:
+
+```
+NAME:
+  mc - Minio Client for cloud storage and filesystems.
+
+USAGE:
+  mc [FLAGS] COMMAND [COMMAND FLAGS | -h] [ARGUMENTS...]
+
+COMMANDS:
+  ls       List files and folders.
+  mb       Make a bucket or a folder.
+  cat      Display file and object contents.
+  pipe     Redirect STDIN to an object or file or STDOUT.
+  share    Generate URL for sharing.
+  cp       Copy files and objects.
+  mirror   Mirror buckets and folders.
+  diff     Show differences between two folders or buckets.
+  rm       Remove files and objects.
+  events   Manage object notifications.
+  watch    Watch for files and objects events.
+  policy   Manage anonymous access to objects.
+  session  Manage saved sessions for cp and mirror commands.
+  config   Manage mc configuration file.
+  update   Check for new mc update.
+  version  Print version info.
+  help, h  Shows a list of commands or help for one command
+```
+
+### Advanced options
+
+You can have your client point to multiple Minio servers, which is really neat especially if you're working on a distributed team.
+
+Minio's test-server called "play" is already configured in the default client, you can see all the servers you have configured with mc config host list.
+
+**To upload the photo to Minio's "play" S3 server just type in:**
+
+```# mc mb play/somebucketname```
+
+```# mc cp ~/Downloads/IMG_2016120-25.jpg play/somebucketname```
+
+**Recursive uploads:**
+
+**If you want to test something larger out you could try uploading your entire Downloads photo, and then you should use the --recursive flag to make sure nothing's missed:**
+
+```# mc cp --recursive ~/Downloads/IMG_2016120-25.jpg myminio/photos```
 
 ### Databases
 
