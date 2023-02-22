@@ -42,6 +42,7 @@
        * [Search](#Search)
        * [Notifications](#Notifications)
        * [RSS](#RSS)
+       * [Websites/Blogs](#WebsitesBlogs)
        * [Social](#Social)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
@@ -1077,6 +1078,49 @@ Minio's test-server called "play" is already configured in the default client, y
 [RSSHub](https://github.com/DIYgod/RSSHub) is an open source, easy to use, and extensible RSS feed generator. It's capable of generating RSS feeds from pretty much everything.
 
 [Miniflux V2](https://github.com/miniflux/v2) is a minimalist and opinionated feed reader.
+
+### Websites/Blogs
+
+[Back to the Top](#table-of-contents)
+
+[Hugo](https://github.com/gohugoio/hugo) is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+
+[Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript. 
+
+[Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries. 
+
+[Kopage](https://www.kopage.com/) is  a self-hosted Website Builder. It's compatible with cPanel and other popular hosting control panels. Compatible with cPanel and other popular hosting control panels.
+
+[Ghost](https://ghost.org/docs/hosting/) is a fully-managed PaaS & self-hosted open source software, and can be installed and maintained relatively easily on just about any VPS hosting provider.
+
+[Cloudron](https://www.cloudron.io/) is a self-hosted immutable infrastructure design allows easy migration of apps across servers. In fact, you can move your entire server along with all its apps to another cloud provider in no time.
+
+[Directus](https://directus.io/) is a real-time API and App dashboard for managing SQL database content.
+
+[Haven](https://havenweb.org/) is a Self-hosted private blog instead of using Facebook.
+
+[Antville](https://antville.org/) is an open source project aimed at the development of a simple site hosting system with many advanced [features](https://github.com/antville/antville/wiki/Features). 
+
+[October](https://octobercms.com/) is a Self-hosted Content Management System (CMS) and web platform whose sole purpose is to make your development workflow simple again. 
+
+[Grav](https://getgrav.org/) is a Fast, Simple, and Flexible, file-based Web-platform. There is Zero installation required. Just extract the ZIP archive, and you are already up and running. It omes with a powerful Package Management System to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
+
+[Orchard](https://github.com/OrchardCMS/Orchard) is a free, open source, community-focused Content Management System built on the ASP.NET MVC platform.
+
+[Netlify CMS](https://www.netlifycms.org/) is a CMS for static site generators. Give users a simple way to edit and add content to any site built with a static site generator.
+
+[Zola](https://www.getzola.org/) is a fast static site generator in a single binary with everything built-in. 
+
+[FlatPress](https://www.flatpress.org/) is a lightweight, easy-to-set-up blogging engine. 
+
+[Chyrp Lite](https://chyrplite.net/) is an ultra-lightweight blogging engine. It provides four beautiful blog themes and a friendly administration console, all fully navigable on a broad range of devices, thanks to the power of responsive HTML5. 
+
+[WriteFreely](https://writefreely.org/) is an open source platform for building a writing space on the web.
+
+[Sandstorm](https://sandstorm.io/) is an open source project built by a community of volunteers with the goal of making it really easy to run open source web applications.
+
+[YunoHost](https://yunohost.org/) is a Debian-based distribution which strives to make it easy to quickly set up a server and host web applications.
+
 
 ### Social
 
