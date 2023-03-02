@@ -295,6 +295,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
+[krunvm](https://github.com/containers/krunvm) is a CLI-based utility for creating microVMs from OCI images, using [libkrun](https://github.com/containers/libkrun) and [buildah](https://github.com/containers/buildah).
 
 ### Cloud
 
