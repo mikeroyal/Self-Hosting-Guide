@@ -1730,13 +1730,18 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
+[whisper.cpp](https://github.com/ggerganov/whisper.cpp) is a high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
+
+[WaaS](https://github.com/schibsted/WAAS) is a Whisper as a Service (GUI and API for OpenAI Whisper).
+
+[Vosk](https://github.com/alphacep/vosk-api) is an offline open source speech recognition toolkit. It enables speech recognition for 20+ languages and dialects.
+
 [Coqui TTS](http://coqui.ai/) is a deep learning toolkit for Text-to-Speech, battle-tested in research and production.
 
 [Mozilla TTS](https://github.com/mozilla/TTS) is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
 
 [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP). 
 
-[whisper.cpp](https://github.com/ggerganov/whisper.cpp) is a high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
 
 ### Video and Audio Processing
 
