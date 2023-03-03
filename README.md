@@ -265,6 +265,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Terraform provider plugin for Proxmox](https://github.com/Telmate/terraform-provider-proxmox) is a  Terraform provider for the [Proxmox virtualization platform](https://pve.proxmox.com/pve-docs/) and exposes Terraform resources to provision QEMU VMs and LXC Containers.
 
+[OTF](https://github.com/leg100/otf) is an open source alternative to Terraform Enterprise. Includes SSO, team management, agents, and as many applies as you can throw hardware at.
+
+[APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. 
+
 [Code-Server](https://github.com/coder/code-server) is Visual Studio Code running on a remote server, accessible through the browser. 
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a service/extension that enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. You can instantly and securely share your current project, start a joint debugging session, share terminal instances, forward localhost web apps, have voice calls, and more.
