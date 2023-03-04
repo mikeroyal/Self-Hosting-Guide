@@ -39,6 +39,7 @@
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+       * [Analytics](#Analytics)
        * [Search](#Search)
        * [Notifications](#Notifications)
        * [RSS](#RSS)
@@ -1017,6 +1018,47 @@ Minio's test-server called "play" is already configured in the default client, y
 [IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. 
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
+
+### Analytics
+
+[Back to the Top](#table-of-contents)
+
+[Plausible Analytics](https://plausible.io/) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics.
+
+[PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host. 
+
+[Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. 
+
+[AWStats](http://www.awstats.org/) - Generate statistics from web, streaming, ftp or mail server logfiles. 
+
+[Chartbrew](https://chartbrew.com) - Web application that can connect directly to databases and APIs and use the data to create beautiful charts. 
+
+[Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform.
+
+[Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store. 
+
+[EDA](https://eda.jortilles.com/en/jortilles-english/) - Web application for data analysis and visualization. 
+
+[GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal. 
+
+[GoatCounter](https://www.goatcounter.com) - Easy web statistics without tracking of personal data. 
+
+[Metabase](https://metabase.com/) - Easy, open-source way for everyone in your company to ask questions and learn from data. 
+
+[Offen](https://www.offen.dev/) - Fair, lightweight and open web analytics tool. Gain insights while your users have full access to their data. 
+
+[Open Web Analytics](http://www.openwebanalytics.com/) - Web analytics framework that lets you stay in control of how you instrument and analyze the use of your websites and applications. 
+
+[Redash](http://redash.io) - Connect and query your data sources, build dashboards to visualize data and share them with your company. 
+
+[RudderStack](https://rudderstack.com/) - Collect, unify, transform, and store your customer data, and route it to a wide range of common, popular marketing, sales, and product tools. alternative to Segment.
+
+[Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. 
+
+[Superset](http://superset.apache.org/) - Modern data exploration and visualization platform. 
+
+[Umami](https://umami.is/) - Simple, fast, privacy-focused alternative to Google Analytics.
+
 
 ### Search
 
