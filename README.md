@@ -285,6 +285,64 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [GitLab](https://about.gitlab.com/) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider. 
 
+[Bonobo Git Server](https://bonobogitserver.com/) - Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface. 
+
+[Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) - Distributed version control system featuring wiki and bug tracker. 
+
+[Gerrit](https://www.gerritcodereview.com/) - A code review and project management tool for Git based projects. 
+
+[Gitblit](https://www.gitblit.com/) - Pure Java stack for managing, viewing, and serving Git repositories. 
+
+[gitbucket](https://gitbucket.github.io/gitbucket-news/) - Easily installable GitHub clone powered by Scala.
+
+[Gitea](https://gitea.io) - Community managed fork of Gogs, lightweight code hosting solution. 
+
+[GitLab](https://about.gitlab.com) - Self Hosted Git repository management, code reviews, issue tracking, activity feeds and wikis. 
+
+[Gitlist](https://gitlist.org/) - Web-based git repository browser - GitList allows you to browse repositories using your favorite browser, viewing files under different revisions, commit history and diffs. 
+
+[Gitolite](https://gitolite.com/gitolite/index.html) - Gitolite allows you to setup git hosting on a central server, with fine-grained access control and many more powerful features.
+
+[GitPrep](https://github.com/yuki-kimoto/gitprep) - Portable Github clone. 
+
+[Gogs](https://gogs.io/) - Painless self-hosted Git Service written in Go. 
+
+[Kallithea](https://kallithea-scm.org/) - Source code management system that supports two leading version control systems, Mercurial and Git, with a web interface.
+
+[Klaus](https://github.com/jonashaag/klaus) - Simple, easy-to-set-up Git web viewer that Just Works. 
+
+[Lavagna](https://lavagna.io) - Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use.
+
+[Leantime](https://leantime.io) - Leantime is a lean project management system for small teams and startups helping to manage projects from ideation through delivery. 
+
+[Microgit](https://github.com/microgit-com/microgit) - Git hosting service made in Crystal and Lucky. `MIT` `Crystal`
+
+[OneDev](https://onedev.io/) - All-In-One DevOps Platform. With Git Management, Issue Tracking, and CI/CD. Simple yet Powerful. 
+
+[OpenProject](https://www.openproject.org) - OpenProject is a web-based project management system. 
+
+[Pagure](https://pagure.io/pagure) - A lightweight, powerful, and flexible git-centric forge with features laying the foundation for federated and decentralized development. 
+
+[Phorge](https://we.phorge.it/) - Phorge is an open source, community driven platform for collaborating, managing, organizing and reviewing software development projects. 
+
+[Redmine](https://www.redmine.org/) - Redmine is a flexible project management web application. ([Demo](http://demo.redmine.org/), 
+
+[RhodeCode](https://rhodecode.com/) - RhodeCode is an open source platform for software development teams. It unifies and simplifies repository management for Git, Subversion, and Mercurial. 
+
+[SCM Manager](https://www.scm-manager.org/) - The easiest way to share and manage your Git, Mercurial and Subversion repositories over http. 
+
+[Taiga](https://www.taiga.io/) - Agile Project Management Tool based on the Kanban and Scrum methods. 
+
+[Titra](https://titra.io/) - Time-tracking solution for freelancers and small teams. 
+
+[Traq](https://traq.io/) - Project management and issue tracking system written in PHP. 
+
+[Tuleap](https://www.tuleap.org/) - Tuleap is a libre suite to plan, track, code and collaborate on software projects. 
+
+[UVDesk](https://www.uvdesk.com/) - UVDesk community is a service oriented, event driven extensible opensource helpdesk system that can be used by your organization to provide efficient support to your clients effortlessly whichever way you imagine. 
+
+[ZenTao](https://www.zentao.pm/) - An agile(scrum) project management system/tool. 
+
 [k3s-ansible](https://github.com/techno-tim/k3s-ansible) is the easiest way to bootstrap a self-hosted High Availability Kubernetes cluster. A fully automated HA k3s etcd install with [kube-vip](https://kube-vip.chipzoller.dev/), [MetalLB](https://metallb.universe.tf/installation/), and more.
 
 [Soft Serve](https://github.com/charmbracelet/soft-serve) is a tasty, self-hostable Git server for the command line.
