@@ -26,6 +26,7 @@
        * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
+       * [Automation](#automation)
        * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
           * [Linode](#Linode)
 	      * [Nextcloud](#Nextcloud)
@@ -302,6 +303,85 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
 [krunvm](https://github.com/containers/krunvm) is a CLI-based utility for creating microVMs from OCI images, using [libkrun](https://github.com/containers/libkrun) and [buildah](https://github.com/containers/buildah).
+
+### Automation
+
+[Back to the Top](#table-of-contents)
+
+[Accelerated Text](https://github.com/accelerated-text/accelerated-text) - Automatically generate multiple natural language descriptions of your data varying in wording and structure. 
+
+[Activepieces](https://www.activepieces.com) - No-code business automation tool like Zapier or Tray. For example, you can send a Slack notification for each new Trello card. 
+
+[ActiveWorkflow](https://github.com/automaticmode/active_workflow) - An intelligent process and workflow automation platform based on software agents. 
+
+[Alltube](https://github.com/Rudloff/alltube) - Web GUI for youtube-dl, a program to download videos and audio from more than 100 websites.
+
+[AmIUnique](https://amiunique.org/) - Learn how identifiable you are on the Internet (browser fingerprinting tool). 
+
+[Automatisch](https://automatisch.io) - Business automation tool that lets you connect different services like Twitter, Slack, and more to automate your business processes (Open source Zapier alternative). 
+
+[Baserow](https://baserow.io/) - Open source online database tool and Airtable alternative. Create your own database without technical experience. 
+
+[betanin](https://github.com/sentriz/betanin) - Music organization man-in-the-middle of your torrent client and music player. Based on beets.io, similar to Sonarr and Radarr.
+
+[ChiefOnboarding](https://chiefonboarding.com) - Employee onboarding platform that allows you to provision user accounts and create sequences with todo items, resources, text/email/Slack messages, and more! Available as a web portal and Slack bot. 
+
+[Datasette](https://datasette.io/) - An open source multi-tool for exploring and publishing data, easy import and export and database management. 
+
+[Eonza](https://www.eonza.org) - Eonza is used to create scripts and automate tasks on servers or VPS hosting. Manage your servers from any browser on any device. 
+
+[Exadel CompreFace](https://exadel.com/solutions/compreface/) - Face recognition system that provides REST API for face recognition, face detection, and other face services, and is easily deployed with docker. There are SDKs for Python and JavaScript languages. Can be used without prior machine learning skills. 
+
+[feed2toot](https://feed2toot.readthedocs.io/en/latest/) - Feed2toot parses a RSS feed, extracts the last entries and sends them to Mastodon.
+
+[feedmixer](https://github.com/cristoper/feedmixer) - FeedMixer is a WSGI (Python3) micro web service which takes a list of feed URLs and returns a new feed consisting of the most recent n entries from each given feed(Returns Atom, RSS, or JSON).
+
+[Headphones](https://github.com/rembo10/headphones) - Automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole. 
+
+[Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late. 
+
+[HRConvert2](https://github.com/zelon88/HRConvert2) - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. 
+
+[Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. 
+
+[Kibitzr](https://kibitzr.github.io) - Lightweight personal web assistant with powerful integrations. 
+
+[Krayin](https://krayincrm.com/) - Free and Opensource Laravel CRM Application. 
+
+[Leon](https://getleon.ai) - Open-source personal assistant who can live on your server. 
+
+[Lidarr](https://lidarr.audio/) - Lidarr is a music collection manager for Usenet and BitTorrent users. 
+
+[Matchering](https://github.com/sergree/matchering) - A containerized web app for automated music mastering. An open-source alternative to LANDR, eMastered, and MajorDecibel.
+
+[Medusa](https://pymedusa.com/) - Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. ([Source Code](https://github.com/pymedusa/Medusa)) `GPL-3.0` `Python`
+
+[MeTube](https://github.com/alexta69/metube) - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
+
+[nefarious](https://github.com/lardbit/nefarious) - Web application that automates downloading Movies and TV Shows. 
+
+[NocoDB](https://www.nocodb.com/) - No-code platform that turns any database into a smart spreadsheet. It can be considered as an Airtable or Smartsheet alternative. 
+
+[OliveTin](https://github.com/OliveTin/OliveTin) - OliveTin is a web interface for running Linux shell commands.
+
+[Patrowl](https://github.com/Patrowl/PatrowlManager) - Open Source, Smart and Scalable Security Operations Orchestration Platform. 
+
+[Podgrab](https://github.com/akhilrex/podgrab) - Lightweight podcast manager and automatic podcast episode downloader. It will monitor podcasts for your and download them automatically whenever a new episode goes live. 
+
+[pyLoad](https://pyload.net/) - Lightweight, customizable and remotely manageable downloader for 1-click-hosting sites like rapidshare.com or uploaded.to. 
+
+[Radarr](https://radarr.video/) - Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent, à la Couchpotato. 
+
+[SickRage](https://www.sickrage.ca) - SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. 
+
+[SiteInspector](https://www.getsiteinspector.com/) - Web-based tool for catching spelling errors, grammatical errors, broken links, and other errors on websites. 
+
+[Sonarr](https://sonarr.tv/) - Automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available. 
+
+[StackStorm](https://stackstorm.com) - StackStorm (aka _IFTTT for Ops_) is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions and ChatOps.
+
+[µTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml. 
+
 
 ### Cloud
 
