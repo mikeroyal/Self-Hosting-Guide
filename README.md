@@ -66,6 +66,7 @@
        * [Bookmarks](#Bookmarks)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
        * [Note-Taking](#Note-Taking)
+       * [Wikis](#wikis)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
     
@@ -2080,6 +2081,49 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Carnet](https://www.getcarnet.app/) is a complete open source note taking app. It has extensions for all the major browsers.
 
 [Frog](https://tenderowl.com/work/Frog) is a tool that quickly extract text from almost any source: youtube, screencasts, PDFs, webpages, photos, etc. Grab the image and get the text.
+
+### Wikis
+
+[Back to the Top](#table-of-contents)
+
+[Archivy](https://github.com/archivy/archivy) is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki. 
+
+[BookStack](https://www.bookstackapp.com/) - BookStack is a simple, self-hosted, easy-to-use platform for organizing and storing information. It allows for documentation to be stored in a book like fashion.
+
+[Cowyo](https://github.com/schollz/cowyo) - Cowyo is a feature-rich wiki for minimalists. 
+
+[django-wiki](https://github.com/django-wiki/django-wiki) - Wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models. 
+
+[Documize](https://documize.com) - Modern Docs + Wiki software with built-in workflow, single binary executable, just bring MySQL/Percona.
+
+[Dokuwiki](https://www.dokuwiki.org/DokuWiki) - Easy to use, lightweight, standards-compliant wiki engine with a simple syntax allowing reading the data outside the wiki. All data is stored in plain text files, therefore no database is required. 
+
+[Gitit](https://github.com/jgm/gitit) - Wiki program that stores pages and uploaded files in a git repository, which can then be modified using the VCS command line tools or the wiki's web interface. 
+
+[Gollum](https://github.com/gollum/gollum) - Simple, Git-powered wiki with a sweet API and local frontend.
+
+[Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage) - Instiki is a wiki clone so pretty and easy to set up, you'll wonder if it’s really a wiki. Runs on Rails and focuses on portability and stability.
+
+- [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) - MediaWiki is a free and open-source wiki software package written in PHP. It serves as the platform for Wikipedia and the other Wikimedia projects, used by hundreds of millions of people each month.
+
+[Pepperminty Wiki](https://github.com/sbrl/Pepperminty-Wiki) - Complete markdown-powered wiki contained in a single PHP file. 
+
+[PineDocs](https://github.com/xy2z/PineDocs) - Simple, fast, customizable and lightweight site for browsing files.
+
+[PmWiki](https://www.pmwiki.org) - Wiki-based system for collaborative creation and maintenance of websites. 
+
+[PukiWiki](https://pukiwiki.osdn.jp/) - PukiWiki is a free, simple, open-source wiki management system. Minimalistic and simple design with many tools for collaborative work. Created in Japanese, so translator needed. 
+
+[Raneto](https://raneto.com/) - Raneto is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase. 
+
+[TiddlyWiki](https://tiddlywiki.com/) - Reusable non-linear personal web notebook. 
+
+[Tiki](https://tiki.org/HomePage) - Wiki CMS Groupware with the most built-in features. 
+
+[TWiki](https://twiki.org/) - TWiki is a Perl-based structured wiki application, typically used to run a collaboration platform, knowledge or document management system, a knowledge base, or team portal. 
+
+[WackoWiki](https://wackowiki.org/) - WackoWiki is a light and easy to install multilingual Wiki-engine. 
+
 
 ### Gaming
 
