@@ -40,6 +40,7 @@
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+       * [Dashboards](#Dashboards)
        * [Analytics](#Analytics)
        * [Search](#Search)
        * [Notifications](#Notifications)
@@ -1100,6 +1101,25 @@ Minio's test-server called "play" is already configured in the default client, y
 [IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. 
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
+
+### Dashboards
+
+[Back to The Top](#table-of-contents)
+
+[Adagios](http://adagios.org/) - Web based Nagios configuration interface.
+
+[Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine.
+
+[Thruk](http://www.thruk.org/) - Multibackend monitoring web interface with support for Naemon, Nagios, Icinga and Shinken.
+
+[Uchiwa](https://uchiwa.io) - Simple dashboard for the Sensu monitoring framework.
+
+[InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
+
+[Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
+
+[Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
+
 
 ### Analytics
 
