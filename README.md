@@ -40,6 +40,7 @@
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
+       * [Log Management](#log-management)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
        * [Dashboards](#Dashboards)
        * [Analytics](#Analytics)
@@ -1025,6 +1026,49 @@ Minio's test-server called "play" is already configured in the default client, y
 [AuthPass.app](https://authpass.app/) is an Open-Source Password Manager for mobile and desktop that is Keepass 2.x (kdbx 3.x) compatible.
 
 [pass](https://www.passwordstore.org/) is an open-source unix-based password utilitiy with various [gui clients](https://www.passwordstore.org/#other)
+
+### LDAP
+
+[Back to The Top](#table-of-contents)
+
+**LDAP Servers**
+
+[389 Directory Server](https://port389.org) - Developed by Red Hat.
+
+[Apache Directory Server](https://directory.apache.org/) - Apache Software Foundation project written in Java.
+
+[Fusion Directory](https://www.fusiondirectory.org) - Improve the Management of the services and the company directory based on OpenLDAP.
+[OpenDJ](https://opendj.forgerock.org/) - Fork of OpenDS.
+
+[OpenDS](https://opends.java.net/) - Another directory server written in Java.
+
+[OpenLDAP](https://openldap.org/) - Developed by the OpenLDAP Project.
+
+**LDAP management**
+
+[Apache Directory Studio](https://directory.apache.org/studio/) - The Eclipse-based LDAP browser and directory client
+
+### Log Management
+
+[Back to The Top](#table-of-contents)
+
+[Echofish](https://www.echothrust.com/projects/echofish) - A web based real-time event log aggregation, analysis, monitoring and management system.
+
+[Fluentd](https://www.fluentd.org/) - Log Collector and Shipper.
+
+[Flume](https://flume.apache.org/) - Distributed log collection and aggregation system.
+
+[Graylog2](https://graylog2.org/) - Pluggable Log and Event Analysis Server with Alerting options.
+
+[Heka](https://hekad.readthedocs.org/en/latest/) - Stream processing system which may be used for log aggregation.
+
+[Elasticsearch](https://www.elasticsearch.org/) - A Lucene Based Document store mainly used for log indexing, storage and analysis.
+
+[Kibana](https://www.elasticsearch.org/overview/kibana/) - Visualize logs and time-stamped data.
+
+[Logstash](https://logstash.net/) - Tool for managing events and logs.
+
+[Octopussy](https://www.octopussy.pm) - Log Management Solution (Visualize/Alert/Report).
 
 ### Network Tools
 
