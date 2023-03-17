@@ -1164,13 +1164,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to The Top](#table-of-contents)
 
-[Adagios](http://adagios.org/) - Web based Nagios configuration interface.
+[Adagios](http://adagios.org/) is a Web based Nagios configuration interface.
 
-[Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine.
+[Dash](https://github.com/afaqurk/linux-dash) is a low-overhead monitoring web dashboard for a GNU/Linux machine.
 
-[Thruk](http://www.thruk.org/) - Multibackend monitoring web interface with support for Naemon, Nagios, Icinga and Shinken.
+[Thruk](http://www.thruk.org/) is a Multibackend monitoring web interface with support for Naemon, Nagios, Icinga and Shinken.
 
-[Uchiwa](https://uchiwa.io) - Simple dashboard for the Sensu monitoring framework.
+[Uchiwa](https://uchiwa.io) is a simple dashboard for the Sensu monitoring framework.
 
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
