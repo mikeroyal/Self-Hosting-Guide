@@ -27,6 +27,7 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Automation](#automation)
+       * [Cloud Storage](#cloud-storage)
        * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
           * [Linode](#Linode)
 	      * [Nextcloud](#Nextcloud)
@@ -442,6 +443,23 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [µTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml. 
 
+### Cloud Storage
+
+[Back to The Top](#table-of-contents)
+
+[Swift](https://docs.openstack.org/developer/swift/) - A highly available, distributed, eventually consistent object/blob store.
+
+[Syncthing](https://syncthing.net/) - Open Source system for private, encrypted and authenticated distribution of data.
+
+[git-annex assistant](https://git-annex.branchable.com/assistant/) - A synchronized folder on each of your MacOS and Linux computers, Android devices, removable drives, NAS appliances, and cloud services.
+
+[NextCloud](https://nextcloud.com) - Provides access to your files via the web.
+
+[ownCloud](https://owncloud.org) - Provides universal access to your files via the web, your computer or your mobile devices.
+
+[Seafile](https://seafile.com) - Another Open Source Cloud Storage solution.
+
+[SparkleShare](https://sparkleshare.org/) - Provides cloud storage and file synchronization services. By default, it uses Git as a storage backend.
 
 ### Cloud
 
