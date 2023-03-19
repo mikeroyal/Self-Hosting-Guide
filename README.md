@@ -26,6 +26,7 @@
        * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
+       * [Web servers](#web-servers)
        * [Automation](#automation)
        * [Cloud Storage](#cloud-storage)
        * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
@@ -366,6 +367,35 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
 [krunvm](https://github.com/containers/krunvm) is a CLI-based utility for creating microVMs from OCI images, using [libkrun](https://github.com/containers/libkrun) and [buildah](https://github.com/containers/buildah).
+
+### Web servers
+
+[Back to The Top](#table-of-contents)
+
+**Web servers**
+
+[Apache](https://httpd.apache.org/) - Most popular web server.
+
+[Caddy](https://caddyserver.com/) - The HTTP/2 Web Server with Fully Managed TLS.
+
+[Cherokee](https://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
+
+[Lighttpd](https://www.lighttpd.net/) - Web server more optimized for speed-critical environments.
+
+[Nginx](https://nginx.org/) - Reverse proxy, load balancer, HTTP cache, and web server.
+
+[uWSGI](https://github.com/unbit/uwsgi/) - The uWSGI project aims at developing a full stack for building hosting services.
+
+**Web Performance**
+
+[HAProxy](https://www.haproxy.org/) - Software based load Balancing, SSL offloading and performance optimization, compression, and general web routing.
+
+[Squid](https://www.squid-cache.org/) - Caching proxy for the web supporting HTTP, HTTPS, FTP, and more.
+
+[Traefik](https://traefik.io/) - Taefik is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
+
+[Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
+
 
 ### Automation
 
