@@ -1998,6 +1998,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Alan SDK](https://github.com/alan-ai/alan-sdk-web) is an voice assistant SDK to build a voice interface for websites and web apps (JavaScript, React, Angular, Vue, Ember, Electron).
 
+[OpenAssistant](https://open-assistant.io/) is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. 
+
 ### Video Surveillance
 
 [Back to the Top](#table-of-contents)
