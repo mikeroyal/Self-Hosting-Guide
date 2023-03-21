@@ -2923,6 +2923,8 @@ Red Hat Enterprise Linux Desktop
   - [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
   
   - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
+  
+  - [Noted - Self Hosted App and Product Reviews](https://noted.lol/)
 
   - [How I fell into the self-hosting rabbit hole in 2021](https://www.windowscentral.com/self-hosting-2021)
   
