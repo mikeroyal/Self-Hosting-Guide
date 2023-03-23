@@ -27,6 +27,7 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Automation](#automation)
+       * [Configuration Management](#Configuration-Management)
        * [Cloud Storage](#cloud-storage)
        * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
           * [Linode](#Linode)
@@ -444,6 +445,26 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [StackStorm](https://stackstorm.com) - StackStorm (aka _IFTTT for Ops_) is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions and ChatOps.
 
 [µTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml. 
+
+### Configuration Management
+
+[Back to The Top](#table-of-contents)
+
+[Ansible](https://www.ansible.com/) -  is a tool  is a powerful, agentless tool that works everywhere and with everything. When you add in proven enterprise engineering and support from Red Hat that's written in Python.
+
+[CFEngine](https://cfengine.com/) - is a Lightweight agent system where the configuration state is specified via a declarative language.
+
+[mgmt](https://github.com/purpleidea/mgmt) - is a next generation config management written in Go.
+
+[Pallet](https://palletops.com/) - is a Infrastructure definition, configuration and management via a Clojure DSL.
+
+[Puppet](https://puppetlabs.com/) - is an automated administrative engine for your Linux, Unix, and Windows systems, performs administrative tasks (such as adding users, installing packages, and updating server configurations) based on a centralized specification.
+
+[Chef](https://www.opscode.com/chef/) - is a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment.
+
+[(R)?ex](https://www.rexify.org/) - is a friendly automation framework to any combinations of local and remote execution, push and pull style of management, or imperative and declarative approach. 
+
+[Salt](https://www.saltstack.com/) -  is an event-driven automation tool and framework to deploy, configure, and manage complex IT systems. It automates common infrastructure administration tasks and ensure that all the components of your infrastructure are operating in a consistent desired state.
 
 ### Cloud Storage
 
