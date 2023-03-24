@@ -40,6 +40,7 @@
        * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
+       * [VPN](#vpn)
        * [LDAP(Lightweight Directory Access Protocol)](#ldap)
        * [Log Management](#log-management)
        * [DNS](#dns)
@@ -1049,6 +1050,24 @@ Minio's test-server called "play" is already configured in the default client, y
 [AuthPass.app](https://authpass.app/) is an Open-Source Password Manager for mobile and desktop that is Keepass 2.x (kdbx 3.x) compatible.
 
 [pass](https://www.passwordstore.org/) is an open-source unix-based password utilitiy with various [gui clients](https://www.passwordstore.org/#other)
+
+### VPN
+
+[Back to The Top](#table-of-contents)
+
+[Wireguard](https://www.wireguard.com/) - New minimal VPN Solution that is very fast.
+
+[OpenVPN](https://community.openvpn.net) - Uses a custom security protocol that utilizes SSL/TLS for key exchange.
+
+[Pritunl](https://pritunl.com/) - OpenVPN based solution that's easy to set up.
+
+[SoftEther](https://www.softether.org/) - Multi-protocol software VPN with advanced features.
+
+[sshuttle](https://github.com/apenwarr/sshuttle) - Poor man's VPN.
+
+[strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux.
+
+[tinc](https://www.tinc-vpn.org/) - Distributed p2p VPN.
 
 ### LDAP
 
