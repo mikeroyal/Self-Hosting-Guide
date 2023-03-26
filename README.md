@@ -46,6 +46,7 @@
        * [Log Management](#log-management)
        * [DNS](#dns)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
+       * [Security](#security)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
        * [Dashboards](#Dashboards)
        * [Analytics](#Analytics)
@@ -1237,6 +1238,34 @@ Minio's test-server called "play" is already configured in the default client, y
 [Firezone](https://firezone.dev/) is a self-hosted WireGuard®-based VPN server and Linux firewall.
 
 [Monoid](https://github.com/monoid-privacy/monoid) is an open-source suite of tools for automating data privacy.
+
+### Security
+
+[Back to The Top](#table-of-contents)
+
+[Blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git/Mercurial. Provides tooling to automatically encrypt secrets like passwords.
+
+[Denyhosts](http://denyhosts.sourceforge.net/) - Thwart SSH dictionary based attacks and brute force attacks.
+
+[Fail2Ban](http://www.fail2ban.org/wiki/index.php/Main_Page) - Scans log files and takes action on IPs that show malicious behavior.
+
+[fwknop](https://www.cipherdyne.org/fwknop/) - Protects ports via Single Packet Authorization in your firewall.
+
+[Glastopf](http://glastopf.org/) - A low-interaction web application honeypot to emulate vulnerabilities and gather attack data.
+
+[Kippo](https://github.com/desaster/kippo) - A medium-interaction SSH honeypot, mostly used as a standalone SSH daemon with a configurable Filesystem sandbox.
+[OSSEC](http://ossec.net) - OSSEC is a HIDS that performs log analysis, FIM, rootkit detection, and much more.
+
+[OSQuery](https://osquery.io/) - Query your servers status and info using a SQL like interface.
+
+[pfSense](https://www.pfsense.org/) - Firewall and Router FreeBSD distribution.
+
+[Snort](https://www.snort.org/) - Snort is a free and open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS) created by Martin Roesch in 1998.
+
+[SpamAssassin](https://spamassassin.apache.org/) - A powerful and popular email spam filter employing a variety of detection technique.
+
+[BounCA](https://bounca.org/) - is a personal SSL / Certificate Authority Key management tool. Create self-signed SSL certificates via your browser. 
+
 
 ### Monitoring
 
