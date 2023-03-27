@@ -236,6 +236,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Red Hat Quay](https://quay.io/) is a project that Builds, Stores, and Distributes your Applications and Containers.
 
+[runc](https://github.com/opencontainers/runc) is a CLI tool for spawning and running containers on Linux according to the OCI specification.
+
+[container-images](https://github.com/opencontainers/container-images) is a collection of container images used in CI across various opencontainers projects.
+
 [Clair](https://github.com/quay/clair) is an open source project for the static analysis of vulnerabilities in application containers (currently including [OCI](https://github.com/opencontainers/image-spec/blob/master/spec.md) and [Docker](https://github.com/docker/docker/blob/master/image/spec/v1.2.md)).
 
 [Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
