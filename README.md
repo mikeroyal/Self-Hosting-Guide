@@ -3042,6 +3042,8 @@ Red Hat Enterprise Linux Desktop
 
   - [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) is a directory of free software solutions and web applications which can be hosted locally.
   
+  - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) is a curated list of amazingly awesome open source sysadmin resources.
+  
   - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
 
   - [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services. 
