@@ -47,6 +47,7 @@
        * [DNS](#dns)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
        * [Security](#security)
+       * [Troubleshooting](#troubleshooting)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
        * [Dashboards](#Dashboards)
        * [Analytics](#Analytics)
@@ -498,6 +499,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [(R)?ex](https://www.rexify.org/) - is a friendly automation framework to any combinations of local and remote execution, push and pull style of management, or imperative and declarative approach. 
 
 [Salt](https://www.saltstack.com/) -  is an event-driven automation tool and framework to deploy, configure, and manage complex IT systems. It automates common infrastructure administration tasks and ensure that all the components of your infrastructure are operating in a consistent desired state.
+
 
 ### Cloud Storage
 
@@ -1266,6 +1268,25 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [BounCA](https://bounca.org/) - is a personal SSL / Certificate Authority Key management tool. Create self-signed SSL certificates via your browser. 
 
+### Troubleshooting
+
+[Back to The Top](#table-of-contents)
+
+[Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
+
+[Cilium](https://github.com/cilium/cilium) - A networking, observability, and security solution with an eBPF-based dataplane. It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native routing or overlay mode.
+
+[Netshoot](https://github.com/nicolaka/netshoot) - A  Docker + Kubernetes network trouble-shooting swiss-army container.
+
+[Kubevious](https://kubevious.io/) - A suite of app-centric assurance, validation, and introspection products for Kubernetes. It helps running modern Kubernetes applications without disasters and costly outages by continuously validating application manifests, cluster state, and configuration. 
+
+[HOMER](https://github.com/sipcapture/homer) - A robust, carrier-grade, scalable Packet and Event capture system and VoiP/RTC Monitoring Application based on the HEP/EEP protocol and ready to process & store insane amounts of signaling, rtc events, logs and statistics with instant search, end-to-end analysis and drill-down capabilities.
+
+[mitmproxy](https://mitmproxy.org/) - A Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems.
+
+[Sysdig](https://www.sysdig.org/) - Capture system state and activity from a running Linux instance, then save, filter and analyze.
+
+[Sysdig Inspect](https://github.com/draios/sysdig-inspect) - A powerful opensource interface for container troubleshooting and security investigation.
 
 ### Monitoring
 
