@@ -46,6 +46,7 @@
        * [Log Management](#log-management)
        * [DNS](#dns)
        * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
+       * [Service Discovery](#service-discovery)
        * [Security](#security)
        * [Troubleshooting](#troubleshooting)
        * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
@@ -1240,6 +1241,32 @@ Minio's test-server called "play" is already configured in the default client, y
 [Firezone](https://firezone.dev/) is a self-hosted WireGuard®-based VPN server and Linux firewall.
 
 [Monoid](https://github.com/monoid-privacy/monoid) is an open-source suite of tools for automating data privacy.
+
+### Service Discovery
+
+[Back to The Top](#table-of-contents)
+
+[Consul](http://www.consul.io/)  is a tool for service discovery, monitoring and configuration. [Install Consul on Self-Hosted Kubernetes Clusters](https://github.com/hashicorp/consul/blob/main/website/content/docs/k8s/platforms/self-hosted-kubernetes.mdx).
+
+[Linkerd](https://linkerd.io/) is an ultralight, security-first service mesh for Kubernetes. Linkerd adds critical security, observability, and reliability features to your Kubernetes stack with no code change required.
+
+[Doozerd](https://github.com/ha/doozerd) is a highly-available, completely consistent store for small amounts of extremely important data.
+
+[Admiral](https://github.com/istio-ecosystem/admiral) is a tool for for service discovery that provides automatic configuration and service discovery for multicluster Istio service mesh.
+
+[ScaleCube](https://github.com/scalecube/scalecube-services) is a library that simplifies the development of reactive and distributed applications by providing an embeddable microservices library. It connects distributed microservices in a way that resembles a fabric when viewed collectively. It greatly simplifies and streamlines asynchronous programming and provides a tool-set for managing microservices architecture.
+
+[DPS(dns-proxy-server)](https://github.com/mageddo/dns-proxy-server) is a lightweight end user (Developers, Server Administrators) DNS server tool for service discovery, which make it easy to develop in systems where one hostname can solve to different IPs based on the configured environment, so you can:
+
+ * Solve hostnames from local configuration database.
+ * Solve hostnames from docker containers using docker hostname option or HOSTNAMES env.
+ * Solve hostnames from a list of configured remote DNS servers(as a proxy) if no answer of two above  .
+ * Graphic interface to Create/List/Update/Delete A/CNAME records.
+ * Solve host machine IP using host.docker hostname.
+ * Access container by its container name / service name.
+ * Specify from which network solve container IP.
+
+[ZooKeeper](http://zookeeper.apache.org/)  is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 
 ### Security
 
