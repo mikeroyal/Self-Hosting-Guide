@@ -487,6 +487,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Ansible](https://www.ansible.com/) -  is a tool  is a powerful, agentless tool that works everywhere and with everything. When you add in proven enterprise engineering and support from Red Hat that's written in Python.
 
+[Ansible.Ai](https://ansible.ai/) is an AI for Ansible Content Development tool to automate in your IT infrastructure and it will generate syntactically correct playbook to help you get there.
+
 [CFEngine](https://cfengine.com/) - is a Lightweight agent system where the configuration state is specified via a declarative language.
 
 [mgmt](https://github.com/purpleidea/mgmt) - is a next generation config management written in Go.
