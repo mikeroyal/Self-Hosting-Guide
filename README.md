@@ -1168,6 +1168,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [PowerDNS](https://www.powerdns.com/) - DNS server with a variety of data storage back-ends and load balancing features.
 
+[CoreDNS](https://coredns.io/) is a DNS server/forwarder, written in Go, that chains [plugins](https://coredns.io/plugins). Each plugin performs a (DNS) function.
+
 [Unbound](http://unbound.net/) - Validating, recursive, and caching DNS resolver.
 
 [Yadifa](http://yadifa.eu/) - Lightweight authoritative Name Server with DNSSEC capabilities powering the .eu top-level domain.
