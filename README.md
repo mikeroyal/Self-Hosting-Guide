@@ -62,6 +62,7 @@
        * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
        * [Encryption](#Encryption)
        * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
+       * [Snapshots Management/System Recovery](snapshots-managementsystem-recovery)
        * [Archiving](#archiving)
        * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
        * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
@@ -1797,6 +1798,36 @@ Minio's test-server called "play" is already configured in the default client, y
 [SnapRAID](https://github.com/amadvance/snapraid) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
 
 [rsync.net](https://rsync.net/) is a Cloud Storage for Offsite Backup that give you an empty UNIX filesystem to access with any SSH tool. Built on ZFS for data security and fault tolerance with support for rsync/sftp/scp/borg/rclone/restic/git-annex.
+
+### Snapshots Management/System Recovery
+
+[Back to the Top](#table of contents)
+
+[rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
+
+[rsync.net](https://rsync.net/) is a Cloud Storage for Offsite Backup that give you an empty UNIX filesystem to access with any SSH tool. Built on ZFS for data security and fault tolerance with support for rsync/sftp/scp/borg/rclone/restic/git-annex.
+
+[ZnapZend](https://www.znapzend.org/) is a high performance open source ZFS backup with mbuffer and ssh support. It uses the built-in snapshot functionality of ZFS for fully consistent backups. For each fileset, a pre- and post-snapshot command can be configured to quiet down any software writing to the fileset prior to snapshotting.
+
+[Sanoid](https://github.com/jimsalterjrs/sanoid) is a policy-driven snapshot management tool for ZFS filesystems.
+
+[ZFSBootMenu](https://zfsbootmenu.org/) is a Linux bootloader that attempts to provide an experience similar to FreeBSD's. This allows a user to have multiple "boot environments" (with different distributions, for example), manipulate snapshots before booting, and, for the adventurous user, even bootstrap a system installation via ```zfs recv```.
+
+[Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, snapshots, trim or defragmentation.
+
+[ksync](https://github.com/ksync/ksync) is a toool that sync files between your local system and a kubernetes cluster. It transparently updates containers running on the cluster from your local checkout. 
+
+[Verify](https://github.com/VerifyTests/Verify) is a snapshot tool that simplifies the assertion of complex data models and documents.
+
+[Timeshift](https://github.com/linuxmint/timeshift) is a Linux application for providing functionality to restore your system just like Windows System Restore tool. Timeshift makes snapshots of your system in regular intervals which are further used at the time of restoration or undo all changes in the system.
+
+[CRIU (Checkpoint and Restore in Userspace)](https://github.com/checkpoint-restore/criu) is a utility to checkpoint/restore Linux tasks. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. You can then use the files to restore and run the application from the point it was frozen at. 
+
+[Rsync time backup](https://github.com/laurent22/rsync-time-backup) is a Time Machine style backup with rsync. It creates incremental backups of files and directories to the destination of your choice. The backups are structured in a way that makes it easy to recover any file at any point in time. It works on Linux, macOS and Windows (via WSL).
+
+[rdiff-backup](https://rdiff-backup.net/) is a simple backup tool which can be used locally and remotely, on Linux and Windows, and even cross-platform between both. Users have reported using it successfully on FreeBSD and MacOS.
+
+[Mainframer](https://github.com/buildfoundation/mainframer) is a tool that executes a command on a remote machine while syncing files back and forth. The process is known as remote execution (in general) and remote build (in particular cases).
 
 ### Archiving
 
