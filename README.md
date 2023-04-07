@@ -27,6 +27,7 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Web servers](#web-servers)
+       * [ChatGPT](#chatgpt)
        * [Automation](#automation)
        * [Configuration Management](#Configuration-Management)
        * [Cloud Storage](#cloud-storage)
@@ -407,6 +408,20 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
 
+
+### ChatGPT
+
+[Back to the Top](#table-of-contents)
+
+[Chatbot UI by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui) is an advanced chatbot kit for OpenAI's chat models built on top of Chatbot UI Lite using Next.js, TypeScript, and Tailwind CSS. This version of ChatBot UI supports both GPT-3.5 and GPT-4 models. Conversations are stored locally within your browser. You can export and import conversations to safeguard against data loss. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
+
+[Chatbot UI Lite by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui-lite) is a simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/230521118-e8106764-8ddb-416e-a6e8-ee12243f38f8.png">
+  <br />
+  Chatbot UI
+</p>
 
 ### Automation
 
