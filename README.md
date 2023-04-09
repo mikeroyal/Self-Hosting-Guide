@@ -417,8 +417,49 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Chatbot UI Lite by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui-lite) is a simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
 
+**Build locally with Docker:**
+
+```shell
+docker build -t chatgpt-ui .
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
+```
+
+## Running Locally on Windows, MacOS, and Linux
+
+**1. Clone Project Repo**
+
+```bash
+git clone https://github.com/mckaywrigley/chatbot-ui.git
+```
+
+**2. Install Dependencies**
+
+```bash
+npm i
+```
+
+**3. Provide OpenAI API Key**
+
+Create a .env.local file in the root of the repo with your **[OpenAI API Key](https://platform.openai.com/account/api-keys)**:
+
+```bash
+OPENAI_API_KEY=YOUR_KEY
+```
+
+* **You can set `OPENAI_API_HOST` where access to the official OpenAI host is restricted or unavailable, allowing users to configure an alternative host for their specific needs.**
+
+* **Additionally, if you have multiple OpenAI Organizations, you can set `OPENAI_ORGANIZATION` to specify one.**
+
+**4. Run App**
+
+```bash
+npm run dev
+```
+
+**You done you should be able to start chatting with ChatGPT!**
+
  <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/230521118-e8106764-8ddb-416e-a6e8-ee12243f38f8.png">
+ <img src="https://user-images.githubusercontent.com/45159366/230762358-a51124d1-9ee4-4d42-b83b-0dab95b7a93f.png">
   <br />
   Chatbot UI
 </p>
