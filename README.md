@@ -682,6 +682,8 @@ Nexcloud Hub
 
 [Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
 
+[LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud. 
+
 #### DigitalOcean
 
 [Back to the Top](#table-of-contents)
@@ -3756,6 +3758,8 @@ Nexcloud Hub
 [ONLYOFFICE integration in Nextcloud](https://nextcloud.com/onlyoffice/) is a service that empowers your users to collaborate on office documents with team members in real time. It has compatibility with Microsoft Office formats means perfect documents, every time.
 
 [Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
+
+[LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud. 
 
 # Raspberry Pi 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
