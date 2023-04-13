@@ -2290,6 +2290,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [WaaS](https://github.com/schibsted/WAAS) is a Whisper as a Service (GUI and API for OpenAI Whisper).
 
+[Web Whisper](https://codeberg.org/pluja/web-whisper) is a OpenAI's whisper on your web browser. [Demo](https://whisper.r3d.red/)
+
 [Vosk](https://github.com/alphacep/vosk-api) is an offline open source speech recognition toolkit. It enables speech recognition for 20+ languages and dialects.
 
 [Coqui TTS](http://coqui.ai/) is a deep learning toolkit for Text-to-Speech, battle-tested in research and production.
