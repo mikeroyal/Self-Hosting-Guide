@@ -464,6 +464,23 @@ npm run dev
   Chatbot UI
 </p>
 
+[GPT4All](https://github.com/nomic-ai/gpt4all) is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama).
+
+[GPT4All UI](https://github.com/nomic-ai/gpt4all-ui) is a Flask web application that provides a chat UI for interacting with the GPT4All chatbot. 
+
+[Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) is a fast ChatGPT-like model locally on your device. It combines the [LLaMA foundation model](https://github.com/facebookresearch/llama) with an [open reproduction](https://github.com/tloen/alpaca-lora) of [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) a fine-tuning of the base model to obey instructions (akin to the [RLHF](https://huggingface.co/blog/rlhf) used to train ChatGPT) and a set of modifications to [llama.cpp](https://github.com/ggerganov/llama.cpp) to add a chat interface.
+
+[llama.cpp](https://github.com/ggerganov/llama.cpp) is a Port of Facebook's LLaMA model in C/C++.
+
+[OpenPlayground](https://github.com/nat/openplayground) is a playfround for running ChatGPT-like models locally on your device.
+
+[Vicuna](https://vicuna.lmsys.org/) is an open source chatbot trained by fine tuning LLaMA. It apparently achieves more than 90% quality of chatgpt and costs $300 to train.
+
+[Yeagar ai](https://github.com/yeagerai/yeagerai-agent) is a Langchain Agent creator designed to help you build, prototype, and deploy AI-powered agents with ease.
+
+[HttpGPT](https://github.com/lucoiso/UEHttpGPT/releases) is an Unreal Engine 5 plugin that facilitates integration with OpenAI's GPT based services (ChatGPT and DALL-E) through asynchronous REST requests, making it easy for developers to communicate with these services. It also includes Editor Tools to integrate Chat GPT and DALL-E image generation directly in the Engine.
+
+
 ### Automation
 
 [Back to the Top](#table-of-contents)
