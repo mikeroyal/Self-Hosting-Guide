@@ -426,7 +426,7 @@ docker build -t chatgpt-ui .
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
 ```
 
-## Running Locally on Windows, MacOS, and Linux
+### Running Locally on Windows, MacOS, and Linux:
 
 **1. Clone Project Repo**
 
