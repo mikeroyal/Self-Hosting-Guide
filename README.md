@@ -413,7 +413,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
-## Chatbot UI for ChatGPT
+**Chatbot UI for ChatGPT**
 
 [Chatbot UI by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui) is an advanced chatbot kit for OpenAI's chat models built on top of Chatbot UI Lite using Next.js, TypeScript, and Tailwind CSS. This version of ChatBot UI supports both GPT-3.5 and GPT-4 models. Conversations are stored locally within your browser. You can export and import conversations to safeguard against data loss. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
 
