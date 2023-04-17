@@ -413,6 +413,123 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Back to the Top](#table-of-contents)
 
+## ChatGPT for Kubernetes
+
+[k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) is a tool for scanning your Kubernetes clusters, diagnosing, and triaging issues in plain English. It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI.
+
+## Quick Start
+
+* Currently the default AI provider is OpenAI, you will need to generate an API key from [OpenAI](https://openai.com)
+  - You can do this by running `k8sgpt generate` to open a browser link to generate it
+* Run `k8sgpt auth` to set it in k8sgpt.
+  - You can provide the password directly using the `--password` flag.
+* Run `k8sgpt filters` to manage the active filters used by the analyzer. By default, all filters are executed during analysis.
+* Run `k8sgpt analyze` to run a scan.
+* And use `k8sgpt analyze --explain` to get a more detailed explanation of the issues.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/232365749-8cab1b72-7410-4c23-ade9-2d1912a0426f.gif">
+</p>
+
+```
+Usage:
+  k8sgpt [command]
+
+Available Commands:
+  analyze     This command will find problems within your Kubernetes cluster
+  auth        Authenticate with your chosen backend
+  completion  Generate the autocompletion script for the specified shell
+  filters     Manage filters for analyzing Kubernetes resources
+  generate    Generate Key for your chosen backend (opens browser)
+  help        Help about any command
+  version     Print the version number of k8sgpt
+
+Flags:
+      --config string       config file (default is $HOME/.k8sgpt.git.yaml)
+  -h, --help                help for k8sgpt
+      --kubeconfig string   Path to a kubeconfig. Only required if out-of-cluster.
+      --master string       The address of the Kubernetes API server. Overrides any value in kubeconfig. Only required if out-of-cluster.
+  -t, --toggle              Help message for toggle
+
+Use "k8sgpt [command] --help" for more information about a command.
+```
+
+## Installation
+
+### WSL/Linux/MacOS via brew
+
+```
+brew tap k8sgpt-ai/k8sgpt
+brew install k8sgpt
+```
+
+<details>
+  <summary>RPM-based installation (RedHat/CentOS/Fedora)</summary>
+  <!---x-release-please-start-version-->
+  **64 bit:**
+
+  <!---x-release-please-start-version-->
+  ```
+  curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.2.3/k8sgpt_amd64.rpm
+  sudo rpm -ivh -i k8sgpt_amd64.rpm
+  ```
+  <!---x-release-please-end-->
+</details>
+
+<details>
+  <summary>DEB-based installation (Ubuntu/Debian)</summary>
+
+  **64 bit:**
+  ```
+  curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.2.3/k8sgpt_amd64.deb
+  sudo dpkg -i k8sgpt_amd64.deb
+  ```
+  <!---x-release-please-end-->
+</details>
+
+<details>
+
+  <summary>APK-based installation (Alpine)</summary>
+  
+  **64 bit:**
+  <!---x-release-please-start-version-->
+  ```
+  curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.2.3/k8sgpt_amd64.apk
+  apk add k8sgpt_amd64.apk
+  ```
+  <!---x-release-please-end-->x
+</details>
+
+<details>
+  <summary>Failing Installation on WSL or Linux (missing gcc)</summary>
+  When installing Homebrew on WSL or Linux, you may encounter the following error:
+
+  ```
+  Installing k8sgpt from k8sgpt-ai/k8sgpt Error: The following formula cannot be installed from a bottle and must be
+  built from the source. k8sgpt Install Clang or run brew install gcc.
+  ```
+
+If you install gcc as suggested, the problem will persist. Therefore, you need to install the build-essential package.
+  ```
+     sudo apt-get update
+     sudo apt-get install build-essential
+  ```
+</details>
+
+
+### Windows
+
+* Download the latest Windows binaries of **k8sgpt** from the [Release](https://github.com/k8sgpt-ai/k8sgpt/releases)
+  tab based on your system architecture.
+* Extract the downloaded package to your desired location. Configure the system *path* variable with the binary location
+
+
+### Verify installation
+
+* Run `k8sgpt version`
+
+## Chatbot UI for ChatGPT
+
 [Chatbot UI by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui) is an advanced chatbot kit for OpenAI's chat models built on top of Chatbot UI Lite using Next.js, TypeScript, and Tailwind CSS. This version of ChatBot UI supports both GPT-3.5 and GPT-4 models. Conversations are stored locally within your browser. You can export and import conversations to safeguard against data loss. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
 
 [Chatbot UI Lite by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui-lite) is a simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
