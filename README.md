@@ -1296,6 +1296,18 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
+[OWASP Amass](https://owasp.org/www-project-amass/) is a tool that performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
+
+[Smap](https://github.com/s0md3v/Smap) is a port scanner built with shodan.io's free API. It takes same command line arguments as Nmap and produces the same output which makes it a drop-in replacament for Nmap.
+
+[ORY Oathkeeper](https://github.com/ory/oathkeeper) is an Identity & Access Proxy (IAP) and Access Control Decision API that authorizes HTTP requests based on sets of Access Rules.
+
+[Ory Kratos](https://github.com/ory/kratos) is a developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud. The Kratos identity server (similiar to Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless. 
+
+[Ory Hydra](https://github.com/ory/hydra) is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect Provider optimized for low-latency, high throughput, and low resource consumption. Ory Hydra is not an identity provider (user sign up, user login, password reset flow), but connects to your existing identity provider through a [login and consent app](https://www.ory.sh/docs/hydra/oauth2#authenticating-users-and-requesting-consent).
+
+[Ory Keto](https://github.com/ory/keto) is an Open Source (Go) implementation of [Zanzibar: Google's Consistent, Global Authorization System](https://research.google/pubs/pub48190/). It ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models. 
+
 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
 
 [NetBird](https://netbird.io/) is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
