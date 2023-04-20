@@ -1297,6 +1297,12 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [SmokePing](https://oss.oetiker.ch/smokeping/) is a deluxe latency measurement tool. It can measure, store and display latency, latency distribution and packet loss. It uses RRDtool to maintain a longterm data-store and to draw pretty graphs, giving up to the minute information on the state of each network connection.
 
+[Tailnet](https://tailscale.com/kb/1136/tailnet/) is your private network. When you log in for the first time to Tailscale on your phone, laptop, desktop, or cloud VM, a tailnet is created. For personal users, you are a tailnet of many devices and one person. Each device gets a private Tailscale IP address in the [CGNAT](https://tailscale.com/kb/1015/100.x-addresses/) range and every device can talk directly to every other device, wherever they are on the internet.
+
+[Tailscale SSH](https://tailscale.com/kb/1193/tailscale-ssh/) is a service that allows Tailscale to manage the authentication and authorization of SSH connections on your tailnet.
+
+[Tailscale Funnel](https://tailscale.com/kb/1223/tailscale-funnel/) is a feature that allows you to route traffic from the wider internet to one or more of your Tailscale nodes. You can think of this as publicly sharing a node for anyone to access, even if they don’t have Tailscale themselves.
+
 [Cockpit](https://cockpit-project.org/) is a web-based graphical interface for servers, intended for everyone. It uses [your system’s normal user logins and privileges](https://cockpit-project.org/guide/latest/privileges). Network-wide logins are also supported through [single-sign-on](https://cockpit-project.org/guide/latest/sso) and other [authentication](https://cockpit-project.org/guide/latest/authentication) techniques.
 
 [NetBox](https://docs.netbox.dev/) is a leading solution for modeling and documenting modern networks. It combines the traditional disciplines of IP address management (IPAM) and datacenter infrastructure management (DCIM) with powerful APIs and extensions, NetBox provides the ideal "source of truth" to power network automation.
