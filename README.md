@@ -240,6 +240,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Red Hat Quay](https://quay.io/) is a project that Builds, Stores, and Distributes your Applications and Containers.
 
+[ctop](https://ctop.sh/) is a tool that provides a concise and condensed overview of real-time metrics for multiple containers as well as a [single container view](https://github.com/bcicen/ctop/blob/master/_docs/single.md) for inspecting a specific container. It comes with built-in support for Docker and runC; connectors for other container and cluster systems are planned for future releases.
+
 [runc](https://github.com/opencontainers/runc) is a CLI tool for spawning and running containers on Linux according to the OCI specification.
 
 [container-images](https://github.com/opencontainers/container-images) is a collection of container images used in CI across various opencontainers projects.
