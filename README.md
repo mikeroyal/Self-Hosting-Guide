@@ -408,7 +408,6 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
 
-
 ### ChatGPT Chatbots
 
 [Back to the Top](#table-of-contents)
@@ -464,6 +463,22 @@ npm run dev
  <img src="https://user-images.githubusercontent.com/45159366/230762358-a51124d1-9ee4-4d42-b83b-0dab95b7a93f.png">
   <br />
   Chatbot UI
+</p>
+
+[MiniGPT-4](https://minigpt-4.github.io/) is an enhancing Vision-language Understanding with Advanced Large Language Models
+
+**Launching Demo Locally**
+
+Try out the demo [demo.py](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/demo.py) on your local machine by running
+
+```python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0```
+
+Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. Besides, the default beam search width is 1. Under this setting, the **demo cost about 23G GPU memory**. If you have a more powerful GPU with larger GPU memory, you can run the model in 16 bit by setting low_resource to False in the config file [minigpt4_eval.yaml](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/eval_configs/minigpt4_eval.yaml) and use a larger beam search width.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/233298431-db46ccd6-c0c8-48db-9d9f-c142776de51f.png">
+  <br />
+  MiniGPT-4 Demo
 </p>
 
 [GPT4All](https://github.com/nomic-ai/gpt4all) is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama).
