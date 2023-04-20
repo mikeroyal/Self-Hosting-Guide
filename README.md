@@ -2079,6 +2079,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
 
+[Tube Archivist](https://github.com/tubearchivist/tubearchivist) is a self hosted YouTube media server.
+
 [PeerTube](https://joinpeertube.org/) is an ActivityPub-federated video streaming platform using P2P directly in your web browser.
 
 [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. 
