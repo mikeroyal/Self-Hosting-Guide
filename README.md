@@ -27,7 +27,7 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Web servers](#web-servers)
-       * [ChatGPT Chatbots](#chatgpt-chatbots)
+       * [ChatGPT Chatbots](#chatgpt)
        * [Automation](#automation)
        * [Configuration Management](#Configuration-Management)
        * [Cloud Storage](#cloud-storage)
@@ -408,7 +408,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
 
-### ChatGPT Chatbots
+### ChatGPT 
 
 [Back to the Top](#table-of-contents)
 
@@ -2795,7 +2795,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
  
 ### Operating Systems
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
 **Creating a bootable media device(USB/MicroSD card)**
 
