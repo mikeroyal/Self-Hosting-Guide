@@ -608,6 +608,7 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Salt](https://www.saltstack.com/) -  is an event-driven automation tool and framework to deploy, configure, and manage complex IT systems. It automates common infrastructure administration tasks and ensure that all the components of your infrastructure are operating in a consistent desired state.
 
+[Fleek](https://getfleek.dev/) is an all-in-one management system for everything you need to be productive on your computer. 
 
 ### Cloud Storage
 
