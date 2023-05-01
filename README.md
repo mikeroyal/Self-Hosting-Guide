@@ -296,6 +296,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Turbopilot](https://github.com/ravenscroftj/turbopilot) is an open source large-language-model based code completion engine that runs locally on your CPU.
 
+[Self-Hosted Sentry nightly](https://develop.sentry.dev/self-hosted/) is an official bootstrap for running your own Sentry with Docker. Sentry, feature-complete and packaged up for low-volume deployments and proofs-of-concept.
+
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a service/extension that enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. You can instantly and securely share your current project, start a joint debugging session, share terminal instances, forward localhost web apps, have voice calls, and more.
 
 [GistPad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs) is a Visual Studio Code extension that allows you to edit GitHub Gists and repositories from the comfort of your favorite editor. You can open, create, delete, fork and star gists and repositories, and then seamlessly begin editing files as if they were local, without ever cloning, pushing or pulling anything.
