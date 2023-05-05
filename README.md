@@ -2551,6 +2551,14 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Upscayl](https://upscayl.github.io/) is a free and open source desktop application that lets you upscale your low resolution images using advanced AI Models. Upscayl is a Linux-First Application that prioritizes Linux builds but is also cross-platform.
 
+[Librephotos](https://github.com/LibrePhotos/librephotos) is a self-hosted open source photo management service. This is the repository of the backend. 
+
+[Librephotos frontend](https://github.com/LibrePhotos/librephotos-frontend) is a self-hosted open source photo management service. This is the repository of the frontend. 
+
+[Librephotos  Mobile](https://github.com/LibrePhotos/librephotos-mobile) is an open-source Android and iOS Mobile Application for self-hosted Librephotos Server.
+
+[Librephotos Docker](https://github.com/LibrePhotos/librephotos-docker) is the Dockerfiles for the automated build process of LibrePhotos.
+
 ### Note-Taking
 
 [Back to the Top](#table-of-contents)
