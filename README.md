@@ -2084,7 +2084,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
 
-[Tautulli](https://tautulli.com/) is a 3rd party application that you can run alongside your Plex Media Server to monitor activity and track various statistics. 
+[Tautulli](https://tautulli.com/) is a 3rd party application that you can run alongside your Plex Media Server to monitor activity and track various statistics.
+
+[Prometheus Exporter for Plex](https://github.com/jsclayton/prometheus-plex-exporter) is an expose library playback, storage, and host metrics in a Prometheus format.
 
 [Infuse](https://firecore.com/) is a Video Player for iOS, Apple TV, and Mac. It plays every video file ever created to avoid wasting hours converting and transcoding files.
 
