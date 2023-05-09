@@ -2330,6 +2330,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Conversation](https://www.home-assistant.io/integrations/conversation) is an integration allows you to converse with **Home Assistant.** You can either converse by pressing the microphone in the frontend (supported browsers only (no iOS)) or by calling the ```conversation/process``` service with the transcribed text.
 
+[Piper](https://github.com/rhasspy/piper/) is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
+
 [Mycroft](https://mycroft.ai/) is an open source voice assistant that is private by default and completely customizable.
 
 [DeepSpeech](https://github.com/mozilla/DeepSpeech) is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers.
