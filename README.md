@@ -2824,6 +2824,14 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
  * [Aeotec MultiSensor 7, 6-in-1 Zwave Sensors](https://www.amazon.com/dp/B08XHZP7NV)
  * [reTerminal Raspberry Pi (CM4 module) all-in-one board](https://www.seeedstudio.com/ReTerminal-with-CM4-p-4904.html) 
  * [KOOLCORE R1 - The smallest mini PC with 4 x 2.5G LANs](https://www.ikoolcore.com/products/ikoolcore)
+ * [LattePanda Sigma](https://www.lattepanda.com/lattepanda-sigma) is a powerful and compact x86 Windows single board computer (SBC). It features the 13th Intel® Core™ i5-1340P Rapter Lake (12-Core, 16-Thread) processor and 16GB Dual-Channel LPDDR5-6400MHz memory.
+ * [Apex Storage X21](https://www.apexstoragedesign.com/apexstoragex21) is a storage solution that gives you have the freedom to choose system hardware thatworks best for you with the following benefits.
+    * Host 21 x M.2 Gen 4 NVME SSD’s
+    * 168 TB + Storage Per Card
+    * 31 GBps Read/Write Speeds
+    * Industry Leading IOPS
+    * 100 PCIe 4.0 Lanes
+    * Full UEFI/Secure Boot Support
  * [Protectli Vault](https://protectli.com/) is a series of small computers that have firewalls with advanced firmware protection to keep your network safe. All Vaults are Opertaing System (OS) agnostic and support a variety of popular open source software distributions. Run a firewall like OPNsense, pfSense, or others. Also, run any hypervisor on your system. 
  * [Pockethernet](https://pockethernet.com/) is a smartphone connected Ethernet network analyzer & cable tester that fits into your pocket. It helps any IT admin dealing with Ethernet network installation and maintenance. It lets you check the ethernet link, find cable faults, PoE voltage, VLAN, DHCP results and much more with the press of a button.
  
