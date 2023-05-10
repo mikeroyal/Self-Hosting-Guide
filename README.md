@@ -292,6 +292,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. 
 
+[Lazygit](https://github.com/jesseduffield/lazygit) is a simple terminal UI for git commands, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
+
+[LazyDocker](https://github.com/jesseduffield/lazydocker) is a  simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
+
 [Code-Server](https://github.com/coder/code-server) is Visual Studio Code running on a remote server, accessible through the browser. 
 
 [Turbopilot](https://github.com/ravenscroftj/turbopilot) is an open source large-language-model based code completion engine that runs locally on your CPU.
