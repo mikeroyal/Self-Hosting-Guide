@@ -3172,6 +3172,8 @@ Red Hat Enterprise Linux Desktop
 
 * [FSArchiver](https://www.fsarchiver.org/) is a system tool that allows you to save the contents of a file system to a compressed archive file. The file system can be restored on a partition which has a different size and it can be restored on a different file system. 
 
+[WekaFS](https://www.weka.io/resources/datasheet/wekafs-the-weka-file-system/) is the world's fastest shared parallel file system and delivers unmatched performance at ANY scale while offering the same enterprise features and benefits of traditional storage. It meets all storage challenges, delivering 10x the performance of legacy network attached storage (NAS) systems and 3x the performance of local server storage.
+
 [GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
 
 [Ceph](https://ceph.io/) is a software-defined storage solution designed to address the object, block, and file storage needs of data centers adopting open source as the new norm for high-growth block storage, object stores and data lakes. Ceph provides enterprise scalable storage while keeping [CAPEX](https://corporatefinanceinstitute.com/resources/knowledge/modeling/how-to-calculate-capex-formula/) and [OPEX](https://www.investopedia.com/terms/o/operating_expense.asp) costs in line with underlying bulk commodity disk prices.
