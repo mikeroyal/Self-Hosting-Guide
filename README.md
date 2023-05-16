@@ -2577,6 +2577,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [HedgeDoc](https://hedgedoc.org/) is an open-source, web-based, self-hosted, collaborative markdown editor. 
 
+[nb](https://xwmx.github.io/nb) is a CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script. 
+
 [Turtl](https://turtlapp.com/) is a secure, collaborative notebook for bookmarks or passwords, files or shopping lists.
 
 [TiddlyWiki](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
