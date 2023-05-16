@@ -75,6 +75,7 @@
        * [Podcasting](#Podcasting)
        * [Audiobooks](#Audiobooks)
        * [Health](#Health)
+       * [Gardening](#gardening)
        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
        * [Bookmarks](#Bookmarks)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
@@ -2479,6 +2480,26 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [OpenEMR](https://open-emr.org/) is a Free and Open Source electronic health records and medical practice management application. It features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, free support, a vibrant community, and a whole lot more. It runs on Windows, Linux, MacOS, and many other platforms.
 
 [Connect](https://github.com/nextgenhealthcare/connect) is the swiss army knife of healthcare integration.
+
+### Gardening
+
+[Back to the Top](#table-of-contents)
+
+[GardenBot](https://www.gardenbot.org/howTo/) is an open source garden monitoring system. Their website is a collection of tutorials for how to build things (like a soil moisture sensor), software for running GardenBot, resources, links, and more. 
+
+[OpenFarm](https://openfarm.cc/) is a free and open database and web application for farming and gardening knowledge. One might think of it as the Wikipedia for growing plants, though it functions more like a cooking recipes site.
+
+[Growstuff](http://growstuff.org/) is an open source/open data project for food gardeners. They crowdsource information on what our members are growing and harvesting, aggregate it, and make it available as open data via their API.
+
+[Harvest Helper](https://github.com/damwhit/harvest_helper) is a tool that provides growing, harvesting and recipe information for the 45 plants in the database as well as a json api so that people can hopefully use this data to build other apps. 
+
+[HappyPlants](https://happyplants.garden/) is a mobile web application that's all about collecting, organising, and adding all kinds of information of your plants. Basically, creating your own plant database in a visual way.
+
+[Automated irrigation system](https://github.com/PatrickHallek/automated-irrigation-system) is an open source application to water plants automatically. Up to now there is almost no free professional software and instructions available to build a DYI irrigation that is scalable, accurate and most importantly, durable.
+
+[Pigrow](https://github.com/Pragmatismo/Pigrow) is a garden automation suite designed to help gardeners monitor, log, graph and control their grow space using a raspberry Pi, various sensor and a few relay modules.
+
+[Tania](https://usetania.org/) is a farm management software for the hobbyist and smallholder farmer. 
 
 
 ### Maps
