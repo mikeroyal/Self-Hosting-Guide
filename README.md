@@ -1862,7 +1862,6 @@ Minio's test-server called "play" is already configured in the default client, y
 [Back to the Top](#table-of-contents)
 
 [VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/) is free open-source disk encryption software for Windows, Mac OS X and Linux. The file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files.   
-
 [AxCrypt](https://axcrypt.net/) is an inexpensive and effective encryption tool for Windows, macOS, iOS, and Android.
 
 [AESCrypt](https://www.aescrypt.com/) is an advanced file encryption utility that integrates with the Windows shell or runs from the Linux command prompt to provide a simple, yet powerful, tool for encrypting files using the Advanced Encryption Standard (AES). It is available for Windows, MacOS, and Linux.
@@ -2433,6 +2432,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Sovereign Feeds](https://sovereignfeeds.com/) is a tool to Search for your podcasts and add them to your favorites.
 
 [Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
+
+[Vod2Pod-RSS](https://github.com/madiele/vod2pod-rss) is a tool that converts a YouTube or Twitch channel into a podcast with ease. It creates a podcast RSS that can be listened to directly inside any podcast client. VODs are transcoded to MP3 on the fly and no server storage is needed.
 
 [Podverse](https://podverse.fm/) is creating an open source podcast app for iOS, Android, F-Droid, and Web.
 
