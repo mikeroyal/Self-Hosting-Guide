@@ -2490,6 +2490,16 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
+  * [ESPHome: DIY Irrigation Controller With Internal Scheduler](https://community.home-assistant.io/t/esphome-diy-irrigation-controller-with-internal-scheduler/171844)
+ * [Smart WiFi Controlled Irrigation System Using Home Assistant and ESPHome](https://www.instructables.com/Smart-WiFi-Controlled-Irrigation-System-Using-Home/)
+
+
+[OpenSprinkler](https://opensprinkler.com/product/opensprinkler/) is an open-source, web-based smart sprinkler controller for lawn and plant watering, drip irrigation, farm irrigation, hydroponics etc. The current version is OS 3.2, with built-in WiFi (based on ESP8266) and OLED display. 
+
+[Droplet](https://github.com/PricelessToolkit/Droplet) is an ALL-IN-ONE Irrigation and monitoring system for ESPHome and Home Assistant.
+
+[9 Valve Sprinkler Controller](https://github.com/hwstar/9-Valve-Sprinkler-Controller) is a 9 valve sprinkler controller for use with customized firmware such as ESPHOME.
+
 [GardenBot](https://www.gardenbot.org/howTo/) is an open source garden monitoring system. Their website is a collection of tutorials for how to build things (like a soil moisture sensor), software for running GardenBot, resources, links, and more. 
 
 [OpenFarm](https://openfarm.cc/) is a free and open database and web application for farming and gardening knowledge. One might think of it as the Wikipedia for growing plants, though it functions more like a cooking recipes site.
