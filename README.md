@@ -2870,6 +2870,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
     * Full UEFI/Secure Boot Support
  * [Protectli Vault](https://protectli.com/) is a series of small computers that have firewalls with advanced firmware protection to keep your network safe. All Vaults are Opertaing System (OS) agnostic and support a variety of popular open source software distributions. Run a firewall like OPNsense, pfSense, or others. Also, run any hypervisor on your system. 
  * [Pockethernet](https://pockethernet.com/) is a smartphone connected Ethernet network analyzer & cable tester that fits into your pocket. It helps any IT admin dealing with Ethernet network installation and maintenance. It lets you check the ethernet link, find cable faults, PoE voltage, VLAN, DHCP results and much more with the press of a button.
+ * [ATOM ECHO](https://docs.m5stack.com/en/atom/atomecho) is a Programmable Smart Speaker based on the M5ATOM design. Music can be played using the BT (Bluetooth Technology) capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Azure, and other cloud platforms, using the built-in microphone and speaker for voice interaction. 
  
 ### Operating Systems
 
