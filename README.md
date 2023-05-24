@@ -1275,6 +1275,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) - A lightweight service providing DNS, DHCP and TFTP services to small-scale networks.
 
+[MagicDNS](https://tailscale.com/kb/1081/magicdns/) is a tool that automatically registers DNS names for devices in your network.
+
 [Bind](https://www.isc.org/downloads/bind/) - The most widely used name server software.
 
 [djbdns](http://cr.yp.to/djbdns.html) - A collection of DNS applications, including tinydns.
