@@ -273,6 +273,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Drone](https://drone.io/) is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
 
+[Woodpecker](https://woodpecker-ci.org/) is a CI service, a community fork of Drone.
+
 [Travis CI](https://travis-ci.org/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
 
 [Circle CI](https://circleci.com/) is a continuous integration and continuous delivery platform that helps software teams work smarter, faster.
