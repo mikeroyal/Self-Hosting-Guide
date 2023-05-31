@@ -293,6 +293,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. 
 
+[IT-Tools](https://it-tools.tech/) is a collection of handy online tools for developers, with great UX. 
+
 [Lazygit](https://github.com/jesseduffield/lazygit) is a simple terminal UI for git commands, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
 
 [LazyDocker](https://github.com/jesseduffield/lazydocker) is a  simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
