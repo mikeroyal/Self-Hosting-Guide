@@ -271,6 +271,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
  * **CI/CD: Continuous Integration and Continuous Delivery**
 
+[Argonaut](https://www.argonaut.dev/) is a unified deployment platforms that allows users to build and deploy apps and infrastructure on your cloud in minutes. Support for custom and third-party app deployments on Kubernetes and Lambda runtimes. It comes with built in infrastructure cost estimates and k8s metrics.
+
 [Drone](https://drone.io/) is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
 
 [Woodpecker](https://woodpecker-ci.org/) is a CI service, a community fork of Drone.
