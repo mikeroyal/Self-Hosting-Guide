@@ -395,6 +395,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [krunvm](https://github.com/containers/krunvm) is a CLI-based utility for creating microVMs from OCI images, using [libkrun](https://github.com/containers/libkrun) and [buildah](https://github.com/containers/buildah).
 
+[Chisel Kubernetes Operator](https://github.com/FyraLabs/chisel-operator/) is a Kubernetes operator for Chisel. It allows you to use Chisel as a LoadBalancer provider for your Kubernetes cluster, similar to [inlets-operator](https://github.com/inlets/inlets-operator).
+
 ### Web servers
 
 [Back to The Top](#table-of-contents)
