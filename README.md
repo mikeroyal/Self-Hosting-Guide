@@ -2106,6 +2106,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [InfuseSync](https://github.com/firecore/InfuseSync) is a plugin for Emby and Jellyfin media servers that tracks all media changes to decrease sync times with Infuse clients. 
 
+[Polaris](https://github.com/agersant/polaris) is a music streaming application, designed to let you enjoy your music collection from any computer or mobile device. Polaris works by streaming music directly from your computer (or cloud server), without uploading it to a third-party.
+
 [AirSonic](https://hub.docker.com/r/airsonic/airsonic) is a free, web-based media streamer, providing ubiquitous access to your music.
 
 [TubeSync](https://github.com/meeb/tubesync) is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
