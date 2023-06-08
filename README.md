@@ -5,87 +5,87 @@
 </h1>
 
  <a href="https://github.com/mikeroyal?tab=followers">
-         <img alt="followers" title="Follow me on Github for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 	
+         <img alt="followers" title="Follow me on Github for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>  
 
- #### A guide for getting started with Self Hosting devices including software and hardware that will make you a better and more efficient Self Hosting.
- 
+#### A guide for getting started with Self Hosting devices including software and hardware that will make you a better and more efficient Self Hosting
+
  **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
- 
+
  **Note 2: This guide will constantly be updated with new info as becomes available and please feel to make an [issue](https://github.com/mikeroyal/Self-Hosting-Guide/issues) if you think something should be added.**
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/152699307-1c4ebfcd-a2b0-456c-9a84-01ac255e3782.png">
   <br />
 </p>
- 
+
 # Table of Contents
 
 1. [Getting Started with Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#getting-started-with-self-hosting)
- 
+
     - [Tools for Self-Hosting](https://github.com/mikeroyal/Self-Hosting-Guide#tools-for-self-hosting)
-       * [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
-       * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
-       * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
-       * [Web servers](#web-servers)
-       * [ChatGPT Chatbots](#chatgpt)
-       * [Automation](#automation)
-       * [Configuration Management](#Configuration-Management)
-       * [Cloud Storage](#cloud-storage)
-       * [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
-          * [Linode](#Linode)
-	      * [Nextcloud](#Nextcloud)
-	      * [DigitalOcean](#DigitalOcean)
-	      * [MinIO Object Storage](#MinIO-Object-Storage)
-       * [Databases](#Databases)
-         - [SQL](#SQL)
-         - [NoSQL](#NoSQL)
-       * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
-       * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
-       * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
-       * [VPN](#vpn)
-       * [LDAP(Lightweight Directory Access Protocol)](#ldap)
-       * [Log Management](#log-management)
-       * [DNS](#dns)
-       * [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
-       * [Service Discovery](#service-discovery)
-       * [Security](#security)
-       * [Troubleshooting](#troubleshooting)
-       * [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
-       * [Dashboards](#Dashboards)
-       * [Analytics](#Analytics)
-       * [Search](#Search)
-       * [Notifications](#Notifications)
-       * [RSS](#RSS)
-       * [Websites/Blogs](#WebsitesBlogs)
-       * [Social](#Social)
-       * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
-       * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
-       * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
-       * [Encryption](#Encryption)
-       * [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
-       * [Snapshots Management/System Recovery](snapshots-managementsystem-recovery)
-       * [Archiving](#archiving)
-       * [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
-       * [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
-       * [Smart Home Automation](#Smart-Home-Automation)
-       * [Voice Assistants](#Voice-Assistants)
-       * [Video Surveillance](#Video-Surveillance)
-       * [Text-To-Speech Synthesis (TTS)](#Text-To-Speech-Synthesis-TTS)
-       * [Video and Audio Processing](#Video-and-Audio-Processing)
-       * [Podcasting](#Podcasting)
-       * [Audiobooks](#Audiobooks)
-       * [Health](#Health)
-       * [Gardening](#gardening)
-       * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
-       * [Bookmarks](#Bookmarks)
-       * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
-       * [Note-Taking](#Note-Taking)
-       * [Wikis](#wikis)
-       * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
-       * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
-    
-    - [System Hardware](#System-Hardware)
-    - [Operating Systems](#Operating-Systems)
+       - [Containers](https://github.com/mikeroyal/Self-Hosting-Guide#containers)
+       - [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
+       - [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
+       - [Web servers](#web-servers)
+       - [ChatGPT Chatbots](#chatgpt)
+       - [Automation](#automation)
+       - [Configuration Management](#configuration-management)
+       - [Cloud Storage](#cloud-storage)
+       - [Cloud](https://github.com/mikeroyal/Self-Hosting-Guide#Cloud)
+          - [Linode](#linode)
+       - [Nextcloud](#nextcloud)
+       - [DigitalOcean](#digitalocean)
+       - [MinIO Object Storage](#minio-object-storage)
+       - [Databases](#databases)
+         - [SQL](#sql)
+         - [NoSQL](#nosql)
+       - [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
+       - [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
+       - [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
+       - [VPN](#vpn)
+       - [LDAP(Lightweight Directory Access Protocol)](#ldap)
+       - [Log Management](#log-management)
+       - [DNS](#dns)
+       - [Network Tools](https://github.com/mikeroyal/Self-Hosting-Guide#network-tools)
+       - [Service Discovery](#service-discovery)
+       - [Security](#security)
+       - [Troubleshooting](#troubleshooting)
+       - [Monitoring](https://github.com/mikeroyal/Self-Hosting-Guide#monitoring)
+       - [Dashboards](#dashboards)
+       - [Analytics](#analytics)
+       - [Search](#search)
+       - [Notifications](#notifications)
+       - [RSS](#rss)
+       - [Websites/Blogs](#websitesblogs)
+       - [Social](#social)
+       - [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
+       - [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
+       - [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
+       - [Encryption](#encryption)
+       - [Backups](https://github.com/mikeroyal/Self-Hosting-Guide#backups)
+       - [Snapshots Management/System Recovery](snapshots-managementsystem-recovery)
+       - [Archiving](#archiving)
+       - [Home Server](https://github.com/mikeroyal/Self-Hosting-Guide#home-server)
+       - [Media Server](https://github.com/mikeroyal/Self-Hosting-Guide#media-server)
+       - [Smart Home Automation](#smart-home-automation)
+       - [Voice Assistants](#voice-assistants)
+       - [Video Surveillance](#video-surveillance)
+       - [Text-To-Speech Synthesis (TTS)](#text-to-speech-synthesis-tts)
+       - [Video and Audio Processing](#video-and-audio-processing)
+       - [Podcasting](#podcasting)
+       - [Audiobooks](#audiobooks)
+       - [Health](#health)
+       - [Gardening](#gardening)
+       - [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
+       - [Bookmarks](#bookmarks)
+       - [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
+       - [Note-Taking](#note-taking)
+       - [Wikis](#wikis)
+       - [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
+       - [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
+
+    - [System Hardware](#system-hardware)
+    - [Operating Systems](#operating-systems)
     - [Storage](https://github.com/mikeroyal/Self-Hosting-Guide#storage)
     - [File systems](https://github.com/mikeroyal/Self-Hosting-Guide#file-systems)
     - [Books](https://github.com/mikeroyal/Self-Hosting-Guide#books)
@@ -95,36 +95,35 @@
     - [Useful Subreddits to Follow](https://github.com/mikeroyal/Self-Hosting-Guide#subreddits)
 
 2. [WireGuard](https://github.com/mikeroyal/Self-Hosting-Guide#wireguard)
-     * [What is WireGuard?](#what-is-wireguard)
-     * [What is Tailscale?](#what-is-tailscale)
-     * [What is Netmaker?](#what-is-netmaker)
-     * [WireGuard Tools](#wireguard-tools)
-     * [Setting up WireGuard with PiVPN](#setting-up-wireguard-with-pivpn)
-     * [Setting up WireGuard on Unraid](#setting-up-wireguard-on-unraid)
-     * [Setting up WireGuard on pfSense](#setting-up-wireguard-on-pfsense)
-     * [Setting up WireGuard on OpenWRT](#setting-up-wireguard-on-openwrt)
-     * [Setting up WireGuard on Home Assistant](#setting-up-wireguard-on-home-assistant)
+     - [What is WireGuard?](#what-is-wireguard)
+     - [What is Tailscale?](#what-is-tailscale)
+     - [What is Netmaker?](#what-is-netmaker)
+     - [WireGuard Tools](#wireguard-tools)
+     - [Setting up WireGuard with PiVPN](#setting-up-wireguard-with-pivpn)
+     - [Setting up WireGuard on Unraid](#setting-up-wireguard-on-unraid)
+     - [Setting up WireGuard on pfSense](#setting-up-wireguard-on-pfsense)
+     - [Setting up WireGuard on OpenWRT](#setting-up-wireguard-on-openwrt)
+     - [Setting up WireGuard on Home Assistant](#setting-up-wireguard-on-home-assistant)
 
 3. [Nextcloud](https://github.com/mikeroyal/Self-Hosting-Guide#nextcloud)
 
 4. [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
-     
-    * [Models of Raspberry Pi boards](#models-of-raspberry-pi-boards)
 
-    * [Raspberry Pi Learning Resources](#raspberry-pi-learning-resources)
+    - [Models of Raspberry Pi boards](#models-of-raspberry-pi-boards)
 
-    * [Raspberry Pi Operating Systems](#raspberry-pi-operating-systems)
+    - [Raspberry Pi Learning Resources](#raspberry-pi-learning-resources)
 
-    * [Raspberry Pi Tools](#raspberry-pi-tools)
-    
-      - [Getting Started with Home Assistant(HA)](#Home-Assistant)
-      - [Getting Started with Homebridge](#Homebridge)
-      - [Getting Started with ESPHome](#ESPHome)
-      - [Turning Raspberry Pi into a Router](#Turning-Raspberry-Pi-into-a-Router)
+    - [Raspberry Pi Operating Systems](#raspberry-pi-operating-systems)
+
+    - [Raspberry Pi Tools](#raspberry-pi-tools)
+
+      - [Getting Started with Home Assistant(HA)](#home-assistant)
+      - [Getting Started with Homebridge](#homebridge)
+      - [Getting Started with ESPHome](#esphome)
+      - [Turning Raspberry Pi into a Router](#turning-raspberry-pi-into-a-router)
       - [Setting up Watchdog Time (WDT) on Raspberry Pi](#setting-watchdog-timer-wdt-on-raspberry-pi)
 
-    * [Raspberry Pi Upgrades](#raspberry-pi-upgrades)
-    
+    - [Raspberry Pi Upgrades](#raspberry-pi-upgrades)
 
 5. [Grafana](https://github.com/mikeroyal/Self-Hosting-Guide#Grafana)
 
@@ -157,7 +156,7 @@
 19. [Toolkits](https://github.com/mikeroyal/Self-Hosting-Guide#toolkits)
 
 20. [Data visualization](https://github.com/mikeroyal/Self-Hosting-Guide#data-visualization)
- 
+
 21. [Search](https://github.com/mikeroyal/Self-Hosting-Guide#search)
 
 22. [Hardware](https://github.com/mikeroyal/Self-Hosting-Guide#hardware)
@@ -187,6 +186,7 @@
 34. [XML Development](https://github.com/mikeroyal/Self-Hosting-Guide#xml-development)
 
 # Getting Started with Self-Hosting
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).  
@@ -199,27 +199,28 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 </p>
 
 ## Tools for Self-Hosting
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 ### Containers
 
 [Back to the Top](#table-of-contents)
 
-**Container** is a standard unit of software that packages up code and all its dependencies(including CPU, memory, file storage, and network connections) so the application runs quickly and reliably from one computing environment to another. 
+**Container** is a standard unit of software that packages up code and all its dependencies(including CPU, memory, file storage, and network connections) so the application runs quickly and reliably from one computing environment to another.
 
-  * [Application Container Security Guide | NIST (PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
+- [Application Container Security Guide | NIST (PDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
 
-**Container Image** is a lightweight, standalone, executable package of software that includes everything needed to run an application such as the code, runtime, system tools, system libraries, and settings. 
+**Container Image** is a lightweight, standalone, executable package of software that includes everything needed to run an application such as the code, runtime, system tools, system libraries, and settings.
 
 **Best places to get Container Images:**
 
- * [DockerHub Container Images](https://hub.docker.com/search?image_filter=official&q=&type=image)
- * [LinuxServer.io Container Images](https://fleet.linuxserver.io/)
- * [Quay Container Images](https://quay.io/search)
+- [DockerHub Container Images](https://hub.docker.com/search?image_filter=official&q=&type=image)
+- [LinuxServer.io Container Images](https://fleet.linuxserver.io/)
+- [Quay Container Images](https://quay.io/search)
 
 [Docker Compose](https://github.com/docker/compose) is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
-[Kompose](https://kompose.io/) is a conversion tool for Docker Compose to container orchestrators such as [Kubernetes](https://kubernetes.io/) or [OpenShift](https://openshift.com/). 
+[Kompose](https://kompose.io/) is a conversion tool for Docker Compose to container orchestrators such as [Kubernetes](https://kubernetes.io/) or [OpenShift](https://openshift.com/).
 
 [Containerd](https://containerd.io/) is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows.
 
@@ -249,13 +250,13 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Clair](https://github.com/quay/clair) is an open source project for the static analysis of vulnerabilities in application containers (currently including [OCI](https://github.com/opencontainers/image-spec/blob/master/spec.md) and [Docker](https://github.com/docker/docker/blob/master/image/spec/v1.2.md)).
 
-[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
+[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid.
 
-[Autoheal](https://hub.docker.com/r/willfarrell/autoheal) monitors and restarts unhealthy docker containers. 
+[Autoheal](https://hub.docker.com/r/willfarrell/autoheal) monitors and restarts unhealthy docker containers.
 
-[Dozzle](https://hub.docker.com/r/amir20/dozzle) is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only. 
+[Dozzle](https://hub.docker.com/r/amir20/dozzle) is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.
 
-[Diun](https://crazymax.dev/diun/) is a tool that receive notifications when a Docker image is updated on a Docker registry. 
+[Diun](https://crazymax.dev/diun/) is a tool that receive notifications when a Docker image is updated on a Docker registry.
 
 [WatchTower](https://hub.docker.com/r/containrrr/watchtower) is a process for automating Docker container base image updates.
 
@@ -263,13 +264,13 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Nginx Proxy](https://github.com/nginx-proxy/nginx-proxy) is an automation tool that sets up a container running nginx and [docker-gen](https://github.com/nginx-proxy/docker-gen). Docker-gen generates reverse proxy configs for nginx and reloads nginx when containers are started and stopped.
 
-[Visual Studio Code Dev Containers](https://github.com/microsoft/vscode-dev-containers) is an extension that lets you use a [Docker container](https://docker.com/) as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set. A [devcontainer.json file](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file) in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. 
+[Visual Studio Code Dev Containers](https://github.com/microsoft/vscode-dev-containers) is an extension that lets you use a [Docker container](https://docker.com/) as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set. A [devcontainer.json file](https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file) in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack.
 
 ### CI/CD
 
 [Back to the Top](#table-of-contents)
 
- * **CI/CD: Continuous Integration and Continuous Delivery**
+- **CI/CD: Continuous Integration and Continuous Delivery**
 
 [Drone](https://drone.io/) is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.
 
@@ -279,7 +280,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Circle CI](https://circleci.com/) is a continuous integration and continuous delivery platform that helps software teams work smarter, faster.
 
-[Buddy](https://buddy.works/) is a fully-featured DevOps platform with no learning curve that packs everything you need from a CI/CD tool. 
+[Buddy](https://buddy.works/) is a fully-featured DevOps platform with no learning curve that packs everything you need from a CI/CD tool.
 
 [Buildbot](https://www.buildbot.net/) is a continuous integration tool which automates the compile or test cycle required to validate changes to the project code base. It queues jobs, executes the jobs when the required resources are available, and reports the results.
 
@@ -293,15 +294,15 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [OTF](https://github.com/leg100/otf) is an open source alternative to Terraform Enterprise. Includes SSO, team management, agents, and as many applies as you can throw hardware at.
 
-[APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. 
+[APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives.
 
-[IT-Tools](https://it-tools.tech/) is a collection of handy online tools for developers, with great UX. 
+[IT-Tools](https://it-tools.tech/) is a collection of handy online tools for developers, with great UX.
 
 [Lazygit](https://github.com/jesseduffield/lazygit) is a simple terminal UI for git commands, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
 
 [LazyDocker](https://github.com/jesseduffield/lazydocker) is a  simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
 
-[Code-Server](https://github.com/coder/code-server) is Visual Studio Code running on a remote server, accessible through the browser. 
+[Code-Server](https://github.com/coder/code-server) is Visual Studio Code running on a remote server, accessible through the browser.
 
 [Turbopilot](https://github.com/ravenscroftj/turbopilot) is an open source large-language-model based code completion engine that runs locally on your CPU.
 
@@ -319,75 +320,75 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Act runner](https://gitea.com/gitea/act_runner) is a runner for Gitea based on [act](https://gitea.com/gitea/act).
 
-[GitLab](https://about.gitlab.com/) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider. 
+[GitLab](https://about.gitlab.com/) is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.
 
-[Bonobo Git Server](https://bonobogitserver.com/) - Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface. 
+[Bonobo Git Server](https://bonobogitserver.com/) - Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface.
 
-[Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) - Distributed version control system featuring wiki and bug tracker. 
+[Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) - Distributed version control system featuring wiki and bug tracker.
 
-[Gerrit](https://www.gerritcodereview.com/) - A code review and project management tool for Git based projects. 
+[Gerrit](https://www.gerritcodereview.com/) - A code review and project management tool for Git based projects.
 
-[Gitblit](https://www.gitblit.com/) - Pure Java stack for managing, viewing, and serving Git repositories. 
+[Gitblit](https://www.gitblit.com/) - Pure Java stack for managing, viewing, and serving Git repositories.
 
 [gitbucket](https://gitbucket.github.io/gitbucket-news/) - Easily installable GitHub clone powered by Scala.
 
-[Gitea](https://gitea.io) - Community managed fork of Gogs, lightweight code hosting solution. 
+[Gitea](https://gitea.io) - Community managed fork of Gogs, lightweight code hosting solution.
 
-[GitLab](https://about.gitlab.com) - Self Hosted Git repository management, code reviews, issue tracking, activity feeds and wikis. 
+[GitLab](https://about.gitlab.com) - Self Hosted Git repository management, code reviews, issue tracking, activity feeds and wikis.
 
-[Gitlist](https://gitlist.org/) - Web-based git repository browser - GitList allows you to browse repositories using your favorite browser, viewing files under different revisions, commit history and diffs. 
+[Gitlist](https://gitlist.org/) - Web-based git repository browser - GitList allows you to browse repositories using your favorite browser, viewing files under different revisions, commit history and diffs.
 
 [Gitolite](https://gitolite.com/gitolite/index.html) - Gitolite allows you to setup git hosting on a central server, with fine-grained access control and many more powerful features.
 
-[GitPrep](https://github.com/yuki-kimoto/gitprep) - Portable Github clone. 
+[GitPrep](https://github.com/yuki-kimoto/gitprep) - Portable Github clone.
 
-[Gogs](https://gogs.io/) - Painless self-hosted Git Service written in Go. 
+[Gogs](https://gogs.io/) - Painless self-hosted Git Service written in Go.
 
 [Kallithea](https://kallithea-scm.org/) - Source code management system that supports two leading version control systems, Mercurial and Git, with a web interface.
 
-[Klaus](https://github.com/jonashaag/klaus) - Simple, easy-to-set-up Git web viewer that Just Works. 
+[Klaus](https://github.com/jonashaag/klaus) - Simple, easy-to-set-up Git web viewer that Just Works.
 
 [Lavagna](https://lavagna.io) - Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use.
 
-[Leantime](https://leantime.io) - Leantime is a lean project management system for small teams and startups helping to manage projects from ideation through delivery. 
+[Leantime](https://leantime.io) - Leantime is a lean project management system for small teams and startups helping to manage projects from ideation through delivery.
 
 [Microgit](https://github.com/microgit-com/microgit) - Git hosting service made in Crystal and Lucky. `MIT` `Crystal`
 
-[OneDev](https://onedev.io/) - All-In-One DevOps Platform. With Git Management, Issue Tracking, and CI/CD. Simple yet Powerful. 
+[OneDev](https://onedev.io/) - All-In-One DevOps Platform. With Git Management, Issue Tracking, and CI/CD. Simple yet Powerful.
 
-[OpenProject](https://www.openproject.org) - OpenProject is a web-based project management system. 
+[OpenProject](https://www.openproject.org) - OpenProject is a web-based project management system.
 
-[Pagure](https://pagure.io/pagure) - A lightweight, powerful, and flexible git-centric forge with features laying the foundation for federated and decentralized development. 
+[Pagure](https://pagure.io/pagure) - A lightweight, powerful, and flexible git-centric forge with features laying the foundation for federated and decentralized development.
 
-[Phorge](https://we.phorge.it/) - Phorge is an open source, community driven platform for collaborating, managing, organizing and reviewing software development projects. 
+[Phorge](https://we.phorge.it/) - Phorge is an open source, community driven platform for collaborating, managing, organizing and reviewing software development projects.
 
-[Redmine](https://www.redmine.org/) - Redmine is a flexible project management web application. ([Demo](http://demo.redmine.org/), 
+[Redmine](https://www.redmine.org/) - Redmine is a flexible project management web application. ([Demo](http://demo.redmine.org/),
 
-[RhodeCode](https://rhodecode.com/) - RhodeCode is an open source platform for software development teams. It unifies and simplifies repository management for Git, Subversion, and Mercurial. 
+[RhodeCode](https://rhodecode.com/) - RhodeCode is an open source platform for software development teams. It unifies and simplifies repository management for Git, Subversion, and Mercurial.
 
-[SCM Manager](https://www.scm-manager.org/) - The easiest way to share and manage your Git, Mercurial and Subversion repositories over http. 
+[SCM Manager](https://www.scm-manager.org/) - The easiest way to share and manage your Git, Mercurial and Subversion repositories over http.
 
-[Taiga](https://www.taiga.io/) - Agile Project Management Tool based on the Kanban and Scrum methods. 
+[Taiga](https://www.taiga.io/) - Agile Project Management Tool based on the Kanban and Scrum methods.
 
-[Titra](https://titra.io/) - Time-tracking solution for freelancers and small teams. 
+[Titra](https://titra.io/) - Time-tracking solution for freelancers and small teams.
 
-[Traq](https://traq.io/) - Project management and issue tracking system written in PHP. 
+[Traq](https://traq.io/) - Project management and issue tracking system written in PHP.
 
-[Tuleap](https://www.tuleap.org/) - Tuleap is a libre suite to plan, track, code and collaborate on software projects. 
+[Tuleap](https://www.tuleap.org/) - Tuleap is a libre suite to plan, track, code and collaborate on software projects.
 
-[UVDesk](https://www.uvdesk.com/) - UVDesk community is a service oriented, event driven extensible opensource helpdesk system that can be used by your organization to provide efficient support to your clients effortlessly whichever way you imagine. 
+[UVDesk](https://www.uvdesk.com/) - UVDesk community is a service oriented, event driven extensible opensource helpdesk system that can be used by your organization to provide efficient support to your clients effortlessly whichever way you imagine.
 
-[ZenTao](https://www.zentao.pm/) - An agile(scrum) project management system/tool. 
+[ZenTao](https://www.zentao.pm/) - An agile(scrum) project management system/tool.
 
 [k3s-ansible](https://github.com/techno-tim/k3s-ansible) is the easiest way to bootstrap a self-hosted High Availability Kubernetes cluster. A fully automated HA k3s etcd install with [kube-vip](https://kube-vip.chipzoller.dev/), [MetalLB](https://metallb.universe.tf/installation/), and more.
 
 [Soft Serve](https://github.com/charmbracelet/soft-serve) is a tasty, self-hostable Git server for the command line.
 
-[Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative. 
+[Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative.
 
-[Corosync Cluster Engine](https://corosync.github.io/corosync/) is a Group Communication System with additional features for implementing high availability within applications. 
+[Corosync Cluster Engine](https://corosync.github.io/corosync/) is a Group Communication System with additional features for implementing high availability within applications.
 
-[Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere. 
+[Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere.
 
 [Deep Lake](https://github.com/activeloopai/deeplake) is a data lake for deep learning applications. Our open-source dataset format is optimized for rapid streaming and querying of data while training models at scale, and it includes a simple API for creating, storing, and collaborating on AI datasets of any size. It can be deployed locally or in the cloud, and it enables you to store all of your data in one place, ranging from simple annotations to large videos.
 
@@ -423,7 +424,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
 
-### ChatGPT 
+### ChatGPT
 
 [Back to the Top](#table-of-contents)
 
@@ -440,7 +441,7 @@ docker build -t chatgpt-ui .
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
 ```
 
-### Running Locally on Windows, MacOS, and Linux:
+### Running Locally on Windows, MacOS, and Linux
 
 **1. Clone Project Repo**
 
@@ -462,9 +463,9 @@ Create a .env.local file in the root of the repo with your **[OpenAI API Key](ht
 OPENAI_API_KEY=YOUR_KEY
 ```
 
-* **You can set `OPENAI_API_HOST` where access to the official OpenAI host is restricted or unavailable, allowing users to configure an alternative host for their specific needs.**
+- **You can set `OPENAI_API_HOST` where access to the official OpenAI host is restricted or unavailable, allowing users to configure an alternative host for their specific needs.**
 
-* **Additionally, if you have multiple OpenAI Organizations, you can set `OPENAI_ORGANIZATION` to specify one.**
+- **Additionally, if you have multiple OpenAI Organizations, you can set `OPENAI_ORGANIZATION` to specify one.**
 
 **4. Run App**
 
@@ -502,7 +503,7 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
  <img src="https://user-images.githubusercontent.com/45159366/232368422-447387b2-5d7b-4aec-872d-7b711a313b4f.gif">
 </p>
 
-[GPT4All UI](https://github.com/nomic-ai/gpt4all-ui) is a Flask web application that provides a chat UI for interacting with the GPT4All chatbot. 
+[GPT4All UI](https://github.com/nomic-ai/gpt4all-ui) is a Flask web application that provides a chat UI for interacting with the GPT4All chatbot.
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/232368426-2b555ca6-e620-4d18-bfb8-fa71e4eed64e.png">
@@ -522,54 +523,53 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [HttpGPT](https://github.com/lucoiso/UEHttpGPT/releases) is an Unreal Engine 5 plugin that facilitates integration with OpenAI's GPT based services (ChatGPT and DALL-E) through asynchronous REST requests, making it easy for developers to communicate with these services. It also includes Editor Tools to integrate Chat GPT and DALL-E image generation directly in the Engine.
 
-
 ### Automation
 
 [Back to the Top](#table-of-contents)
 
-[Accelerated Text](https://github.com/accelerated-text/accelerated-text) - Automatically generate multiple natural language descriptions of your data varying in wording and structure. 
+[Accelerated Text](https://github.com/accelerated-text/accelerated-text) - Automatically generate multiple natural language descriptions of your data varying in wording and structure.
 
-[Activepieces](https://www.activepieces.com) - No-code business automation tool like Zapier or Tray. For example, you can send a Slack notification for each new Trello card. 
+[Activepieces](https://www.activepieces.com) - No-code business automation tool like Zapier or Tray. For example, you can send a Slack notification for each new Trello card.
 
-[ActiveWorkflow](https://github.com/automaticmode/active_workflow) - An intelligent process and workflow automation platform based on software agents. 
+[ActiveWorkflow](https://github.com/automaticmode/active_workflow) - An intelligent process and workflow automation platform based on software agents.
 
 [Alltube](https://github.com/Rudloff/alltube) - Web GUI for youtube-dl, a program to download videos and audio from more than 100 websites.
 
-[AmIUnique](https://amiunique.org/) - Learn how identifiable you are on the Internet (browser fingerprinting tool). 
+[AmIUnique](https://amiunique.org/) - Learn how identifiable you are on the Internet (browser fingerprinting tool).
 
-[Automatisch](https://automatisch.io) - Business automation tool that lets you connect different services like Twitter, Slack, and more to automate your business processes (Open source Zapier alternative). 
+[Automatisch](https://automatisch.io) - Business automation tool that lets you connect different services like Twitter, Slack, and more to automate your business processes (Open source Zapier alternative).
 
-[Baserow](https://baserow.io/) - Open source online database tool and Airtable alternative. Create your own database without technical experience. 
+[Baserow](https://baserow.io/) - Open source online database tool and Airtable alternative. Create your own database without technical experience.
 
 [betanin](https://github.com/sentriz/betanin) - Music organization man-in-the-middle of your torrent client and music player. Based on beets.io, similar to Sonarr and Radarr.
 
-[ChiefOnboarding](https://chiefonboarding.com) - Employee onboarding platform that allows you to provision user accounts and create sequences with todo items, resources, text/email/Slack messages, and more! Available as a web portal and Slack bot. 
+[ChiefOnboarding](https://chiefonboarding.com) - Employee onboarding platform that allows you to provision user accounts and create sequences with todo items, resources, text/email/Slack messages, and more! Available as a web portal and Slack bot.
 
-[Datasette](https://datasette.io/) - An open source multi-tool for exploring and publishing data, easy import and export and database management. 
+[Datasette](https://datasette.io/) - An open source multi-tool for exploring and publishing data, easy import and export and database management.
 
-[Eonza](https://www.eonza.org) - Eonza is used to create scripts and automate tasks on servers or VPS hosting. Manage your servers from any browser on any device. 
+[Eonza](https://www.eonza.org) - Eonza is used to create scripts and automate tasks on servers or VPS hosting. Manage your servers from any browser on any device.
 
-[Exadel CompreFace](https://exadel.com/solutions/compreface/) - Face recognition system that provides REST API for face recognition, face detection, and other face services, and is easily deployed with docker. There are SDKs for Python and JavaScript languages. Can be used without prior machine learning skills. 
+[Exadel CompreFace](https://exadel.com/solutions/compreface/) - Face recognition system that provides REST API for face recognition, face detection, and other face services, and is easily deployed with docker. There are SDKs for Python and JavaScript languages. Can be used without prior machine learning skills.
 
 [feed2toot](https://feed2toot.readthedocs.io/en/latest/) - Feed2toot parses a RSS feed, extracts the last entries and sends them to Mastodon.
 
 [feedmixer](https://github.com/cristoper/feedmixer) - FeedMixer is a WSGI (Python3) micro web service which takes a list of feed URLs and returns a new feed consisting of the most recent n entries from each given feed(Returns Atom, RSS, or JSON).
 
-[Headphones](https://github.com/rembo10/headphones) - Automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole. 
+[Headphones](https://github.com/rembo10/headphones) - Automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
 
-[Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late. 
+[Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late.
 
-[HRConvert2](https://github.com/zelon88/HRConvert2) - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. 
+[HRConvert2](https://github.com/zelon88/HRConvert2) - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability.
 
-[Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. 
+[Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf.
 
-[Kibitzr](https://kibitzr.github.io) - Lightweight personal web assistant with powerful integrations. 
+[Kibitzr](https://kibitzr.github.io) - Lightweight personal web assistant with powerful integrations.
 
-[Krayin](https://krayincrm.com/) - Free and Opensource Laravel CRM Application. 
+[Krayin](https://krayincrm.com/) - Free and Opensource Laravel CRM Application.
 
-[Leon](https://getleon.ai) - Open-source personal assistant who can live on your server. 
+[Leon](https://getleon.ai) - Open-source personal assistant who can live on your server.
 
-[Lidarr](https://lidarr.audio/) - Lidarr is a music collection manager for Usenet and BitTorrent users. 
+[Lidarr](https://lidarr.audio/) - Lidarr is a music collection manager for Usenet and BitTorrent users.
 
 [Matchering](https://github.com/sergree/matchering) - A containerized web app for automated music mastering. An open-source alternative to LANDR, eMastered, and MajorDecibel.
 
@@ -577,29 +577,29 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [MeTube](https://github.com/alexta69/metube) - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
 
-[nefarious](https://github.com/lardbit/nefarious) - Web application that automates downloading Movies and TV Shows. 
+[nefarious](https://github.com/lardbit/nefarious) - Web application that automates downloading Movies and TV Shows.
 
-[NocoDB](https://www.nocodb.com/) - No-code platform that turns any database into a smart spreadsheet. It can be considered as an Airtable or Smartsheet alternative. 
+[NocoDB](https://www.nocodb.com/) - No-code platform that turns any database into a smart spreadsheet. It can be considered as an Airtable or Smartsheet alternative.
 
 [OliveTin](https://github.com/OliveTin/OliveTin) - OliveTin is a web interface for running Linux shell commands.
 
-[Patrowl](https://github.com/Patrowl/PatrowlManager) - Open Source, Smart and Scalable Security Operations Orchestration Platform. 
+[Patrowl](https://github.com/Patrowl/PatrowlManager) - Open Source, Smart and Scalable Security Operations Orchestration Platform.
 
-[Podgrab](https://github.com/akhilrex/podgrab) - Lightweight podcast manager and automatic podcast episode downloader. It will monitor podcasts for your and download them automatically whenever a new episode goes live. 
+[Podgrab](https://github.com/akhilrex/podgrab) - Lightweight podcast manager and automatic podcast episode downloader. It will monitor podcasts for your and download them automatically whenever a new episode goes live.
 
-[pyLoad](https://pyload.net/) - Lightweight, customizable and remotely manageable downloader for 1-click-hosting sites like rapidshare.com or uploaded.to. 
+[pyLoad](https://pyload.net/) - Lightweight, customizable and remotely manageable downloader for 1-click-hosting sites like rapidshare.com or uploaded.to.
 
-[Radarr](https://radarr.video/) - Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent, à la Couchpotato. 
+[Radarr](https://radarr.video/) - Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent, à la Couchpotato.
 
-[SickRage](https://www.sickrage.ca) - SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. 
+[SickRage](https://www.sickrage.ca) - SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want.
 
-[SiteInspector](https://www.getsiteinspector.com/) - Web-based tool for catching spelling errors, grammatical errors, broken links, and other errors on websites. 
+[SiteInspector](https://www.getsiteinspector.com/) - Web-based tool for catching spelling errors, grammatical errors, broken links, and other errors on websites.
 
-[Sonarr](https://sonarr.tv/) - Automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available. 
+[Sonarr](https://sonarr.tv/) - Automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
 [StackStorm](https://stackstorm.com) - StackStorm (aka _IFTTT for Ops_) is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions and ChatOps.
 
-[µTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml. 
+[µTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml.
 
 ### Configuration Management
 
@@ -619,11 +619,11 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Chef](https://www.opscode.com/chef/) - is a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment.
 
-[(R)?ex](https://www.rexify.org/) - is a friendly automation framework to any combinations of local and remote execution, push and pull style of management, or imperative and declarative approach. 
+[(R)?ex](https://www.rexify.org/) - is a friendly automation framework to any combinations of local and remote execution, push and pull style of management, or imperative and declarative approach.
 
 [Salt](https://www.saltstack.com/) -  is an event-driven automation tool and framework to deploy, configure, and manage complex IT systems. It automates common infrastructure administration tasks and ensure that all the components of your infrastructure are operating in a consistent desired state.
 
-[Fleek](https://getfleek.dev/) is an all-in-one management system for everything you need to be productive on your computer. 
+[Fleek](https://getfleek.dev/) is an all-in-one management system for everything you need to be productive on your computer.
 
 ### Cloud Storage
 
@@ -657,22 +657,22 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Linode](https://www.linode.com/) is a cloud hosting company that provides virtual private servers and variety of other cloud services.
 
-  * [Linode Documentation](https://www.linode.com/docs)
+- [Linode Documentation](https://www.linode.com/docs)
 
-  * [Linode Guides & Tutorials ](https://www.linode.com/docs/guides/)
+- [Linode Guides & Tutorials](https://www.linode.com/docs/guides/)
 
-  * [Linode API Guides](https://developers.linode.com/guides/)
+- [Linode API Guides](https://developers.linode.com/guides/)
   
-  * [Linode Marketplace](https://www.linode.com/marketplace/apps/)
+- [Linode Marketplace](https://www.linode.com/marketplace/apps/)
   
-  * [Self-Hosting the vaultwarden Password Manager](https://www.linode.com/docs/guides/how-to-self-host-the-vaultwarden-password-manager/)
+- [Self-Hosting the vaultwarden Password Manager](https://www.linode.com/docs/guides/how-to-self-host-the-vaultwarden-password-manager/)
 
-  * [Linode Cloud Community](https://www.linode.com/community/)
+- [Linode Cloud Community](https://www.linode.com/community/)
 
-  * [Linode Developer Portal](https://www.linode.com/developers/)
+- [Linode Developer Portal](https://www.linode.com/developers/)
 
-  * [Linode Content Resources](https://www.linode.com/content/)
- 
+- [Linode Content Resources](https://www.linode.com/content/)
+
 **Linode Tools**
 
 [Linode Cloud Manager](https://www.linode.com/products/cloud-manager/) is a user- and mobile-friendly interface to deploy and manage virtual machines, configure networking, and control user accounts.
@@ -700,11 +700,11 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Nextcloud](https://nextcloud.com) is an industry-leading, on-premises content collaboration platform for file sync & share and communication server. It is fully open source and you can host it yourself or pay a company to do it for you. Also checkout the following links below:
 
-   - [Nextcloud App Store](https://apps.nextcloud.com)
+- [Nextcloud App Store](https://apps.nextcloud.com)
 
-   - [Nextcloud GitHub](https://github.com/nextcloud)
+- [Nextcloud GitHub](https://github.com/nextcloud)
 
-   - [Nextcloud Developer Program](https://nextcloud.com/developer)
+- [Nextcloud Developer Program](https://nextcloud.com/developer)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/150701961-ac8be115-34c1-4012-bd69-d1f22a10e48c.png">
@@ -720,7 +720,7 @@ Nexcloud login screen
 Nexcloud Hub
 </p>
 
-[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance. 
+[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance.
 
 [Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
 
@@ -742,7 +742,7 @@ Nexcloud Hub
 
 [Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
 
-[LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud. 
+[LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud.
 
 #### DigitalOcean
 
@@ -753,13 +753,13 @@ Nexcloud Hub
   <br />
 </p>
 
-[DigitalOcean](https://www.digitalocean.com/) is a cloud infrastructure provider that provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers with data centers worldwide. 
+[DigitalOcean](https://www.digitalocean.com/) is a cloud infrastructure provider that provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers with data centers worldwide.
 
-  * [DigitalOcean Pricing](https://www.digitalocean.com/pricing/)
+- [DigitalOcean Pricing](https://www.digitalocean.com/pricing/)
 
-  * [DigitalOcean GitHub](https://github.com/digitalocean)
+- [DigitalOcean GitHub](https://github.com/digitalocean)
 
-  * [DigitalOcean Tutorials](https://www.digitalocean.com/community/tutorials)
+- [DigitalOcean Tutorials](https://www.digitalocean.com/community/tutorials)
   
 **DigitalOcean Tools**
 
@@ -806,6 +806,7 @@ podman run -p 9000:9000 -p 9001:9001 \
 ```
 #docker run -p 9000:9000 --name minio -d minio/minio server /export
 ```
+
 **If you're using an SSD mounted at /mnt/sdd, then we can run the following to use it instead:**
 
 ```
@@ -835,12 +836,12 @@ chmod +x minio
 ./minio server /data
 ```
 
-|Architecture |	URL|
-|--- | --- | 
-|64-bit Intel/AMD |https://dl.min.io/server/minio/release/linux-amd64/minio|
-|64-bit ARM |https://dl.min.io/server/minio/release/linux-arm64/minio|
-|64-bit PowerPC LE (ppc64le) |https://dl.min.io/server/minio/release/linux-ppc64le/minio|
-|IBM Z-Series (S390X) |	https://dl.min.io/server/minio/release/linux-s390x/minio|
+|Architecture | URL|
+|--- | --- |
+|64-bit Intel/AMD |<https://dl.min.io/server/minio/release/linux-amd64/minio|>
+|64-bit ARM |<https://dl.min.io/server/minio/release/linux-arm64/minio|>
+|64-bit PowerPC LE (ppc64le) |<https://dl.min.io/server/minio/release/linux-ppc64le/minio|>
+|IBM Z-Series (S390X) | <https://dl.min.io/server/minio/release/linux-s390x/minio|>
 
 ## Windows
 
@@ -861,7 +862,6 @@ Use the following commands to compile and run a standalone MinIO server from sou
 **After you install MinIO:**
 
 The MinIO deployment starts using default root credentials ```minioadmin:minioadmin```. You can test the deployment using the MinIO Console, an embedded web-based object browser built into MinIO Server. Point a web browser running on the host machine to ```http://127.0.0.1:9000``` and log in with the root credentials. You can use the Browser to create buckets, upload objects, and browse the contents of the MinIO server.
-
 
 When you run Minio you will be issued a key and a secret. These are used by the client or the web front-end to connect securely. I found my codes by typing in ```docker logs minio```.
 
@@ -940,7 +940,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-#### SQL 
+#### SQL
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/169607509-ba5e092f-c566-4014-86a1-258bf75266d0.png">
@@ -949,26 +949,26 @@ Minio's test-server called "play" is already configured in the default client, y
 
 **[SQL](https://en.wikipedia.org/wiki/SQL)** is a standard language for storing, manipulating and retrieving data in relational databases.
 
-[Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative. 
+[Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative.
 
-[MySQL](https://www.mysql.com/) is a fully managed database service to deploy cloud-native applications using the world's most popular open source database. 
+[MySQL](https://www.mysql.com/) is a fully managed database service to deploy cloud-native applications using the world's most popular open source database.
 
 [PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
 
 [PostgREST](https://github.com/PostgREST/postgrest) is a tool that serves a fully RESTful API from any existing PostgreSQL database. It provides a cleaner, more standards-compliant, faster API than you are likely to write from scratch.
 
-[NocoDB](https://www.nocodb.com/) is an open source #NoCode platform that turns any database into a smart spreadsheet. It turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet. 
+[NocoDB](https://www.nocodb.com/) is an open source #NoCode platform that turns any database into a smart spreadsheet. It turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.
 
 [DBeaver](https://dbeaver.io/) is a free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases: MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc.
 
 [OmniDB](https://github.com/OmniDB/OmniDB) is a web-based tool for database management.
 
-[Navicat](https://www.navicat.com/) is a series of graphical database management and development software produced by CyberTech Ltd. for MySQL, MariaDB, MongoDB, Oracle, SQLite, PostgreSQL and Microsoft SQL Server. 
+[Navicat](https://www.navicat.com/) is a series of graphical database management and development software produced by CyberTech Ltd. for MySQL, MariaDB, MongoDB, Oracle, SQLite, PostgreSQL and Microsoft SQL Server.
 
-[HeidiSQL](https://www.heidisql.com/) is free software, and has the aim to be easy to learn. It lets you see and edit data and structures from computers running one of the database systems MariaDB, MySQL, Microsoft SQL, PostgreSQL and SQLite. 
- 
-[Beekeeper Studio](https://www.beekeeperstudio.io/) is a cross-platform SQL editor and database manager(MySQL, Postgres, SQLite, SQL Server, and more.) available for Linux, Mac, and Windows. 
- 
+[HeidiSQL](https://www.heidisql.com/) is free software, and has the aim to be easy to learn. It lets you see and edit data and structures from computers running one of the database systems MariaDB, MySQL, Microsoft SQL, PostgreSQL and SQLite.
+
+[Beekeeper Studio](https://www.beekeeperstudio.io/) is a cross-platform SQL editor and database manager(MySQL, Postgres, SQLite, SQL Server, and more.) available for Linux, Mac, and Windows.
+
 [UI Bakery](https://uibakery.io/) is a web-based low-code internal tool builder. It can visualize the data pulled from PostgreSQL, MongoDB, MySQL, MicrosoftSQL, Redis.
 
 [IBM DB2](https://www.ibm.com/analytics/db2) is a collection of hybrid data management products offering a complete suite of AI-empowered capabilities designed to help you manage both structured and unstructured data on premises as well as in private and public cloud environments. Db2 is built on an intelligent common SQL engine designed for scalability and flexibility.
@@ -979,11 +979,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [EventQL](https://eventql.io/documentation/) is a distributed, analytical database. It allows you to store massive amounts of structured data and explore it using SQL and other programmatic query facilities.
 
-[CockroachDB](https://www.cockroachlabs.com/docs/stable/) is the SQL database for building global, scalable cloud services that survive disasters. 
+[CockroachDB](https://www.cockroachlabs.com/docs/stable/) is the SQL database for building global, scalable cloud services that survive disasters.
 
 [SQLite](https://sqlite.org/index.html) is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day.
 
-[SQLite Database Browser](https://sqlitebrowser.org/) is an open source SQL tool that allows users to create, design and edits SQLite database files. It lets users show a log of all the SQL commands that have been issued by them and by the application itself. 
+[SQLite Database Browser](https://sqlitebrowser.org/) is an open source SQL tool that allows users to create, design and edits SQLite database files. It lets users show a log of all the SQL commands that have been issued by them and by the application itself.
 
 [TimescaleDB](https://github.com/timescale/timescaledb) is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL and packaged as a PostgreSQL extension, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
 
@@ -995,11 +995,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Adminer](https://www.adminer.org/) is an SQL management client tool for managing databases, tables, relations, indexes, users. Adminer has support for all the popular database management systems such as MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB.
 
-[Knex](https://github.com/knex/knex) is a query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use. 
+[Knex](https://github.com/knex/knex) is a query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.
 
 [rqlite](https://github.com/rqlite/rqlite) is an easy-to-use, lightweight, distributed relational database, which uses [SQLite](https://www.sqlite.org/) as its storage engine.
 
-[osquery](https://github.com/osquery/osquery) is a SQL powered operating system instrumentation, monitoring, and analytics framework. 
+[osquery](https://github.com/osquery/osquery) is a SQL powered operating system instrumentation, monitoring, and analytics framework.
 
 [SQLModel](https://github.com/tiangolo/sqlmodel) is a library for interacting with SQL databases from Python code, with Python objects. It is designed to be intuitive, easy to use, highly compatible, and robust.
 
@@ -1029,7 +1029,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [RStudio](https://rstudio.com/) is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
 
-#### NoSQL 
+#### NoSQL
 
 [Back to the Top](#table-of-contents)
 
@@ -1040,7 +1040,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 **[NoSQL](https://www.ibm.com/cloud/blog/sql-vs-nosql)** is a database that is interchangeably referred to as "nonrelational, or "non-SQL" to highlight that the database can handle huge volumes of rapidly changing, unstructured data in different ways than a relational (SQL-based) database with rows and tables.
 
-[Scylla](https://github.com/scylladb/scylla) is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB. 
+[Scylla](https://github.com/scylladb/scylla) is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB.
 
 [Apache Cassandra™](https://cassandra.apache.org/) is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Cassandra provides linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
 
@@ -1054,13 +1054,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [CouchbaseDB](https://www.couchbase.com/) is an open source distributed [multi-model NoSQL document-oriented database](https://en.wikipedia.org/wiki/Multi-model_database). It creates a key-value store with managed cache for sub-millisecond data operations, with purpose-built indexers for efficient queries and a powerful query engine for executing SQL queries.
 
-[MongoDB](https://www.mongodb.com/) is a document database meaning it stores data in JSON-like documents. 
+[MongoDB](https://www.mongodb.com/) is a document database meaning it stores data in JSON-like documents.
 
-[NoSQLBooster](https://www.nosqlbooster.com/) is a cross-platform IDE for [MongoDB v2.6-5.0](https://www.mongodb.com/download-center/community/releases), which provides a build-in MongoDB script debugger, SQL query, server monitoring tools, chaining fluent query, query code generator, task scheduling, ES2020 support, and advanced IntelliSense experience.
+[NoSQLBooster](https://www.nosqlbooster.com/) is a cross-platform IDE for [MongoDB v2.6-5.0](https://www.mongodb.com/download-center/community/releases), which provides a built-in MongoDB script debugger, SQL query, server monitoring tools, chaining fluent query, query code generator, task scheduling, ES2020 support, and advanced IntelliSense experience.
 
 [ClickHouse®](https://github.com/ClickHouse/ClickHouse) is an open-source column-oriented database management system that allows generating analytical data reports in real-time.
 
-[Neo4j](https://neo4j.com/) is a graph database management system that provides an array of tools, libraries, and frameworks to make development faster and easier. 
+[Neo4j](https://neo4j.com/) is a graph database management system that provides an array of tools, libraries, and frameworks to make development faster and easier.
 
 ### Remote Access
 
@@ -1078,11 +1078,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Remmina](https://remmina.org/) is a Remote access screen and file sharing to your desktop. It has Remote Access Protocol Plugins for [RDP](https://remmina.org/remmina-rdp/), [SSH](https://remmina.org/remmina-ssh/), [SPICE](https://remmina.org/remmina-spice/), [VNC](https://remmina.org/remmina-vnc/), [X2Go](https://remmina.org/remmina-x2go/), [HTTP/HTTPS](https://remmina.org/remmina-www/).
 
-[Remotely](https://github.com/immense/Remotely) is a  remote control and remote scripting solution, built with .NET 6, Blazor, SignalR Core, and WebRTC. 
+[Remotely](https://github.com/immense/Remotely) is a  remote control and remote scripting solution, built with .NET 6, Blazor, SignalR Core, and WebRTC.
 
 [P2P Remote Desktop](https://github.com/miroslavpejic85/p2p) is a portable, no configuration or installation needed remote desktop tool.
 
-[Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide) is a tunneling daemon that proxies traffic from the Cloudflare network to your origins. This daemon sits between Cloudflare network and your origin (a webserver). This attracts client requests and sends them to you via this daemon, without requiring you to poke holes on your firewall and your origin(webserver) can remain as closed as possible. 
+[Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide) is a tunneling daemon that proxies traffic from the Cloudflare network to your origins. This daemon sits between Cloudflare network and your origin (a webserver). This attracts client requests and sends them to you via this daemon, without requiring you to poke holes on your firewall and your origin(webserver) can remain as closed as possible.
 
 [WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. It's cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable.
 
@@ -1092,7 +1092,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
 
-[MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage. 
+[MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage.
 
 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) is a free remote desktop application that use can use on your iPhone, iPad, Mac, Windows and Linux computers from anywhere in the world.
 
@@ -1102,9 +1102,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Krfb Desktop Sharing](https://apps.kde.org/krfb/) is a server application that allows you to share your current session with a user on another machine, who can use a VNC client to view or even control the desktop.
 
-[wayvnc](https://github.com/any1/wayvnc) is a VNC server for wlroots-based Wayland compositors (no_entry Gnome, KDE and Weston are not supported). It attaches to a running Wayland session, creates virtual input devices, and exposes a single display via the RFB protocol. 
+[wayvnc](https://github.com/any1/wayvnc) is a VNC server for wlroots-based Wayland compositors (no_entry Gnome, KDE and Weston are not supported). It attaches to a running Wayland session, creates virtual input devices, and exposes a single display via the RFB protocol.
 
-[Waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe/) is a proxy for Wayland clients. It forwards Wayland messages and serializes changes to shared memory buffers over a single socket. 
+[Waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe/) is a proxy for Wayland clients. It forwards Wayland messages and serializes changes to shared memory buffers over a single socket.
 
 ### Virtualization
 
@@ -1124,7 +1124,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Magma](https://www.magmacore.org/) is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.
 
-[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
+[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openness to multi-vendor deployments.
 
 [Open vSwitch(OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
 
@@ -1148,7 +1148,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [AMD MxGPU](https://www.amd.com/en/graphics/workstation-virtual-graphics) is a hardware-based virtualized GPU solution, is built on industry standard SR-IOV (Single-Root I/O Virtualization) technology and allows multiple virtualized users per physical GPU to work remotely.
 
-[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
+[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It includes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [KVM (for Kernel-based Virtual Machine)](https://www.linux-kvm.org/page/Main_Page) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
 
@@ -1176,7 +1176,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Intel® Graphics Virtualization Technology (Intel® GVT)](https://github.com/intel/gvt-linux) is a full GPU virtualization solution with mediated pass-through, starting from 4th generation Intel Core (TM) processors with Intel processor graphics(Broadwell and newer). It can be used to virtualize the GPU for multiple guest virtual machines, effectively providing near-native graphics performance in the virtual machine and still letting your host use the virtualized GPU normally.
 
-[Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a frameowrk that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
+[Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a framework that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
 
 [Apple Virtualization Framework](https://developer.apple.com/documentation/virtualization) is a framework that provides high-level APIs for creating and managing virtual machines on Apple silicon and Intel-based Mac computers. This framework is used to boot and run a Linux-based operating system in a custom environment that you define. It also supports the [Virtio specification](https://www.redhat.com/en/virtio-networking-series), which defines standard interfaces for many device types, including network, socket, serial port, storage, entropy, and memory-balloon devices.
 
@@ -1196,19 +1196,19 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[Bitwarden](https://bitwarden.com/host/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault. 
+[Bitwarden](https://bitwarden.com/host/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
 
 [Bitwarden Server](https://github.com/bitwarden/server) is a project contains the APIs, database, and other core infrastructure items needed for the "backend" of all bitwarden client applications. Checkout [Bitwarden's self-hosted release repository](https://github.com/bitwarden/self-host).
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) is an unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs.
 
-[Passbolt](https://www.passbolt.com/) is an open-source/self-hosted password manager for teams. It allows you to securely share and store credentials. For instance, the wifi password of your office, the administrator password of a router or your organization's social media account passwords, all of them can be secured using passbolt. 
+[Passbolt](https://www.passbolt.com/) is an open-source/self-hosted password manager for teams. It allows you to securely share and store credentials. For instance, the wifi password of your office, the administrator password of a router or your organization's social media account passwords, all of them can be secured using passbolt.
 
 [KeePassXC](https://keepassxc.org/) is a modern, secure, and open-source password manager that stores and manages your most sensitive information. You can run KeePassXC on Windows, macOS, and Linux systems. It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.
 
 [AuthPass.app](https://authpass.app/) is an Open-Source Password Manager for mobile and desktop that is Keepass 2.x (kdbx 3.x) compatible.
 
-[pass](https://www.passwordstore.org/) is an open-source unix-based password utilitiy with various [gui clients](https://www.passwordstore.org/#other)
+[pass](https://www.passwordstore.org/) is an open-source unix-based password utility with various [gui clients](https://www.passwordstore.org/#other)
 
 ### VPN
 
@@ -1307,7 +1307,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Mongoose](https://github.com/cesanta/mongoose) is a networking library for C/C++. It implements event-driven non-blocking APIs for TCP, UDP, HTTP, WebSocket, MQTT. It is designed for connecting devices and bringing them online.
 
-[Eclipse Mosquitto](https://github.com/eclipse/mosquitto) is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the [MQTT](https://mqtt.org/) protocol. 
+[Eclipse Mosquitto](https://github.com/eclipse/mosquitto) is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the [MQTT](https://mqtt.org/) protocol.
 
 [Ejabberd](https://ejabberd.im/) is an open-source, robust, scalable and extensible realtime platform built using [Erlang/OTP](https://www.erlang.org/), that includes [XMPP](https://xmpp.org/) Server, [MQTT](https://mqtt.org/) Broker and [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) Service.
 
@@ -1329,7 +1329,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Network UPS Tools (NUT)](https://networkupstools.org/) is a project that provides support for Power Devices, such as Uninterruptible Power Supplies, Power Distribution Units, Automatic Transfer Switches, Power Supply Units and Solar Controllers. NUT provides a common protocol and set of tools to monitor and manage such devices, and to consistently name equivalent features and data points, across a vast range of vendor-specific protocols and connection media types.
 
-[Dnsmasq](https://dnsmasq.org/) is a tool that provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. It has also been widely used for tethering on smartphones and portable hotspots, and to support virtual networking in virtualisation frameworks. Supported platforms include Linux (with glibc and uclibc), Android, BSD, and MacOS. 
+[Dnsmasq](https://dnsmasq.org/) is a tool that provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. It has also been widely used for tethering on smartphones and portable hotspots, and to support virtual networking in virtualisation frameworks. Supported platforms include Linux (with glibc and uclibc), Android, BSD, and MacOS.
 
 [Nginx proxy manager (NPM)](https://nginxproxymanager.com/) is a reverse proxy management system running on Docker. It's easy to set up and does not require users to know how to work with Nginx servers or SSL certificates.
 
@@ -1339,15 +1339,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [OWASP Amass](https://owasp.org/www-project-amass/) is a tool that performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
 
-[Smap](https://github.com/s0md3v/Smap) is a port scanner built with shodan.io's free API. It takes same command line arguments as Nmap and produces the same output which makes it a drop-in replacament for Nmap.
+[Smap](https://github.com/s0md3v/Smap) is a port scanner built with shodan.io's free API. It takes same command line arguments as Nmap and produces the same output which makes it a drop-in replacement for Nmap.
 
 [ORY Oathkeeper](https://github.com/ory/oathkeeper) is an Identity & Access Proxy (IAP) and Access Control Decision API that authorizes HTTP requests based on sets of Access Rules.
 
-[Ory Kratos](https://github.com/ory/kratos) is a developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud. The Kratos identity server (similiar to Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless. 
+[Ory Kratos](https://github.com/ory/kratos) is a developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud. The Kratos identity server (similar to Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless.
 
 [Ory Hydra](https://github.com/ory/hydra) is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect Provider optimized for low-latency, high throughput, and low resource consumption. Ory Hydra is not an identity provider (user sign up, user login, password reset flow), but connects to your existing identity provider through a [login and consent app](https://www.ory.sh/docs/hydra/oauth2#authenticating-users-and-requesting-consent).
 
-[Ory Keto](https://github.com/ory/keto) is an Open Source (Go) implementation of [Zanzibar: Google's Consistent, Global Authorization System](https://research.google/pubs/pub48190/). It ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models. 
+[Ory Keto](https://github.com/ory/keto) is an Open Source (Go) implementation of [Zanzibar: Google's Consistent, Global Authorization System](https://research.google/pubs/pub48190/). It ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
 
 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
 
@@ -1357,11 +1357,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Plik](https://github.com/root-gg/plik) is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
 
-[Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs. 
+[Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs.
 
 [Traefik](https://traefik.io/traefik/) is an open source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it automatically discovers the right configuration for your services.
 
-[Traefik Mesh](https://traefik.io/traefik-mesh) is a simple, yet full-featured service mesh. It is container-native and fits as your de-facto service mesh in your Kubernetes cluster. It supports the latest Service Mesh Interface specification [SMI](https://smi-spec.io/) that facilitates integration with pre-existing solution. 
+[Traefik Mesh](https://traefik.io/traefik-mesh) is a simple, yet full-featured service mesh. It is container-native and fits as your de-facto service mesh in your Kubernetes cluster. It supports the latest Service Mesh Interface specification [SMI](https://smi-spec.io/) that facilitates integration with pre-existing solution.
 
 [DuckDNS](https://www.duckdns.org/) is a free service that allows you to bind your own favorite subdomain under ```duckdns.org``` to the public IP address in use from your router, even though such address is dynamically allocated by your internet service provider and therefore changes over time.
 
@@ -1369,11 +1369,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Hugo](https://github.com/gohugoio/hugo) is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
-[sshuttle](https://github.com/sshuttle/sshuttle) is a transparent proxy server that works as a poor man's VPN that forwards connection over ssh. It works with Linux and MacOS and supports DNS tunneling. 
+[sshuttle](https://github.com/sshuttle/sshuttle) is a transparent proxy server that works as a poor man's VPN that forwards connection over ssh. It works with Linux and MacOS and supports DNS tunneling.
 
 [NetHopper](https://www.nethopper.io/) is a Multi-Cloud Application Network as a Service. The easiest way to visualize, connect, secure, protect, and monitor microservices across any cluster, site, cloud, or network.
 
-[Cypress](https://cypress.io/) is a tool that makes it fast, easy and reliable testing for anything that runs in a browser. 
+[Cypress](https://cypress.io/) is a tool that makes it fast, easy and reliable testing for anything that runs in a browser.
 
 [Kimchi](https://github.com/kimchi-project/kimchi) is an HTML5 based management tool for KVM. It is designed to make it as easy as possible to get started with KVM and create your first guest.
 
@@ -1405,13 +1405,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [DPS(dns-proxy-server)](https://github.com/mageddo/dns-proxy-server) is a lightweight end user (Developers, Server Administrators) DNS server tool for service discovery, which make it easy to develop in systems where one hostname can solve to different IPs based on the configured environment, so you can:
 
- * Solve hostnames from local configuration database.
- * Solve hostnames from docker containers using docker hostname option or HOSTNAMES env.
- * Solve hostnames from a list of configured remote DNS servers(as a proxy) if no answer of two above  .
- * Graphic interface to Create/List/Update/Delete A/CNAME records.
- * Solve host machine IP using host.docker hostname.
- * Access container by its container name / service name.
- * Specify from which network solve container IP.
+- Solve hostnames from local configuration database.
+- Solve hostnames from docker containers using docker hostname option or HOSTNAMES env.
+- Solve hostnames from a list of configured remote DNS servers(as a proxy) if no answer of two above  .
+- Graphic interface to Create/List/Update/Delete A/CNAME records.
+- Solve host machine IP using host.docker hostname.
+- Access container by its container name / service name.
+- Specify from which network solve container IP.
 
 [ZooKeeper](http://zookeeper.apache.org/)  is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 
@@ -1429,7 +1429,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Glastopf](http://glastopf.org/) - A low-interaction web application honeypot to emulate vulnerabilities and gather attack data.
 
-[Kippo](https://github.com/desaster/kippo) - A medium-interaction SSH honeypot, mostly used as a standalone SSH daemon with a configurable Filesystem sandbox.
+[Kippo](https://github.com/disaster/kippo) - A medium-interaction SSH honeypot, mostly used as a standalone SSH daemon with a configurable Filesystem sandbox.
 [OSSEC](http://ossec.net) - OSSEC is a HIDS that performs log analysis, FIM, rootkit detection, and much more.
 
 [OSQuery](https://osquery.io/) - Query your servers status and info using a SQL like interface.
@@ -1440,13 +1440,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [SpamAssassin](https://spamassassin.apache.org/) - A powerful and popular email spam filter employing a variety of detection technique.
 
-[BounCA](https://bounca.org/) - is a personal SSL / Certificate Authority Key management tool. Create self-signed SSL certificates via your browser. 
+[BounCA](https://bounca.org/) - is a personal SSL / Certificate Authority Key management tool. Create self-signed SSL certificates via your browser.
 
 ### Troubleshooting
 
 [Back to The Top](#table-of-contents)
 
-[NETworkManager](https://github.com/BornToBeRoot/NETworkManager) - A powerful tool for managing networks and troubleshoot network problems. It contains features like a WiFi analyzer, IP scanner, port scanner, ping monitor, traceroute, DNS lookup or a LLDP/CDP capture. 
+[NETworkManager](https://github.com/BornToBeRoot/NETworkManager) - A powerful tool for managing networks and troubleshoot network problems. It contains features like a WiFi analyzer, IP scanner, port scanner, ping monitor, traceroute, DNS lookup or a LLDP/CDP capture.
 
 [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
 
@@ -1454,7 +1454,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Netshoot](https://github.com/nicolaka/netshoot) - A  Docker + Kubernetes network trouble-shooting swiss-army container.
 
-[Kubevious](https://kubevious.io/) - A suite of app-centric assurance, validation, and introspection products for Kubernetes. It helps running modern Kubernetes applications without disasters and costly outages by continuously validating application manifests, cluster state, and configuration. 
+[Kubevious](https://kubevious.io/) - A suite of app-centric assurance, validation, and introspection products for Kubernetes. It helps running modern Kubernetes applications without disasters and costly outages by continuously validating application manifests, cluster state, and configuration.
 
 [HOMER](https://github.com/sipcapture/homer) - A robust, carrier-grade, scalable Packet and Event capture system and VoiP/RTC Monitoring Application based on the HEP/EEP protocol and ready to process & store insane amounts of signaling, rtc events, logs and statistics with instant search, end-to-end analysis and drill-down capabilities.
 
@@ -1468,15 +1468,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[Proxmox Mail Gateway](https://www.proxmox.com/en/proxmox-mail-gateway) is an open-source email security solution protecting your mail server against all email threats from the moment they emerge. 
+[Proxmox Mail Gateway](https://www.proxmox.com/en/proxmox-mail-gateway) is an open-source email security solution protecting your mail server against all email threats from the moment they emerge.
 
-[M2MLabs MainSpring](http://www.m2mlabs.com/) is an application framework for building machine-to-machine applications like vehicle tracking or machine remote monitoring. In such applications typically a remote device equipped with sensors (e.g. gps, temperature, pressure) and actors communicates with a server application that is running the device communication protocol, device configuration, storage of data sent by the devices as well as the application business logic and the presentation layer. 
+[M2MLabs MainSpring](http://www.m2mlabs.com/) is an application framework for building machine-to-machine applications like vehicle tracking or machine remote monitoring. In such applications typically a remote device equipped with sensors (e.g. gps, temperature, pressure) and actors communicates with a server application that is running the device communication protocol, device configuration, storage of data sent by the devices as well as the application business logic and the presentation layer.
 
 [VictoriaMetrics](https://victoriametrics.com/) is a fast and scalable open source time series database and monitoring solution which exists in a Single and in a cluster version. It is compatible with Prometheus pull model and supports a [wide variety of ingestion protocols](https://docs.victoriametrics.com/#prominent-features): Influx, Graphite, Prometheus remote_write, Prometheus exposion format, OpenTSDB put message, JSON line format, Arbitrary CSV data, native binary formant, DataDog agent or DogStatsD; as way as many ways to query data via PromQL or [MetricsQL](https://docs.victoriametrics.com/MetricsQL.html) from Grafana or own [VMUI](https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html#vmui).
 
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
-[Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
+[Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
 
 [Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
 
@@ -1484,11 +1484,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 
-[Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world. 
+[Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world.
 
 [Uptime Kuma](https://uptime.kuma.pet/) is a fancy self-hosted monitoring tool.
 
-[Gatus](https://gatus.io/) is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS queries as well as evaluate the result of said queries by using a list of conditions on values like the status code, the response time, the certificate expiration, the body and many others. 
+[Gatus](https://gatus.io/) is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS queries as well as evaluate the result of said queries by using a list of conditions on values like the status code, the response time, the certificate expiration, the body and many others.
 
 [Upptime](https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages.
 
@@ -1504,15 +1504,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Vector](https://vector.dev/) is a high-performance, end-to-end (agent & aggregator) observability data pipeline that puts you in control of your observability data. [Collect](https://vector.dev/docs/reference/configuration/sources/), [transform](https://vector.dev/docs/reference/configuration/transforms/), and [route](https://vector.dev/docs/reference/configuration/sinks/) all your logs, metrics, and traces to any vendors you want today and any other vendors you may want tomorrow.
 
-[Open Service Mesh (OSM)](https://openservicemesh.io/) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments. 
+[Open Service Mesh (OSM)](https://openservicemesh.io/) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments.
 
 [Ciao](https://github.com/brotandgames/ciao) is a tool that checks HTTP(S) URL endpoints for a HTTP status code (or errors on the lower TCP stack) and sends a notification on status change via E-Mail or Webhooks.
 
-[Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket. 
+[Server](https://gotify.net/) is a simple server for sending and receiving messages in real-time per WebSocket.
 
 [Ngxtop](https://github.com/lebinh/ngxtop) is a real-time metrics for nginx server (and others).
 
-[Blocky](https://github.com/0xERR0R/blocky) is a fast and lightweight DNS proxy as ad-blocker for local network with many features 
+[Blocky](https://github.com/0xERR0R/blocky) is a fast and lightweight DNS proxy as ad-blocker for local network with many features
 
 [Dashy](https://dashy.to/) is a self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more.
 
@@ -1520,19 +1520,19 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Restic](https://restic.net/) is a modern backup program that can back up your files: from Linux, BSD, Mac and Windows. To many different storage types, including self-hosted and online services. easily, being a single executable that you can run without a server or complex setup. effectively, only transferring the parts that actually changed in the files you back up.
 
-[Autorestic](https://github.com/cupcakearmy/autorestic) is a wrapper around the amazing restic. While being amazing the restic cli can be a bit overwhelming and difficult to manage if you have many different locations that you want to backup to multiple locations. 
+[Autorestic](https://github.com/cupcakearmy/autorestic) is a wrapper around the amazing restic. While being amazing the restic cli can be a bit overwhelming and difficult to manage if you have many different locations that you want to backup to multiple locations.
 
 [MinIO](https://min.io/) is a high performance object storage tool that provides the world's fastest object storage server. With READ/WRITE speeds of 325 GiB/s and 165 GiB/s on standard hardware with default parity (EC:4), object storage can operate as the primary storage tier for a diverse set of workloads ranging from Spark, Presto, TensorFlow.
 
 [Greyhole](https://www.greyhole.net/) is a tool that uses Samba to create a storage pool of all your available hard drives (whatever their size, however they are connected), and allows you to create redundant copies of the files you store, in order to prevent data loss when part of your hardware fails.
 
-[Falcon LogScale](https://www.crowdstrike.com/products/observability/falcon-logscale/) is purpose-built to help any organization achieve the benefits of large-scale logging and analysis. Falcon LogScale has virtually no latency, even at ingest volumes of 1PB(Petabyte) per day. 
+[Falcon LogScale](https://www.crowdstrike.com/products/observability/falcon-logscale/) is purpose-built to help any organization achieve the benefits of large-scale logging and analysis. Falcon LogScale has virtually no latency, even at ingest volumes of 1PB(Petabyte) per day.
 
 [Googerteller](https://github.com/berthubert/googerteller) is a tool that makes an audible sound any time your computer sends a packet to a Google tracker or a Google service, which excludes Google Cloud users.
 
 [TeslaMate](https://docs.teslamate.org/) is a powerful, self-hosted data logger for your Tesla.
 
-[OneUptime](https://oneuptime.com/) is an open-source complete SRE and DevOps platform. It monitors your website, dashboards, API's, and more and alerts your team when downtime happens. 
+[OneUptime](https://oneuptime.com/) is an open-source complete SRE and DevOps platform. It monitors your website, dashboards, API's, and more and alerts your team when downtime happens.
 
 [Parca](https://parca.dev/) is a tool for continuous profiling for analysis of CPU and memory usage, down to the line number and throughout time. Saving infrastructure cost, improving performance, and increasing reliability.
 
@@ -1540,7 +1540,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Distributed Services Architecture (DSA)](https://github.com/IOT-DSA) is an open source IoT platform that facilitates device inter-communication, logic and applications at every layer of the Internet of Things infrastructure. The objective is to unify the disparate devices, services and applications into a structured and adaptable real-time data model.
 
-[IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. 
+[IoTivity](https://iotivity.org) is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things.
 
 [Eclipse IoT Project](https://projects.eclipse.org/projects/iot) provides open source technology that will be used to build IoT solutions for industry and consumers.
 
@@ -1558,10 +1558,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
-[Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
+[Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
 
 [Prometheus](https://prometheus.io/) is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.
-
 
 ### Analytics
 
@@ -1569,46 +1568,45 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Plausible Analytics](https://plausible.io/) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics.
 
-[PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host. 
+[PostHog](https://posthog.com) - Product analytics, session recording, feature flagging and a/b testing that you can self-host.
 
-[Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. 
+[Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy.
 
-[AWStats](http://www.awstats.org/) - Generate statistics from web, streaming, ftp or mail server logfiles. 
+[AWStats](http://www.awstats.org/) - Generate statistics from web, streaming, ftp or mail server logfiles.
 
-[Chartbrew](https://chartbrew.com) - Web application that can connect directly to databases and APIs and use the data to create beautiful charts. 
+[Chartbrew](https://chartbrew.com) - Web application that can connect directly to databases and APIs and use the data to create beautiful charts.
 
 [Countly Community Edition](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform.
 
-[Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store. 
+[Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store.
 
-[EDA](https://eda.jortilles.com/en/jortilles-english/) - Web application for data analysis and visualization. 
+[EDA](https://eda.jortilles.com/en/jortilles-english/) - Web application for data analysis and visualization.
 
-[GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal. 
+[GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal.
 
-[GoatCounter](https://www.goatcounter.com) - Easy web statistics without tracking of personal data. 
+[GoatCounter](https://www.goatcounter.com) - Easy web statistics without tracking of personal data.
 
-[Metabase](https://metabase.com/) - Easy, open-source way for everyone in your company to ask questions and learn from data. 
+[Metabase](https://metabase.com/) - Easy, open-source way for everyone in your company to ask questions and learn from data.
 
-[Offen](https://www.offen.dev/) - Fair, lightweight and open web analytics tool. Gain insights while your users have full access to their data. 
+[Offen](https://www.offen.dev/) - Fair, lightweight and open web analytics tool. Gain insights while your users have full access to their data.
 
-[Open Web Analytics](http://www.openwebanalytics.com/) - Web analytics framework that lets you stay in control of how you instrument and analyze the use of your websites and applications. 
+[Open Web Analytics](http://www.openwebanalytics.com/) - Web analytics framework that lets you stay in control of how you instrument and analyze the use of your websites and applications.
 
-[Redash](http://redash.io) - Connect and query your data sources, build dashboards to visualize data and share them with your company. 
+[Redash](http://redash.io) - Connect and query your data sources, build dashboards to visualize data and share them with your company.
 
 [RudderStack](https://rudderstack.com/) - Collect, unify, transform, and store your customer data, and route it to a wide range of common, popular marketing, sales, and product tools. alternative to Segment.
 
-[Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. 
+[Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 
-[Superset](http://superset.apache.org/) - Modern data exploration and visualization platform. 
+[Superset](http://superset.apache.org/) - Modern data exploration and visualization platform.
 
 [Umami](https://umami.is/) - Simple, fast, privacy-focused alternative to Google Analytics.
-
 
 ### Search
 
 [Back to the Top](#table-of-contents)
 
-[Meilisearch](https://github.com/meilisearch/meilisearch) is a lightning-fast search engine that fits effortlessly into your apps, websites, and workflow. 
+[Meilisearch](https://github.com/meilisearch/meilisearch) is a lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
 
 [Shodan](https://www.shodan.io/) is the world's first search engine for Internet-connected (IoT) devices.
 
@@ -1616,19 +1614,19 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [SearX](https://github.com/searx/searx) is a Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine).
 
-[SearXNG](https://github.com/searxng/searxng) is a free internet metasearch engine which aggregates results from various search services and databases. 
+[SearXNG](https://github.com/searxng/searxng) is a free internet metasearch engine which aggregates results from various search services and databases.
 
-[Sonic](https://github.com/valeriansaliou/sonic) is a fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM. 
+[Sonic](https://github.com/valeriansaliou/sonic) is a fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
 
-[Zinc](https://github.com/zinclabs/zinc) is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources. 
+[Zinc](https://github.com/zinclabs/zinc) is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources.
 
-[Cylect.io](https://cylect.io/) is the ultimate searching tool that is here to assist anyone looking for specific information through vast amounts of websites, search engines, and data collectors. 
+[Cylect.io](https://cylect.io/) is the ultimate searching tool that is here to assist anyone looking for specific information through vast amounts of websites, search engines, and data collectors.
 
-[Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript. 
+[Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript.
 
-[Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries. 
+[Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries.
 
-[Typesense](https://github.com/typesense/typesense) is a fast, typo-tolerant search engine for building delightful search experiences. 
+[Typesense](https://github.com/typesense/typesense) is a fast, typo-tolerant search engine for building delightful search experiences.
 
 [Tantivy](https://github.com/quickwit-oss/tantivy) is a full-text search engine library inspired by Apache Lucene and written in Rust.
 
@@ -1636,9 +1634,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [FlexSearch](https://github.com/nextapps-de/flexsearch) is a Next-Generation full text search library for Browser and Node.js.
 
-[fd](https://github.com/sharkdp/fd) is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. 
+[fd](https://github.com/sharkdp/fd) is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find.
 
-[k8s at home search](https://nanne.dev/k8s-at-home-search/#/) is a tool that indexs Flux HelmReleases from Github repositories with the ```k8s-at-home topic``` on GitHub. 
+[k8s at home search](https://nanne.dev/k8s-at-home-search/#/) is a tool that indexes Flux HelmReleases from Github repositories with the ```k8s-at-home topic``` on GitHub.
 
 ### Notifications
 
@@ -1662,11 +1660,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [RSS Guard](https://github.com/martinrotter/rssguard) is a simple RSS/ATOM feed reader for Windows, Linux, BSD, OS/2 or macOS which can work with RSS/ATOM/JSON feeds as well as many online feed services:
 
-  * [Feedly](https://feedly.com/)
-  * [Gmail](https://developers.google.com/gmail/api)
-  * Google Reader API ([Bazqux](https://bazqux.com/), [FreshRSS](https://freshrss.org/), [Inoreader](https://www.inoreader.com/), [Miniflux](https://miniflux.app/), [Reedah](http://reedah.com/), [The Old Reader](https://theoldreader.com/) and more)
-  * [Nextcloud News](https://apps.nextcloud.com/apps/news)
-  * [Tiny Tiny RSS](https://tt-rss.org/)
+- [Feedly](https://feedly.com/)
+- [Gmail](https://developers.google.com/gmail/api)
+- Google Reader API ([Bazqux](https://bazqux.com/), [FreshRSS](https://freshrss.org/), [Inoreader](https://www.inoreader.com/), [Miniflux](https://miniflux.app/), [Reedah](http://reedah.com/), [The Old Reader](https://theoldreader.com/) and more)
+- [Nextcloud News](https://apps.nextcloud.com/apps/news)
+- [Tiny Tiny RSS](https://tt-rss.org/)
 
 [Feedly](https://feedly.com/) is an RSS tool where you can privately organize and research the topics and trends that matter to you. It offers useful integrations with Facebook, Twitter, Evernote, Buffer, OneNote, Pinterest, LinkedIn, IFTTT, and Zapier so that you can easily share stories with your networks and teammates.
 
@@ -1684,9 +1682,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Hugo](https://github.com/gohugoio/hugo) is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
-[Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript. 
+[Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript.
 
-[Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries. 
+[Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries.
 
 [Kopage](https://www.kopage.com/) is  a self-hosted Website Builder. It's compatible with cPanel and other popular hosting control panels. Compatible with cPanel and other popular hosting control panels.
 
@@ -1698,9 +1696,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Haven](https://havenweb.org/) is a Self-hosted private blog instead of using Facebook.
 
-[Antville](https://antville.org/) is an open source project aimed at the development of a simple site hosting system with many advanced [features](https://github.com/antville/antville/wiki/Features). 
+[Antville](https://antville.org/) is an open source project aimed at the development of a simple site hosting system with many advanced [features](https://github.com/antville/antville/wiki/Features).
 
-[October](https://octobercms.com/) is a Self-hosted Content Management System (CMS) and web platform whose sole purpose is to make your development workflow simple again. 
+[October](https://octobercms.com/) is a Self-hosted Content Management System (CMS) and web platform whose sole purpose is to make your development workflow simple again.
 
 [Grav](https://getgrav.org/) is a Fast, Simple, and Flexible, file-based Web-platform. There is Zero installation required. Just extract the ZIP archive, and you are already up and running. It omes with a powerful Package Management System to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
 
@@ -1708,18 +1706,17 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Netlify CMS](https://www.netlifycms.org/) is a CMS for static site generators. Give users a simple way to edit and add content to any site built with a static site generator.
 
-[Zola](https://www.getzola.org/) is a fast static site generator in a single binary with everything built-in. 
+[Zola](https://www.getzola.org/) is a fast static site generator in a single binary with everything built-in.
 
-[FlatPress](https://www.flatpress.org/) is a lightweight, easy-to-set-up blogging engine. 
+[FlatPress](https://www.flatpress.org/) is a lightweight, easy-to-set-up blogging engine.
 
-[Chyrp Lite](https://chyrplite.net/) is an ultra-lightweight blogging engine. It provides four beautiful blog themes and a friendly administration console, all fully navigable on a broad range of devices, thanks to the power of responsive HTML5. 
+[Chyrp Lite](https://chyrplite.net/) is an ultra-lightweight blogging engine. It provides four beautiful blog themes and a friendly administration console, all fully navigable on a broad range of devices, thanks to the power of responsive HTML5.
 
 [WriteFreely](https://writefreely.org/) is an open source platform for building a writing space on the web.
 
 [Sandstorm](https://sandstorm.io/) is an open source project built by a community of volunteers with the goal of making it really easy to run open source web applications.
 
 [YunoHost](https://yunohost.org/) is a Debian-based distribution which strives to make it easy to quickly set up a server and host web applications.
-
 
 ### Social
 
@@ -1737,7 +1734,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Berty](https://github.com/berty/berty) is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
 
-[Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others. 
+[Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others.
 
 [Matrix](https://matrix.org/) is a tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history, formatted messages, read receipts and more.
 
@@ -1757,8 +1754,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) is a Reddit client on Android written in Java. It does not have any ads and it features a clean UI and smooth browsing experience.
 
-[RedReader](https://github.com/QuantumBadger/RedReader) is an unofficial open source Reddit client for Android. 
-
+[RedReader](https://github.com/QuantumBadger/RedReader) is an unofficial open source Reddit client for Android.
 
 ### Communications
 
@@ -1776,9 +1772,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Berty](https://github.com/berty/berty) is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
 
-[Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others. 
+[Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others.
 
-[ffsend](https://gitlab.com/timvisee/ffsend) is a easily and securely share files from the command line. A fully featured Firefox Send client. 
+[ffsend](https://gitlab.com/timvisee/ffsend) is a easily and securely share files from the command line. A fully featured Firefox Send client.
 
 [Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) is a truly censorship-resistant alternative to Twitter that has a chance of working.
 
@@ -1792,7 +1788,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
-[Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database. 
+[Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database.
 
 [iRedMail](https://www.iredmail.org/) is a self-hosted email server.
 
@@ -1804,13 +1800,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Nextcloud Talk](https://nextcloud.com/talk/) is a on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.
 
-[Poste.io Email Server](https://poste.io/) is self-hosted SMTP + IMAP + POP3 + Antispam + Antivirus Web administration + Web email. It is easy setup with a [DNS guide]((https://poste.io/doc/configuring-dns)) for protect from spam.
+[Poste.io Email Server](https://poste.io/) is self-hosted SMTP + IMAP + POP3 + Antispam + Antivirus Web administration + Web email. It is easy setup with a [DNS guide]((<https://poste.io/doc/configuring-dns>)) for protect from spam.
 
 ### Business Management
 
 [Back to the Top](#table-of-contents)
 
-[Nextcloud](http://nextcloud.com/) is a suite of enterprise client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces. 
+[Nextcloud](http://nextcloud.com/) is a suite of enterprise client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces.
 
 [Odoo](https://www.odoo.com/) is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
 
@@ -1818,9 +1814,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Eden Workplace](https://www.edenworkplace.com/products) is a complete workplace management platform that lets you achieve more. Desk Booking Software to make desk reservations easier for your team, including assigning permanent and hybrid desks, providing wayfinding solutions for employees.
 
-[Matomo](https://matomo.org/) is an ethical alternative where you won't make privacy sacrifices or compromise your site. Matomo is the Google Analytics alternative that protects your data and your customer's privacy. 
+[Matomo](https://matomo.org/) is an ethical alternative where you won't make privacy sacrifices or compromise your site. Matomo is the Google Analytics alternative that protects your data and your customer's privacy.
 
-[Plausible Analytics](https://plausible.io/) is a simple, lightweight (< 1 KB), open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. You can self-host Plausible or have us run it for you in the Cloud. 
+[Plausible Analytics](https://plausible.io/) is a simple, lightweight (< 1 KB), open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. You can self-host Plausible or have us run it for you in the Cloud.
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
@@ -1834,7 +1830,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Synology](https://www.synology.com/) is a tool that allows you to easily access and manage files in your Synology Drive on the go. Apart from common file types, such as documents, images, videos and music, you can also open Synology Office document, spreadsheets and slides in the user-friendly viewer provided by Drive.
 
-[Nextcloud](http://nextcloud.com/) is a suite of client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces. 
+[Nextcloud](http://nextcloud.com/) is a suite of client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces.
 
 [Lsyncd (Live Syncing Mirror Daemon)](https://github.com/lsyncd/lsyncd) is a tool used in Linux systems to keep directories synchronized. These directories can be found locally, within the same machine, or remotely, on different machines. For remote synchronization, this article focuses on using SSH to accomplish it.
 
@@ -1844,31 +1840,31 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Rsync](https://rsync.samba.org/) is a utility in the command line which enables users to transfer and synchronize files efficiently between a computer and an external hard drive in the entire connected network.
 
-[Warpinator](https://github.com/linuxmint/warpinator) is a free, open-source tool for sending and receiving files between computers that are on the same network. 
+[Warpinator](https://github.com/linuxmint/warpinator) is a free, open-source tool for sending and receiving files between computers that are on the same network.
 
-[LocalSend](https://localsend.org/) is a free and open-source tool that allows you to send files and messages over the local LAN network to nearby devices. Everything is sent securely over HTTPS. The TLS/SSL certificate is generated on the fly on each device. It's avilable on Windows, macOS, Linux, iOS, and Android.
+[LocalSend](https://localsend.org/) is a free and open-source tool that allows you to send files and messages over the local LAN network to nearby devices. Everything is sent securely over HTTPS. The TLS/SSL certificate is generated on the fly on each device. It's available on Windows, macOS, Linux, iOS, and Android.
 
-[FileZilla Client](https://filezilla-project.org/) is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface. 
+[FileZilla Client](https://filezilla-project.org/) is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
 
-[Dragit](https://github.com/sireliah/dragit) is an application for intuitive file sharing between devices. It's useful for when you want to send file from one computer to another with minimal effort. Dragit automatically detects devices in the local network with help of mDNS protocol and allows you to send file immediately. 
+[Dragit](https://github.com/sireliah/dragit) is an application for intuitive file sharing between devices. It's useful for when you want to send file from one computer to another with minimal effort. Dragit automatically detects devices in the local network with help of mDNS protocol and allows you to send file immediately.
 
 [WinFsp](https://github.com/winfsp/winfsp) is a set of software components for Windows computers that allows the creation of user mode file systems. In this sense it is similar to FUSE (Filesystem in Userspace), which provides the same functionality on UNIX-like computers.
 
 [SSHFS-Win](https://github.com/winfsp/sshfs-win) is a minimal port of SSHFS to Windows. Looking under the hood it uses Cygwin for the POSIX environment and WinFsp for the FUSE (Filesystem in Userspace) functionality.
 
-[RiftShare](https://riftshare.app) is a cross platform (Windows, MacOS, Linux) file sharing tool that supports fully encrypted transfers both on the local network and off network using a simple passphrase. RiftShare uses [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) under the hood and is compatible with other magic-wormhole clients. It is also fully open source and licensed under the GPLv3. 
+[RiftShare](https://riftshare.app) is a cross platform (Windows, MacOS, Linux) file sharing tool that supports fully encrypted transfers both on the local network and off network using a simple passphrase. RiftShare uses [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) under the hood and is compatible with other magic-wormhole clients. It is also fully open source and licensed under the GPLv3.
 
-[Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. 
+[Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more.
 
-[TagSpaces](https://www.tagspaces.org/) is a free, no vendor lock-in, open source application for organizing, annotating and managing local files with the help of tags. It features advanced note taking functionalities and some capabilities of to-do apps. It's available for Windows, Linux, Mac OS and Android. 
+[TagSpaces](https://www.tagspaces.org/) is a free, no vendor lock-in, open source application for organizing, annotating and managing local files with the help of tags. It features advanced note taking functionalities and some capabilities of to-do apps. It's available for Windows, Linux, Mac OS and Android.
 
-[Listmonk](https://listmonk.app/) is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. 
+[Listmonk](https://listmonk.app/) is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary.
 
 ### Encryption
 
 [Back to the Top](#table-of-contents)
 
-[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/) is free open-source disk encryption software for Windows, Mac OS X and Linux. The file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files.   
+[VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/) is free open-source disk encryption software for Windows, Mac OS X and Linux. The file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files.
 [AxCrypt](https://axcrypt.net/) is an inexpensive and effective encryption tool for Windows, macOS, iOS, and Android.
 
 [AESCrypt](https://www.aescrypt.com/) is an advanced file encryption utility that integrates with the Windows shell or runs from the Linux command prompt to provide a simple, yet powerful, tool for encrypting files using the Advanced Encryption Standard (AES). It is available for Windows, MacOS, and Linux.
@@ -1877,40 +1873,40 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [GNU Privacy Guard (GnuPG)](https://gnupg.org/) is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP ). It allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.
 
-[Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) is an encryption program that provides cryptographic privacy and authentication for data communication. It's used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. 
+[Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) is an encryption program that provides cryptographic privacy and authentication for data communication. It's used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications.
 
-[Infisical](https://infisical.com/) is an open-source, end-to-end encrypted platform to sync secrets and configs across your team and infrastructure. 
+[Infisical](https://infisical.com/) is an open-source, end-to-end encrypted platform to sync secrets and configs across your team and infrastructure.
 
-[Hemmelig.app](https://github.com/HemmeligOrg/Hemmelig.app) is a tool that keeps your sensitive information out of chat logs, emails, and more with encrypted secrets. 
+[Hemmelig.app](https://github.com/HemmeligOrg/Hemmelig.app) is a tool that keeps your sensitive information out of chat logs, emails, and more with encrypted secrets.
 
  **How Encryption Keys work**
- 
+
  <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/196625534-1cebcd35-7654-41cc-bbb2-33913a391a53.png">
   <br />
 </p>
- 
-  * **Symmetric** is a data encryption method whereby the same private key is used to encode and decode information.
+
+- **Symmetric** is a data encryption method whereby the same private key is used to encode and decode information.
   
-  * **Asymmetric** is a data encryption method that allows users to encrypt information using shared keys. For example, if you need to send a message across the internet, but you don't want anyone but the intended recipient to see what you've written.
- 
+- **Asymmetric** is a data encryption method that allows users to encrypt information using shared keys. For example, if you need to send a message across the internet, but you don't want anyone but the intended recipient to see what you've written.
+
  **Types of Encryption**
- 
-  * **Triple DES (Triple Data Encryption Algorithm)** is a symmetric-key block cipher, which applies the DES cipher algorithm three times to each data block(contains 64 bits of data).
+
+- **Triple DES (Triple Data Encryption Algorithm)** is a symmetric-key block cipher, which applies the DES cipher algorithm three times to each data block(contains 64 bits of data).
   
-  * **AES (Advanced Encryption Standard)** is an algorithm that encrypts and decrypts data in blocks of 128 bits. It can do this using 128-bit, 192-bit, or 256-bit keys.
+- **AES (Advanced Encryption Standard)** is an algorithm that encrypts and decrypts data in blocks of 128 bits. It can do this using 128-bit, 192-bit, or 256-bit keys.
   
-  * **RSA (Rivest–Shamir–Adleman)** is a type of public-key cryptography used for secure data transmission of e-mail and other digital transactions over the Internet. 
+- **RSA (Rivest–Shamir–Adleman)** is a type of public-key cryptography used for secure data transmission of e-mail and other digital transactions over the Internet.
   
-   * **Twofish**  is a symmetric key block cipher with a block size of 128 bits and key sizes up to 256 bits. It is an advanced version of Blowfish encryption.
+- **Twofish**  is a symmetric key block cipher with a block size of 128 bits and key sizes up to 256 bits. It is an advanced version of Blowfish encryption.
   
-  * **Format Preserving Encryption (FPE)** is a valid encryption algorithm to be used for compliance with NIST standards. It is mostly used in on-premise encryption and tokenization solutions.
- 
+- **Format Preserving Encryption (FPE)** is a valid encryption algorithm to be used for compliance with NIST standards. It is mostly used in on-premise encryption and tokenization solutions.
+
  **Application Level Encryption**
- 
-  * **Hashes** is a function that converts an input of letters and numbers into an encrypted output of a fixed length. For example, algorithms such as [MD5 (Message Digest 5)](https://en.wikipedia.org/wiki/MD5) or [SHA (Secure Hash Algorithm)](https://en.wikipedia.org/wiki/Secure_hash_algorithms).
+
+- **Hashes** is a function that converts an input of letters and numbers into an encrypted output of a fixed length. For example, algorithms such as [MD5 (Message Digest 5)](https://en.wikipedia.org/wiki/MD5) or [SHA (Secure Hash Algorithm)](https://en.wikipedia.org/wiki/Secure_hash_algorithms).
   
-  * **Digital Certificates** is a file that verifies the identity of a device or user and enables encrypted connections. A digital signature is a hashing approach that uses a numeric string to provide authenticity and validate identity. Digital certificates are typically issued by a **certificate authority (CA)**, which is a trusted third-party entity that issues digital certificates for use by other parties.
+- **Digital Certificates** is a file that verifies the identity of a device or user and enables encrypted connections. A digital signature is a hashing approach that uses a numeric string to provide authenticity and validate identity. Digital certificates are typically issued by a **certificate authority (CA)**, which is a trusted third-party entity that issues digital certificates for use by other parties.
 
 ### Backups
 
@@ -1922,23 +1918,23 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [BorgWarehouse](https://borgwarehouse.com/) is a  fast and modern WebUI for a BorgBackup's central repository server.
 
-[Emborg](https://emborg.readthedocs.io/en/latest/) is a simple command line utility to orchestrate backups. It is built as a front-end to Borg, a powerful and fast de-duplicating backup program. 
+[Emborg](https://emborg.readthedocs.io/en/latest/) is a simple command line utility to orchestrate backups. It is built as a front-end to Borg, a powerful and fast de-duplicating backup program.
 
-[Borgmatic](https://github.com/modem7/docker-borgmatic) is a simple, configuration-driven backup software for servers and workstations. It protects your files with client-side encryption. Backup your databases too. Monitor it all with integrated third-party services. 
+[Borgmatic](https://github.com/modem7/docker-borgmatic) is a simple, configuration-driven backup software for servers and workstations. It protects your files with client-side encryption. Backup your databases too. Monitor it all with integrated third-party services.
 
-[Vorta](https://vorta.borgbase.com/) is a backup client for macOS and Linux desktops. It integrates the mighty Borg Backup with your favorite desktop environment to protect your data from disk failure, ransomware and theft. 
+[Vorta](https://vorta.borgbase.com/) is a backup client for macOS and Linux desktops. It integrates the mighty Borg Backup with your favorite desktop environment to protect your data from disk failure, ransomware and theft.
 
-[UrBackup](https://www.urbackup.org/) is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time. File and image backups are made while the system is running without interrupting current processes. Available for Windows, macOS, and Linux. 
+[UrBackup](https://www.urbackup.org/) is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time. File and image backups are made while the system is running without interrupting current processes. Available for Windows, macOS, and Linux.
 
-[Kopia](https://kopia.io/) is a user-friendly desktop app for Windows, macOS, and Linux which allows you to create snapshots, define policies, and restore files quickly with Fast and Encrypted Backups. 
+[Kopia](https://kopia.io/) is a user-friendly desktop app for Windows, macOS, and Linux which allows you to create snapshots, define policies, and restore files quickly with Fast and Encrypted Backups.
 
 [rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
 
-[Duplicity](https://duplicity.us/) is a tool that backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server. Because duplicity uses [librsync](https://github.com/librsync/librsync), the incremental archives are space efficient and only record the parts of files that have changed since the last backup. 
+[Duplicity](https://duplicity.us/) is a tool that backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server. Because duplicity uses [librsync](https://github.com/librsync/librsync), the incremental archives are space efficient and only record the parts of files that have changed since the last backup.
 
 [ZnapZend](https://www.znapzend.org/) is a high performance open source ZFS backup with mbuffer and ssh support. It uses the built-in snapshot functionality of ZFS for fully consistent backups. For each fileset, a pre- and post-snapshot command can be configured to quiet down any software writing to the fileset prior to snapshotting.
 
-[SnapRAID](https://github.com/amadvance/snapraid) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
+[SnapRAID](https://github.com/amadvance/snapraid) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual execution of backup is needed.
 
 [rsync.net](https://rsync.net/) is a Cloud Storage for Offsite Backup that give you an empty UNIX filesystem to access with any SSH tool. Built on ZFS for data security and fault tolerance with support for rsync/sftp/scp/borg/rclone/restic/git-annex.
 
@@ -1958,13 +1954,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, snapshots, trim or defragmentation.
 
-[ksync](https://github.com/ksync/ksync) is a toool that sync files between your local system and a kubernetes cluster. It transparently updates containers running on the cluster from your local checkout. 
+[ksync](https://github.com/ksync/ksync) is a toool that sync files between your local system and a kubernetes cluster. It transparently updates containers running on the cluster from your local checkout.
 
 [Verify](https://github.com/VerifyTests/Verify) is a snapshot tool that simplifies the assertion of complex data models and documents.
 
 [Timeshift](https://github.com/linuxmint/timeshift) is a Linux application for providing functionality to restore your system just like Windows System Restore tool. Timeshift makes snapshots of your system in regular intervals which are further used at the time of restoration or undo all changes in the system.
 
-[CRIU (Checkpoint and Restore in Userspace)](https://github.com/checkpoint-restore/criu) is a utility to checkpoint/restore Linux tasks. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. You can then use the files to restore and run the application from the point it was frozen at. 
+[CRIU (Checkpoint and Restore in Userspace)](https://github.com/checkpoint-restore/criu) is a utility to checkpoint/restore Linux tasks. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. You can then use the files to restore and run the application from the point it was frozen at.
 
 [Rsync time backup](https://github.com/laurent22/rsync-time-backup) is a Time Machine style backup with rsync. It creates incremental backups of files and directories to the destination of your choice. The backups are structured in a way that makes it easy to recover any file at any point in time. It works on Linux, macOS and Windows (via WSL).
 
@@ -1976,65 +1972,65 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[Access to Memory (AtoM)](https://www.accesstomemory.org/) - Web-based, open source application for standards-based archival description and access in a multilingual, multi-repository environment. 
+[Access to Memory (AtoM)](https://www.accesstomemory.org/) - Web-based, open source application for standards-based archival description and access in a multilingual, multi-repository environment.
 
-[ArchiveBox](https://archivebox.io/) - Self-hosted _wayback machine_ that creates HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources. 
+[ArchiveBox](https://archivebox.io/) - Self-hosted _wayback machine_ that creates HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources.
 
 [Archivematica](https://www.archivematica.org/en/) - Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects.
 
-[ArchivesSpace](https://archivesspace.org/) - Archives information management application for managing and providing Web access to archives, manuscripts and digital objects. 
+[ArchivesSpace](https://archivesspace.org/) - Archives information management application for managing and providing Web access to archives, manuscripts and digital objects.
 
-[CKAN](https://ckan.org) - CKAN is a tool for making open data websites. 
+[CKAN](https://ckan.org) - CKAN is a tool for making open data websites.
 
-[Collective Access - Providence](https://collectiveaccess.org/) - Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats. 
+[Collective Access - Providence](https://collectiveaccess.org/) - Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats.
 
 [Omeka S](https://omeka.org/s/) - Omeka S is a web publication system for universities, galleries, libraries, archives, and museums. It consists of a local network of independently curated exhibits sharing a collaboratively built pool of items, media, and their metadata.
 
-[Wayback](https://github.com/wabarc/wayback) - A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems. 
+[Wayback](https://github.com/wabarc/wayback) - A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems.
 
 ### Home Server
 
 [Back to the Top](#table-of-contents)
 
-[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi.
 
-[Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
+[Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
 
 [Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
 
-   - Install and configure Homebridge plugins.
-   - Monitor your Homebridge server via a fully customisable widget-based dashboard.
-   - View and control Homebridge accessories.
-   - Backup and Restore your Homebridge instance.
+- Install and configure Homebridge plugins.
+- Monitor your Homebridge server via a fully customisable widget-based dashboard.
+- View and control Homebridge accessories.
+- Backup and Restore your Homebridge instance.
 
 [ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
 
-[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS.
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
 
-[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
 [Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
 
-[Homey](https://homey.app/) is an applciation to control, automate and monitor your entire smart home from your phone, tablet or desktop. 
+[Homey](https://homey.app/) is an application to control, automate and monitor your entire smart home from your phone, tablet or desktop.
 
 [Caddy](https://caddyserver.com/) is the only web server to use HTTPS automatically and by default. Caddy obtains and renews TLS certificates for your sites automatically.
 
-[Bazarr](https://hub.docker.com/r/linuxserver/bazarr) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. 
+[Bazarr](https://hub.docker.com/r/linuxserver/bazarr) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
 
-[Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. 
+[Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.
 
 [Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr)
 
 [Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
 
-   * Beautifully crafted user interface.
-   * Real-time online statuses.
-   * Simple and easy invite system.
-   * Integrates with your existing services, Radarr and Sonarr.
+- Beautifully crafted user interface.
+- Real-time online statuses.
+- Simple and easy invite system.
+- Integrates with your existing services, Radarr and Sonarr.
 
-[Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices. 
+[Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices.
 
 [TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
 
@@ -2046,7 +2042,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Tdarr](https://tdarr.io/) is a distributed transcode automation application using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker). A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
 
-[AppFlowy](https://www.appflowy.io/) is an open-source alternative to Notion where you're in charge of your data and customizations. 
+[AppFlowy](https://www.appflowy.io/) is an open-source alternative to Notion where you're in charge of your data and customizations.
 
 [deemix](https://deemix.app/) is a barebone [deezer](https://www.deezer.com/) downloader library built from the ashes of Deezloader Remix.
 
@@ -2056,9 +2052,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [ASUSTOR](https://www.asustor.com/) is a subsidiary of ASUS and a leading provider of network attached storage (NAS). It specializes in the development and integration of storage, backup, multimedia, video surveillance and mobile applications for home and enterprise users.
 
-[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer(Windows, Mac and Linux) and mobile devices through apps. 
+[Seafile](https://www.seafile.com/) is an open-source, cross-platform file-hosting software system. Seafile organize files into libraries stored on a central server. Each library can be synced into any desktop computer(Windows, Mac and Linux) and mobile devices through apps.
 
-[SnapRAID](http://www.snapraid.it/) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
+[SnapRAID](http://www.snapraid.it/) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual execution of backup is needed.
 
 [FreeNAS](https://www.truenas.com/freenas/) is an Open Source Storage Platform and supports sharing across Windows, Apple, and UNIX-like systems. This includes ZFS (high storage capacities and integrates file systems and volume management into a single piece of software). It supports UPS, CIFS/SMB, FTP, NFS, RSYNC, SSH, AFP, Unison, UPnP, Webserver, iSCSI protocols, local and MS AD authentication, and disk enctyption.
 
@@ -2067,7 +2063,6 @@ Minio's test-server called "play" is already configured in the default client, y
 [Audiobookshelf](https://github.com/advplyr/audiobookshelf) is a self-hosted audiobook and podcast server.
 
 [Mistborn](https://gitlab.com/cyber5k/mistborn) is a secure platform for easily standing up and managing your own cloud services: including firewall, ad-blocking, and multi-factor WireGuard VPN access.
-
 
 ### Media Server
 
@@ -2085,14 +2080,14 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
 
-   * Beautifully crafted user interface.
-   * Real-time online statuses.
-   * Simple and easy invite system.
-   * Integrates with your existing services, Radarr and Sonarr.
-   
+- Beautifully crafted user interface.
+- Real-time online statuses.
+- Simple and easy invite system.
+- Integrates with your existing services, Radarr and Sonarr.
+
 [Kirino Media Server](https://kirino.io/) is a lightweight, modular alternative to Plex and Jellyfin.
 
-[Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
+[Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documentation to facilitate client development.
 
 [OpenMediaVault](https://www.openmediavault.org/) is a next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, BitTorrent client and many more.
 
@@ -2104,7 +2099,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Infuse](https://firecore.com/) is a Video Player for iOS, Apple TV, and Mac. It plays every video file ever created to avoid wasting hours converting and transcoding files.
 
-[InfuseSync](https://github.com/firecore/InfuseSync) is a plugin for Emby and Jellyfin media servers that tracks all media changes to decrease sync times with Infuse clients. 
+[InfuseSync](https://github.com/firecore/InfuseSync) is a plugin for Emby and Jellyfin media servers that tracks all media changes to decrease sync times with Infuse clients.
 
 [AirSonic](https://hub.docker.com/r/airsonic/airsonic) is a free, web-based media streamer, providing ubiquitous access to your music.
 
@@ -2116,9 +2111,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [PeerTube](https://joinpeertube.org/) is an ActivityPub-federated video streaming platform using P2P directly in your web browser.
 
-[Ant Media Server](https://github.com/ant-media/Ant-Media-Server) is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. 
+[Ant Media Server](https://github.com/ant-media/Ant-Media-Server) is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency.
 
-[Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
+[Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience.
 
 [HD HomeRun Scribe 4K](https://www.silicondust.com/product/hdhomerun-scribe-4k/) is a free local live TV with DVR with 4 tuners and 150 hours of recording storage all-in-one amazing box for watching and recording free TV all around your home.
 
@@ -2130,7 +2125,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [SonoBus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
 
-[MythTV](https://www.mythtv.org/) is a Free Open Source software digital video recorder (DVR) project distributed under the terms of the GNU GPL. 
+[MythTV](https://www.mythtv.org/) is a Free Open Source software digital video recorder (DVR) project distributed under the terms of the GNU GPL.
 
 ### Smart Home Automation
 
@@ -2144,21 +2139,21 @@ Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https:
 
 **Proprietary Smart Devices**
 
- * [Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
+- [Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more.
 
- * [Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
+- [Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
 
- * [Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
+- [Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
 
- * [Samsung SmartThings](https://www.smartthings.com/) is a sofwtare framework that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
+- [Samsung SmartThings](https://www.smartthings.com/) is a software framework that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
 
- * [Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
+- [Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
 
- * [Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
- 
+- [Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV.
+
 **------------------------------------------------------------------**
 
-[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi.
 
 _Add-ons are additional applications and services, that can be run alongside
 Home Assistant. The Home Assistant OS and Supervised installations types,
@@ -2168,106 +2163,108 @@ provide the Supervisor, which is capable of running and managing these add-ons._
 
 _Addons created and maintained by the Home Assistant team._
 
-* [DuckDNS](https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md) - This updates your Duck DNS IP address and generate SSL using Let's Encrypt.
-* [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) - An Open, Privacy-Preserving Virtual Assistant.
-* [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - HomeMatic central based on OCCU.
-* [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
-* [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
-* [File editor](https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md) - Browser-based configuration file editor.
-* [Mosquitto](https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md) - Fast and reliable MQTT broker.
-* [Terminal & SSH](https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md) - Allows logging in remotely to using a web terminal or SSH client.
-* [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
-* [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
-* [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
-* [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) - Run a TellStick and TellStick Duo service.
-* [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Ada is voice assistant powered by Almond which is open and privacy-preserving.
+- [DuckDNS](https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md) - This updates your Duck DNS IP address and generate SSL using Let's Encrypt.
+- [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) - An Open, Privacy-Preserving Virtual Assistant.
+- [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) - HomeMatic central based on OCCU.
+- [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
+- [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
+- [File editor](https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md) - Browser-based configuration file editor.
+- [Mosquitto](https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md) - Fast and reliable MQTT broker.
+- [Terminal & SSH](https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md) - Allows logging in remotely to using a web terminal or SSH client.
+- [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
+- [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
+- [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
+- [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) - Run a TellStick and TellStick Duo service.
+- [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) - Ada is voice assistant powered by Almond which is open and privacy-preserving.
 
 **Home Assistant Third Party Add-ons**
 
 _Add-ons created by the community._
 
-* [Dasshio](https://github.com/danimtb/dasshio) - Easily use your Amazon Dash Buttons.
-* [InfluxDB](https://github.com/hassio-addons/addon-influxdb) - Scalable datastore for metrics, events, and real-time analytics.
-* [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
-* [Tor](https://github.com/hassio-addons/addon-tor) - Protect your privacy and access your instance via Tor.
-* [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Spotify Connect client for playing music on your Home Assistant device.
-* [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
-* [UniFi Controller](https://github.com/hassio-addons/addon-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
-* [Node-RED](https://github.com/hassio-addons/addon-node-red) - Flow-based programming for the Internet of Things.
-* [Plex Media Server](https://github.com/hassio-addons/addon-plex) - Your recorded media beautifully organized and ready to stream.
-* [IDE](https://github.com/hassio-addons/addon-ide) - Advanced web-based IDE, based on Cloud9 IDE.
-* [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
-* [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
-* [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
-* [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
-* [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
-* [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
-* [Grocy](https://github.com/hassio-addons/addon-grocy) - A groceries & household management solution for your home.
-* [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
-* [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion.
-* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) - Python Apps and HADashboard.
-* [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
-* [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
-* [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
-* [Log Viewer](https://github.com/hassio-addons/addon-log-viewer) - Browser-based live log viewing utility.
-* [Tautulli](https://github.com/hassio-addons/addon-tautulli) - Monitor and get statistics from your Plex server.
-* [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
-* [JupyterLab](https://github.com/hassio-addons/addon-jupyterlab) - Create documents containing live code, equations, visualizations, and explanatory text.
-* [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
+- [Dasshio](https://github.com/danimtb/dasshio) - Easily use your Amazon Dash Buttons.
+- [InfluxDB](https://github.com/hassio-addons/addon-influxdb) - Scalable datastore for metrics, events, and real-time analytics.
+- [Grafana](https://github.com/hassio-addons/addon-grafana) - Open platform for beautiful analytics and monitoring.
+- [Tor](https://github.com/hassio-addons/addon-tor) - Protect your privacy and access your instance via Tor.
+- [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) - Spotify Connect client for playing music on your Home Assistant device.
+- [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) - SSH and Web-based terminal with tons of pre-loaded useful tools.
+- [UniFi Controller](https://github.com/hassio-addons/addon-unifi) - The UniFi Controller allows you to manage your UniFi network using a web browser.
+- [Node-RED](https://github.com/hassio-addons/addon-node-red) - Flow-based programming for the Internet of Things.
+- [Plex Media Server](https://github.com/hassio-addons/addon-plex) - Your recorded media beautifully organized and ready to stream.
+- [IDE](https://github.com/hassio-addons/addon-ide) - Advanced web-based IDE, based on Cloud9 IDE.
+- [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
+- [Matrix](https://github.com/hassio-addons/addon-matrix) - A secure and decentralized communication platform.
+- [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) - A network-wide ad-and-tracker blocking DNS server with parental control.
+- [Traccar](https://github.com/hassio-addons/addon-traccar) - Traccar is modern GPS Tracking Platform.
+- [Home Panel](https://github.com/hassio-addons/addon-home-panel) - A touch-compatible web frontend for controlling the home.
+- [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) - A complete and easy to configure solution for backing up your snapshots to Google Drive.
+- [Grocy](https://github.com/hassio-addons/addon-grocy) - A groceries & household management solution for your home.
+- [EmonCMS](https://github.com/inverse/hassio-addon-emoncms) - A powerful open-source web app for processing, logging, and visualizing energy, temperature, and other environmental data.
+- [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) - A next-gen collaborative IPS/IDS to protect you from intrusion.
+- [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) - Python Apps and HADashboard.
+- [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) - Centrally manage all your Sonoff-Tasmota devices.
+- [Aircast](https://github.com/hassio-addons/addon-aircast) - AirPlay capabilities for your Chromecast players.
+- [AirSonos](https://github.com/hassio-addons/addon-airsonos) - AirPlay capabilities for your Sonos players.
+- [Log Viewer](https://github.com/hassio-addons/addon-log-viewer) - Browser-based live log viewing utility.
+- [Tautulli](https://github.com/hassio-addons/addon-tautulli) - Monitor and get statistics from your Plex server.
+- [motionEye](https://github.com/hassio-addons/addon-motioneye) - Simple, elegant and feature-rich CCTV/NVR for your cameras.
+- [JupyterLab](https://github.com/hassio-addons/addon-jupyterlab) - Create documents containing live code, equations, visualizations, and explanatory text.
+- [Glances](https://github.com/hassio-addons/addon-glances) - A cross-platform system monitoring tool written in Python.
 
 **Home Assistant Custom Cards**
 
 _The Home Assistant Dashboards allows people to build custom cards on top of it, which you can easily add to your instance._
 
-* [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
-* [Card Modder](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
-* [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
-* [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
-* [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
-* [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
-* [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
-* [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities.
-* [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
-* [Big Number Card](https://github.com/custom-cards/bignumber-card) - Display big numbers for sensors, including severity level as background.
+- [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) - A simpler and more flexible thermostat card.
+- [Card Modder](https://github.com/thomasloven/lovelace-card-mod) - Style your Lovelace cards.
+- [Bar Card](https://github.com/Gluwc/bar-card) - Customizable animated bar card.
+- [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) - Control a forked daapd instance.
+- [Dual Gauge Card](https://github.com/Rocka84/dual-gauge-card) - Shows two gauges in one.
+- [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) - Calendar card with advanced settings.
+- [Simple Weather Card](https://github.com/kalkih/simple-weather-card) - A minimalistic weather card, inspired by Google Material Design.
+- [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) - Dynamically adds entities.
+- [Canvas Gauge Card](https://github.com/custom-cards/canvas-gauge-card) - Use awesome gauges from canvas-gauges.com.
+- [Big Number Card](https://github.com/custom-cards/bignumber-card) - Display big numbers for sensors, including severity level as background.
+
 - [Animated Weather Card](https://github.com/bramkragten/weather-card) - Nice looking card showing the weather, with subtle animations.
 - [Thermostat Card](https://github.com/ciotlosm/lovelace-thermostat-dark-card) - Thermostat control card that looks like a Nest Thermostat.
+
 * [Raspberry Pi Status Card](https://github.com/ironsheep/lovelace-rpi-monitor-card) - Show status of your Raspberry Pis.
-* [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
-* [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
-* [Button card](https://github.com/kuuji/button-card) - Button card for your entities.
-* [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
-* [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
-* [Home Card](https://github.com/postlund/home-card) - A quick glance of the state of your home.
-* [Banner Card](https://github.com/nervetattoo/banner-card) - A fluffy linkable banner with interactive glances to spice up your home dashboards.
-* [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
-* [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
-* [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
-* [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
-* [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
-* [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
-* [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
-* [Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
-* [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
-* [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
+- [Mini Media Player](https://github.com/kalkih/mini-media-player) - A minimalistic media player card.
+- [Mini Graph Card](https://github.com/kalkih/mini-graph-card) - A minimalistic sensor graph card.
+- [Button card](https://github.com/kuuji/button-card) - Button card for your entities.
+- [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
+- [Power Wheel Card](https://github.com/gurbyz/power-wheel-card) - An intuitive way to represent the power that your home is consuming or producing.
+- [Home Card](https://github.com/postlund/home-card) - A quick glance of the state of your home.
+- [Banner Card](https://github.com/nervetattoo/banner-card) - A fluffy linkable banner with interactive glances to spice up your home dashboards.
+- [Spotify Card](https://github.com/custom-cards/spotify-card) - List and select from current available devices and users top playlists on Spotify.
+- [Battery Entity](https://github.com/cbulock/lovelace-battery-entity) - Displaying battery levels for battery entities.
+- [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) - Show multiple entity states or attributes on entity rows.
+- [Home Feed Card](https://github.com/gadgetchnnel/lovelace-home-feed-card) - Display a combination of persistent notifications, calendar events, and entities in the style of a feed.
+- [Config Template Card](https://github.com/custom-cards/config-template-card) - Allow using templates in Lovelace.
+- [RGB Light Card](https://github.com/bokub/rgb-light-card) - Colorful buttons to control your RGB Lights.
+- [Restriction Card](https://github.com/iantrich/restriction-card) - A card to provide restrictions on Lovelace cards defined within.
+- [Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
+- [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
+- [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
 
 **Home Assistant Custom Integrations**
 
 _Additional integrations for Home Assistant created by the community._
 
-* [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
-* [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
-* [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
-* [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
-* [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
-* [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
-* [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
-* [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
-* [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
-* [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
-* [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
-* [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
-* [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
-* [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
+- [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
+- [SmartIR](https://github.com/smartHomeHub/SmartIR) - Integrates devices using Broadlink IR.
+- [Alexa Media Player](https://github.com/keatontaylor/alexa_media_player) - Allow control of Amazon Alexa devices.
+- [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occurring color temperature of the sky throughout the day.
+- [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) - Integrates Volkswagen Carnet (requires valid Carnet subscription).
+- [Untappd](https://github.com/custom-components/sensor.untapped) - Connects with your Untappd account.
+- [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) - Publishes events to Elasticsearch.
+- [HASS Aarlo](https://github.com/twrecked/hass-aarlo) - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
+- [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
+- [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
+- [WebRTC Camera](https://github.com/AlexxIT/WebRTC) - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
+- [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
+- [Spotcast](https://github.com/fondberg/spotcast) - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
+- [The Watchman](https://github.com/dummylabs/thewatchman) - Keep track of missing entities and services in your config files.
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/177719765-602b4658-c8bf-4952-a238-4b986efbb7cb.png">
@@ -2276,20 +2273,20 @@ _Additional integrations for Home Assistant created by the community._
 
 Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant.io/integrations/)
 
-[Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
+[Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
 
 [Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
 
-   - Install and configure Homebridge plugins.
-   - Monitor your Homebridge server via a fully customisable widget-based dashboard.
-   - View and control Homebridge accessories.
-   - Backup and Restore your Homebridge instance.
-   
+- Install and configure Homebridge plugins.
+- Monitor your Homebridge server via a fully customisable widget-based dashboard.
+- View and control Homebridge accessories.
+- Backup and Restore your Homebridge instance.
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/202679713-5cc8dede-7e61-42e1-ab71-def824bc70de.png">
   <br />
 </p>
-   
+
 [Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image) is a free Raspbian based Raspberry Pi image with Homebridge and Homebridge Config UI X pre-installed.
 
 [Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x) is a web based management tool for [Homebridge](https://github.com/homebridge/homebridge) that allows you to manage all aspects of your Homebridge setup.
@@ -2302,7 +2299,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Homebridge Mi Aqara](https://github.com/YinHangCode/homebridge-mi-aqara) is a homebridge plugin for XiaoMi Aqara plugin.
 
-[Homebridge Camera UI](https://github.com/seydx/homebridge-camera-ui) is a tool that allows you to expose cameras from camera.ui to HomeKit via Homebridge. 
+[Homebridge Camera UI](https://github.com/seydx/homebridge-camera-ui) is a tool that allows you to expose cameras from camera.ui to HomeKit via Homebridge.
 
 [HOOBS](https://hoobs.org/) is a tool that makes smart accessories(over 2000 options) compatible with your favorite ecosystem. Whether you prefer Apple Homekit, Google Home, or Amazon Alexa, you’re unlikely to find compatible accessories and services that all work together nicely under one roof.
 
@@ -2310,7 +2307,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS.
 
-[Homey](https://homey.app/) is an applciation to control, automate and monitor your entire smart home from your phone, tablet or desktop. 
+[Homey](https://homey.app/) is an application to control, automate and monitor your entire smart home from your phone, tablet or desktop.
 
 [Ecobee](https://www.ecobee.com) is a home automation company in Canada that makes thermostats for residential and commercial use.
 
@@ -2318,7 +2315,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Insteon switches](https://www.insteon.com/) is a Hub for controlling and configuring your home's devices is quick, easy and fun. The setup takes a couple of minutes and a few moments per light switch, sensor, etc. It bridges your devices to 3rd party services like Amazon Alexa and Google Assistant, while being controlled from any smartphone or tablet.
 
-[Jeedom](https://www.jeedom.com/) is an open source software; taht gives you complete access to the software that manages your home automation. It's compatible with various protocols such as, ZigBee, Z-Wave, EnOcean, KNX, LoRaWAN, BACnet, Modbus, etc..
+[Jeedom](https://www.jeedom.com/) is an open source software; that gives you complete access to the software that manages your home automation. It's compatible with various protocols such as, ZigBee, Z-Wave, EnOcean, KNX, LoRaWAN, BACnet, Modbus, etc..
 
 [Beestat](https://github.com/beestat/app) is a tool that connects with your thermostat and provides you with useful charts and analytics so that you can make informed decisions and see how the changes you make lower your energy footprint.
 
@@ -2326,7 +2323,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
 
-[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
 [Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
 
@@ -2354,13 +2351,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [DeepSpeech](https://github.com/mozilla/DeepSpeech) is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers.
 
-[Leon](https://github.com/leon-ai/leon) is your open-source personal assistant. 
+[Leon](https://github.com/leon-ai/leon) is your open-source personal assistant.
 
 [Olivia](https://olivia-ai.org/) is an open-source chatbot built in Golang using Machine Learning technologies. Its goal is to provide a free and open-source alternative to big services like DialogFlow.
 
 [Alan SDK](https://github.com/alan-ai/alan-sdk-web) is an voice assistant SDK to build a voice interface for websites and web apps (JavaScript, React, Angular, Vue, Ember, Electron).
 
-[OpenAssistant](https://open-assistant.io/) is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. 
+[OpenAssistant](https://open-assistant.io/) is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
 
 ### Video Surveillance
 
@@ -2368,14 +2365,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Frigate](https://frigate.video/) is an open source NVR built around real-time AI object detection. All processing is performed locally on your own hardware, and your camera feeds never leave your home.
 
-[Viseron](https://github.com/roflcoopter/viseron) is a Self-hosted, local only NVR and AI Computer Vision software. 
+[Viseron](https://github.com/roflcoopter/viseron) is a Self-hosted, local only NVR and AI Computer Vision software.
 
-[zmninja](http://zmninja.zoneminder.com/) is a high performance, cross platform ionic app for Home/Commerical Security Surveillance using ZoneMinder.
+[zmninja](http://zmninja.zoneminder.com/) is a high performance, cross platform ionic app for Home/Commercial Security Surveillance using ZoneMinder.
 
 [Moonfire NVR](https://github.com/scottlamb/moonfire-nvr) is a security camera network video recorder.
 
 [Shinobi Pro](https://gitlab.com/Shinobi-Systems/Shinobi) is a Next Generation in Open-Source Video Management Software with support for over 6000 IP and USB Cameras.
-
 
 ### Text-To-Speech Synthesis (TTS)
 
@@ -2393,8 +2389,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Mozilla TTS](https://github.com/mozilla/TTS) is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
 
-[NVIDIA NeMo](https://github.com/NVIDIA/NeMo) is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP). 
-
+[NVIDIA NeMo](https://github.com/NVIDIA/NeMo) is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
 
 ### Video and Audio Processing
 
@@ -2402,7 +2397,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Intel® Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html) is a tools that uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
 
-[Intel® QuickAssist Technology (Intel® QAT)](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-quick-assist-technology-overview.html) is a scalable, flexible, and extendable way to accelerate data encryption/decryption and compression for applications from networking to enterprise, cloud to storage, and content delivery to database. 
+[Intel® QuickAssist Technology (Intel® QAT)](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-quick-assist-technology-overview.html) is a scalable, flexible, and extendable way to accelerate data encryption/decryption and compression for applications from networking to enterprise, cloud to storage, and content delivery to database.
 
 [FFmpeg](https://ffmpeg.org) is a leading multimedia framework that can decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge ones on multiple platforms such as Windows, macOS, and Linux.
 
@@ -2410,11 +2405,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [HandBrake](https://handbrake.fr/) is a tool for transcoding video from almost any format with a selection of widely supported codecs. It is supported on Window, macOS, and Linux.
 
-[Tdarr](https://github.com/HaveAGitGat/Tdarr) is a cross-platform conditional based transcoding application for automating media library transcode/remux management in order to process your media files as required. It can set rules for the required codecs, containers, languages etc that your media should have which helps keeps things organized and can increase compatability with your devices. A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
+[Tdarr](https://github.com/HaveAGitGat/Tdarr) is a cross-platform conditional based transcoding application for automating media library transcode/remux management in order to process your media files as required. It can set rules for the required codecs, containers, languages etc that your media should have which helps keeps things organized and can increase compatibility with your devices. A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
 
 [SRS](https://github.com/ossrs/srs) is a simple, high efficiency and realtime video server, supports RTMP, WebRTC, HLS, HTTP-FLV, SRT and GB28181.
 
-[obsws-python](https://github.com/aatikturk/obsws-python) is a Python SDK for OBS Studio WebSocket v5.0. 
+[obsws-python](https://github.com/aatikturk/obsws-python) is a Python SDK for OBS Studio WebSocket v5.0.
 
 **Video/Audio Standards**
 
@@ -2425,7 +2420,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [H.265(HEVC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) is a video compression standard that is the successor to H.264(AVC). It offers a 25% to 50% better data compression at the same level of video quality, or improved video quality at the same bit-rate.
 
 [HTTP Live Streaming (HLS)](https://developer.apple.com/streaming/) is a communications protocol developed by Apple that sends live and on‐demand audio and video to iPhone, iPad, Mac, Apple Watch, Apple TV, and PC.
- 
+
 [Dynamic Adaptive Streaming over HTTP (DASH)](https://developer.mozilla.org/en-US/docs/Web/HTML/DASH_Adaptive_Streaming_for_HTML_5_Video) is an adaptive streaming protocol that allows for a video stream to switch between bit rates on the basis of network performance, in order to keep a video playing.
 
 [OpenMAX™](https://www.khronos.org/openmax/) is a cross-platform API that provides comprehensive streaming media codec and application portability by enabling accelerated multimedia components to be developed, integrated and programmed across multiple operating systems and silicon platforms.
@@ -2452,11 +2447,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Alby](https://getalby.com/) is a Bitcoin Lightning App for your Browser.
 
-[Alby wallet API](https://blog.getalby.com/introducing-the-alby-wallet-api/) is an implemented OAuth an open standard that apps use to provide client applications with secure delegated access. Thus Podverse users create an Alby wallet account or use their existing Alby account to grant specific access rights to their Alby wallet. 
+[Alby wallet API](https://blog.getalby.com/introducing-the-alby-wallet-api/) is an implemented OAuth an open standard that apps use to provide client applications with secure delegated access. Thus Podverse users create an Alby wallet account or use their existing Alby account to grant specific access rights to their Alby wallet.
 
 [Blubrry](https://blubrry.com/) is a podcast hosting service for publishing platform, live customer support, stress-free migration, and impactful statistics.
 
-[SATurn](https://saturn.fly.dev/) is a tool that lets you connect your getalby.com Account and see which content resonates most with your audience and recognize your top contributors. 
+[SATurn](https://saturn.fly.dev/) is a tool that lets you connect your getalby.com Account and see which content resonates most with your audience and recognize your top contributors.
 
 [AntennaPod](https://antennapod.org/) is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial interest, so it respects your privacy while giving you full control.
 
@@ -2466,7 +2461,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [dir2cast](https://github.com/ben-xo/dir2cast/) is designed to turn a directory of MP3s into a podcast - automatically. Perfect for, say, radio shows - upload the MP3s to a folder, and use dir2cast.php as your PodCast URL.
 
-[Snipd](https://www.snipd.com/) is an AI-powered podcast player. Search for moments in the transcript, get summaries, share clips to social media, and export to your second brain & note taking apps. Discover, save, and share highlights from podcasts. 
+[Snipd](https://www.snipd.com/) is an AI-powered podcast player. Search for moments in the transcript, get summaries, share clips to social media, and export to your second brain & note taking apps. Discover, save, and share highlights from podcasts.
 
 [Wave Share](https://ggerganov.github.io/wave-share) is a serverless, peer-to-peer, local file sharing through sound.
 
@@ -2486,7 +2481,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
-[Fasten](https://github.com/fastenhealth/fasten-onprem) is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics 
+[Fasten](https://github.com/fastenhealth/fasten-onprem) is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics
 
 [ERPNext](https://erpnext.com/) is a Free and Open Source Enterprise Resource Planning (ERP) for managing businesses.
 
@@ -2498,23 +2493,22 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
-  * [ESPHome: DIY Irrigation Controller With Internal Scheduler](https://community.home-assistant.io/t/esphome-diy-irrigation-controller-with-internal-scheduler/171844)
- * [Smart WiFi Controlled Irrigation System Using Home Assistant and ESPHome](https://www.instructables.com/Smart-WiFi-Controlled-Irrigation-System-Using-Home/)
+- [ESPHome: DIY Irrigation Controller With Internal Scheduler](https://community.home-assistant.io/t/esphome-diy-irrigation-controller-with-internal-scheduler/171844)
+- [Smart WiFi Controlled Irrigation System Using Home Assistant and ESPHome](https://www.instructables.com/Smart-WiFi-Controlled-Irrigation-System-Using-Home/)
 
-
-[OpenSprinkler](https://opensprinkler.com/product/opensprinkler/) is an open-source, web-based smart sprinkler controller for lawn and plant watering, drip irrigation, farm irrigation, hydroponics etc. The current version is OS 3.2, with built-in WiFi (based on ESP8266) and OLED display. 
+[OpenSprinkler](https://opensprinkler.com/product/opensprinkler/) is an open-source, web-based smart sprinkler controller for lawn and plant watering, drip irrigation, farm irrigation, hydroponics etc. The current version is OS 3.2, with built-in WiFi (based on ESP8266) and OLED display.
 
 [Droplet](https://github.com/PricelessToolkit/Droplet) is an ALL-IN-ONE Irrigation and monitoring system for ESPHome and Home Assistant.
 
 [9 Valve Sprinkler Controller](https://github.com/hwstar/9-Valve-Sprinkler-Controller) is a 9 valve sprinkler controller for use with customized firmware such as ESPHOME.
 
-[GardenBot](https://www.gardenbot.org/howTo/) is an open source garden monitoring system. Their website is a collection of tutorials for how to build things (like a soil moisture sensor), software for running GardenBot, resources, links, and more. 
+[GardenBot](https://www.gardenbot.org/howTo/) is an open source garden monitoring system. Their website is a collection of tutorials for how to build things (like a soil moisture sensor), software for running GardenBot, resources, links, and more.
 
 [OpenFarm](https://openfarm.cc/) is a free and open database and web application for farming and gardening knowledge. One might think of it as the Wikipedia for growing plants, though it functions more like a cooking recipes site.
 
 [Growstuff](http://growstuff.org/) is an open source/open data project for food gardeners. They crowdsource information on what our members are growing and harvesting, aggregate it, and make it available as open data via their API.
 
-[Harvest Helper](https://github.com/damwhit/harvest_helper) is a tool that provides growing, harvesting and recipe information for the 45 plants in the database as well as a json api so that people can hopefully use this data to build other apps. 
+[Harvest Helper](https://github.com/damwhit/harvest_helper) is a tool that provides growing, harvesting and recipe information for the 45 plants in the database as well as a json api so that people can hopefully use this data to build other apps.
 
 [HappyPlants](https://happyplants.garden/) is a mobile web application that's all about collecting, organising, and adding all kinds of information of your plants. Basically, creating your own plant database in a visual way.
 
@@ -2522,8 +2516,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Pigrow](https://github.com/Pragmatismo/Pigrow) is a garden automation suite designed to help gardeners monitor, log, graph and control their grow space using a raspberry Pi, various sensor and a few relay modules.
 
-[Tania](https://usetania.org/) is a farm management software for the hobbyist and smallholder farmer. 
-
+[Tania](https://usetania.org/) is a farm management software for the hobbyist and smallholder farmer.
 
 ### Maps
 
@@ -2537,15 +2530,15 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
 
-[uMap](https://github.com/umap-project/umap) is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site. 
+[uMap](https://github.com/umap-project/umap) is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site.
 
 [Martin](https://martin.maplibre.org/) is a tile server able to generate [vector tiles](https://github.com/mapbox/vector-tile-spec) from large [PostGIS](https://github.com/postgis/postgis) databases on the fly, or serve tiles from [PMTile](https://protomaps.com/blog/pmtiles-v3-whats-new) and [MBTile](https://github.com/mapbox/mbtiles-spec) files. Martin optimizes for speed and heavy traffic, and is written in Rust.
 
-[MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) is an open-source library for publishing maps on your websites or webview based apps. Fast displaying of maps is possible thanks to GPU-accelerated vector tile rendering. 
+[MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) is an open-source library for publishing maps on your websites or webview based apps. Fast displaying of maps is possible thanks to GPU-accelerated vector tile rendering.
 
-[MapLibre Native](https://maplibre.org/) is an Interactive vector tile maps for iOS, Android and other platforms. 
+[MapLibre Native](https://maplibre.org/) is an Interactive vector tile maps for iOS, Android and other platforms.
 
-[Maplibre-rs ](https://github.com/maplibre/maplibre-rs) is an Experimental Maps for Web, Mobile and Desktop.
+[Maplibre-rs](https://github.com/maplibre/maplibre-rs) is an Experimental Maps for Web, Mobile and Desktop.
 
 ### Bookmarks
 
@@ -2577,7 +2570,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Czkawka](https://github.com/qarmin/czkawka) is a Multi-functional app to find duplicates, empty folders, similar images, etc.
 
-[Phockup](https://github.com/ivandokov/phockup) is a Media sorting tool to organize photos and videos from your camera in folders by year, month and day. 
+[Phockup](https://github.com/ivandokov/phockup) is a Media sorting tool to organize photos and videos from your camera in folders by year, month and day.
 
 [PiGallery 2](https://github.com/bpatrik/pigallery2) is a  fast directory-first photo gallery website, with rich UI, optimized for running on low resource servers (especially on Raspberry Pi).
 
@@ -2589,9 +2582,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [PhotoSync](https://www.photosync-app.com/home.html) is a service to wirelessly transfer, backup & share photos/videos to your computer, NAS, other phones and popular cloud/photo services. It's available for Windows, MacOS, Linux, Android, and iOS.
 
-[Lychee](https://lycheeorg.github.io/) is a great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. 
+[Lychee](https://lycheeorg.github.io/) is a great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.
 
-[Photoview](https://photoview.github.io/) is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos. 
+[Photoview](https://photoview.github.io/) is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
 
 [Gimme-iPhotos](https://github.com/Zebradil/Gimme-iPhotos) is a tool uses [pyicloud](https://github.com/picklepete/pyicloud) to synchronize photos and videos from iCloud to your local machine.
 
@@ -2601,13 +2594,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Chevereto](https://hub.docker.com/r/linuxserver/chevereto) is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server.
 
-[Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS. 
+[Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS.
 
 [Upscayl](https://upscayl.github.io/) is a free and open source desktop application that lets you upscale your low resolution images using advanced AI Models. Upscayl is a Linux-First Application that prioritizes Linux builds but is also cross-platform.
 
-[Librephotos](https://github.com/LibrePhotos/librephotos) is a self-hosted open source photo management service. This is the repository of the backend. 
+[Librephotos](https://github.com/LibrePhotos/librephotos) is a self-hosted open source photo management service. This is the repository of the backend.
 
-[Librephotos frontend](https://github.com/LibrePhotos/librephotos-frontend) is a self-hosted open source photo management service. This is the repository of the frontend. 
+[Librephotos frontend](https://github.com/LibrePhotos/librephotos-frontend) is a self-hosted open source photo management service. This is the repository of the frontend.
 
 [Librephotos  Mobile](https://github.com/LibrePhotos/librephotos-mobile) is an open-source Android and iOS Mobile Application for self-hosted Librephotos Server.
 
@@ -2617,11 +2610,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
-[Joplin](https://joplinapp.org/) is an open source note-taking app that you can securely access from any device. 
+[Joplin](https://joplinapp.org/) is an open source note-taking app that you can securely access from any device.
 
-[HedgeDoc](https://hedgedoc.org/) is an open-source, web-based, self-hosted, collaborative markdown editor. 
+[HedgeDoc](https://hedgedoc.org/) is an open-source, web-based, self-hosted, collaborative markdown editor.
 
-[nb](https://xwmx.github.io/nb) is a CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script. 
+[nb](https://xwmx.github.io/nb) is a CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 
 [Turtl](https://turtlapp.com/) is a secure, collaborative notebook for bookmarks or passwords, files or shopping lists.
 
@@ -2629,9 +2622,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Milanote](https://milanote.com/) is a tool for organizing creative projects into beautiful visual boards.
 
-[Laverna](https://laverna.cc/) is a note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. 
+[Laverna](https://laverna.cc/) is a note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote.
 
-[Notesnook](https://notesnook.com/) is a fully open source & end-to-end encrypted note taking alternative to Evernote. 
+[Notesnook](https://notesnook.com/) is a fully open source & end-to-end encrypted note taking alternative to Evernote.
 
 [Zettlr](https://www.zettlr.com/) is an open-source Markdown editor for the 21st century.
 
@@ -2643,19 +2636,19 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
-[Archivy](https://github.com/archivy/archivy) is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki. 
+[Archivy](https://github.com/archivy/archivy) is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki.
 
 [BookStack](https://www.bookstackapp.com/) - BookStack is a simple, self-hosted, easy-to-use platform for organizing and storing information. It allows for documentation to be stored in a book like fashion.
 
-[Cowyo](https://github.com/schollz/cowyo) - Cowyo is a feature-rich wiki for minimalists. 
+[Cowyo](https://github.com/schollz/cowyo) - Cowyo is a feature-rich wiki for minimalists.
 
-[django-wiki](https://github.com/django-wiki/django-wiki) - Wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models. 
+[django-wiki](https://github.com/django-wiki/django-wiki) - Wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models.
 
 [Documize](https://documize.com) - Modern Docs + Wiki software with built-in workflow, single binary executable, just bring MySQL/Percona.
 
-[Dokuwiki](https://www.dokuwiki.org/DokuWiki) - Easy to use, lightweight, standards-compliant wiki engine with a simple syntax allowing reading the data outside the wiki. All data is stored in plain text files, therefore no database is required. 
+[Dokuwiki](https://www.dokuwiki.org/DokuWiki) - Easy to use, lightweight, standards-compliant wiki engine with a simple syntax allowing reading the data outside the wiki. All data is stored in plain text files, therefore no database is required.
 
-[Gitit](https://github.com/jgm/gitit) - Wiki program that stores pages and uploaded files in a git repository, which can then be modified using the VCS command line tools or the wiki's web interface. 
+[Gitit](https://github.com/jgm/gitit) - Wiki program that stores pages and uploaded files in a git repository, which can then be modified using the VCS command line tools or the wiki's web interface.
 
 [Gollum](https://github.com/gollum/gollum) - Simple, Git-powered wiki with a sweet API and local frontend.
 
@@ -2663,24 +2656,23 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 - [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) - MediaWiki is a free and open-source wiki software package written in PHP. It serves as the platform for Wikipedia and the other Wikimedia projects, used by hundreds of millions of people each month.
 
-[Pepperminty Wiki](https://github.com/sbrl/Pepperminty-Wiki) - Complete markdown-powered wiki contained in a single PHP file. 
+[Pepperminty Wiki](https://github.com/sbrl/Pepperminty-Wiki) - Complete markdown-powered wiki contained in a single PHP file.
 
 [PineDocs](https://github.com/xy2z/PineDocs) - Simple, fast, customizable and lightweight site for browsing files.
 
-[PmWiki](https://www.pmwiki.org) - Wiki-based system for collaborative creation and maintenance of websites. 
+[PmWiki](https://www.pmwiki.org) - Wiki-based system for collaborative creation and maintenance of websites.
 
-[PukiWiki](https://pukiwiki.osdn.jp/) - PukiWiki is a free, simple, open-source wiki management system. Minimalistic and simple design with many tools for collaborative work. Created in Japanese, so translator needed. 
+[PukiWiki](https://pukiwiki.osdn.jp/) - PukiWiki is a free, simple, open-source wiki management system. Minimalistic and simple design with many tools for collaborative work. Created in Japanese, so translator needed.
 
-[Raneto](https://raneto.com/) - Raneto is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase. 
+[Raneto](https://raneto.com/) - Raneto is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
 
-[TiddlyWiki](https://tiddlywiki.com/) - Reusable non-linear personal web notebook. 
+[TiddlyWiki](https://tiddlywiki.com/) - Reusable non-linear personal web notebook.
 
-[Tiki](https://tiki.org/HomePage) - Wiki CMS Groupware with the most built-in features. 
+[Tiki](https://tiki.org/HomePage) - Wiki CMS Groupware with the most built-in features.
 
-[TWiki](https://twiki.org/) - TWiki is a Perl-based structured wiki application, typically used to run a collaboration platform, knowledge or document management system, a knowledge base, or team portal. 
+[TWiki](https://twiki.org/) - TWiki is a Perl-based structured wiki application, typically used to run a collaboration platform, knowledge or document management system, a knowledge base, or team portal.
 
-[WackoWiki](https://wackowiki.org/) - WackoWiki is a light and easy to install multilingual Wiki-engine. 
-
+[WackoWiki](https://wackowiki.org/) - WackoWiki is a light and easy to install multilingual Wiki-engine.
 
 ### Gaming
 
@@ -2690,13 +2682,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 **Cartridge Features**
 
-   - Scan for ROM files and match with IGDB game information
-   - Serve ROM download links alongside game details
-   - Manage access to library with user creation and permissions (WIP)
-   - Allow users to request games (Planned)
-   - Play select ROMs in-browser using JS emulators (Planned)
-   - Track played and favorite games (even ones that aren't available for download) (Planned)
-   
+- Scan for ROM files and match with IGDB game information
+- Serve ROM download links alongside game details
+- Manage access to library with user creation and permissions (WIP)
+- Allow users to request games (Planned)
+- Play select ROMs in-browser using JS emulators (Planned)
+- Track played and favorite games (even ones that aren't available for download) (Planned)
+
 [Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs. It is an open source implementation of NVIDIA's GameStream.
 
 <p align="center">
@@ -2704,12 +2696,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 <br />
 </p>
 
-[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. 
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
 
-   
 #### Game Emulators
 
-[EmuDeck](https://www.emudeck.com/) is a tool that takes care of everything for your retrogaming needs from RetroArch Configuration, Bezels, Gamepad Configuration for GameCube, Wii, Citra, SNES, etc. EmuDeck will even install EmulationStation Desktop Edition and carry over all their custom configurations and no need to configure ROM paths or anything. 
+[EmuDeck](https://www.emudeck.com/) is a tool that takes care of everything for your retrogaming needs from RetroArch Configuration, Bezels, Gamepad Configuration for GameCube, Wii, Citra, SNES, etc. EmuDeck will even install EmulationStation Desktop Edition and carry over all their custom configurations and no need to configure ROM paths or anything.
 
 [EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
 
@@ -2730,12 +2721,12 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 **Cartridge Features**
 
-   - Scan for ROM files and match with IGDB game information
-   - Serve ROM download links alongside game details
-   - Manage access to library with user creation and permissions (WIP)
-   - Allow users to request games (Planned)
-   - Play select ROMs in-browser using JS emulators (Planned)
-   - Track played and favorite games (even ones that aren't available for download) (Planned)
+- Scan for ROM files and match with IGDB game information
+- Serve ROM download links alongside game details
+- Manage access to library with user creation and permissions (WIP)
+- Allow users to request games (Planned)
+- Play select ROMs in-browser using JS emulators (Planned)
+- Track played and favorite games (even ones that aren't available for download) (Planned)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172274231-d691a850-1879-44fb-8fa0-08e549d7bb29.png">
@@ -2743,31 +2734,31 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
  Cartridge UI
 </p>
 
-[Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more. 
+[Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.
 
-[Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games. 
+[Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
 
 [yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.[
 
-[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
+[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots).
 
-[DeSmuME](https://desmume.org/) is a Nintendo DS emulator. 
+[DeSmuME](https://desmume.org/) is a Nintendo DS emulator.
 
 [Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator.  
 
-[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use. 
+[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use.
 
-[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. 
+[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
 
 [DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
 
-[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode. 
+[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode.
 
-[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast. 
+[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.
 
-[PCSX2](https://pcsx2.net/) is a PlayStation 2 'emulator', a free program that tries to replicate the PlayStation 2 console to enable you to play PS2 games on your PC. 
+[PCSX2](https://pcsx2.net/) is a PlayStation 2 'emulator', a free program that tries to replicate the PlayStation 2 console to enable you to play PS2 games on your PC.
 
-[RPCS3](https://rpcs3.net/) is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL. 
+[RPCS3](https://rpcs3.net/) is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL.
 
 [MAME](https://www.mamedev.org/) is a Arcade Machine Emulator.
 
@@ -2777,18 +2768,18 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 **Also checkout these subreddits for more great Game Emulators recommendations**
   
-   - [r/emulation](https://www.reddit.com/r/emulation/)
-   - [r/emulations](https://www.reddit.com/r/emulators/)
-   - [r/RetroArch](https://www.reddit.com/r/RetroArch/)
-   - [r/RetroPie](https://www.reddit.com/r/RetroPie/)
-   - [r/DolphinEmulator](https://www.reddit.com/r/DolphinEmulator/)
-   - [r/Citra](https://www.reddit.com/r/Citra/)
-   - [r/cemu](https://www.reddit.com/r/cemu/)
-   - [r/yuzu](https://www.reddit.com/r/yuzu/)
-   - [r/OpenEmu](https://www.reddit.com/r/OpenEmu/)
-   - [r/MAME](https://www.reddit.com/r/MAME/)
-   - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
-   - [r/Roms](https://www.reddit.com/r/Roms/)
+- [r/emulation](https://www.reddit.com/r/emulation/)
+- [r/emulations](https://www.reddit.com/r/emulators/)
+- [r/RetroArch](https://www.reddit.com/r/RetroArch/)
+- [r/RetroPie](https://www.reddit.com/r/RetroPie/)
+- [r/DolphinEmulator](https://www.reddit.com/r/DolphinEmulator/)
+- [r/Citra](https://www.reddit.com/r/Citra/)
+- [r/cemu](https://www.reddit.com/r/cemu/)
+- [r/yuzu](https://www.reddit.com/r/yuzu/)
+- [r/OpenEmu](https://www.reddit.com/r/OpenEmu/)
+- [r/MAME](https://www.reddit.com/r/MAME/)
+- [r/EmuDev](https://www.reddit.com/r/EmuDev/)
+- [r/Roms](https://www.reddit.com/r/Roms/)
 
 ### Foundations/Projects
 
@@ -2800,9 +2791,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [The Open Connectivity Foundation](https://openconnectivity.org) is dedicated to ensuring secure interoperability for consumers, businesses and industries by delivering a standard communications platform, a bridging specification, an open source implementation and a certification program allowing devices to communicate regardless of form factor, operating system, service provider, transport technology or ecosystem.
 
-[Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies. 
+[Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity with the mission to enable young people to realise their full potential through the power of computing and digital technologies.
 
-[OpenSSF(Open Source Security Foundation)](https://openssf.org/) is a cross-industry forum for a collaborative effort to improve open source software security. 
+[OpenSSF(Open Source Security Foundation)](https://openssf.org/) is a cross-industry forum for a collaborative effort to improve open source software security.
 
 [OpenJS Foundation](https://openjsf.org/) is the premier home for critical open source JavaScript projects, including Appium, Dojo, jQuery, Node.js, and webpack, and 27 more.
 
@@ -2813,12 +2804,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 ### System Hardware
 
 [Back to the Top](table-of-contents)
- 
- * [Refurbished Servers on Amazon](https://www.amazon.com/refurbished-servers/s?k=refurbished+servers&rh=p_36%3A10000-60000&qid=1667083059&rnid=386442011&ref=sr_nr_p_36_2)
- * [Network Switches & Hubs on ebay](https://www.ebay.com/b/Enterprise-Network-Switches-Hubs/182091/bn_887002)
- * [Server Monkey](https://www.servermonkey.com/servers.html)
- * [The Server Store](https://www.theserverstore.com/)
- 
+
+- [Refurbished Servers on Amazon](https://www.amazon.com/refurbished-servers/s?k=refurbished+servers&rh=p_36%3A10000-60000&qid=1667083059&rnid=386442011&ref=sr_nr_p_36_2)
+- [Network Switches & Hubs on ebay](https://www.ebay.com/b/Enterprise-Network-Switches-Hubs/182091/bn_887002)
+- [Server Monkey](https://www.servermonkey.com/servers.html)
+- [The Server Store](https://www.theserverstore.com/)
 
 #### CPUs
 
@@ -2834,14 +2824,14 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 I recommend using Intel CPUs no older than the second generation of the Intel Core processors (Core i7, i5, i3) AKA **Sandy Bridge(Jan. 2011)** for those that want to utilize [Intel® Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html). Though, if you're concerned about power efficiency(~5W idle) I would recommend 7th Generation or newer.
 
 Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-quick-assist-technology-overview.html)** a scalable, flexible, and extendable way to accelerate data encryption/decryption and compression for applications from networking to enterprise, cloud to storage, and content delivery to database. Available in 3rd Gen Intel® Xeon® Scalable Processors and Intel Atom® Processor C Series/P Series.
- 
- * [Intel Celeron Processor N Series](https://ark.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html)
- * [Intel Atom Series](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29035)
- * [Intel Pentium](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29862)
- * [Intel i3](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
- * [Intel i5](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
- * [Intel i7](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
- * [Intel Xeon](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel595)
+
+- [Intel Celeron Processor N Series](https://ark.intel.com/content/www/us/en/ark/products/series/87282/intel-celeron-processor-n-series.html)
+- [Intel Atom Series](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29035)
+- [Intel Pentium](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29862)
+- [Intel i3](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+- [Intel i5](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+- [Intel i7](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+- [Intel Xeon](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel595)
 
 **AMD Processors(x86)**
 
@@ -2852,13 +2842,12 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   <br />
 </p>
 
- * [AMD Athlon](https://www.amd.com/en/processors/athlon-pro)
- * [AMD Ryzen G-Series](https://cpuarchive.com/CPU/AMD/Ryzen)
- * [AMD Ryzen 3](https://cpuarchive.com/CPU/AMD/Ryzen)
- * [AMD Ryzen 5](https://cpuarchive.com/CPU/AMD/Ryzen)
- * [AMD Ryzen 7](https://cpuarchive.com/CPU/AMD/Ryzen)
- * [AMD Threadripper](https://www.amd.com/en/processors/threadripper-creators)
-
+- [AMD Athlon](https://www.amd.com/en/processors/athlon-pro)
+- [AMD Ryzen G-Series](https://cpuarchive.com/CPU/AMD/Ryzen)
+- [AMD Ryzen 3](https://cpuarchive.com/CPU/AMD/Ryzen)
+- [AMD Ryzen 5](https://cpuarchive.com/CPU/AMD/Ryzen)
+- [AMD Ryzen 7](https://cpuarchive.com/CPU/AMD/Ryzen)
+- [AMD Threadripper](https://www.amd.com/en/processors/threadripper-creators)
 
 #### Devices
 
@@ -2866,31 +2855,31 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 
 **Note: Will be adding more device soon!**
 
- * [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
- * [Turing Pi 2](https://turingpi.com/)
- * [Home Assistant Yellow](https://www.home-assistant.io/blog/2021/09/13/home-assistant-yellow/)
- * [ZimaBoard](https://www.zimaboard.com/) 
- * [ODROID-H3 and H3+](https://ameridroid.com/products/odroid-h3)
- * [Intel® NUC Mini PCs](https://www.intel.com/content/www/us/en/products/details/nuc.html)
- * [Beelink mini PC](https://www.bee-link.com/)
- * [M1 Mac Mini](https://www.apple.com/mac-mini/) 
- * [Nexcom Industrial Computers](https://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance)
- * [Aeotec MultiSensor 7, 6-in-1 Zwave Sensors](https://www.amazon.com/dp/B08XHZP7NV)
- * [reTerminal Raspberry Pi (CM4 module) all-in-one board](https://www.seeedstudio.com/ReTerminal-with-CM4-p-4904.html) 
- * [KOOLCORE R1 - The smallest mini PC with 4 x 2.5G LANs](https://www.ikoolcore.com/products/ikoolcore)
- * [Storinator™](https://www.45drives.com/products/storage/) is a line of Ultra-Large, Direct-Wired storage Servers by [45Drives](https://www.45drives.com/).
- * [LattePanda Sigma](https://www.lattepanda.com/lattepanda-sigma) is a powerful and compact x86 Windows single board computer (SBC). It features the 13th Intel® Core™ i5-1340P Rapter Lake (12-Core, 16-Thread) processor and 16GB Dual-Channel LPDDR5-6400MHz memory.
- * [Apex Storage X21](https://www.apexstoragedesign.com/apexstoragex21) is a storage solution that gives you have the freedom to choose system hardware thatworks best for you with the following benefits.
-    * Host 21 x M.2 Gen 4 NVME SSD’s
-    * 168 TB + Storage Per Card
-    * 31 GBps Read/Write Speeds
-    * Industry Leading IOPS
-    * 100 PCIe 4.0 Lanes
-    * Full UEFI/Secure Boot Support
- * [Protectli Vault](https://protectli.com/) is a series of small computers that have firewalls with advanced firmware protection to keep your network safe. All Vaults are Opertaing System (OS) agnostic and support a variety of popular open source software distributions. Run a firewall like OPNsense, pfSense, or others. Also, run any hypervisor on your system. 
- * [Pockethernet](https://pockethernet.com/) is a smartphone connected Ethernet network analyzer & cable tester that fits into your pocket. It helps any IT admin dealing with Ethernet network installation and maintenance. It lets you check the ethernet link, find cable faults, PoE voltage, VLAN, DHCP results and much more with the press of a button.
- * [ATOM ECHO](https://docs.m5stack.com/en/atom/atomecho) is a Programmable Smart Speaker based on the M5ATOM design. Music can be played using the BT (Bluetooth Technology) capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Azure, and other cloud platforms, using the built-in microphone and speaker for voice interaction. 
- 
+- [Raspberry Pi](https://github.com/mikeroyal/Self-Hosting-Guide#raspberry-pi)
+- [Turing Pi 2](https://turingpi.com/)
+- [Home Assistant Yellow](https://www.home-assistant.io/blog/2021/09/13/home-assistant-yellow/)
+- [ZimaBoard](https://www.zimaboard.com/)
+- [ODROID-H3 and H3+](https://ameridroid.com/products/odroid-h3)
+- [Intel® NUC Mini PCs](https://www.intel.com/content/www/us/en/products/details/nuc.html)
+- [Beelink mini PC](https://www.bee-link.com/)
+- [M1 Mac Mini](https://www.apple.com/mac-mini/)
+- [Nexcom Industrial Computers](https://www.nexcom.com/Products/industrial-computing-solutions/industrial-fanless-computer/core-i-performance)
+- [Aeotec MultiSensor 7, 6-in-1 Zwave Sensors](https://www.amazon.com/dp/B08XHZP7NV)
+- [reTerminal Raspberry Pi (CM4 module) all-in-one board](https://www.seeedstudio.com/ReTerminal-with-CM4-p-4904.html)
+- [KOOLCORE R1 - The smallest mini PC with 4 x 2.5G LANs](https://www.ikoolcore.com/products/ikoolcore)
+- [Storinator™](https://www.45drives.com/products/storage/) is a line of Ultra-Large, Direct-Wired storage Servers by [45Drives](https://www.45drives.com/).
+- [LattePanda Sigma](https://www.lattepanda.com/lattepanda-sigma) is a powerful and compact x86 Windows single board computer (SBC). It features the 13th Intel® Core™ i5-1340P Rapter Lake (12-Core, 16-Thread) processor and 16GB Dual-Channel LPDDR5-6400MHz memory.
+- [Apex Storage X21](https://www.apexstoragedesign.com/apexstoragex21) is a storage solution that gives you have the freedom to choose system hardware thatworks best for you with the following benefits.
+  - Host 21 x M.2 Gen 4 NVME SSD’s
+  - 168 TB + Storage Per Card
+  - 31 GBps Read/Write Speeds
+  - Industry Leading IOPS
+  - 100 PCIe 4.0 Lanes
+  - Full UEFI/Secure Boot Support
+- [Protectli Vault](https://protectli.com/) is a series of small computers that have firewalls with advanced firmware protection to keep your network safe. All Vaults are Opertaing System (OS) agnostic and support a variety of popular open source software distributions. Run a firewall like OPNsense, pfSense, or others. Also, run any hypervisor on your system.
+- [Pockethernet](https://pockethernet.com/) is a smartphone connected Ethernet network analyzer & cable tester that fits into your pocket. It helps any IT admin dealing with Ethernet network installation and maintenance. It lets you check the ethernet link, find cable faults, PoE voltage, VLAN, DHCP results and much more with the press of a button.
+- [ATOM ECHO](https://docs.m5stack.com/en/atom/atomecho) is a Programmable Smart Speaker based on the M5ATOM design. Music can be played using the BT (Bluetooth Technology) capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Azure, and other cloud platforms, using the built-in microphone and speaker for voice interaction.
+
 ### Operating Systems
 
 [Back to the Top](#table-of-contents)
@@ -2922,10 +2911,10 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
   <br />
- Home Assistant OS 
+ Home Assistant OS
 </h2>
 
-[Umbrel](https://umbrel.com/) is an OS for running a personal server in your home. It can Self-host open source apps like Nextcloud, Bitcoin node, and more. 
+[Umbrel](https://umbrel.com/) is an OS for running a personal server in your home. It can Self-host open source apps like Nextcloud, Bitcoin node, and more.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/198820005-e10b3c23-f87e-4f3a-bbd2-efe74db3681f.png">
@@ -2933,7 +2922,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   Umbrel
 </h2>
 
-[CasaOS](https://casaos.io/) is a simple, easy-to-use, elegant open-source Home Cloud system. 
+[CasaOS](https://casaos.io/) is a simple, easy-to-use, elegant open-source Home Cloud system.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/198867868-bdf3c448-0c0d-49a2-be7b-c32ae5f2ad3a.png">
@@ -2941,7 +2930,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   CasaOS
 </h2>
 
-[TrueNAS® CORE](https://www.truenas.com/truenas-core/) is the world's most popular storage OS because it gives you the power to build your own professional-grade storage system to use in a variety of data-intensive applications without any software costs. It's based on FreeBSD and Linux, using the OpenZFS file system. 
+[TrueNAS® CORE](https://www.truenas.com/truenas-core/) is the world's most popular storage OS because it gives you the power to build your own professional-grade storage system to use in a variety of data-intensive applications without any software costs. It's based on FreeBSD and Linux, using the OpenZFS file system.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/216557724-bf621a1e-01f6-477b-b71a-2675121d20e8.png">
@@ -2951,9 +2940,9 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 
 [Alpine Linux](https://www.alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
- * [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page)
+- [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page)
 
- * [Alpine Linux Community](https://alpinelinux.org/community)
+- [Alpine Linux Community](https://alpinelinux.org/community)
 
 #### Xfce4 Desktop
 
@@ -2967,7 +2956,6 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   Alpine Linux Xfce
 </p>
 
-
 #### Mate Desktop
 
 **Enable the [Community repository](https://wiki.alpinelinux.org/wiki/Enable_Community_Repository), then execute command:**
@@ -2980,21 +2968,20 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
   Alpine Linux MATE
 </p>
 
+[Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical.
 
-[Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical. 
+- [Ubuntu Server](https://ubuntu.com/download/server)
 
- * [Ubuntu Server](https://ubuntu.com/download/server)
- 
- * [Ubuntu for ARM](https://ubuntu.com/download/server/arm)
- 
- * [Ubuntu for Raspberry Pi](https://ubuntu.com/raspberry-pi)
+- [Ubuntu for ARM](https://ubuntu.com/download/server/arm)
 
- * [Ubuntu Flavours](https://www.ubuntu.com/download/flavours) is for those that prefer an alternative desktop environment such as [KDE Plasma Desktop](https://kubuntu.org/), [MATE](https://ubuntu-mate.org/), [Xfce](https://xubuntu.org/), [LXQt](https://lubuntu.me/), [Budgie](https://ubuntubudgie.org/), and [UKUI](https://www.ubuntukylin.com/) you can download a Flavour for your preferred desktop environment and use that to install Ubuntu, pre-configured for the desktop environment of your choice.
- 
+- [Ubuntu for Raspberry Pi](https://ubuntu.com/raspberry-pi)
+
+- [Ubuntu Flavours](https://www.ubuntu.com/download/flavours) is for those that prefer an alternative desktop environment such as [KDE Plasma Desktop](https://kubuntu.org/), [MATE](https://ubuntu-mate.org/), [Xfce](https://xubuntu.org/), [LXQt](https://lubuntu.me/), [Budgie](https://ubuntubudgie.org/), and [UKUI](https://www.ubuntukylin.com/) you can download a Flavour for your preferred desktop environment and use that to install Ubuntu, pre-configured for the desktop environment of your choice.
+
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/164793005-67371e3c-d74d-4b40-9fd1-b9a71bd4172a.png">
   <br />
-  Ubuntu 
+  Ubuntu
 </h3>
 
 [Debian](https://www.debian.org/) is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.
@@ -3002,15 +2989,15 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/129622953-4b379400-9145-4d5b-9572-bcda571894f4.png">
   <br />
-  Debian 11 
+  Debian 11
 </h3>
   
-[Linux Mint](https://linuxmint.com/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. The flagsip version of Linux Mint uses the [Cinnamon desktop environment](https://cinnamon-spices.linuxmint.com/) similiar to Windows 7.
+[Linux Mint](https://linuxmint.com/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. The flagsip version of Linux Mint uses the [Cinnamon desktop environment](https://cinnamon-spices.linuxmint.com/) similar to Windows 7.
 
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157350295-4c6b8ab5-17d2-4e2f-91ca-a111bcdb2a34.png">
   <br />
-  Linux Mint 
+  Linux Mint
 </h3>
 
 [Linux Mint Debian Edition (LMDE)](https://www.linuxmint.com/download_lmde.php) uses [Debian Bullseye](https://www.debian.org/) as the base for a very stable and rock solid user experience with the Cinnamon desktop.
@@ -3026,29 +3013,28 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/142779593-390dfd58-a246-4299-baf2-adf0207da696.png">
   <br />
-Pop!_OS 
+Pop!_OS
 </h3>
 
 [Fedora Linux](https://getfedora.org/) is a polished, easy to use operating system for laptop & desktop computers, with a complete set of tools for developers and makers of all kinds. The OS serves as the foundation for which you can scale existing apps and roll out emerging technologies across bare-metal, virtual, container, and all types of cloud environments.
 
- * [Fedora Spins](https://spins.fedoraproject.org/) is for those that prefer an alternative desktop environment such as KDE Plasma Desktop, MATE; or Xfce, you can download a spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
+- [Fedora Spins](https://spins.fedoraproject.org/) is for those that prefer an alternative desktop environment such as KDE Plasma Desktop, MATE; or Xfce, you can download a spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
 
- * [Fedora Server](https://getfedora.org/) is a powerful, flexible operating system that includes the best and latest datacenter technologies. It puts you in control of all your infrastructure and services.
+- [Fedora Server](https://getfedora.org/) is a powerful, flexible operating system that includes the best and latest datacenter technologies. It puts you in control of all your infrastructure and services.
 
- * [Fedora ARM](https://arm.fedoraproject.org/) is an initiative to bring versions of Fedora tailored for running on ARM-based systems.
+- [Fedora ARM](https://arm.fedoraproject.org/) is an initiative to bring versions of Fedora tailored for running on ARM-based systems.
 
- * [Fedora Silverblue](https://silverblue.fedoraproject.org/) is a variant of the Fedora Workstation that uses rpm-ostree to provide an immutable OS image with reliable updates and easy rollbacks.
+- [Fedora Silverblue](https://silverblue.fedoraproject.org/) is a variant of the Fedora Workstation that uses rpm-ostree to provide an immutable OS image with reliable updates and easy rollbacks.
 
- * [Fedora Kinoite](https://kinoite.fedoraproject.org/) is an immutable desktop operating system. It aims to be extremely stable and reliable. It also aims to be an excellent platform for developers and for those using container-focused workflows. Kinoite is a variant of the Fedora KDE Spin.
+- [Fedora Kinoite](https://kinoite.fedoraproject.org/) is an immutable desktop operating system. It aims to be extremely stable and reliable. It also aims to be an excellent platform for developers and for those using container-focused workflows. Kinoite is a variant of the Fedora KDE Spin.
 
- * [Fedora CoreOS](https://getfedora.org/coreos?stream=stable) is an automatically-updating, minimal operating system for running containerized workloads securely and at scale.
+- [Fedora CoreOS](https://getfedora.org/coreos?stream=stable) is an automatically-updating, minimal operating system for running containerized workloads securely and at scale.
 
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/142779592-8b70c81e-ac10-4bb3-91b5-efe25fa9afb4.png">
   <br />
 Fedora Linux
 </h3>
-
 
 [CentOS Stream](https://www.centos.org/centos-stream/) is a continuously delivered distro(uses the Fedora OS base) that tracks just ahead of Red Hat Enterprise Linux (RHEL) development, positioned as a midstream between Fedora Linux and RHEL.
 
@@ -3066,25 +3052,23 @@ Fedora Linux
 Red Hat Enterprise Linux Desktop
 </h3>
 
+[AlmaLinux](https://almalinux.org/) is an open source enterprise-ready Linux distribution forked from Red Hat Enterprise Linux(RHEL). It's a very stable/solid operating system especially for production environments such as servers, though, you can also install a GUI on AlmaLinux and use it as a desktop OS. It was founded by the team behind the [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos).
 
-[AlmaLinux](https://almalinux.org/) is an open source enterprise-ready Linux distribution forked from Red Hat Enterprise Linux(RHEL). It's a very stable/solid operating system especially for production envrionments such as servers, though, you can also install a GUI on AlmaLinux and use it as a desktop OS. It was founded by the team behind the [CloudLinux OS](https://www.cloudlinux.com/all-products/product-overview/cloudlinuxos).
+- [AlmaLinux Wiki](https://wiki.almalinux.org/)
 
- * [AlmaLinux Wiki](https://wiki.almalinux.org/)
-
- * [Migrate from CentOS 8](https://github.com/AlmaLinux/almalinux-deploy)
+- [Migrate from CentOS 8](https://github.com/AlmaLinux/almalinux-deploy)
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/124993377-24ab7800-dff9-11eb-90b4-4a121eff6de3.png">
- <br />	
+ <br /> 
  AlmaLinux Desktop Setup and Install
  </p>
 
+[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible and forked from Red Hat Enterprise Linux(RHEL) now that its [downstream partner(Red Hat) has shifted direction](https://blog.centos.org/2020/12/future-is-centos-stream/).
 
-[Rocky Linux](https://rockylinux.org/) is a community enterprise operating system designed to be 100% bug-for-bug compatible and forked from Red Hat Enterprise Linux(RHEL) now that its [downstream partner(Red Hat) has shifted direction](https://blog.centos.org/2020/12/future-is-centos-stream/). 
+- [Rocky Linux Wiki](https://wiki.rockylinux.org/)
 
- * [Rocky Linux Wiki](https://wiki.rockylinux.org/)
-
- * [Rocky Linux Documentation](https://docs.rockylinux.org/)
+- [Rocky Linux Documentation](https://docs.rockylinux.org/)
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/124993391-2b39ef80-dff9-11eb-9197-40c84c7f385f.png">
@@ -3094,14 +3078,14 @@ Red Hat Enterprise Linux Desktop
 
 [SUSE](https://www.suse.com/) is a leading Linux OS most adaptable Linux operating system and the only open Kubernetes management platform thanks to their acquistion of [Rancher](https://rancher.com/). They also developer of [SUSE Linux Enterprise](https://www.suse.com/download/) and the primary sponsor of the community-supported [openSUSE Project](https://software.opensuse.org/), which develops the openSUSE Linux distribution.
 
-* [openSUSE Leap](https://en.opensuse.org/Portal:Leap) is a brand new way of building openSUSE and is new type of a hybrid Linux distribution. Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available. 
+- [openSUSE Leap](https://en.opensuse.org/Portal:Leap) is a brand new way of building openSUSE and is new type of a hybrid Linux distribution. Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available.
 
- * [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) is a pure rolling release version of openSUSE containing the latest "stable" versions of all software instead of relying on rigid periodic release cycles. The project does this for users that want the newest stable software. 
+- [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) is a pure rolling release version of openSUSE containing the latest "stable" versions of all software instead of relying on rigid periodic release cycles. The project does this for users that want the newest stable software.
 
- * [openSUSE Kubic](https://get.opensuse.org/kubic/) is a multi-purpose Standalone & Kubernetes Container Operating System based on openSUSE MicroOS. Kubic uses kubeadm to provide an easy way of configuring a Kubernetes cluster across multiple machines, while our MicroOS base keeps your operating system updated automatically, with fully atomic rollbacks if required.
+- [openSUSE Kubic](https://get.opensuse.org/kubic/) is a multi-purpose Standalone & Kubernetes Container Operating System based on openSUSE MicroOS. Kubic uses kubeadm to provide an easy way of configuring a Kubernetes cluster across multiple machines, while our MicroOS base keeps your operating system updated automatically, with fully atomic rollbacks if required.
 
- * [openSUSE MicroOS](https://get.opensuse.org/microos/) is a M icro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem. It's designed to host container workloads with automated administration & patching.
- 
+- [openSUSE MicroOS](https://get.opensuse.org/microos/) is a M icro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem. It's designed to host container workloads with automated administration & patching.
+
   <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/145488499-6aae18fa-1dab-4a1f-96dc-fcd73fec5f19.png">
   <br />
@@ -3116,20 +3100,20 @@ Red Hat Enterprise Linux Desktop
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/110253145-a00ef700-7f3d-11eb-9b5c-d3cee3cbce84.png">
   <br />
-  openSUSE 
+  openSUSE
 </h3>
 
 [NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks. [NixOS Guide](https://github.com/mikeroyal/NixOS-Guide)
 
- * [Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
+- [Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
 
- * [Nix](https://nixos.wiki/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
+- [Nix](https://nixos.wiki/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
 
- * [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
+- [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
 
- * [Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+- [Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
 
- * [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
+- [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/173939766-8972583c-855e-4a9b-b9f1-761b60ea255e.png">
@@ -3166,19 +3150,19 @@ Red Hat Enterprise Linux Desktop
 
 [NetBSD](https://netbsd.org/)  is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
 
- * [NetBSD Documentation](http://netbsd.org/docs/)
+- [NetBSD Documentation](http://netbsd.org/docs/)
 
 [DragonFly BSD](https://www.dragonflybsd.org/) is a free and open-source Unix-like operating system forked from FreeBSD 4.8.
 
- * [DragonFly Documentation](https://www.dragonflybsd.org/docs/)
+- [DragonFly Documentation](https://www.dragonflybsd.org/docs/)
 
 ### The BSD Desktop for the average user
 
 [GhostBSD](https://www.ghostbsd.org/) is a simple desktop-oriented operating system based on FreeBSD with MATE, OpenRC and OS packages for simplicity. GhostBSD has a selection of commonly used software preinstalled and required to start using it to its full potential.
 
- * [GhostBSD Wiki](https://wiki.ghostbsd.org/index.php/Main_Page)
+- [GhostBSD Wiki](https://wiki.ghostbsd.org/index.php/Main_Page)
 
- * [GhostBSD Community](https://forums.ghostbsd.org/index.php)
+- [GhostBSD Community](https://forums.ghostbsd.org/index.php)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/125211866-66892800-e25e-11eb-985b-26588de87615.png">
@@ -3187,20 +3171,19 @@ Red Hat Enterprise Linux Desktop
 
 **GhostBSD Desktop. Source:[GhostBSD](https://www.ghostbsd.org/)**
 
-
 ### Storage
 
  [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
- 
-  - [Western Digital Hard Drives Storage size range 2TB up to 20TB](https://www.westerndigital.com/c/internal-drives.0_TB-4_TB.11_TB-20_TB.5_TB-10_TB.hard_drives)
- 
-  - [Seagate Hard Drives Storage size range 2TB up to 18TB](https://www.seagate.com/internal-hard-drives/hdd/)
- 
-  - [Hard Drives Storage size range 2TB up to 20TB from Bestbuy](https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=harddrivesizerange_facet%3DStorage%20Capacity~2TB%20-%203TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~4TB%20-%207TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~8TB%20-%2011TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~12TB%20or%20More%5Einternalorexternal_facet%3DInternal%20Or%20External~Internal&st=hard+drive)
- 
-  - [Hard Drives Storage size range 1TB up to 20TB on Newegg](https://www.newegg.com/p/pl?d=hard+drives&N=600003298%20600003311%20600003316%20600003299%20600543907%20600003300%20601331745%20600083978%20600217643%20600486069%20600490667%20600376735%20601192404%20601398066%20601355746%20601334339%20601322010%20600376738%20600003341%20600003347%20100167523)
 
-  - [Hard Drives Storage size range 1TB up to 18TB on Amazon](https://www.amazon.com/s?k=hard+drives&i=computers&rh=n%3A1254762011%2Cp_n_feature_two_browse-bin%3A5446812011%7C5446813011%7C5446815011%7C5446816011%7C7817230011%2Cp_n_feature_keywords_six_browse-bin%3A6158683011&s=review-rank&dc&qid=1653712565&rnid=562234011&ref=sr_st_review-rank)
+- [Western Digital Hard Drives Storage size range 2TB up to 20TB](https://www.westerndigital.com/c/internal-drives.0_TB-4_TB.11_TB-20_TB.5_TB-10_TB.hard_drives)
+
+- [Seagate Hard Drives Storage size range 2TB up to 18TB](https://www.seagate.com/internal-hard-drives/hdd/)
+
+- [Hard Drives Storage size range 2TB up to 20TB from Bestbuy](https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=harddrivesizerange_facet%3DStorage%20Capacity~2TB%20-%203TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~4TB%20-%207TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~8TB%20-%2011TB%5Eharddrivesizerange_facet%3DStorage%20Capacity~12TB%20or%20More%5Einternalorexternal_facet%3DInternal%20Or%20External~Internal&st=hard+drive)
+
+- [Hard Drives Storage size range 1TB up to 20TB on Newegg](https://www.newegg.com/p/pl?d=hard+drives&N=600003298%20600003311%20600003316%20600003299%20600543907%20600003300%20601331745%20600083978%20600217643%20600486069%20600490667%20600376735%20601192404%20601398066%20601355746%20601334339%20601322010%20600376738%20600003341%20600003347%20100167523)
+
+- [Hard Drives Storage size range 1TB up to 18TB on Amazon](https://www.amazon.com/s?k=hard+drives&i=computers&rh=n%3A1254762011%2Cp_n_feature_two_browse-bin%3A5446812011%7C5446813011%7C5446815011%7C5446816011%7C7817230011%2Cp_n_feature_keywords_six_browse-bin%3A6158683011&s=review-rank&dc&qid=1653712565&rnid=562234011&ref=sr_st_review-rank)
 
 **Useful Tools for Storage Management**
 
@@ -3208,21 +3191,21 @@ Red Hat Enterprise Linux Desktop
   
 [DUA (Disk Usage Analyzer)](https://lib.rs/crates/dua-cli) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible. Optionally delete superfluous data, and do so more quickly than rm.
 
-[Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/). 
+[Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/).
 
 [Dutree](https://github.com/nachoparker/dutree) is a tool to analyze file system usage written in Rust.
 
 [Shufflecake](https://shufflecake.net/) is a tool for Linux that allows to create multiple hidden volumes on a storage device in such a way that it is very difficult, even under forensic inspection, to prove the existence of such volumes.
 
 [btdu](https://github.com/CyberShadow/btdu) is a sampling disk usage profiler for btrfs.
- 
+
 [Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, trim or defragmentation.
 
 ### File systems
 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-* [FSArchiver](https://www.fsarchiver.org/) is a system tool that allows you to save the contents of a file system to a compressed archive file. The file system can be restored on a partition which has a different size and it can be restored on a different file system. 
+- [FSArchiver](https://www.fsarchiver.org/) is a system tool that allows you to save the contents of a file system to a compressed archive file. The file system can be restored on a partition which has a different size and it can be restored on a different file system.
 
 [WekaFS](https://www.weka.io/resources/datasheet/wekafs-the-weka-file-system/) is the world's fastest shared parallel file system and delivers unmatched performance at ANY scale while offering the same enterprise features and benefits of traditional storage. It meets all storage challenges, delivering 10x the performance of legacy network attached storage (NAS) systems and 3x the performance of local server storage.
 
@@ -3234,19 +3217,19 @@ Red Hat Enterprise Linux Desktop
 
 [ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
 
-  * [ZFSBootMenu](https://zfsbootmenu.org/) is a Linux bootloader that attempts to provide an experience similar to the FreeBSD bootloader. It takes advantage of ZFS features, it allows a user to have multiple “boot environments” (with different distros, for example), manipulate snapshots before booting, and even bootstrap a system installation via ```zfs recv```.
+- [ZFSBootMenu](https://zfsbootmenu.org/) is a Linux bootloader that attempts to provide an experience similar to the FreeBSD bootloader. It takes advantage of ZFS features, it allows a user to have multiple “boot environments” (with different distros, for example), manipulate snapshots before booting, and even bootstrap a system installation via ```zfs recv```.
 
 [OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
 
-  - Protection against data corruption.
-  - Integrity checking for both data and metadata.
-  - Continuous integrity verification and automatic "self-healing" repair.
+- Protection against data corruption.
+- Integrity checking for both data and metadata.
+- Continuous integrity verification and automatic "self-healing" repair.
 
 [Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
 
-  - Snapshots which do not make the full copy of files
-  - RAID - support for software-based RAID 0, RAID 1, RAID 10
-  - Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
+- Snapshots which do not make the full copy of files
+- RAID - support for software-based RAID 0, RAID 1, RAID 10
+- Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
   
 [Composefs](https://github.com/containers/composefs) is a native Linux file system designed to help sharing filesystem contents, as well as ensuring said content is not modified. The initial target usecase are container images and ostree commits.
   
@@ -3254,30 +3237,30 @@ Red Hat Enterprise Linux Desktop
 
 **MergerFS Features**
 
-  - Configurable behaviors / file placement
-  - Ability to add or remove filesystems at will
-  - Resistance to individual filesystem failure
-  - Support for extended attributes (xattrs)
-  - Support for file attributes (chattr)
-  - Runtime configurable (via xattrs)
-  - Works with heterogeneous filesystem types
-  - Moving of file when filesystem runs out of space while writing
-  - Ignore read-only filesystems when creating files
-  - Turn read-only files into symlinks to underlying file
-  - Hard link copy-on-write / CoW
-  - Support for POSIX ACLs
+- Configurable behaviors / file placement
+- Ability to add or remove filesystems at will
+- Resistance to individual filesystem failure
+- Support for extended attributes (xattrs)
+- Support for file attributes (chattr)
+- Runtime configurable (via xattrs)
+- Works with heterogeneous filesystem types
+- Moving of file when filesystem runs out of space while writing
+- Ignore read-only filesystems when creating files
+- Turn read-only files into symlinks to underlying file
+- Hard link copy-on-write / CoW
+- Support for POSIX ACLs
   
 [Proxmox Cluster File System (PMXCFS)](https://pve.proxmox.com/wiki/Cluster_Manager) is a File System used to transparently distribute the cluster configuration to all cluster nodes.
 
-[UnionFS](https://unionfs.filesystems.org/) is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system. 
+[UnionFS](https://unionfs.filesystems.org/) is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.
 
 [OverlayFS](https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html) is a modern union filesystem that is similar to [AUFS](https://en.wikipedia.org/wiki/Aufs), but faster and with a simpler implementation. It's typically used on systems running on embed devices, like OpenWRT, where is useful to preserve a basic set of configurations and at the same time allowing the user to perform modifications.
   
-[Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher. 
+[Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher.
 
 [Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
 
-[SeaweedFS](https://github.com/seaweedfs/seaweedfs) is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. 
+[SeaweedFS](https://github.com/seaweedfs/seaweedfs) is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.
 
 [CubeFS](https://cubefs.io/) is a cloud native distributed storage platform. It's commonly used as the storage infrastructure for online applications, database or data processing services and machine learning jobs orchestrated by Kubernetes.
 
@@ -3288,176 +3271,179 @@ Red Hat Enterprise Linux Desktop
 [exFAT(Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
 
 ### Books
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-  - [Self-hosted Cookbook](https://github.com/tborychowski/self-hosted-cookbook) is a cookbook, for docker-compose based recipes, for self-hosted applications and services. 
+- [Self-hosted Cookbook](https://github.com/tborychowski/self-hosted-cookbook) is a cookbook, for docker-compose based recipes, for self-hosted applications and services.
   
-  - [Geek's Cookbook](https://github.com/geek-cookbook/geek-cookbook) is a collection of guides for establishing your own highly-available "private cloud" and using it to run self-hosted services such as GitLab, Plex, NextCloud, etc. 
- 
-  - [Database Books(PDFs)](https://github.com/miollek/Free-Database-Books)
+- [Geek's Cookbook](https://github.com/geek-cookbook/geek-cookbook) is a collection of guides for establishing your own highly-available "private cloud" and using it to run self-hosted services such as GitLab, Plex, NextCloud, etc.
+
+- [Database Books(PDFs)](https://github.com/miollek/Free-Database-Books)
   
 ### Podcasts
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
+- [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones.
   
-  - [Self-Hosted Podcast](https://selfhosted.show/) is a chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you along for the journey as they learn new ones. 
+- [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
   
-  - [Self-Hosted SRE(Site Reality Engineer) Podcast](https://sshsre.fireside.fm/) is a feed to say thank you to our Self-Hosted Site Reality Engineers!
-  
-  -  [Home Assistant Podcast](https://hasspodcast.io) is a biweekly podcast with the latest news and interesting guests.
+- [Home Assistant Podcast](https://hasspodcast.io) is a biweekly podcast with the latest news and interesting guests.
 
 ### YouTube Channels
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-  - [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
+- [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
   
-  - [Level1Techs](https://www.youtube.com/c/Level1Techs)
- 
-  - [Open Source is Awesome](https://www.youtube.com/c/AwesomeOpenSource)
+- [Level1Techs](https://www.youtube.com/c/Level1Techs)
+
+- [Open Source is Awesome](https://www.youtube.com/c/AwesomeOpenSource)
   
-  - [Self-Hosted Show by Jupiter Broadcasting](https://www.youtube.com/watch?v=XBhhVHVQ148&list=PLUW3LUwQvegxit4XMxUNW3qrRFmgP_aaT)
- 
-  - [Techno Tim](https://www.youtube.com/c/TechnoTimLive)
- 
-  - [Raid Owl](https://www.youtube.com/c/RaidOwl)
+- [Self-Hosted Show by Jupiter Broadcasting](https://www.youtube.com/watch?v=XBhhVHVQ148&list=PLUW3LUwQvegxit4XMxUNW3qrRFmgP_aaT)
+
+- [Techno Tim](https://www.youtube.com/c/TechnoTimLive)
+
+- [Raid Owl](https://www.youtube.com/c/RaidOwl)
   
-  - [NextCloud](https://www.youtube.com/c/Nextcloud)
+- [NextCloud](https://www.youtube.com/c/Nextcloud)
   
-  - [Raspberry Pi](https://www.youtube.com/c/raspberrypi)
+- [Raspberry Pi](https://www.youtube.com/c/raspberrypi)
   
-  - [Wolfgang's Channel](https://www.youtube.com/c/WolfgangsChannel)
+- [Wolfgang's Channel](https://www.youtube.com/c/WolfgangsChannel)
   
-  - [Pro Tech Show](https://www.youtube.com/c/ProTechShow)
+- [Pro Tech Show](https://www.youtube.com/c/ProTechShow)
   
-  - [Geeked](https://www.youtube.com/c/GeekedTV)
+- [Geeked](https://www.youtube.com/c/GeekedTV)
   
-  - [The Tinker Dad](https://www.youtube.com/c/TheTinkerDad)
+- [The Tinker Dad](https://www.youtube.com/c/TheTinkerDad)
   
-  - [DB Tech](https://www.youtube.com/c/DBTechYT)
+- [DB Tech](https://www.youtube.com/c/DBTechYT)
   
-  - [The Digital Life](https://www.youtube.com/c/TheDigitalLifeTech)
- 
-  - [censiCLICK](https://www.youtube.com/c/censiCLICK)
+- [The Digital Life](https://www.youtube.com/c/TheDigitalLifeTech)
+
+- [censiCLICK](https://www.youtube.com/c/censiCLICK)
   
-  - [Home Network Geek](https://www.youtube.com/channel/UCCniXOLmZ85FHN8c8K_c0LA/featured)
-  
+- [Home Network Geek](https://www.youtube.com/channel/UCCniXOLmZ85FHN8c8K_c0LA/featured)
   
 ### Tutorials & Resources
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-  - [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) is a directory of free software solutions and web applications which can be hosted locally.
+- [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) is a directory of free software solutions and web applications which can be hosted locally.
   
-  - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) is a curated list of amazingly awesome open source sysadmin resources.
+- [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) is a curated list of amazingly awesome open source sysadmin resources.
   
-  - [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
+- [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
 
-  - [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services. 
- 
-  - [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
-  
-  - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
-  
-  - [45Drives Knowledge Base](https://knowledgebase.45drives.com/) is an affordable enterprise storage solutions for any data size - large or small. It provides high-performance, high-capacity storage servers and data destruction solutions for all industries.
-  
-  - [Noted - Self Hosted App and Product Reviews](https://noted.lol/)
+- [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services.
 
-  - [How I fell into the self-hosting rabbit hole in 2021](https://www.windowscentral.com/self-hosting-2021)
+- [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
   
-  - [The (hardware) key to making phishing defense seamless with Cloudflare Zero Trust and Yubico](https://blog.cloudflare.com/making-phishing-defense-seamless-cloudflare-yubico/)
+- [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
   
-  - [Shelly 2.5: Flash ESPHome Over The Air](https://savjee.be/blog/shelly-2.5-flash-esphome-over-the-air/)
+- [45Drives Knowledge Base](https://knowledgebase.45drives.com/) is an affordable enterprise storage solutions for any data size - large or small. It provides high-performance, high-capacity storage servers and data destruction solutions for all industries.
   
-  - [HDMI Distribution over your Home Network? Low-Cost HDMI Matrix using IP-Based Hardware](https://www.apalrd.net/posts/2022/hdmi_ip/)
-  
-  - [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+- [Noted - Self Hosted App and Product Reviews](https://noted.lol/)
 
-  - [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
+- [How I fell into the self-hosting rabbit hole in 2021](https://www.windowscentral.com/self-hosting-2021)
   
-  - [Monitor your Internet with a Raspberry Pi by Jeff Geerling](https://www.jeffgeerling.com/blog/2021/monitor-your-internet-raspberry-pi)
+- [The (hardware) key to making phishing defense seamless with Cloudflare Zero Trust and Yubico](https://blog.cloudflare.com/making-phishing-defense-seamless-cloudflare-yubico/)
   
-  - [NextCloud Migration Guide](https://nextcloud.com/migration/)
+- [Shelly 2.5: Flash ESPHome Over The Air](https://savjee.be/blog/shelly-2.5-flash-esphome-over-the-air/)
   
-  - [GitLab self-managed subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/)
+- [HDMI Distribution over your Home Network? Low-Cost HDMI Matrix using IP-Based Hardware](https://www.apalrd.net/posts/2022/hdmi_ip/)
   
-  - [Proxmox VE Training Courses](https://www.proxmox.com/en/training)
-  
-  - [Self-Hosted GitLab with CodeFlow](https://www.getcodeflow.com/self-hosted-gitlab.html)
-  
-  - [Self-host Appsmith in Just a Few Minutes on Digital Ocean AppSmith](https://www.appsmith.com/blog/self-host-appsmith-in-just-a-few-minutes-on-digital-ocean)
-  
-  - [Linode Guides & Tutorials](https://www.linode.com/docs/guides/)
-  
-  - [Linode Beginner's Guide](https://www.linode.com/docs/guides/linode-beginners-guide/)
-  
-  - [Access a Pi-hole or Raspberry Pi from anywhere | Tailscale](https://tailscale.com/kb/1114/pi-hole/)
-  
-  - [Tailscale on Kubernetes | Tailscale](https://tailscale.com/kb/1185/kubernetes/)
-  
-  - [Tailscale on Proxmox host | Tailscale](https://tailscale.com/kb/1133/proxmox/)
-  
-  - [Configuring Linux DNS | Tailscale](https://tailscale.com/kb/1188/linux-dns/)
-  
-  - [Run a private Minecraft server with Tailscale | Tailscale](https://tailscale.com/kb/1137/minecraft/)
-  
-  - [Set up a dogcam with Tailscale, Raspberry Pi, and Motion | Tailscale](https://tailscale.com/kb/1076/dogcam/)
-  
-  - [Defined Networking is Open for Business by Ryan Huber](https://www.defined.net/blog/open-for-business/)
-  
-  - [Automating Host Creation with the API](https://docs.defined.net/guides/automating-host-creation/)
-  
-  - [Azure Self-hosted gateway overview](https://docs.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview)
-  
-  - [Create and configure a self-hosted integration runtime for Azure Data Factory and Synapse pipelines](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory)
+- [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
 
-  - [Run a self-hosted agent in Docker - Azure Pipelines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker)
-
-  - [Azure DevOps Self Hosted](https://github.com/Azure/DevOps-Self-Hosted)
+- [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
   
- ### Subreddits
+- [Monitor your Internet with a Raspberry Pi by Jeff Geerling](https://www.jeffgeerling.com/blog/2021/monitor-your-internet-raspberry-pi)
+  
+- [NextCloud Migration Guide](https://nextcloud.com/migration/)
+  
+- [GitLab self-managed subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/)
+  
+- [Proxmox VE Training Courses](https://www.proxmox.com/en/training)
+  
+- [Self-Hosted GitLab with CodeFlow](https://www.getcodeflow.com/self-hosted-gitlab.html)
+  
+- [Self-host Appsmith in Just a Few Minutes on Digital Ocean AppSmith](https://www.appsmith.com/blog/self-host-appsmith-in-just-a-few-minutes-on-digital-ocean)
+  
+- [Linode Guides & Tutorials](https://www.linode.com/docs/guides/)
+  
+- [Linode Beginner's Guide](https://www.linode.com/docs/guides/linode-beginners-guide/)
+  
+- [Access a Pi-hole or Raspberry Pi from anywhere | Tailscale](https://tailscale.com/kb/1114/pi-hole/)
+  
+- [Tailscale on Kubernetes | Tailscale](https://tailscale.com/kb/1185/kubernetes/)
+  
+- [Tailscale on Proxmox host | Tailscale](https://tailscale.com/kb/1133/proxmox/)
+  
+- [Configuring Linux DNS | Tailscale](https://tailscale.com/kb/1188/linux-dns/)
+  
+- [Run a private Minecraft server with Tailscale | Tailscale](https://tailscale.com/kb/1137/minecraft/)
+  
+- [Set up a dogcam with Tailscale, Raspberry Pi, and Motion | Tailscale](https://tailscale.com/kb/1076/dogcam/)
+  
+- [Defined Networking is Open for Business by Ryan Huber](https://www.defined.net/blog/open-for-business/)
+  
+- [Automating Host Creation with the API](https://docs.defined.net/guides/automating-host-creation/)
+  
+- [Azure Self-hosted gateway overview](https://docs.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview)
+  
+- [Create and configure a self-hosted integration runtime for Azure Data Factory and Synapse pipelines](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory)
+
+- [Run a self-hosted agent in Docker - Azure Pipelines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker)
+
+- [Azure DevOps Self Hosted](https://github.com/Azure/DevOps-Self-Hosted)
+  
+### Subreddits
+
  [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
   
-  - [r/Selfhosted](https://www.reddit.com/r/selfhosted/)
-  - [r/Webhosting](https://www.reddit.com/r/webhosting/)
-  - [r/NextCloud](https://www.reddit.com/r/NextCloud/)
-  - [r/HomeServer](https://www.reddit.com/r/HomeServer/)
-  - [r/Homeassistant](https://www.reddit.com/r/homeassistant/)
-  - [r/Homebridge](https://www.reddit.com/r/homebridge/)
-  - [r/HomeKit](https://www.reddit.com/r/HomeKit/)
-  - [r/SmartThings](https://www.reddit.com/r/SmartThings/)
-  - [r/Proxmox](https://www.reddit.com/r/Proxmox/)
-  - [r/Tailscale](https://www.reddit.com/r/Tailscale/)
-  - [r/WireGuard](https://www.reddit.com/r/WireGuard/)
-  - [r/Adguard](https://www.reddit.com/r/Adguard/)
-  - [r/Pihole](https://www.reddit.com/r/pihole/)
-  - [r/Raspberry_pi](https://www.reddit.com/r/raspberry_pi/)
-  - [r/RASPBERRY_PI_PROJECTS](https://www.reddit.com/r/RASPBERRY_PI_PROJECTS/)
-  - [r/RetroPie](https://www.reddit.com/r/RetroPie/)
-  - [r/Arduino](https://www.reddit.com/r/arduino/)
-  - [r/ArduinoProjects](https://www.reddit.com/r/ArduinoProjects/)
-  - [r/Opensource](https://www.reddit.com/r/opensource/)
-  - [r/Devops](https://www.reddit.com/r/devops/)
-  - [r/Kubernetes](https://www.reddit.com/r/kubernetes/)
-  - [r/Docker](https://www.reddit.com/r/docker/)
-  - [r/Portainer](https://www.reddit.com/r/portainer/)
-  - [r/Ansible](https://www.reddit.com/r/ansible/)
-  - [r/Terraform](https://www.reddit.com/r/Terraform/)
-  - [r/CloudFlare](https://www.reddit.com/r/CloudFlare/)
-  - [r/Homeautomation](https://www.reddit.com/r/homeautomation/)
-  - [r/HomeNetworking](https://www.reddit.com/r/HomeNetworking/)
-  - [r/Homelab](https://www.reddit.com/r/homelab/)
-  - [r/Synology](https://www.reddit.com/r/synology/)
-  - [r/unRAID](https://www.reddit.com/r/unRAID/)
-  - [r/QNAP](https://www.reddit.com/r/qnap/)
-  - [r/OpenWrt](https://www.reddit.com/r/openwrt/)
-  - [r/Smarthome](https://www.reddit.com/r/smarthome/)
-  - [r/TpLink](https://www.reddit.com/r/TpLink/)
-  - [r/DataHoarder](https://www.reddit.com/r/DataHoarder/)
-  - [r/ZFS](https://www.reddit.com/r/zfs/)
-  - [r/PFSENSE](https://www.reddit.com/r/PFSENSE/)
-  - [r/OpenMediaVault](https://www.reddit.com/r/OpenMediaVault/)
- 
+- [r/Selfhosted](https://www.reddit.com/r/selfhosted/)
+- [r/Webhosting](https://www.reddit.com/r/webhosting/)
+- [r/NextCloud](https://www.reddit.com/r/NextCloud/)
+- [r/HomeServer](https://www.reddit.com/r/HomeServer/)
+- [r/Homeassistant](https://www.reddit.com/r/homeassistant/)
+- [r/Homebridge](https://www.reddit.com/r/homebridge/)
+- [r/HomeKit](https://www.reddit.com/r/HomeKit/)
+- [r/SmartThings](https://www.reddit.com/r/SmartThings/)
+- [r/Proxmox](https://www.reddit.com/r/Proxmox/)
+- [r/Tailscale](https://www.reddit.com/r/Tailscale/)
+- [r/WireGuard](https://www.reddit.com/r/WireGuard/)
+- [r/Adguard](https://www.reddit.com/r/Adguard/)
+- [r/Pihole](https://www.reddit.com/r/pihole/)
+- [r/Raspberry_pi](https://www.reddit.com/r/raspberry_pi/)
+- [r/RASPBERRY_PI_PROJECTS](https://www.reddit.com/r/RASPBERRY_PI_PROJECTS/)
+- [r/RetroPie](https://www.reddit.com/r/RetroPie/)
+- [r/Arduino](https://www.reddit.com/r/arduino/)
+- [r/ArduinoProjects](https://www.reddit.com/r/ArduinoProjects/)
+- [r/Opensource](https://www.reddit.com/r/opensource/)
+- [r/Devops](https://www.reddit.com/r/devops/)
+- [r/Kubernetes](https://www.reddit.com/r/kubernetes/)
+- [r/Docker](https://www.reddit.com/r/docker/)
+- [r/Portainer](https://www.reddit.com/r/portainer/)
+- [r/Ansible](https://www.reddit.com/r/ansible/)
+- [r/Terraform](https://www.reddit.com/r/Terraform/)
+- [r/CloudFlare](https://www.reddit.com/r/CloudFlare/)
+- [r/Homeautomation](https://www.reddit.com/r/homeautomation/)
+- [r/HomeNetworking](https://www.reddit.com/r/HomeNetworking/)
+- [r/Homelab](https://www.reddit.com/r/homelab/)
+- [r/Synology](https://www.reddit.com/r/synology/)
+- [r/unRAID](https://www.reddit.com/r/unRAID/)
+- [r/QNAP](https://www.reddit.com/r/qnap/)
+- [r/OpenWrt](https://www.reddit.com/r/openwrt/)
+- [r/Smarthome](https://www.reddit.com/r/smarthome/)
+- [r/TpLink](https://www.reddit.com/r/TpLink/)
+- [r/DataHoarder](https://www.reddit.com/r/DataHoarder/)
+- [r/ZFS](https://www.reddit.com/r/zfs/)
+- [r/PFSENSE](https://www.reddit.com/r/PFSENSE/)
+- [r/OpenMediaVault](https://www.reddit.com/r/OpenMediaVault/)
 
 # WireGuard
+
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -3469,7 +3455,7 @@ Red Hat Enterprise Linux Desktop
 
 [Back to the Top](#table-of-contents)
 
-[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. 
+[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190848622-d1c8b109-f08c-4a89-b43d-816c510e4f2e.png">
@@ -3482,10 +3468,9 @@ Red Hat Enterprise Linux Desktop
 
 [Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an [overlay network](https://tailscale.com/blog/how-tailscale-works/) between the computers of your networks using all kinds of [NAT traversal sorcery](https://tailscale.com/blog/how-nat-traversal-works/).
 
- * [Tailscale Terraform Provider](https://github.com/tailscale/terraform-provider-tailscale)
- * [Tailscale Docker extension](https://github.com/tailscale/docker-extension)
- * [Tailscale Synology](https://github.com/tailscale/tailscale-synology)
-
+- [Tailscale Terraform Provider](https://github.com/tailscale/terraform-provider-tailscale)
+- [Tailscale Docker extension](https://github.com/tailscale/docker-extension)
+- [Tailscale Synology](https://github.com/tailscale/tailscale-synology)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/191301110-4c688e1b-da46-4f19-a25f-c285d66403e5.png">
@@ -3510,6 +3495,7 @@ How NAT Traversal works on a Home router. Credit: [Tailscale](https://tailscale.
 NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.7.2/index.html).
 
 ### WireGuard Tools
+
 [Back to the Top](#table-of-contents)
 
 [Wiretrustee](https://wiretrustee.com/) is a WireGuard®-based mesh network that connects your devices into a single private network.
@@ -3548,7 +3534,7 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 
 [WireHole](https://github.com/IAmStoxe/wirehole) is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
 
-[Gluetun](https://github.com/qdm12/gluetun) is a lightwieght VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
+[Gluetun](https://github.com/qdm12/gluetun) is a lightweight VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
 
 [Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
 
@@ -3607,7 +3593,6 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
   <br />
 </p>
 
-
 ### Setting up WireGuard on Unraid
 
 [Back to the Top](#table-of-contents)
@@ -3618,7 +3603,7 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 </p>
 
  Select Apps, then search for WireGuard and install **Wireguard-Easy**.
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190880956-9ad5d1e6-5905-46ec-9d94-6f1c0a42a997.jpg">
   <br />
@@ -3632,16 +3617,15 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 
  Almost all of the settings can stay as default, however, there are a few that we will modify.
 
-   * Set the WG_HOST variable to be the IP address of your Unraid server.
-   * If you’d like to modify the WireGuard port (51820), you can do that here.
-   * Change the default Web GUI password. 
-    
+- Set the WG_HOST variable to be the IP address of your Unraid server.
+- If you’d like to modify the WireGuard port (51820), you can do that here.
+- Change the default Web GUI password.
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190880958-e5c2c3f8-fd85-47c5-beb4-cc06d19899b4.png">
   <br />
 </p>
 
-    
 ### Setting up WireGuard on pfSense
   
   [Back to the Top](#table-of-contents)
@@ -3650,29 +3634,28 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
  <img src="https://user-images.githubusercontent.com/45159366/190881128-e03216b9-ecc6-4c12-a41e-0de7d1b51579.png">
   <br />
 </p>
-   
+
    When looking at how to set up WireGuard on pfSense, the first thing that we need to do is install the package. Follow the instructions below to install the WireGuard package on pfSense.
-   
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190880975-b103fead-2596-4819-bb82-18414baa4fb4.jpg">
   <br />
 </p>
 
-
-* Open the Package Manager and search for WireGuard, then Install the latest version of the package.
+- Open the Package Manager and search for WireGuard, then Install the latest version of the package.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190880976-1c7d0b18-8e50-4072-8f32-a6991b7d3923.jpg">
   <br />
 </p>
 
-* After the package has installed, select VPN then WireGuard and under the Tunnels section, select Add Tunnel. 
+- After the package has installed, select VPN then WireGuard and under the Tunnels section, select Add Tunnel.
 
-* In the Tunnel Configuration, set the Description as WireGuard, the Listen Port as 51820, then Generate private and public keys.
+- In the Tunnel Configuration, set the Description as WireGuard, the Listen Port as 51820, then Generate private and public keys.
 
-* Copy the Public Key. We will need this for our client configuration.
+- Copy the Public Key. We will need this for our client configuration.
 
-* Create the tunnel, then select Settings, and ensure that Enable WireGuard is selected. Then Save and Apply. 
+- Create the tunnel, then select Settings, and ensure that Enable WireGuard is selected. Then Save and Apply.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190880978-70ccc9f1-f5be-479a-9f95-234a4f90ee87.jpg">
@@ -3695,18 +3678,17 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 
 **Quick Links:**
 
- * [WireGuard route all traffic through wireguard tunnel](https://openwrt.org/docs/guide-user/services/vpn/wireguard/all-traffic-through-wireguard)
- * [Automated WireGuard Server and Multi-client](https://openwrt.org/docs/guide-user/services/vpn/wireguard/automated)
- * [WireGuard basics](https://openwrt.org/docs/guide-user/services/vpn/wireguard/basics)
- * [WireGuard client](https://openwrt.org/docs/guide-user/services/vpn/wireguard/client)
- * [WireGuard extras](https://openwrt.org/docs/guide-user/services/vpn/wireguard/extras)
- * [WireGuard performance](https://openwrt.org/docs/guide-user/services/vpn/wireguard/performance)
- * [WireGuard Road-Warrior Configuration](https://openwrt.org/docs/guide-user/services/vpn/wireguard/road-warrior)
- * [WireGuard](https://openwrt.org/docs/guide-user/services/vpn/wireguard/start)
- * [WireGuard server](https://openwrt.org/docs/guide-user/services/vpn/wireguard/server)
- * [WireGuard peers](https://openwrt.org/docs/guide-user/services/vpn/wireguard/serverclient)
- * [Automated WireGuard site-to-site VPN configuration](https://openwrt.org/docs/guide-user/services/vpn/wireguard/site-to-site)
- 
+- [WireGuard route all traffic through wireguard tunnel](https://openwrt.org/docs/guide-user/services/vpn/wireguard/all-traffic-through-wireguard)
+- [Automated WireGuard Server and Multi-client](https://openwrt.org/docs/guide-user/services/vpn/wireguard/automated)
+- [WireGuard basics](https://openwrt.org/docs/guide-user/services/vpn/wireguard/basics)
+- [WireGuard client](https://openwrt.org/docs/guide-user/services/vpn/wireguard/client)
+- [WireGuard extras](https://openwrt.org/docs/guide-user/services/vpn/wireguard/extras)
+- [WireGuard performance](https://openwrt.org/docs/guide-user/services/vpn/wireguard/performance)
+- [WireGuard Road-Warrior Configuration](https://openwrt.org/docs/guide-user/services/vpn/wireguard/road-warrior)
+- [WireGuard](https://openwrt.org/docs/guide-user/services/vpn/wireguard/start)
+- [WireGuard server](https://openwrt.org/docs/guide-user/services/vpn/wireguard/server)
+- [WireGuard peers](https://openwrt.org/docs/guide-user/services/vpn/wireguard/serverclient)
+- [Automated WireGuard site-to-site VPN configuration](https://openwrt.org/docs/guide-user/services/vpn/wireguard/site-to-site)
 
 In your router’s webUI, navigate to System - Software, click Update lists:
 
@@ -3717,7 +3699,7 @@ In the Filter field, type WireGuard, locate and install the **wireguard, wiregua
   <br />
 </p>
 
-**Generate WireGuard keypair**
+**Generate WireGuard key pair**
 
  SSH into your router as ‘root’ ([OpenWrt Wiki](https://openwrt.org/docs/guide-quick-start/sshadministration)):
 
@@ -3726,51 +3708,53 @@ In the Filter field, type WireGuard, locate and install the **wireguard, wiregua
  Generate WireGuard keys:
 
   ```wg genkey | tee privatekey | wg pubkey > publickey```
-     
+
   ```chmod 600 privatekey```
 
   Note your Private & Public keys, you will need them later:
 
   ```cat privatekey```
-    
-  ``` cat publickey```
+
+  ```cat publickey```
 
 **Creating an Interface**
 
  Navigate to Network - Interface,
 
  Click the Add new interface... button and enter the following configuration:
-   * Name - give it any name
-   * Protocol - WireGuard VPN
+
+- Name - give it any name
+- Protocol - WireGuard VPN
 
  Create interface
 
  In the General Settings tab:
-   * Bring up on boot - Checked
-   * Private Key - copy and paste the generated previously Private key
-   * IP Address - enter the WireGuard IP Address obtained in the Client Area ending with /32, e.g. 172.27.124.169/32
-        
-        
+
+- Bring up on boot - Checked
+- Private Key - copy and paste the generated previously Private key
+- IP Address - enter the WireGuard IP Address obtained in the Client Area ending with /32, e.g. 172.27.124.169/32
+
 **Add a Firewall zone**
 
  Navigate to Network - Firewall
 
  Click the Add button and enter the following configuration:
-   * Name - Give it any name
-   *  Input - Reject
-   *  Output - Accept
-   *  Forward - Reject
-   *  Masquerading - Checked
-   *  MSS clamping - Checked
-   *  Covered networks - select the previously created VPN tunnel interface
-   *  Allow forward to destination zones - Unspecified
-   *  Allow forward from source zones - lan
-      
+
+- Name - Give it any name
+- Input - Reject
+- Output - Accept
+- Forward - Reject
+- Masquerading - Checked
+- MSS clamping - Checked
+- Covered networks - select the previously created VPN tunnel interface
+- Allow forward to destination zones - Unspecified
+- Allow forward from source zones - lan
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190891722-8e64c915-9fbf-48e2-ae4d-73a1bd4c9489.jpeg">
   <br />
 </p>
-       
+
 **DNS**
 
  Navigate to Network - Interfaces
@@ -3779,21 +3763,21 @@ In the Filter field, type WireGuard, locate and install the **wireguard, wiregua
 
   In the Advanced Settings tab, uncheck the Use DNS servers advertised by peer and specify one of the following DNS servers in the Use custom DNS servers field:
   
-  * 172.16.0.1 = regular DNS with no blocking
-  * 10.0.254.2 = standard AntiTracker to block advertising and malware domains
-  * 10.0.254.3 = Hardcore Mode AntiTracker to also block Google and Facebook domains
-      
+- 172.16.0.1 = regular DNS with no blocking
+- 10.0.254.2 = standard AntiTracker to block advertising and malware domains
+- 10.0.254.3 = Hardcore Mode AntiTracker to also block Google and Facebook domains
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190891723-43aa1b88-ab91-4f87-935b-03f052add368.jpeg">
   <br />
-</p> 
+</p>
 
 Click the Save button.
 
 **Last Steps**
 
-  * A device reboot is not required, though it may be useful to confirm that everything behaves as expected.
-  * Run a leak test at [https://www.dnsleaktest.com](https://www.dnsleaktest.com/) via one of the internal network clients attached to your OpenWRT router.
+- A device reboot is not required, though it may be useful to confirm that everything behaves as expected.
+- Run a leak test at [https://www.dnsleaktest.com](https://www.dnsleaktest.com/) via one of the internal network clients attached to your OpenWRT router.
   
 ### Setting up WireGuard on Home Assistant
 
@@ -3806,28 +3790,28 @@ Click the Save button.
 
 **Install Wireguard Add-on in Home Assistant**
 
- * Next, open up Home Assistant. Go to Supervisor > Add-on store, and search for WireGuard.
- 
- * Click the WireGuard addon, and the click Install.
- 
+- Next, open up Home Assistant. Go to Supervisor > Add-on store, and search for WireGuard.
+
+- Click the WireGuard addon, and the click Install.
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190974557-6e466f3a-75c5-46fe-ab95-406fad796318.png">
   <br />
 </p>
- 
+
 **Configure Wireguard Settings**
 
 After installing WireGuard, do not start it yet. We need to configure a few options first.
 
- * Click the Configuration tab at the very top.
+- Click the Configuration tab at the very top.
 
- * There are **two blocks of code here: server and peers.** The server section is the WireGuard server info, and the peers section is where you’d add new devices that will connect to your VPN.
- 
+- There are **two blocks of code here: server and peers.** The server section is the WireGuard server info, and the peers section is where you’d add new devices that will connect to your VPN.
+
  **Server Configuration**
 
-   * **Host:** add the subdomain you just created. (vpn.mydomain.com)
-   * **Addresses:** If your internal network is using the 192.168.x.x or 10.x.x.x range, you can leave the default IP addresses WireGuard has provided. (see note above)
-   * **DNS:** Set to your router’s internal IP address (**Open CMD > ipconfig /all > Under DNS servers**)
+- **Host:** add the subdomain you just created. (vpn.mydomain.com)
+- **Addresses:** If your internal network is using the 192.168.x.x or 10.x.x.x range, you can leave the default IP addresses WireGuard has provided. (see note above)
+- **DNS:** Set to your router’s internal IP address (**Open CMD > ipconfig /all > Under DNS servers**)
         If you have Adguard or PiHole installed, you can use the IP address of those instead. This will allow you to block ads even when connected to the WireGuard VPN.
 
 **Peers Configuration**
@@ -3846,7 +3830,7 @@ Then, go back to the Info tab and click **Start**.
 **Port Forward**
 
 The next step is to forward port 51820 from your Home Assistant server through your router. Unfortunately, there are so many different types of routers, each with different steps to port forward. The important thing to note is that you’ll be **port forwarding 51820(wireguard port)** from the internal IP of your Home Assistant instance (for example: 192.168.68.24) and choosing the **UDP protocol only**.
- 
+
  **Download Wireguard app on mobile device**
 
 Download the WireGuard app from the [Apple App Store](https://apps.apple.com/us/app/wireguard/id1441195209) or [Google Play Store](https://play.google.com/store/apps/details?id=com.wireguard.android&hl=en_US&gl=US). You will need it for the next step.
@@ -3858,6 +3842,7 @@ If all goes well, you can click into the new tunnel connection from within the a
 Once you have everything setup and working correctly, you should read through the [WireGuard Addon docs](https://github.com/hassio-addons/addon-wireguard/blob/main/wireguard/DOCS.md) to setup up ```allowed_ips``` and ```client_allowed_ips``` to further secure your VPN instance. There’s also some other helpful options you can configure such as log level, but these are all optional.
 
 # Nextcloud
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -3868,11 +3853,11 @@ Once you have everything setup and working correctly, you should read through th
 
 [Nextcloud](https://nextcloud.com) is an industry-leading, on-premises content collaboration platform for file sync & share and communication server. It is fully open source and you can host it yourself or pay a company to do it for you. Also checkout the following links below:
 
-   - [Nextcloud App Store](https://apps.nextcloud.com)
+- [Nextcloud App Store](https://apps.nextcloud.com)
 
-   - [Nextcloud GitHub](https://github.com/nextcloud)
+- [Nextcloud GitHub](https://github.com/nextcloud)
 
-   - [Nextcloud Developer Program](https://nextcloud.com/developer)
+- [Nextcloud Developer Program](https://nextcloud.com/developer)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/150701961-ac8be115-34c1-4012-bd69-d1f22a10e48c.png">
@@ -3888,18 +3873,18 @@ Nexcloud login screen
 Nexcloud Hub
 </p>
 
-[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance. 
+[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance.
 
 **Features it includes:**
 
-   * Nextcloud
-   * Nextcloud Office
-   * High performance backend for Nextcloud Files
-   * High performance backend for Nextcloud Talk
-   * Backup solution (based on BorgBackup)
-   * Imaginary
-   * ClamAV
-   * Fulltextsearch
+- Nextcloud
+- Nextcloud Office
+- High performance backend for Nextcloud Files
+- High performance backend for Nextcloud Talk
+- Backup solution (based on BorgBackup)
+- Imaginary
+- ClamAV
+- Fulltextsearch
 
 [Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
 
@@ -3921,9 +3906,10 @@ Nexcloud Hub
 
 [Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
 
-[LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud. 
+[LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud.
 
-# Raspberry Pi 
+# Raspberry Pi
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -3945,15 +3931,15 @@ Nexcloud Hub
 
 **Raspberry Pi 4 Model B Hardware Specifications**
 
- - Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
- - 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
- - 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless 
- - Bluetooth 5.0, BLE
- - Gigabit Ethernet
- - 2 USB 3.0 ports; 2 USB 2.0 ports.
- - Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous Pi boards)
- - 2 × micro-HDMI ports (up to 4kp60 supported)
- - OpenGL ES 3.0 graphics
+- Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
+- 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
+- 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless
+- Bluetooth 5.0, BLE
+- Gigabit Ethernet
+- 2 USB 3.0 ports; 2 USB 2.0 ports.
+- Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous Pi boards)
+- 2 × micro-HDMI ports (up to 4kp60 supported)
+- OpenGL ES 3.0 graphics
 
 **Raspberry Pi 400 Personal Computer Kit**
 
@@ -3965,18 +3951,18 @@ Nexcloud Hub
 
 **Raspberry Pi 400 Hardware Specifications**
 
- - Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
- - 4GB LPDDR4-3200 SDRAM 
- - 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless 
- - Bluetooth 5.0, BLE
- - Gigabit Ethernet
- - 2 USB 3.0 ports; 2 USB 2.0 ports.
- - Raspberry Pi standard 40 pin GPIO header 
- - 2 × micro-HDMI ports (up to 4kp60 supported)
- - OpenGL ES 3.0 graphics
- 
+- Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
+- 4GB LPDDR4-3200 SDRAM
+- 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless
+- Bluetooth 5.0, BLE
+- Gigabit Ethernet
+- 2 USB 3.0 ports; 2 USB 2.0 ports.
+- Raspberry Pi standard 40 pin GPIO header
+- 2 × micro-HDMI ports (up to 4kp60 supported)
+- OpenGL ES 3.0 graphics
+
  **Raspberry Pi Pico Microcontroller**
- 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
 </p>
@@ -3985,21 +3971,20 @@ Nexcloud Hub
 
 **Raspberry Pi Pico Hardware Specifications**
 
- - RP2040 microcontroller chip designed by Raspberry Pi in the UK
- - Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
- - 264KB on-chip SRAM
- - 2MB on-board QSPI Flash
- - 26 multifunction GPIO pins, including 3 analogue inputs
- - 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
- - 1 × USB 1.1 controller and PHY, with host and device support
- - 8 × Programmable I/O (PIO) state machines for custom peripheral support
- - Castellated module allows soldering direct to carrier boards
- - Drag-and-drop programming using mass storage over USB
- - Low-power sleep and dormant modes
- - Accurate on-chip clock
- - Temperature sensor
- - Accelerated integer and floating-point libraries on-chip
-
+- RP2040 microcontroller chip designed by Raspberry Pi in the UK
+- Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+- 264KB on-chip SRAM
+- 2MB on-board QSPI Flash
+- 26 multifunction GPIO pins, including 3 analogue inputs
+- 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+- 1 × USB 1.1 controller and PHY, with host and device support
+- 8 × Programmable I/O (PIO) state machines for custom peripheral support
+- Castellated module allows soldering direct to carrier boards
+- Drag-and-drop programming using mass storage over USB
+- Low-power sleep and dormant modes
+- Accurate on-chip clock
+- Temperature sensor
+- Accelerated integer and floating-point libraries on-chip
 
 **Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
 
@@ -4007,8 +3992,8 @@ Nexcloud Hub
 
 <img src="https://user-images.githubusercontent.com/45159366/103486345-0a76b000-4db2-11eb-9e96-e7f234bdc950.png">
 
-
 ## Raspberry Pi Learning Resources
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
@@ -4039,8 +4024,8 @@ Nexcloud Hub
 
 [PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
 
-
 ## Raspberry Pi Operating Systems
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
@@ -4083,21 +4068,21 @@ Nexcloud Hub
 
 [Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
 
-
 ## Raspberry Pi Tools
+
 [Back to the Top](#table-of-contents)
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 
 [Raspberry Pi Locator](https://rpilocator.com/) is a website to track Raspberry Pi 4 model B, Compute Module 4, Pi Zero 2 W, and Pico availability across multiple retailers in different countries.
 
-[Raspberry Pi Network Install (Beta)](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-over-the-network-beta) is a feature can be used to start the Raspberry Pi Imager application directly on a Raspberry Pi 4, or a Raspberry Pi 400, by downloading it from the internet using an Ethernet cable. The Raspberry Pi Imager application, which will run in memory on your Raspberry Pi, can then be used to flash the operating system onto a blank SD Card or USB disk, just like normal. 
+[Raspberry Pi Network Install (Beta)](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-over-the-network-beta) is a feature can be used to start the Raspberry Pi Imager application directly on a Raspberry Pi 4, or a Raspberry Pi 400, by downloading it from the internet using an Ethernet cable. The Raspberry Pi Imager application, which will run in memory on your Raspberry Pi, can then be used to flash the operating system onto a blank SD Card or USB disk, just like normal.
 
 [Raspberry Pi Bootloader](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#updating-the-bootloader) is a feature, which is now available in beta, that utilize an **EEPROM(Electrically Erasable Programmable Read-Only Memory)** to store the system’s bootloader. This EEPROM is persistent storage that is located on the Pi’s mainboard. The advantage of using the EEPROM instead is that the Raspberry Pi 4 can perform tasks without needing any storage to be attached.
 
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
-[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi. 
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi.
 
 [Gladys Assistant](https://github.com/gladysassistant/gladys) is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
 
@@ -4107,7 +4092,7 @@ Nexcloud Hub
 
 [PiKVM](https://github.com/pikvm/pikvm) is a very simple and fully functional Raspberry Pi-based KVM over IP.
 
-[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
+[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
 
 [RPiPlay](https://github.com/FD-/RPiPlay) is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
 
@@ -4118,8 +4103,9 @@ Nexcloud Hub
 [OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
 
 ### Home Assistant
+
 [Back to the Top](#table-of-contents)
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/177719719-9108f14f-9ca0-45e4-b1f5-55efaf1803e6.png">
   <br />
@@ -4129,11 +4115,11 @@ Nexcloud Hub
 
 **Quick Links**
 
- - [Getting Started with Home Assistant](https://home-assistant.io/getting-started)
- - [Home Assistant for Raspberry Pi](https://www.home-assistant.io/installation/raspberrypi/)
- - [Installing Home Assistant OS using Proxmox 7](https://github.com/Kanga-Who/home-assistant/blob/master/Home%20Assistant%20with%20Proxmox%20installation.md)
+- [Getting Started with Home Assistant](https://home-assistant.io/getting-started)
+- [Home Assistant for Raspberry Pi](https://www.home-assistant.io/installation/raspberrypi/)
+- [Installing Home Assistant OS using Proxmox 7](https://github.com/Kanga-Who/home-assistant/blob/master/Home%20Assistant%20with%20Proxmox%20installation.md)
 
-[Home Assistant Frontend](https://demo.home-assistant.io/) is a frontend for Home Assistant. 
+[Home Assistant Frontend](https://demo.home-assistant.io/) is a frontend for Home Assistant.
 
 #### Tools to write the HA image to your boot media(microSD card or USB device)
 
@@ -4162,17 +4148,17 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [ESPHome](https://esphome.io/) is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
 
-[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS. 
+[Shelly Cloud](https://shelly.cloud/) is a Smart home control tool that has been perfected and provides precise monitoring of your Shelly devices no matter where you are. Shelly devices are compatible with Alexa, Google Home, Android, and iOS.
 
 [Plex media server](https://www.plex.tv/) is a application that gives you the power to add, access and share all the entertainment that matters to you, on almost any device. With 50,000+ on demand titles and hundreds of channels of live TV, plus your own personal media collection, using one powerful app.
 
-[Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more. 
+[Amazon Alexa](https://alexa.amazon.com/) is a smart virtual assistant software to manage Alexa-enabled devices, control music playback, view shopping lists on the go, keep track of upcoming reminders, check on active timers and much more.
 
 [Google Assistant](https://assistant.google.com/) is a smart virtual assistant software on mobile and home automation devices.
 
 [Apple HomeKit](https://www.apple.com/shop/accessories/all/homekit) is a software framework that enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface. Using HomeKit, your app can: Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
 
-[Samsung SmartThings](https://www.smartthings.com/) is a sofwtare frmaeowrk that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
+[Samsung SmartThings](https://www.smartthings.com/) is a software frmaeowrk that you can connect, monitor and control multiple smart home devices quicker and easier. Connect your Samsung smart TVs, smart appliances, smart speakers and brands like Ring, Nest and Philips Hue all from one app.
 
 [Ecobee](https://www.ecobee.com) is a home automation company in Canada that makes thermostats for residential and commercial use.
 
@@ -4180,13 +4166,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Philips Hue](https://www.philips-hue.com) is  a smart lighting system. The smart lights, Hue Bridge, and smart controls will forever change the way you experience light.
 
-[Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV. 
+[Sonos](https://www.sonos.com) is the wireless home sound system that fills as many rooms as you want with great-sounding music, movies, and TV.
 
 [MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
 
-[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+[openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
 [Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
 
@@ -4197,6 +4183,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Z-Wave JS Config DB Browser](https://devices.zwave-js.io/) is the official device configuration reference to find out if your device is supported. Currently supports 387 brands, spanning at least 2075 device configurations.
 
 ### Homebridge
+
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -4204,14 +4191,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
   <br />
 </p>
 
-[Homebridge](https://homebridge.io/) is a software frameowrk that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories. 
+[Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
 
 - [Official Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started)
 - [Setup Homebridge on a Raspberry Pi (Raspbian)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian)
 - [Setup Homebridge on Debian or Ubuntu](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux)
-- [Setup Homebridge on Red Hat, CentOS Stream or Fedora](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Red-Hat%2C-CentOS-or-Fedora-Linux) 
+- [Setup Homebridge on Red Hat, CentOS Stream or Fedora](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Red-Hat%2C-CentOS-or-Fedora-Linux)
 - [Setup Homebridge on Docker (Linux)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker)
-
 
 #### Tools to write the Homebridge image to your boot media(microSD card or USB device)
 
@@ -4231,17 +4217,17 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
 
-   - Install and configure Homebridge plugins.
-   - Monitor your Homebridge server via a fully customisable widget-based dashboard.
-   - View and control Homebridge accessories.
-   - Backup and Restore your Homebridge instance.
-    
+- Install and configure Homebridge plugins.
+- Monitor your Homebridge server via a fully customisable widget-based dashboard.
+- View and control Homebridge accessories.
+- Backup and Restore your Homebridge instance.
+
   <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/177949596-0d02c572-fa6b-4fc7-adbd-d136f81149fb.png">
   <br />
   Homebridge UI
- </p> 
- 
+ </p>
+
 ### ESPHome
 
 [Back to the Top](#table-of-contents)
@@ -4255,23 +4241,23 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 #### Quick Links
 
- - [ESP Web Tools](https://esphome.github.io/esp-web-tools/)
+- [ESP Web Tools](https://esphome.github.io/esp-web-tools/)
 
- - [Installing ESPHome Manually | ESPHome](https://esphome.io/guides/installing_esphome.html)
- 
- - [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line.html)
- 
- - [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
- 
- - [ESPHome on the Raspberry Pi Pico! | Jeff Geerling](https://www.jeffgeerling.com/blog/2022/esphome-on-raspberry-pi-pico)
- 
- - [How to Start on Raspberry Pi Home Automation | ESPHome](https://www.instructables.com/How-to-Start-on-Raspberry-Pi-Home-Automation-ESPHo/)
+- [Installing ESPHome Manually | ESPHome](https://esphome.io/guides/installing_esphome.html)
 
- - [ESPHome Setup | Integrating Home Assistant with Adafruit IO](https://learn.adafruit.com/integrating-adafruit-io-with-home-assistant/esphome-setup)
+- [Getting Started with the ESPHome Command Line](https://esphome.io/guides/getting_started_command_line.html)
+
+- [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
+
+- [ESPHome on the Raspberry Pi Pico! | Jeff Geerling](https://www.jeffgeerling.com/blog/2022/esphome-on-raspberry-pi-pico)
+
+- [How to Start on Raspberry Pi Home Automation | ESPHome](https://www.instructables.com/How-to-Start-on-Raspberry-Pi-Home-Automation-ESPHo/)
+
+- [ESPHome Setup | Integrating Home Assistant with Adafruit IO](https://learn.adafruit.com/integrating-adafruit-io-with-home-assistant/esphome-setup)
 
 ### Install ESPHome using Home Assistant
 
-In [Home Assistant](https://www.home-assistant.io/integrations/esphome/) go to: 
+In [Home Assistant](https://www.home-assistant.io/integrations/esphome/) go to:
 
   **Configuration > Add-ons, Backups & Supervisor > Add-on Store (button in the lower right corner) or click on the My Home Assistant Link below:**
 
@@ -4279,64 +4265,64 @@ Open your Home Assistant instance and show the Supervisor add-on store.
 
 [![ESPHome HA](https://user-images.githubusercontent.com/45159366/178136849-9a5deed7-beb8-4a62-aeda-ce9aec3fac3e.svg)](https://my.home-assistant.io/redirect/config_flow_start?domain=esphome)
 
-   -  Next, search for ESPHome, click on the result and then click on the Install button. 
-   
+- Next, search for ESPHome, click on the result and then click on the Install button.
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/178137323-40fb0ec9-f35c-43d7-b60c-08588c89fd33.png">
   <br />
 </p>
-   
-   -  When the installation is finished, the Install button will be replaced with Start button – click on it to start the ESPHome add-on. 
-   
+
+- When the installation is finished, the Install button will be replaced with Start button – click on it to start the ESPHome add-on.
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/178137277-b71897d5-2684-451c-af2f-ab85f9b1affa.png">
   <br />
 </p>
 
-   -  Wait a few seconds for the ESPHome to start and then click on the Open Web UI button.
-   
+- Wait a few seconds for the ESPHome to start and then click on the Open Web UI button.
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/178137097-7753aed9-c3e7-4fba-9b52-570771609572.png">
   <br />
 </p>
-   
+
 ### Install ESPHome using Docker
 
-  - First thing is to pull the [ESPHome Docker image from Docker Hub](https://hub.docker.com/u/esphome) (Online). 
+- First thing is to pull the [ESPHome Docker image from Docker Hub](https://hub.docker.com/u/esphome) (Online).
 
     ```docker pull esphome/esphome```
 
-  - Then, start the ESPHome wizard. This wizard will ask you about your device type, your device name, your WiFi credentials and finally will generate a yaml file containing all of the configurations for you. 
-   
+- Then, start the ESPHome wizard. This wizard will ask you about your device type, your device name, your WiFi credentials and finally will generate a yaml file containing all of the configurations for you.
+
    ```docker run --rm -v "${PWD}":/config -it esphome/esphome wizard stl.yaml```
   
-   -  Now, connect your ESP device to the device where Docker is running (either using an USB cable or Serial-To-USB adapter) and if you are on Linux type the following command :
+- Now, connect your ESP device to the device where Docker is running (either using an USB cable or Serial-To-USB adapter) and if you are on Linux type the following command :
 
    ```dmesg | grep ttyUSB```
-   
-   - Put your device in programming mode (if needed) and execute the next command to install the ESPHome on the device connected to the /dev/ttyUSB1 using the configuration stored in stl.yaml file 
-   
+
+- Put your device in programming mode (if needed) and execute the next command to install the ESPHome on the device connected to the /dev/ttyUSB1 using the configuration stored in stl.yaml file
+
   ```docker run --rm -v "${PWD}":/config --device=/dev/ttyUSB1 -it esphome/esphome run stl.yaml```
-   
+
 ### Install ESPHome using Python
 
- - If you are on macOS or Linux check if Python 3.8 or later is installed by executing the command.
+- If you are on macOS or Linux check if Python 3.8 or later is installed by executing the command.
   
  ```python3 --version```
   
- - If you are on macOS, you need to install wheel and esphome packages by using the following command.
+- If you are on macOS, you need to install wheel and esphome packages by using the following command.
   
  ```pip3 install wheel esphome```
   
- - If you are on Linux, you have to install esphome package by using the following command.
+- If you are on Linux, you have to install esphome package by using the following command.
   
   ```pip3 install --user esphome```
-   
- - If you are on macOS or Linux you can start the ESPHome wizard using the following command.
+
+- If you are on macOS or Linux you can start the ESPHome wizard using the following command.
   
   ```esphome wizard stl-python.yaml```
-   
- - Finally, connect your ESP device to your Computer (using USB cable or Serial-To-usb adapter) and put it in programming mode (if needed). Then, Install ESPHome using the configuration in the stl-python.yaml file.
+
+- Finally, connect your ESP device to your Computer (using USB cable or Serial-To-usb adapter) and put it in programming mode (if needed). Then, Install ESPHome using the configuration in the stl-python.yaml file.
   
   ```esphome run stl-python.yaml```
   
@@ -4348,7 +4334,7 @@ Open your Home Assistant instance and show the Supervisor add-on store.
 
 [OpenWrt Project](https://openwrt.org/) is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. It's primarily used on embedded devices to route network traffic.
 
-  * [OpenWrt Wiki - Raspberry Pi setup](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi)
+- [OpenWrt Wiki - Raspberry Pi setup](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi)
 
 **Download the appropriate OpenWrt image for your Raspberry PI by going to the link above.**
 
@@ -4373,23 +4359,24 @@ Open your Home Assistant instance and show the Supervisor add-on store.
 
 **Technical Specs:**
 
- * Compatible Module: Raspberry Pi Compute Module 4 series.
- * BCM2711 4 core @ 1.5GHz Cortex-A72.
- * Support standard Raspberry Pi HAT interface.
- * Support POE HAT to supply power to the board.
- * Support POE HAT for external power supply.
- * Full-speed dual gigabit network interface.
- * Master-slave dual USB2.0 interface.
- * Micro SD card slot, used to support non-eMMC version of CM4.
- * Standard HDMI video output interface.
- * 0.91 inch IIC OLED display.
- * 5V DC fan interface(Support controlling via PWM signal).
- * Ethernet: high-performance Gigabit ethernet controller RTL8111E chip, JXD 2111x G2406s chip as isolation transformer.
-   * Port0: Compute Module 4 Built-In.
-   * Port1: PCI Express 1000BASE-T NIC.
- * GPIO: 40-Pin GPIO compatible with Raspberry Pi.
+- Compatible Module: Raspberry Pi Compute Module 4 series.
+- BCM2711 4 core @ 1.5GHz Cortex-A72.
+- Support standard Raspberry Pi HAT interface.
+- Support POE HAT to supply power to the board.
+- Support POE HAT for external power supply.
+- Full-speed dual gigabit network interface.
+- Master-slave dual USB2.0 interface.
+- Micro SD card slot, used to support non-eMMC version of CM4.
+- Standard HDMI video output interface.
+- 0.91 inch IIC OLED display.
+- 5V DC fan interface(Support controlling via PWM signal).
+- Ethernet: high-performance Gigabit ethernet controller RTL8111E chip, JXD 2111x G2406s chip as isolation transformer.
+  - Port0: Compute Module 4 Built-In.
+  - Port1: PCI Express 1000BASE-T NIC.
+- GPIO: 40-Pin GPIO compatible with Raspberry Pi.
 
 ### Setting Watchdog Timer (WDT) on Raspberry Pi
+
 [Back to the Top](#table-of-contents)
 
 [Watchdog Timer (WDT)](https://en.wikipedia.org/wiki/Watchdog_timer) is a timer that monitors microcontroller (MCU) programs to see if they are out of control or have stopped operating.
@@ -4404,7 +4391,7 @@ To enable watchdog you have to change the boot parameters by adding **dtparam=wa
 
 ### Configure WDT service
 
-Configuration file for watchdog can be found in **/etc/watchdog.conf**. 
+Configuration file for watchdog can be found in **/etc/watchdog.conf**.
 
 ```
 max-load-1 = 24
@@ -4426,6 +4413,7 @@ priority = 1
 ```pi@raspberrypi:~ $ sudo systemctl stop watchdog```
 
 ## Raspberry Pi Upgrades
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Raspberry Pi Cases from Pi-Shop US](https://www.pishop.us/product-category/raspberry-pi/pi-cases/)
@@ -4433,7 +4421,6 @@ priority = 1
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112692629-80803580-8e3c-11eb-8b5c-c4879113a058.png">
 </p>
-
 
 [Raspberry Pi Cases from The Pi Hut](https://thepihut.com/collections/raspberry-pi-cases)
 
@@ -4447,13 +4434,11 @@ priority = 1
  <img src="https://user-images.githubusercontent.com/45159366/112692608-7bbb8180-8e3c-11eb-80f6-1b1d9d8656e0.png">
 </p>
 
-
 [Sabrent M.2 SSD [NGFF] to USB 3.0 / SATA III 2.5-Inch Aluminum Enclosure Adapter](https://www.amazon.com/Sabrent-2-5-Inch-Aluminum-Enclosure-EC-M2CU/dp/B07924J5NT/ref=sr_1_10?crid=28O2JRHO9DE4G&dchild=1&keywords=m.2+to+usb+3.0+adapter&qid=1616632834&sprefix=m.2+to+usb,aps,236&sr=8-10)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112692658-88d87080-8e3c-11eb-81f1-1c796145cf7a.png">
 </p>
-
 
 [Samsung 970 EVO 250GB - NVMe PCIe M.2 2280 SSD](https://www.amazon.com/dp/B07BN5FJZQ/ref=twister_B08KGF1DPF?_encoding=UTF8&psc=1)
 
@@ -4461,13 +4446,11 @@ priority = 1
  <img src="https://user-images.githubusercontent.com/45159366/112692666-8c6bf780-8e3c-11eb-85a6-1f160a10a01a.png">
 </p>
 
-
 [Western Digital 1TB WD Blue SN550 NVMe Internal SSD](https://www.amazon.com/dp/B07YFF8879/ref=twister_B082KVPKQ5?_encoding=UTF8&psc=1)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112692675-8d9d2480-8e3c-11eb-9ed1-e08c2932d5ab.png">
 </p>
-
 
 [SAMSUNG T5 Portable SSD](https://www.amazon.com/Samsung-500GB-Portable-Solid-State/dp/B074WZJ4MF/ref=sr_1_4?crid=343DRDX8SJJV6&dchild=1&keywords=samsung+t5+portable+ssd&qid=1616632092&sprefix=samsung+t5+portable,aps,374&sr=8-4)
 
@@ -4475,13 +4458,11 @@ priority = 1
  <img src="https://user-images.githubusercontent.com/45159366/112692679-8ece5180-8e3c-11eb-94e5-18796639776e.png">
 </p>
 
-
 [Samsung SSD 860 EVO 250GB mSATA Internal SSD](https://www.amazon.com/Samsung-250GB-mSATA-Internal-MZ-M6E250BW/dp/B07864YNTZ/ref=sr_1_8?crid=2KRBSPRQYUIOH&dchild=1&keywords=samsung+850+evo+msata&qid=1616632277&sprefix=samsung+850+evo+m,aps,233&sr=8-8)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112692689-91c94200-8e3c-11eb-82ed-28d6ab05c072.png">
 </p>
-
 
 [Samsung 850 EVO 120GB SSD mSATA](https://www.amazon.com/Samsung-850-120GB-mSATA-MZ-M5E120BW/dp/B00TGIVQ4G/ref=sr_1_9?crid=2KRBSPRQYUIOH&dchild=1&keywords=samsung+850+evo+msata&qid=1616632277&sprefix=samsung+850+evo+m,aps,233&sr=8-9)
 
@@ -4490,6 +4471,7 @@ priority = 1
 </p>
 
 # Grafana
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -4521,7 +4503,7 @@ priority = 1
 
 ## Grafana Tools
 
-[Grafana Cloud ](https://grafana.com/products/cloud/) is a composable observability platform, integrating metrics, traces and logs with Grafana. Leverage the best open source observability software – including Prometheus, Loki, and Tempo – without the overhead of installing, maintaining, and scaling your observability stack.
+[Grafana Cloud](https://grafana.com/products/cloud/) is a composable observability platform, integrating metrics, traces and logs with Grafana. Leverage the best open source observability software – including Prometheus, Loki, and Tempo – without the overhead of installing, maintaining, and scaling your observability stack.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/124398133-f3653c00-dcc8-11eb-8465-8633072daf41.png">
@@ -4539,7 +4521,7 @@ priority = 1
 
 **Grafana Enterprise Stack. Source: [Grafana](https://grafana.com/products/enterprise/)**
 
-[Grafana Tempo](https://grafana.com/oss/tempo/) is an open source high-scale distributed tarcing backend. Tempo is cost-efficient, requiring only object storage to operate, and is deeply integrated with Grafana, Loki, and Prometheus.
+[Grafana Tempo](https://grafana.com/oss/tempo/) is an open source high-scale distributed tracing backend. Tempo is cost-efficient, requiring only object storage to operate, and is deeply integrated with Grafana, Loki, and Prometheus.
 
 [Grafana MetricTank](https://grafana.com/oss/metrictank/) is a multi-tenant timeseries platform for Graphite developed by Grafana Labs. MetricTank provides high-availability(HA) and efficient long-term storage, retrieval, and processing for large-scale environments.
 
@@ -4547,12 +4529,12 @@ priority = 1
 
 [Grafana Loki](https://grafana.com/oss/loki/) is a horizontally-scalable, highly-available(HA), multi-tenant log aggregation system inspired by Prometheus.
 
-[Cortex](https://grafana.com/oss/cortex/) is a project that lets users query metrics from many Prometheusservers in a single place, without any gaps in the grpahs due to server failture. Also, Cortex lets you store Prometheus metrics for long term capacity planning and performance analysis.
+[Cortex](https://grafana.com/oss/cortex/) is a project that lets users query metrics from many Prometheusservers in a single place, without any gaps in the grpahs due to server failure. Also, Cortex lets you store Prometheus metrics for long term capacity planning and performance analysis.
 
 [Graphite](https://grafana.com/oss/graphite/) is an open source monitoring system.
 
-
 # Networking
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -4572,7 +4554,7 @@ priority = 1
 
 [nginx(engine x)](https://nginx.org/en/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
 
-[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
+[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It includes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [Wireshark](https://www.wireshark.org/) is a very popular network protocol analyzer that is commonly used for network troubleshooting, analysis, and communications protocol development. Learn more about the other useful [Wireshark Tools](https://wiki.wireshark.org/Tools) available.
 
@@ -4613,11 +4595,11 @@ Some low level protocols are TCP, UDP, IP, and ICMP. Some familiar examples of a
 
 ## Network Layers
 
-	While networking is often discussed in terms of topology in a horizontal way, between hosts, its implementation is layered in a vertical fashion throughout a computer or network. This means is that there are multiple technologies and protocols that are built on top of each other in order for communication to function more easily. Each successive, higher layer abstracts the raw data a little bit more, and makes it simpler to use for applications and users. It also allows you to leverage lower layers in new ways without having to invest the time and energy to develop the protocols and applications that handle those types of traffic.
+ While networking is often discussed in terms of topology in a horizontal way, between hosts, its implementation is layered in a vertical fashion throughout a computer or network. This means is that there are multiple technologies and protocols that are built on top of each other in order for communication to function more easily. Each successive, higher layer abstracts the raw data a little bit more, and makes it simpler to use for applications and users. It also allows you to leverage lower layers in new ways without having to invest the time and energy to develop the protocols and applications that handle those types of traffic.
 
-	As data is sent out of one machine, it begins at the top of the stack and filters downwards. At the lowest level, actual transmission to another machine takes place. At this point, the data travels back up through the layers of the other computer. Each layer has the ability to add its own "wrapper" around the data that it receives from the adjacent layer, which will help the layers that come after decide what to do with the data when it is passed off.
+ As data is sent out of one machine, it begins at the top of the stack and filters downwards. At the lowest level, actual transmission to another machine takes place. At this point, the data travels back up through the layers of the other computer. Each layer has the ability to add its own "wrapper" around the data that it receives from the adjacent layer, which will help the layers that come after decide what to do with the data when it is passed off.
 
-	One method of talking about the different layers of network communication is the OSI model. OSI stands for Open Systems Interconnect.This model defines seven separate layers. The layers in this model are:
+ One method of talking about the different layers of network communication is the OSI model. OSI stands for Open Systems Interconnect.This model defines seven separate layers. The layers in this model are:
 
     • Application: The application layer is the layer that the users and user-applications most often interact with. Network communication is discussed in terms of availability of resources, partners to communicate with, and data synchronization.
 
@@ -4645,6 +4627,7 @@ The communication takes place between peers network.
     • Link: The link layer implements the actual topology of the local network that allows the internet layer to present an addressable interface. It establishes connections between neighboring nodes to send data.
 
 ### Interfaces
+
 **Interfaces** are networking communication points for your computer. Each interface is associated with a physical or virtual networking device. Typically, your server will have one configurable network interface for each Ethernet or wireless internet card you have. In addition, it will define a virtual network interface called the "loopback" or localhost interface. This is used as an interface to connect applications and processes on a single computer to other applications and processes. You can see this referenced as the "lo" interface in many tools.
 
 ## Network Protocols
@@ -4676,13 +4659,13 @@ Networking works by piggybacks on a number of different protocols on top of each
 [OAuth 2.0](https://oauth.net/2/) is an open source authorization framework that enables applications to obtain limited access to user accounts on an HTTP service, such as Amazon, Google, Facebook, Microsoft, Twitter GitHub, and DigitalOcean. It works by delegating user authentication to the service that hosts the user account, and authorizing third-party applications to access the user account.
 
 # Docker
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113521410-2e32c900-954e-11eb-8311-065fa0099546.png">
   <br />
 </p>
-
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113521413-2ffc8c80-954e-11eb-9d19-b9c996bc524b.png">
@@ -4747,15 +4730,14 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Containerd](https://containerd.io) is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows.
 
-
 # Kubernetes
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/95383873-a884d800-08a0-11eb-8eaf-57af5b119f56.png">
   <br />
 </p>
-
 
 ## Kubernetes Learning Resources
 
@@ -4769,7 +4751,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Intro to Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/kubernetes-dashboard)
 
-[Azure Red Hat OpenShift ](https://azure.microsoft.com/en-us/services/openshift/)
+[Azure Red Hat OpenShift](https://azure.microsoft.com/en-us/services/openshift/)
 
 [Getting started with Google Cloud](https://cloud.google.com/learn/what-is-kubernetes)
 
@@ -4819,7 +4801,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Kubernetes Playground by Katacoda](https://www.katacoda.com/courses/kubernetes/playground)
 
-[Scalable Microservices with Kubernetes course from Udacity ](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
+[Scalable Microservices with Kubernetes course from Udacity](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
 ## Kubernetes Tools, Frameworks, and Projects
 
@@ -4894,6 +4876,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Platform9 Managed Kubernetes (PMK)](https://platform9.com/managed-kubernetes/) is a Kubernetes as a service that ensures fully automated Day-2 operations with 99.9% SLA on any environment, whether in data-centers, public clouds, or at the edge.
 
 # Ansible
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -4986,6 +4969,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [OpenShift Hive](https://github.com/openshift/hive) is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
 # Databases
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -4997,7 +4981,6 @@ Networking works by piggybacks on a number of different protocols on top of each
  <img src="https://user-images.githubusercontent.com/45159366/119279002-da537080-bbdd-11eb-9d7a-44efb52f3506.png">
   <br />
 </p>
-
 
 ## SQL/NoSQL Learning Resources
 
@@ -5114,17 +5097,17 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Sequel Pro](https://sequelpro.com/) is a fast MacOS database management tool for working with MySQL. This SQL management tool helpful for interacting with your database by easily to adding new databases, new tables, and new rows.
 
 # Telco 5G
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/105409952-14881380-5be6-11eb-84fc-b07db69698ed.png">
- 
+
  **VMware Cloud First Approach. Source: [VMware](https://www.vmware.com/products/telco-cloud-automation.html).**
- 
- 
+
  <img src="https://user-images.githubusercontent.com/45159366/105409956-1520aa00-5be6-11eb-8215-735c92a5470c.png">
- 
+
  **VMware Telco Cloud Automation Components. Source: [VMware](https://www.vmware.com/products/telco-cloud-automation.html).**
- 
+
 ## Telco Learning Resources
 
 [HPE(Hewlett Packard Enterprise) Telco Blueprints overview](https://techhub.hpe.com/eginfolib/servers/docs/Telco/Blueprints/infocenter/index.html#GUID-9906A227-C1FB-4FD5-A3C3-F3B72EC81CAB.html)
@@ -5181,9 +5164,9 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Airship](https://www.airshipit.org/) is a collection of open source tools for automating cloud provisioning and management. Airship provides a declarative framework for defining and managing the life cycle of open infrastructure tools and the underlying hardware.
 
-[Network functions virtualization (NFV)](https://www.vmware.com/topics/glossary/content/network-functions-virtualization-nfv) is the replacement of network appliance hardware with virtual machines. The virtual machines use a hypervisor to run networking software and processes such as routing and load balancing. NFV allows for the separation of communication services from dedicated hardware, such as routers and firewalls. This separation means network operations can provide new services dynamically and without installing new hardware. Deploying network components with network functions virtualization only takes hours compared to months like with traditional networking solutions. 
+[Network functions virtualization (NFV)](https://www.vmware.com/topics/glossary/content/network-functions-virtualization-nfv) is the replacement of network appliance hardware with virtual machines. The virtual machines use a hypervisor to run networking software and processes such as routing and load balancing. NFV allows for the separation of communication services from dedicated hardware, such as routers and firewalls. This separation means network operations can provide new services dynamically and without installing new hardware. Deploying network components with network functions virtualization only takes hours compared to months like with traditional networking solutions.
 
-[Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking) is an approach to networking that uses software-based controllers or application programming interfaces (APIs) to communicate with underlying hardware infrastructure and direct traffic on a network. This model differs from that of traditional networks, which use dedicated hardware devices (routers and switches) to control network traffic. 
+[Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking) is an approach to networking that uses software-based controllers or application programming interfaces (APIs) to communicate with underlying hardware infrastructure and direct traffic on a network. This model differs from that of traditional networks, which use dedicated hardware devices (routers and switches) to control network traffic.
 
 [Virtualized Infrastructure Manager (VIM)](https://www.cisco.com/c/en/us/td/docs/net_mgmt/network_function_virtualization_Infrastructure/3_2_2/install_guide/Cisco_VIM_Install_Guide_3_2_2/Cisco_VIM_Install_Guide_3_2_2_chapter_00.html) is a service delivery and reduce costs with high performance lifecycle management Manage the full lifecycle of the software and hardware comprising your NFV infrastructure (NFVI), and maintaining a live inventory and allocation plan of both physical and virtual resources.
 
@@ -5191,7 +5174,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Magma](https://www.magmacore.org/) is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.
 
-[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
+[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openness to multi-vendor deployments.
 
 [Open vSwitch(OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
 
@@ -5200,14 +5183,15 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Multi-access edge computing (MEC)](https://www.etsi.org/technologies/multi-access-edge-computing) is an Industry Specification Group (ISG) within ETSI to create a standardized, open environment which will allow the efficient and seamless integration of applications from vendors, service providers, and third-parties across multi-vendor Multi-access Edge Computing platforms.
 
 [Virtualized network functions(VNFs)](https://www.juniper.net/documentation/en_US/cso4.1/topics/concept/nsd-vnf-overview.html) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.
- 
+
 [Cloud-Native Network Functions(CNF)](https://www.cncf.io/announcements/2020/11/18/cloud-native-network-functions-conformance-launched-by-cncf/) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes(K8s) lifecycle management, agility, resilience, and observability.
- 
+
 [Physical Network Function(PNF)](https://www.mpirical.com/glossary/pnf-physical-network-function) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.
 
 [Network functions virtualization infrastructure(NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
 
 # Open Source Security
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Open Source Security Foundation (OpenSSF)](https://openssf.org/) is a cross-industry collaboration that brings together leaders to improve the security of open source software by building a broader community, targeted initiatives, and best practices. The OpenSSF brings together open source security initiatives under one foundation to accelerate work through cross-industry support. Along with the Core Infrastructure Initiative and the Open Source Security Coalition, and will include new working groups that address vulnerability disclosures, security tooling and more.
@@ -5222,7 +5206,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [ISO Standards Catalogue](https://www.iso.org/standards.html)
 
-[Common Criteria for Information Technology Security Evaluation (CC)](https://www.commoncriteriaportal.org/cc/) is an international standard (ISO / IEC 15408) for computer security. It allows an objective evaluation to validate that a particular product satisfies a defined set of security requirements. 
+[Common Criteria for Information Technology Security Evaluation (CC)](https://www.commoncriteriaportal.org/cc/) is an international standard (ISO / IEC 15408) for computer security. It allows an objective evaluation to validate that a particular product satisfies a defined set of security requirements.
 
 [ISO 22301](https://www.iso.org/en/contents/data/standard/07/51/75106.html) is the international standard that provides a best-practice framework for implementing an optimised BCMS (business continuity management system).
 
@@ -5237,7 +5221,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Payment Card Industry (PCI) Data Security Standards (DSS)](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-pci-dss) is a global information security standard designed to prevent fraud through increased control of credit card data.
 
-[SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) is an auditing procedure that ensures your service providers securely manage your data to protect the interests of your comapny/organization and the privacy of their clients. 
+[SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) is an auditing procedure that ensures your service providers securely manage your data to protect the interests of your company/organization and the privacy of their clients.
 
 [NIST CSF](https://www.nist.gov/national-security-standards) is a voluntary framework primarily intended for critical infrastructure organizations to manage and mitigate cybersecurity risk based on existing best practice.
 
@@ -5249,7 +5233,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Control Groups(Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) is a Linux kernel feature that allows you to allocate resources such as CPU time, system memory, network bandwidth, or any combination of these resources for user-defined groups of tasks (processes) running on a system.
 
-[EarlyOOM](https://github.com/rfjakob/earlyoom) is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage. 
+[EarlyOOM](https://github.com/rfjakob/earlyoom) is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage.
 
 [Libgcrypt](https://www.gnupg.org/related_software/libgcrypt/) is a general purpose cryptographic library originally based on code from GnuPG.
 
@@ -5263,11 +5247,11 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [KernelCI](https://foundation.kernelci.org/) is a community-based open source distributed test automation system focused on upstream kernel development. The primary goal of KernelCI is to use an open testing philosophy to ensure the quality, stability and long-term maintenance of the Linux kernel.
 
-[Continuous Kernel Integration project](https://github.com/cki-project) helps find bugs in kernel patches before they are commited to an upstram kernel tree. We are team of kernel developers, kernel testers, and automation engineers.
+[Continuous Kernel Integration project](https://github.com/cki-project) helps find bugs in kernel patches before they are committed to an upstram kernel tree. We are team of kernel developers, kernel testers, and automation engineers.
 
 [eBPF](https://ebpf.io) is a revolutionary technology that can run sandboxed programs in the Linux kernel without changing kernel source code or loading kernel modules. By making the Linux kernel programmable, infrastructure software can leverage existing layers, making them more intelligent and feature-rich without continuing to add additional layers of complexity to the system.
 
-[Cilium](https://cilium.io/) uses eBPF to accelerate getting data in and out of L7 proxies such as Envoy, enabling efficient visibility into API protocols like HTTP, gRPC, and Kafka. 
+[Cilium](https://cilium.io/) uses eBPF to accelerate getting data in and out of L7 proxies such as Envoy, enabling efficient visibility into API protocols like HTTP, gRPC, and Kafka.
 
 [Hubble](https://github.com/cilium/hubble) is a Network, Service & Security Observability for Kubernetes using eBPF.
 
@@ -5289,9 +5273,9 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Wfuzz](https://github.com/xmendez/wfuzz) was created to facilitate the task in web applications assessments and it is based on a simple concept: it replaces any reference to the FUZZ keyword by the value of a given payload.
 
-[Nmap](https://nmap.org/) is a security scanner used to discover hosts and services on a computer network, thus building a "map" of the network. 
+[Nmap](https://nmap.org/) is a security scanner used to discover hosts and services on a computer network, thus building a "map" of the network.
 
-[Patchwork](https://github.com/getpatchwork/patchwork) is a web-based patch tracking system designed to facilitate the contribution and management of contributions to an open-source project. 
+[Patchwork](https://github.com/getpatchwork/patchwork) is a web-based patch tracking system designed to facilitate the contribution and management of contributions to an open-source project.
 
 [pfSense](https://www.pfsense.org/) is a free and open source firewall and router that also features unified threat management, load balancing, multi WAN, and more.
 
@@ -5299,11 +5283,11 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Snort](https://www.snort.org/) is an open-source, free and lightweight network intrusion detection system (NIDS) software for Linux and Windows to detect emerging threats.
 
-[Wireshark](https://www.wireshark.org/) is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. 
+[Wireshark](https://www.wireshark.org/) is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education.
 
 [OpenSCAP](https://www.open-scap.org/) is U.S. standard maintained by [National Institute of Standards and Technology (NIST)](https://www.nist.gov/). It provides multiple tools to assist administrators and auditors with assessment, measurement, and enforcement of security baselines. OpenSCAP maintains great flexibility and interoperability by reducing the costs of performing security audits. Whether you want to evaluate DISA STIGs, NIST‘s USGCB, or Red Hat’s Security Response Team’s content, all are supported by OpenSCAP.
 
-[Tink](https://github.com/google/tink) is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and harder to misuse. 
+[Tink](https://github.com/google/tink) is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and harder to misuse.
 
 [OWASP](https://www.owasp.org/index.php/Main_Page) is an online community, produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
@@ -5365,13 +5349,14 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Juniper Networks Certification Program Enterprise (JNCP)](https://www.juniper.net/us/en/training/certification/)
 
-[Security Training Certifications and Courses from Udemy](https://www.udemy.com/courses/search/?src=ukw&q=secuirty)
+[Security Training Certifications and Courses from Udemy](https://www.udemy.com/courses/search/?src=ukw&q=security)
 
 [Security Training Certifications and Courses from Coursera](https://www.coursera.org/search?query=security&)
 
 [Security Certifications Training from Pluarlsight](https://www.pluralsight.com/browse/information-cyber-security/security-certifications)
 
 # Differential Privacy
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -5444,14 +5429,13 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Certified Ethical Emerging Technologist Professional Certificate course on Coursera](https://www.coursera.org/professional-certificates/certified-ethical-emerging-technologist)
 
-
 ## Differential Privacy Tools
 
 [PySyft](https://github.com/OpenMined/PySyft) is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 [TensorFlow Privacy](https://github.com/tensorflow/privacy) is a  Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided.
 
-[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally. 
+[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
 
 [Privacy on Beam](https://github.com/google/differential-privacy/tree/main/privacy-on-beam) is an end-to-end differential privacy solution built on [Apache Beam](https://beam.apache.org/documentation/). It is intended to be usable by all developers, regardless of their differential privacy expertise.
 
@@ -5472,6 +5456,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Smart Noise](https://github.com/opendifferentialprivacy/smartnoise-sdk) is a toolkit that uses state-of-the-art differential privacy (DP) techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk.
 
 # Machine Learning
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/108111395-756e0480-7049-11eb-85ca-b87315e9d3ef.jpeg">
@@ -5508,7 +5493,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Scikit-Learn](https://scikit-learn.org/stable/index.html) is a Python module for machine learning built on top of SciPy, NumPy, and matplotlib, making it easier to apply robust and simple implementations of many popular machine learning algorithms.
 
-[Weka](https://www.cs.waikato.ac.nz/ml/weka/) is an open source machine learning software that can be accessed through a graphical user interface, standard terminal applications, or a Java API. It is widely used for teaching, research, and industrial applications, contains a plethora of built-in tools for standard machine learning tasks, and additionally gives transparent access to well-known toolboxes such as scikit-learn, R, and Deeplearning4j. 
+[Weka](https://www.cs.waikato.ac.nz/ml/weka/) is an open source machine learning software that can be accessed through a graphical user interface, standard terminal applications, or a Java API. It is widely used for teaching, research, and industrial applications, contains a plethora of built-in tools for standard machine learning tasks, and additionally gives transparent access to well-known toolboxes such as scikit-learn, R, and Deeplearning4j.
 
 [Caffe](https://github.com/BVLC/caffe) is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
 
@@ -5560,8 +5545,8 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Learn Machine Learning with Online Courses and Classes from edX](https://www.edx.org/learn/machine-learning)
 
-
 # IoT Protocols
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [DBus](https://www.freedesktop.org/wiki/Software/dbus/) is an open source software bus developed Red Hat for inter-process communication, and remote procedure call mechanism that allows communication between multiple processes running concurrently on the same machine.
@@ -5578,13 +5563,13 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
  [Extensible Messaging and Presence Protocol (XMPP)](https://xmpp.org) is a communication protocol for message-oriented middleware based on XML (Extensible Markup Language). It enables the near real-time exchange of structured yet extensible data between any two or more network entities.
 
- [OASIS Message Queuing Telemetry Transport (MQTT)](https://www.oasis-open.org) is an open OASIS and ISO standard (ISO/IEC 20922) lightweight, publish-subscribe network protocol that transports messages between devices. The protocol usually runs over TCP/IP; however, any network protocol that provides ordered, lossless, bi-directional connections can support MQTT. 
+ [OASIS Message Queuing Telemetry Transport (MQTT)](https://www.oasis-open.org) is an open OASIS and ISO standard (ISO/IEC 20922) lightweight, publish-subscribe network protocol that transports messages between devices. The protocol usually runs over TCP/IP; however, any network protocol that provides ordered, lossless, bi-directional connections can support MQTT.
 
  [Very Simple Control Protocol (VSCP)](https://vscp.org) is a free automation protocol suitable for all sorts of automation task where building- or home-automation is in the main focus. Its main advantage is that each VSCP-node can work completely autonomous, being part of distributed network of other nodes.
 
 # Operating systems
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
+[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
 
@@ -5630,7 +5615,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Trampoline](https://github.com/TrampolineRTOS/) is a static RTOS for small embedded systems.
 
-[DuinOS](https://github.com/DuinOS/DuinOS) is Framework (a wrapper) for use the FreeRTOSwith Arduino.
+[DuinOS](https://github.com/DuinOS/DuinOS) is Framework (a wrapper) for use the FreeRTOS with Arduino.
 
 [VxWorks](https://www.windriver.com/products/vxworks) is an industry-leading real-time operating systems (RTOS) for building embedded devices and systems for more than 30 years.
 
@@ -5644,24 +5629,26 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Contiki-os](https://github.com/contiki-os) is an operating system for networked, memory-constrained systems with a focus on low-power wireless Internet of Things devices.
 
-
 # Middleware
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [IoTSyS](https://iotsyst.com) is an integration middleware for the Internet of Things. It provides a communication stack for embedded devices based on IPv6, Web services, and OBIX to establish interoperable interfaces for smart objects.
 
  [OpenIoT](https://github.com/OpenIotOrg/openiot) is an open source middleware infrastructure will support flexible configuration and deployment of algorithms for collection, and filtering information streams stemming from the internet-connected objects, while at the same time generating and processing important business/applications events.
 
- [OpenRemote](https://github.com/openremote/openremote) is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools. 
+ [OpenRemote](https://github.com/openremote/openremote) is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
 
  [Kaa](https://www.kaaproject.org/platform/) is a Enterprise IoT Platform has been designed with heavy-duty, enterprise-grade IoT solutions in mind. It banishes a monolithic approach to architecture in favour of highly portable microservices, which allow for flexible rearrangement and customization even in the middle of the solution's lifecycle.
 
 # Node flow editors
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [Node-RED](https://nodered.org) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
 
 ### Toolkits
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [KinomaJS](https://github.com/Kinoma/kinomajs) is a visual code editor designed to help developers build starter projects for Kinoma Create and Kinoma Element. The project is built on Angular 2(RC7) and runs in a web browser. The live version is hosted using Google App Engine, but you can modify and build it yourself by following the instructions in this document.
@@ -5669,6 +5656,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [IoT Toolkit](https://www.segger.com/products/security-iot/iot-toolkit/) is a collection of libraries that enables communication with modern IoT based environments and devices. It is a high-performance collection of libraries optimized for minimum memory consumption in RAM, ROM, high speed, and versatility working on any device.
 
 # Data Visualization
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Freeboard](https://github.com/Freeboard/freeboard) is an open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard.
@@ -5676,11 +5664,13 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [ThingSpeak](https://thingspeak.com) is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. You can send data to ThingSpeak from your devices, create instant visualization of live data, and send alerts.
 
 # Search
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [Thingful](https://www.thingful.net) is a Search Engine for the Internet of Things Find & use open IoT data from around the world.
 
 # Hardware
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [Arduino Ethernet Shield 2](https://www.arduino.cc/en/Guide/ArduinoEthernetShield) allows an Arduino board to connect to the internet using the Ethernet library and to read and write an SD card using the SD library.This shield is fully compatible with the former version, but relies on the newer W5500 chip.
@@ -5694,6 +5684,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [Pinoccio](https://www.open-electronics.org/pinoccio-wifi-mesh-networking-for-arduino-and-iot-available-now/) is a solution to add mesh networking capability and WiFi-Internet access to all yout IoT devices, and it is Arduino compatible. Each board can assume the role of Scout in a Troop and one of the Scouts is the Lead to connect internet: Field Scouts talk to each other using a mesh network (called a Troop), using an extremely low-power radio.
 
 ### In-memory data grids
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [Ehcache](https://www.ehcache.org) is an open source, standards-based cache that boosts performance, offloads your database, and simplifies scalability. It's the most widely-used Java-based cache because it's robust, proven, full-featured, and integrates with other popular libraries and frameworks.
@@ -5701,17 +5692,19 @@ It is extended by a set of privacy-specific requirements, control objectives and
  [Hazelcast](https://hazelcast.com) is an open source in-memory data grid based on Java.
 
 # Home automation
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  [Home Assistant](https://github.com/home-assistant/core) is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
- [openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc. 
+ [openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
  [Eclipse SmartHome](https://www.eclipse.org/smarthome/) is a framework, not a ready-to-use solution. It offers a large set of features to choose from and leaves enough possibilities to design a Smart Home solution specific to your expectations. Its modular design brings millions of combinations and proves to be easily extensible by custom parts.
 
  [The Thing System](https://github.com/TheThingSystem) is a set of software components and network protocols that aims to fix the Internet of Things. Our steward software is written in node.js making it both portable and easily extensible. It can run on your laptop, or fit onto a small single board computer like the Raspberry Pi.
 
 # Robotics
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -5727,7 +5720,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [ROS2](https://index.ros.org/doc/ros2/) is a set of [software libraries and tools](https://github.com/ros2) that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it’s all open source.
 
-[Robot Framework](https://robotframework.org/) is a generic open source automation framework. It can be used for test automation and robotic process automation. It has easy syntax, utilizing human-readable keywords. Its capabilities can be extended by libraries implemented with Python or Java. 
+[Robot Framework](https://robotframework.org/) is a generic open source automation framework. It can be used for test automation and robotic process automation. It has easy syntax, utilizing human-readable keywords. Its capabilities can be extended by libraries implemented with Python or Java.
 
 [The Robotics Library (RL)](https://github.com/roboticslibrary/rl) is a self-contained C++ library for robot kinematics, motion planning and control. It covers mathematics, kinematics and dynamics, hardware abstraction, motion planning, collision detection, and visualization.RL runs on many different systems, including Linux, macOS, and Windows. It uses CMake as a build system and can be compiled with Clang, GCC, and Visual Studio.
 
@@ -5737,8 +5730,8 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Gazebo](http://gazebosim.org/) accurately and efficiently simulates indoor and outdoor robots. You get a robust physics engine, high-quality graphics, and programmatic and graphical interfaces.
 
-[Robotics System Toolbox](https://www.mathworks.com/products/robotics.html) provides tools and algorithms for designing, simulating, and testing manipulators, mobile robots, and humanoid robots. For manipulators and humanoid robots, the toolbox includes algorithms for collision checking, trajectory generation, forward and inverse kinematics, and dynamics using a rigid body tree representation. 
-For mobile robots, it includes algorithms for mapping, localization, path planning, path following, and motion control. The toolbox provides reference examples of common industrial robot applications. It also includes a library of 
+[Robotics System Toolbox](https://www.mathworks.com/products/robotics.html) provides tools and algorithms for designing, simulating, and testing manipulators, mobile robots, and humanoid robots. For manipulators and humanoid robots, the toolbox includes algorithms for collision checking, trajectory generation, forward and inverse kinematics, and dynamics using a rigid body tree representation.
+For mobile robots, it includes algorithms for mapping, localization, path planning, path following, and motion control. The toolbox provides reference examples of common industrial robot applications. It also includes a library of
 commercially available industrial robot models that you can import, visualize, and simulate.
 
 [Intel Robot DevKit](https://github.com/intel/robot_devkit) is the tool to generate Robotics Software Development Kit (RDK) designed for autonomous devices, including the ROS2 core and capacibilities packages like perception, planning, control driver etc. It provides flexible build/runtime configurations to meet different autonomous requirement on top of diversity hardware choices, for example use different hareware engine CPU/GPU/VPU to accelerate AI related features.
@@ -5765,7 +5758,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [ur5controller](https://github.com/roboticsleeds/ur5controller) is an open-source OpenRAVE controller for UR5 robot integrated with ROS.
 
-[RBDL](https://github.com/rbdl/rbdl) is an open-source (zlib) C++ libray for both forward and inverse dynamics and kinematics. Also supports contacts and loops.
+[RBDL](https://github.com/rbdl/rbdl) is an open-source (zlib) C++ library for both forward and inverse dynamics and kinematics. Also supports contacts and loops.
 
 [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) is a Central repository for open-source Unity packages, tutorials, and other resources demonstrating how to use Unity for robotics simulations. Includes new support for ROS integration.
 
@@ -5779,7 +5772,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [AWS RoboMaker](https://aws.amazon.com/robomaker/) is the most complete cloud solution for robotic developers to simulate, test and securely deploy robotic applications at scale. RoboMaker provides a fully-managed, scalable infrastructure for simulation that customers use for multi-robot simulation and CI/CD integration with regression testing in simulation.
 
-[Microsoft Robotics Developer Studio](https://www.microsoft.com/en-us/download/details.aspx?id=29081)  is a free .NET-based programming environment for building robotics applications. 
+[Microsoft Robotics Developer Studio](https://www.microsoft.com/en-us/download/details.aspx?id=29081)  is a free .NET-based programming environment for building robotics applications.
 
 [Visual Studio Code Extension for ROS](https://github.com/ms-iot/vscode-ros) is an extension provides support for Robot Operating System (ROS) development.
 
@@ -5789,7 +5782,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [ROS 2 with ONNX Runtime](https://github.com/ms-iot/ros_msft_onnx) is a program that uses ROS 2 to run on different hardware platforms using their respective AI acceleration libraries for optimized execution of the ONNX model.
 
-[Azure Cognitive Services LUIS ROS Node](https://github.com/ms-iot/ros_msft_luis) is a ROS node that bridges between ROS and the Azure Language Understanding Service. it can be configured to process audio directly from a microphone, or can subscribe to a ROS audio topic, then processes speech and generates "intent" ROS messages which can be processed by another ROS node to generate ROS commands. 
+[Azure Cognitive Services LUIS ROS Node](https://github.com/ms-iot/ros_msft_luis) is a ROS node that bridges between ROS and the Azure Language Understanding Service. it can be configured to process audio directly from a microphone, or can subscribe to a ROS audio topic, then processes speech and generates "intent" ROS messages which can be processed by another ROS node to generate ROS commands.
 
 ## Robotics Learning Resources
 
@@ -5818,6 +5811,7 @@ commercially available industrial robot models that you can import, visualize, a
 [Google Robotics Research](https://research.google/teams/brain/robotics/)
 
 # Mesh networks
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
@@ -5825,10 +5819,11 @@ commercially available industrial robot models that you can import, visualize, a
  [Open Garden](https://opengarden.com) develops the FireChat mobile application, which enables peer-to-peer mobile Internet connection sharing with faster and more efficient data transmissions by automatically and actively choosing and switching to the best available network without requiring users to manually sift through available networks to find the best one available.
 
  [OpenWSN](https://github.com/openwsn-berkeley/) is a project created at the University of California Berkeley and extended at the INRIA and at the Open University of Catalonia which aims to build an open standard-based and open source implementation of a complete constrained network protocol stack for wireless sensor networks and Internet of Things.
- 
+
 # Blockchain Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/95128607-878c7d80-070e-11eb-8a0d-5f01b80eb478.png">
   <br />
@@ -5867,15 +5862,15 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Hyperledger Ursa](https://www.hyperledger.org/use/ursa) is a shared cryptographic library, it enables implementations to avoid duplicating other cryptographic work and hopefully increase security in the process. The library is an opt-in repository (for Hyperledger and non Hyperledger projects) to place and use crypto. Hyperledger Ursa consists of sub-projects, which are cohesive implementations of cryptographic code or interfaces to cryptographic code.
 
-[Hyperledger Fabric](https://wiki.hyperledger.org/display/fabric) is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy. 
+[Hyperledger Fabric](https://wiki.hyperledger.org/display/fabric) is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.
 
-[Geth](https://geth.ethereum.org/) is an implementation of an [Ethereum](https://ethereum.org/en/) node in the Go programming language. 
+[Geth](https://geth.ethereum.org/) is an implementation of an [Ethereum](https://ethereum.org/en/) node in the Go programming language.
 
-[Solidity](https://solidity.readthedocs.io/) is a purposefully slimmed down, loosely-typed language with a syntax very similar to ECMAScript (Javascript) that is used for the creation of smart contracts on the Ethereum blockchain. 
+[Solidity](https://solidity.readthedocs.io/) is a purposefully slimmed down, loosely-typed language with a syntax very similar to ECMAScript (Javascript) that is used for the creation of smart contracts on the Ethereum blockchain.
 
 [GanacheCLI (NodeJS package)](https://www.trufflesuite.com/ganache) is a fast and customizable blockchain emulator. It simulates the Ethereum network on a single computer and allows you to make calls to the blockchain without any of the hassles of running a real Ethereum node.
 
-[Truffle](https://trufflesuite.com/) is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. 
+[Truffle](https://trufflesuite.com/) is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
 
 [Ethers.js](https://github.com/ethers-io/ethers.js/) is a library which was made for and is used by ethers.io. It is designed to make it easier to write client-side JavaScript based wallets, keeping the private key on the owner’s machine at all times.
 
@@ -5885,15 +5880,16 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Diesel](https://diesel.rs/) is a safe, extensible ORM and Query Builder for [Rust](https://www.rust-lang.org/).
 
-[BlockShell](https://github.com/daxeel/blockshell) is a minimal command line utility for learning Blockchain technical concepts like chaining & mining. 
+[BlockShell](https://github.com/daxeel/blockshell) is a minimal command line utility for learning Blockchain technical concepts like chaining & mining.
 
 [Tendermint Core](https://tendermint.com/) is [Byzantine Fault Tolerant (BFT)](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) middleware that takes a state transition machine written in any programming language and securely replicates it on many machines.
 
 [inDEX](https://distribuyed.github.io/index/) is a comprehensive list of decentralized exchanges (DEX) of cryptocurrencies, tokens, derivatives and futures, and their protocols.
 
-[Squeezer](https://squeezer.io/) is a platform that empowers new-entry blockchain developers to build serverless dApps easily. 
- 
+[Squeezer](https://squeezer.io/) is a platform that empowers new-entry blockchain developers to build serverless dApps easily.
+
 # Node.js Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -5917,7 +5913,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Node.js App Hosting & Deployment in Microsoft Azure](https://azure.microsoft.com/en-us/develop/nodejs/)
 
-[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices)
+[The Node.js best practices list](https://github.com/goldbergyoni/nodebestpractices)
 
 [Introduction to Node.js by W3Schools](https://www.w3schools.com/nodejs/nodejs_intro.asp)
 
@@ -5931,11 +5927,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## Node.js Tools
 
-[NPM](https://www.npmjs.com/) is the company behind Node package manager, the npm Registry, and npm CLI. 
+[NPM](https://www.npmjs.com/) is the company behind Node package manager, the npm Registry, and npm CLI.
 
 [node-gyp](https://github.com/nodejs/node-gyp) is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
 
-[nvm ](https://github.com/nvm-sh/nvm) is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+[nvm](https://github.com/nvm-sh/nvm) is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
 
 [node-docker](https://hub.docker.com/_/node/) is the official Node.js docker image, made with love by the node community.
 
@@ -5945,33 +5941,34 @@ commercially available industrial robot models that you can import, visualize, a
 
 [egg](https://eggjs.org/) is a born to build better enterprise frameworks and apps with Node.js & Koa.
 
-[mysqljs](https://github.com/mysqljs/mysql) is a pure node.js JavaScript Client implementing the MySQL protocol. 
+[mysqljs](https://github.com/mysqljs/mysql) is a pure node.js JavaScript Client implementing the MySQL protocol.
 
 [axios](https://github.com/axios/axios) is a promise based HTTP client for the browser and node.js.
 
-[Fastify](https://www.fastify.io/) is a fast and low overhead web framework, for Node.js. 
+[Fastify](https://www.fastify.io/) is a fast and low overhead web framework, for Node.js.
 
 [Express](https://expressjs.com/) is a fast, unopinionated, minimalist web framework for node.
 
-[Meteor](https://www.meteor.com/) is an ultra-simple environment for building modern web applications with JavavScript. 
+[Meteor](https://www.meteor.com/) is an ultra-simple environment for building modern web applications with JavavScript.
 
 [NW.js](https://nwjs.io/) is an app runtime based on Chromium and node.js. You can write native apps in HTML and JavaScript with NW.js. It also lets you call Node.js modules directly from the DOM and enables a new way of writing native applications with all Web technologies.
 
 [PM2](https://pm2.io/) is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
 
-[NestJS](https://nestjs.com/) is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Progamming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+[NestJS](https://nestjs.com/) is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
 [jenkins-nodejs](https://plugins.jenkins.io/nodejs/) is a Jenkins plugin for Node.js that provides the NodeJS auto-installer, allowing to create as many NodeJS installations "profiles" as you want.
 
-[Strapi](https://strapi.io/) is an open source Node.js Headless CMS to easily build customisable APIs. 
+[Strapi](https://strapi.io/) is an open source Node.js Headless CMS to easily build customisable APIs.
 
 [Standard](https://standardjs.com/) is a JavaScript Style Guide, with linter & automatic code fixer.
 
 [React Starter Kit](https://www.reactstarterkit.com/) is an isomorphic web app boilerplate for web development built on top of [Node.js](https://nodejs.org/), [Express](http://expressjs.com/), [GraphQL](http://graphql.org/) and [React](https://facebook.github.io/react/), containing modern web development tools such as [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io/) and [Browsersync](https://www.browsersync.io/). Helping you to stay productive following the best practices.
 
-[Hexo](https://hexo.io/) is a A fast, simple & powerful blog framework, powered by Node.js. 
+[Hexo](https://hexo.io/) is a A fast, simple & powerful blog framework, powered by Node.js.
 
 # C/C++ Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -6043,7 +6040,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Introduction to C++ on MIT Free Online Course Materials](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
 
-[Introduction to C++ for Programmers | Harvard ](https://online-learning.harvard.edu/course/introduction-c-programmers)
+[Introduction to C++ for Programmers | Harvard](https://online-learning.harvard.edu/course/introduction-c-programmers)
 
 [Online C Courses | Harvard University](https://online-learning.harvard.edu/subject/c)
 
@@ -6110,13 +6107,13 @@ commercially available industrial robot models that you can import, visualize, a
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
 # Java Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93925952-c0b6fd80-fccb-11ea-9f90-21c4148e3c86.png">
   <br />
 </p>
-
 
 ## Java Learning Resources
 
@@ -6152,17 +6149,17 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## Java Tools & Frameworks
 
-[Java SE](https://www.oracle.com/java/technologies/javase/tools-jsp.html) contains several tools to assist in program development and debugging, and in the monitoring and troubleshooting of production applications. 
+[Java SE](https://www.oracle.com/java/technologies/javase/tools-jsp.html) contains several tools to assist in program development and debugging, and in the monitoring and troubleshooting of production applications.
 
 [JDK Development Tools](https://docs.oracle.com/javase/7/docs/technotes/tools/) includes the Java Web Start Tools (javaws) Java Troubleshooting, Profiling, Monitoring and Management Tools (jcmd, jconsole, jmc, jvisualvm); and Java Web Services Tools (schemagen, wsgen, wsimport, xjc).
 
-[Android Studio](https://developer.android.com/studio/) is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. Availble on Windows, macOS, Linux, Chrome OS.
+[Android Studio](https://developer.android.com/studio/) is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. Available on Windows, macOS, Linux, Chrome OS.
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is an IDE for Java, but it also understands and provides intelligent coding assistance for a large variety of other languages such as Kotlin, SQL, JPQL, HTML, JavaScript, etc., even if the language expression is injected into a String literal in your Java code.
 
 [NetBeans](https://netbeans.org/features/java/index.html) is an IDE provides Java developers with all the tools needed to create professional desktop, mobile and enterprise applications. Creating, Editing, and Refactoring. The IDE provides wizards and templates to let you create Java EE, Java SE, and Java ME applications.
 
-[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
+[Java Design Patterns](https://github.com/iluwatar/java-design-patterns) is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
 
 [Elasticsearch](https://www.elastic.co/products/elasticsearch) is a distributed RESTful search engine built for the cloud written in Java.
 
@@ -6170,11 +6167,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Guava](https://github.com/google/guava) is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
 
-[okhttp](https://square.github.io/okhttp/) is a HTTP client for Java and Kotlin developed by Square. 
+[okhttp](https://square.github.io/okhttp/) is a HTTP client for Java and Kotlin developed by Square.
 
-[Retrofit](https://square.github.io/retrofit/) is a type-safe HTTP client for Android and Java develped by Square.
+[Retrofit](https://square.github.io/retrofit/) is a type-safe HTTP client for Android and Java developed by Square.
 
-[LeakCanary](https://square.github.io/leakcanary/) is a memory leak detection library for Android develped by Square.
+[LeakCanary](https://square.github.io/leakcanary/) is a memory leak detection library for Android developed by Square.
 
 [Apache Spark](https://spark.apache.org/) is a unified analytics engine for large-scale data processing. It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis. It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Structured Streaming for stream processing.
 
@@ -6192,9 +6189,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [GraalVM](https://www.graalvm.org/) is a universal virtual machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Clojure, Kotlin, and LLVM-based languages such as C and C++.
 
-[Gradle](https://gradle.org/) is a build automation tool for multi-language software development. From mobile apps to microservices, from small startups to big enterprises, Gradle helps teams build, automate and deliver better software, faster. Write in Java, C++, Python or your language of choice. 
+[Gradle](https://gradle.org/) is a build automation tool for multi-language software development. From mobile apps to microservices, from small startups to big enterprises, Gradle helps teams build, automate and deliver better software, faster. Write in Java, C++, Python or your language of choice.
 
-[Apache Groovy](http://www.groovy-lang.org/) is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming. 
+[Apache Groovy](http://www.groovy-lang.org/) is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
 
 [JaCoCo](https://www.jacoco.org/jacoco/) is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years.
 
@@ -6211,6 +6208,7 @@ commercially available industrial robot models that you can import, visualize, a
 [YourKit](https://www.yourkit.com/) is a technology leader, creator of the most innovative and intelligent tools for profiling Java & .NET applications.
 
 # Python Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
@@ -6219,12 +6217,11 @@ commercially available industrial robot models that you can import, visualize, a
   
 </p>
 
-
 ## Python Learning Resources
 
-[Python](https://www.python.org) is an interpreted, high-level programming language. Python is used heavily in the fields of Data Science and Machine Learning. 
+[Python](https://www.python.org) is an interpreted, high-level programming language. Python is used heavily in the fields of Data Science and Machine Learning.
 
-[Python Developer’s Guide](https://devguide.python.org) is a comprehensive resource for contributing to Python – for both new and experienced contributors. It is maintained by the same community that maintains Python. 
+[Python Developer’s Guide](https://devguide.python.org) is a comprehensive resource for contributing to Python – for both new and experienced contributors. It is maintained by the same community that maintains Python.
 
 [Azure Functions Python developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python) is an introduction to developing Azure Functions using Python. The content below assumes that you've already read the [Azure Functions developers guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference).
 
@@ -6264,7 +6261,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## Python Frameworks and Tools
 
-[Python Package Index (PyPI)](https://pypi.org/) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community. 
+[Python Package Index (PyPI)](https://pypi.org/) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.
 
 [PyCharm](https://www.jetbrains.com/pycharm/) is the best IDE I've ever used. With PyCharm, you can access the command line, connect to a database, create a virtual environment, and manage your version control system all in one place, saving time by avoiding constantly switching between windows.
 
@@ -6276,15 +6273,15 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
-[Flask](https://flask.palletsprojects.com/) is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. 
- 
+[Flask](https://flask.palletsprojects.com/) is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
+
 [Web2py](http://web2py.com/) is an open-source web application framework written in Python allowing allows web developers to program dynamic web content. One web2py instance can run multiple web sites using different databases.
 
-[AWS Chalice](https://github.com/aws/chalice) is a framework for writing serverless apps in python. It allows you to quickly create and deploy applications that use AWS Lambda. 
+[AWS Chalice](https://github.com/aws/chalice) is a framework for writing serverless apps in python. It allows you to quickly create and deploy applications that use AWS Lambda.
 
 [Tornado](https://www.tornadoweb.org/) is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.
 
-[HTTPie](https://github.com/httpie/httpie) is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers. 
+[HTTPie](https://github.com/httpie/httpie) is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 
 [Scrapy](https://scrapy.org/) is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
 
@@ -6298,11 +6295,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [CherryPy](https://cherrypy.org) is a minimalist Python object-oriented HTTP web framework.
 
-[Sanic](https://github.com/huge-success/sanic) is a Python 3.6+ web server and web framework that's written to go fast. 
+[Sanic](https://github.com/huge-success/sanic) is a Python 3.6+ web server and web framework that's written to go fast.
 
 [Pyramid](https://trypyramid.com) is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.
 
-[TurboGears](https://turbogears.org) is a hybrid web framework able to act both as a Full Stack framework or as a Microframework. 
+[TurboGears](https://turbogears.org) is a hybrid web framework able to act both as a Full Stack framework or as a Microframework.
 
 [Falcon](https://falconframework.org/) is a reliable, high-performance Python web framework for building large-scale app backends and microservices with support for MongoDB, Pluggable Applications and autogenerated Admin.
 
@@ -6312,9 +6309,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Luigi](https://github.com/spotify/luigi) is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
 
-[Locust](https://github.com/locustio/locust) is an easy to use, scriptable and scalable performance testing tool. 
+[Locust](https://github.com/locustio/locust) is an easy to use, scriptable and scalable performance testing tool.
 
-[spaCy](https://github.com/explosion/spaCy) is a library for advanced Natural Language Processing in Python and Cython. 
+[spaCy](https://github.com/explosion/spaCy) is a library for advanced Natural Language Processing in Python and Cython.
 
 [NumPy](https://www.numpy.org/) is the fundamental package needed for scientific computing with Python.
 
@@ -6333,13 +6330,13 @@ commercially available industrial robot models that you can import, visualize, a
 [Scikit-Learn](https://scikit-learn.org/stable/index.html) is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.
 
 # Rust Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93025405-8dc98700-f5b2-11ea-93f9-12b4a0ef3001.png">
   <br />
 </p>
-
 
 ## Rust Learning Resources
 
@@ -6367,7 +6364,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Crater](https://crater.rust-lang.org/) is a tool to run experiments across parts of the Rust ecosystem. Its primary purpose is to detect regressions in the Rust compiler, and it does this by building a large number of crates, running their test suites and comparing the results between two versions of the Rust compiler. It can operate locally (with Docker as the only dependency) or distributed on the cloud.
 
-[VSCode-Rust](https://github.com/rust-lang/vscode-rust) is plugin that adds language support for Rust to Visual Studio Code. Rust support is powered by a separate language server - either by the official Rust Language Server (RLS) or rust-analyzer, depending on the user's preference. If you don't have it installed, the extension will install it for you (with permission). This extension is built and maintained by the Rust IDEs and editors team with the focus on providing a stable, high quality extension that makes the best use of the respective language server. 
+[VSCode-Rust](https://github.com/rust-lang/vscode-rust) is plugin that adds language support for Rust to Visual Studio Code. Rust support is powered by a separate language server - either by the official Rust Language Server (RLS) or rust-analyzer, depending on the user's preference. If you don't have it installed, the extension will install it for you (with permission). This extension is built and maintained by the Rust IDEs and editors team with the focus on providing a stable, high quality extension that makes the best use of the respective language server.
 
 [Apache Arrow](https://github.com/apache/arrow) is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
 
@@ -6413,17 +6410,17 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Tock](https://www.tockos.org) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers. Tock uses two mechanisms to protect different components of the operating system. First, the kernel and device drivers are written in Rust, a systems programming language that provides compile-time memory safety, type safety and strict aliasing. Tock uses Rust to protect the kernel (the scheduler and hardware abstraction layer) from platform specific device drivers as well as isolate device drivers from each other. Second, Tock uses memory protection units to isolate applications from each other and the kernel.
 
-[Rust on Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/rust_on_cros.md) is a document that provides information on creating Rust projects for installation within Chrome OS and Chrome OS SDK. 
+[Rust on Chrome OS](https://chromium.googlesource.com/chromiumos/docs/+/master/rust_on_cros.md) is a document that provides information on creating Rust projects for installation within Chrome OS and Chrome OS SDK.
 
-[Writing an OS in Rust ](https://os.phil-opp.com) is a blog series creates a small operating system in the Rust programming language by [Philipp Oppermann](https://github.com/phil-opp). 
+[Writing an OS in Rust](https://os.phil-opp.com) is a blog series creates a small operating system in the Rust programming language by [Philipp Oppermann](https://github.com/phil-opp).
 
 # Swift Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719675-03949c00-fb39-11ea-8f81-bf4cd544c17f.png">
 </p>
-
 
 ## Swift Learning Resources
 
@@ -6451,7 +6448,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Amazon EC2 Mac Instances](https://aws.amazon.com/ec2/instance-types/mac/)
 
-[Swift GitHub](https://github.com/apple/swift) 
+[Swift GitHub](https://github.com/apple/swift)
 
 [Apple Developer Forums](https://developer.apple.com/forums/)
 
@@ -6485,7 +6482,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Instruments](https://help.apple.com/instruments/mac/current/#/dev7b09c84f5) is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.
 
-[Cocoapods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project. 
+[Cocoapods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
@@ -6501,13 +6498,14 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Alamofire](https://github.com/Alamofire/Alamofire) is an HTTP networking library written in Swift.
 
-[Eureka](https://github.com/xmartlabs/Eureka) is an elegant iOS form builder in Swift 
+[Eureka](https://github.com/xmartlabs/Eureka) is an elegant iOS form builder in Swift
 
 [Carthage](https://github.com/Carthage/Carthage) is intended to be the simplest way to add frameworks to your Cocoa application. Carthage builds your dependencies and provides you with binary frameworks, but you retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.
 
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) is reactive extensions to Cocoa frameworks, built on top of ReactiveSwift.
 
 # XML Development
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
  <p align="center">
@@ -6517,7 +6515,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## XML Learning Resources
 
-[XML(Extensible Markup Language)](https://www.w3.org/XML/) is a markup language that is similar to HTML but without predefined tags. Instead, the user define their own tags designed specifically for their needs. 
+[XML(Extensible Markup Language)](https://www.w3.org/XML/) is a markup language that is similar to HTML but without predefined tags. Instead, the user define their own tags designed specifically for their needs.
 
 [XAML](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/fundamentals/xaml) is a declarative XML-based markup language that is applied to the .NET Core programming model, which XAML simplifies creating a UI for a [.NET Core app](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-overview).
 
@@ -6567,15 +6565,15 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Uno Platform](https://platform.uno/) is a Universal Windows Platform Bridge that allows UWP-based code (C# and XAML) to run on iOS, Android, macOS, WebAssembly, Linux and Windows. It provides the full definitions of the UWP [Windows 10 2004 (19041)](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-19041), and the implementation of a growing number of parts of the UWP API, such as Windows.UI.Xaml, to enable UWP and WinUI applications to run on these platforms.
 
-[Android Studio](https://developer.android.com/studio/) is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. Availble on Windows, macOS, Linux, Chrome OS.
+[Android Studio](https://developer.android.com/studio/) is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. Available on Windows, macOS, Linux, Chrome OS.
 
-[Oxygen XML Editor](https://www.oxygenxml.com/) is a cross platform tool setting the standard in XML editing. The advanced XML editor provides the most intuitive tools for XML editing, authoring, and development. It is availble on Windows, macOS, and Linux.
+[Oxygen XML Editor](https://www.oxygenxml.com/) is a cross platform tool setting the standard in XML editing. The advanced XML editor provides the most intuitive tools for XML editing, authoring, and development. It is available on Windows, macOS, and Linux.
 
 [XMLmind XML Editor](https://www.xmlmind.com/xmleditor/) is a strictly validating XML editor. It has Extensive DITA 1.3 support, and includes lightweight DITA, XDITA, HDITA, MDITA.
 
 [Refit](https://github.com/reactiveui/refit) is the automatic type-safe REST library for .NET Core,.NET and Xamarin.
 
-[Pugixml](https://github.com/zeux/pugixml) is a C++ XML processing library, which consists of a DOM-like interface with rich traversal/modification capabilities, an extremely fast XML parser which constructs the DOM tree from an XML file/buffer, and an XPath 1.0 implementation for complex data-driven tree queries. 
+[Pugixml](https://github.com/zeux/pugixml) is a C++ XML processing library, which consists of a DOM-like interface with rich traversal/modification capabilities, an extremely fast XML parser which constructs the DOM tree from an XML file/buffer, and an XPath 1.0 implementation for complex data-driven tree queries.
 
 [Serializer](https://symfony.com/serializer) is a component that makes it easier to handle serializing data structures, including object graphs, into array structures or other formats like XML and JSON. It can also handle deserializing XML and JSON back to object graphs.
 
@@ -6587,8 +6585,8 @@ commercially available industrial robot models that you can import, visualize, a
 
 - [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/Self-Hosting-Guide/pulls).
 
-
 ## License
+
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
