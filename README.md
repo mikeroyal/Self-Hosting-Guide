@@ -2625,6 +2625,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [HedgeDoc](https://hedgedoc.org/) is an open-source, web-based, self-hosted, collaborative markdown editor. 
 
+[Lapce](http://lapce.dev/) is a Lightning-fast And Powerful Code Editor written in pure Rust with a UI in Druid (which is also written in Rust). 
+
 [nb](https://xwmx.github.io/nb) is a CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script. 
 
 [Turtl](https://turtlapp.com/) is a secure, collaborative notebook for bookmarks or passwords, files or shopping lists.
