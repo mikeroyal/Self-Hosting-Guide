@@ -2535,6 +2535,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Magic Earth](https://www.magicearth.com/) is aTurn-by-turn navigation, OpenStreetMap, Crowd-Sourced Traffic, 3D maps, Satellite maps, Offline maps and Transit.
 
+[Organic Maps](https://organicmaps.app/) is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by MapsWithMe (MapsMe) founders and our community. No ads, no tracking, no data collection, no crapware. 
+
 [MapTiler Server](https://www.maptiler.com/server/self-host-satellite-maps/) is a self-hosted Aerial and satellite imagery maps of the entire world from your own server or laptop.
 
 [KelperJs](http://keplerjs.io/) is a open source full-stack geosocial network platform.
