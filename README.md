@@ -1738,6 +1738,14 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [ActivityPub](https://activitypub.rocks/) is a decentralized social networking protocol based on the ActivityStreams 2.0 data format. It provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and subscribing to content.
 
+[Lemmy](https://github.com/LemmyNet/lemmy) is similar to sites like Reddit, Lobste.rs, or Hacker News. Where you subscribe to forums you're interested in, post links and discussions, then vote, and comment on them. Behind the scenes, it is very different; anyone can easily run a server, and all these servers are federated, and connected to the same universe, called the Fediverse.
+
+[Lemmy-UI](https://github.com/LemmyNet/lemmy-ui) is the official web app for [Lemmy](https://github.com/LemmyNet/lemmy), written in inferno.
+
+[Mlem](https://github.com/buresdv/Mlem) is a Lemmy client for iOS.
+
+[Jerboa](https://github.com/dessalines/jerboa) is an Android client for Lemmy, a federated reddit alternative.
+
 [GoToSocial](https://gotosocial.org/) is an [ActivityPub](https://activitypub.rocks/) social network server, written in Golang.
 
 [Berty](https://github.com/berty/berty) is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
