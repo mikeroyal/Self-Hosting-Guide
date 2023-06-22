@@ -6066,6 +6066,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Online C Courses | Harvard University](https://online-learning.harvard.edu/subject/c)
 
+[Top free C++ Course](https://www.interviewbit.com/blog/best-free-cpp-course/)
+
+[C++ Cheat Sheet](https://www.interviewbit.com/cpp-cheat-sheet/)
 ## C/C++ Tools
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
