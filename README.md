@@ -2135,6 +2135,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience. 
 
+[Festival](https://festival.pm/) is a music player for local album collections.
+
 [HD HomeRun Scribe 4K](https://www.silicondust.com/product/hdhomerun-scribe-4k/) is a free local live TV with DVR with 4 tuners and 150 hours of recording storage all-in-one amazing box for watching and recording free TV all around your home.
 
 [RuneAudio](https://www.runeaudio.com/) is a free and open source software that turns embedded hardware into Hi-Fi music players.
