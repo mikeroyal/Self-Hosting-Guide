@@ -2644,6 +2644,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [nb](https://xwmx.github.io/nb) is a CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script. 
 
+[Rustpad](https://rustpad.io/#yAbbW9) is an open-source collaborative text editor based on the operational transformation algorithm. Share a link to this pad with others, and they can edit from their browser while seeing your changes in real time.
+
 [Turtl](https://turtlapp.com/) is a secure, collaborative notebook for bookmarks or passwords, files or shopping lists.
 
 [TiddlyWiki](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
