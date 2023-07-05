@@ -242,6 +242,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Buildah](https://buildah.io/) is a command line tool to build Open Container Initiative (OCI) images. It can be used with Docker, Podman, Kubernetes.
 
+[Red Hat Universal Base Images (UBI)](https://developers.redhat.com/products/rhel/ubi) is a tool that offers a way to build your container images on a foundation of Red Hat Enterprise Linux software. They are OCI-compliant, container-based, operating system images with complementary runtime languages and packages that are freely redistributable. Easily find UBI images in the Red Hat container catalog, and they are buildable and deployable anywhere. 
+
 [Red Hat Quay](https://quay.io/) is a project that Builds, Stores, and Distributes your Applications and Containers.
 
 [ctop](https://ctop.sh/) is a tool that provides a concise and condensed overview of real-time metrics for multiple containers as well as a [single container view](https://github.com/bcicen/ctop/blob/master/_docs/single.md) for inspecting a specific container. It comes with built-in support for Docker and runC; connectors for other container and cluster systems are planned for future releases.
