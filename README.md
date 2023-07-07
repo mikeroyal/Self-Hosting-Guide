@@ -1945,7 +1945,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [UrBackup](https://www.urbackup.org/) is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time. File and image backups are made while the system is running without interrupting current processes. Available for Windows, macOS, and Linux. 
 
-[Kopia](https://kopia.io/) is a user-friendly desktop app for Windows, macOS, and Linux which allows you to create snapshots, define policies, and restore files quickly with Fast and Encrypted Backups. 
+[Kopia](https://kopia.io/) is a user-friendly desktop app for Windows, macOS, and Linux which allows you to create snapshots, define policies, and restore files quickly with Fast and Encrypted Backups.
+
+[Clonezilla](https://clonezilla.org/) is a partition and disk imaging/cloning program. It helps you to do system deployment, bare metal backup and recovery. Three types of Clonezilla are available, Clonezilla live, Clonezilla lite server, and Clonezilla SE (server edition).
 
 [rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
 
