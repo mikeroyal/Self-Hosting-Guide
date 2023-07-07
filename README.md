@@ -1760,6 +1760,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) is a truly censorship-resistant alternative to Twitter that has a chance of working.
 
+[Fritter](https://fritter.cc/) is an open source frontend for Twitter on mobile devices, focusing on giving you the best experience and keeping your data private, local and in your hands. 
+
 [Nitter](https://github.com/zedeus/nitter) is a free and open source alternative Twitter front-end focused on privacy and performance. All requests go through the backend, meaning the client never talks to Twitter and prevents Twitter from tracking your IP or JavaScript fingerprint.
 
 [Diaspora](https://diasporafoundation.org/) is a privacy-aware, distributed, open source social network.
