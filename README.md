@@ -741,7 +741,7 @@ Nexcloud Hub
 
 [Nextcloud Enterprise](https://nextcloud.com/enterprise/) is a service that gives professional organizations software optimized and tested for mission critical environments.
 
-[Nextcloud Outlook Integration](https://nextcloud.com/outlook/ is a tool that automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook.
+[Nextcloud Outlook Integration](https://nextcloud.com/outlook/) is a tool that automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook.
 
 [Collabora Online in Nextcloud](https://nextcloud.com/collaboraonline/) is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.
 
