@@ -1260,7 +1260,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to The Top](#table-of-contents)
 
-[Echofish](https://www.echothrust.com/projects/echofish) - A web based real-time event log aggregation, analysis, monitoring and management system.
+[Echofish](https://echothrust.github.io/echofish/) - A web based real-time event log aggregation, analysis, monitoring and management system.
 
 [Fluentd](https://www.fluentd.org/) - Log Collector and Shipper.
 
