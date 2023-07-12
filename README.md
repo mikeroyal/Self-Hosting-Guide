@@ -1396,6 +1396,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Monoid](https://github.com/monoid-privacy/monoid) is an open-source suite of tools for automating data privacy.
 
+[Pinecone](https://matrix-org.github.io/pinecone/) is an experimental overlay routing protocol suite which is the foundation of the current P2P Matrix demos. It is designed to provide end-to-end encrypted connectivity between devices at a global scale over any compatible medium (currently TCP, WebSockets, Bluetooth Low Energy etc), allowing multi-hop peer-to-peer connectivity between devices even in places where there is no Internet connectivity. 
+
 ### Service Discovery
 
 [Back to The Top](#table-of-contents)
