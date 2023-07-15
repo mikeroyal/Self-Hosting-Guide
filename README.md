@@ -3243,6 +3243,8 @@ Red Hat Enterprise Linux Desktop
 **Useful Tools for Storage Management**
 
 [Scrutiny](https://github.com/AnalogJ/scrutiny) is a WebUI for smartd Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds.
+
+[smartd](https://www.smartmontools.org/) is SMART Disk Monitoring Daemon for Linux. It controls and monitors storage systems using the Self-Monitoring, Analysis and Reporting Technology System (SMART) built into most modern ATA/SATA, SCSI/SAS and NVMe disks. In many cases, these utilities will provide advanced warning of disk degradation and failure.
   
 [DUA (Disk Usage Analyzer)](https://lib.rs/crates/dua-cli) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible. Optionally delete superfluous data, and do so more quickly than rm.
 
