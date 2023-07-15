@@ -2125,6 +2125,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Tautulli](https://tautulli.com/) is a 3rd party application that you can run alongside your Plex Media Server to monitor activity and track various statistics.
 
+[Plex DupeFinder](https://github.com/l3uddz/plex_dupefinder) is a python script that finds duplicate versions of media (TV episodes and movies) in your Plex Library and tells Plex to remove the lowest rated files/versions (based on user-specified scoring) to leave behind a single file/version.
+
 [Prometheus Exporter for Plex](https://github.com/jsclayton/prometheus-plex-exporter) is an expose library playback, storage, and host metrics in a Prometheus format.
 
 [Infuse](https://firecore.com/) is a Video Player for iOS, Apple TV, and Mac. It plays every video file ever created to avoid wasting hours converting and transcoding files.
