@@ -258,6 +258,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
 
+[Alnoda Workspaces](https://docs.alnoda.org/) is an open-source portable containerized browser-based development environments in Docker containers. You can create your own custom workspace or customize any of the workspaces with your preferred stack of applications without knowing much of the Docker.
+
 [Autoheal](https://hub.docker.com/r/willfarrell/autoheal) monitors and restarts unhealthy docker containers. 
 
 [Dozzle](https://hub.docker.com/r/amir20/dozzle) is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only. 
