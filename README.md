@@ -2662,19 +2662,19 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Bepasty](https://bepasty-server.readthedocs.io/en/latest/) is a pastebin for all kinds of files. 
 
-[bin](https://github.com/w4/bin) is a paste bin that's actually minimalist.
+[Bin](https://github.com/w4/bin) is a paste bin that's actually minimalist.
 
-[dpaste](https://dpaste.org/) is a Simple pastebin with multiple text and code option, with short url result easy to remember. 
+[Dpaste](https://dpaste.org/) is a Simple pastebin with multiple text and code option, with short url result easy to remember. 
 
 [Drift](https://github.com/MaxLeiter/drift) is a Self-hosted Github Gist clone. 
 
 [EdPaste](https://github.com/ptnr/EdPaste) is a Self-hosted pastebin written in Laravel (PHP Framework).
 
-[ExBin](https://github.com/m1dnight/exbin) is a pastebin with public/private snippets and netcat server. `MIT` `Elixir`
+[ExBin](https://github.com/m1dnight/exbin) is a pastebin with public/private snippets and netcat server.
 
-[fiche](https://github.com/solusipse/fiche) is a Command line pastebin, all you need is netcat. ([Demo](https://termbin.com/)) `MIT` `C`
+[Fiche](https://github.com/solusipse/fiche) is a Command line pastebin, all you need is netcat. 
 
-[filite](https://github.com/raftario/filite) is a simple, light and standalone pastebin, URL shortener and file-sharing service. `MIT` `Rust`
+[Filite](https://github.com/raftario/filite) is a simple, light and standalone pastebin, URL shortener and file-sharing service. 
 
 [FlashPaper](https://github.com/AndrewPaglusch/FlashPaper) is a one-time encrypted zero-knowledge password/secret sharing application focused on simplicity and security. No database or complicated set-up required. 
 
