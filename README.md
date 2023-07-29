@@ -365,6 +365,10 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Leantime](https://leantime.io) - Leantime is a lean project management system for small teams and startups helping to manage projects from ideation through delivery. 
 
+[Taiga](https://taiga.io/) is an open-source project management software for cross-functional teams that work agile across both scrum and kanban frameworks.
+
+[Planka](https://planka.app/) is a realtime kanban board for workgroups built with React and Redux. 
+
 [Microgit](https://github.com/microgit-com/microgit) - Git hosting service made in Crystal and Lucky. `MIT` `Crystal`
 
 [OneDev](https://onedev.io/) - All-In-One DevOps Platform. With Git Management, Issue Tracking, and CI/CD. Simple yet Powerful. 
