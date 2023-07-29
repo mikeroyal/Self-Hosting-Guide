@@ -82,6 +82,7 @@
        * [Maps](https://github.com/mikeroyal/Self-Hosting-Guide#maps)
        * [Bookmarks](#Bookmarks)
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
+       * [Pastebins](#pastebins)
        * [Note-Taking](#Note-Taking)
        * [Wikis](#wikis)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
@@ -2654,6 +2655,63 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Librephotos  Mobile](https://github.com/LibrePhotos/librephotos-mobile) is an open-source Android and iOS Mobile Application for self-hosted Librephotos Server.
 
 [Librephotos Docker](https://github.com/LibrePhotos/librephotos-docker) is the Dockerfiles for the automated build process of LibrePhotos.
+
+### Pastebins
+
+[Back to the Top](#table-of-contents)
+
+[Bepasty](https://bepasty-server.readthedocs.io/en/latest/) is a pastebin for all kinds of files. 
+
+[bin](https://github.com/w4/bin) is a paste bin that's actually minimalist.
+
+[dpaste](https://dpaste.org/) is a Simple pastebin with multiple text and code option, with short url result easy to remember. 
+
+[Drift](https://github.com/MaxLeiter/drift) is a Self-hosted Github Gist clone. 
+
+[EdPaste](https://github.com/ptnr/EdPaste) is a Self-hosted pastebin written in Laravel (PHP Framework).
+
+[ExBin](https://github.com/m1dnight/exbin) is a pastebin with public/private snippets and netcat server. `MIT` `Elixir`
+
+[fiche](https://github.com/solusipse/fiche) is a Command line pastebin, all you need is netcat. ([Demo](https://termbin.com/)) `MIT` `C`
+
+[filite](https://github.com/raftario/filite) is a simple, light and standalone pastebin, URL shortener and file-sharing service. `MIT` `Rust`
+
+[FlashPaper](https://github.com/AndrewPaglusch/FlashPaper) is a one-time encrypted zero-knowledge password/secret sharing application focused on simplicity and security. No database or complicated set-up required. 
+
+[Hasty Paste](https://enchantedcode.co.uk/hasty-paste/) is a place to quickly paste some text and share it. Mostly used for sharing debug logs and such to help developers provide tech support. The project aims to be both fast and minimal. 
+
+[Lenpaste](https://git.lcomrade.su/root/lenpaste) is a Web service that allows you to share notes anonymously, an alternative to pastebin. 
+
+[LogPaste](https://github.com/mtlynch/logpaste) is a Minimal pastebin web app that's easy to self-host and persists data to any S3-compatible backend. 
+
+[MicroBin](https://microbin.eu/) is a super tiny, feature rich, configurable, self-contained and self-hosted paste bin web application. It is very easy to set up and use, and will only require a few megabytes of memory and disk storage. [MicroBin Docker install setup](https://microbin.eu/docs/installation-and-configuration/docker/).
+
+[Opengist](https://github.com/thomiceli/opengist) is a Self-hosted pastebin powered by Git. 
+
+[Paaster](https://paaster.io) is a secure by default end-to-end encrypted pastebin built with the objective of simplicity. 
+
+[Pastefy](https://pastefy.app/) - Beautiful, simple and easy to deploy Pastebin with optional Client-Encryption, Multitab-Pastes, an API, a highlighted Editor and more.
+
+[Pastila](https://pastila.nl/) is a Minimalistic paste service. Single page, zero click experience.
+
+[Pasty](https://github.com/lus/pasty) is a fast and lightweight code pasting server. 
+
+[PrivateBin](https://privatebin.info/) is a minimalist, opensource online pastebin/discussion board where the server has zero knowledge of hosted data.
+
+[Prologic pastebin](https://git.mills.io/prologic/pastebin) is a Simple pastebin service with convenient api and CLI. 
+
+[PurritoBin](https://github.com/PurritoBin/PurritoBin) is a Ultra fast, minimalistic, encrypted command line paste-bin, where the server has no knowledge of the paste data. 
+
+[Rustypaste](https://github.com/orhun/rustypaste) is a minimal file upload/pastebin service. 
+
+[Spacebin](https://spaceb.in/) is a Reliable Pastebin server in Golang and Fiber. 
+
+[Sup3rS3cretMes5age](https://github.com/algolia/sup3rS3cretMes5age) is a simple to deploy and use secret message service using Hashicorp Vault as a secrets storage.
+
+[Wastebin](https://github.com/matze/wastebin) is a Lightweight, minimal and fast pastebin with an SQLite backend. 
+
+[YABin](https://github.com/Yureien/YABin) is a pastebin that contains plentiful features while remaining simple. Supports optional E2E encryption, a client-side CLI app, syntax highlighting, minimalistic UI, APIs, keyboard shortcuts, and more. It can even be run in serverless environments.
+
 
 ### Note-Taking
 
