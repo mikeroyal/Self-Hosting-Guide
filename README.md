@@ -1800,6 +1800,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Matrix](https://matrix.org/) is a tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronised conversation history, formatted messages, read receipts and more.
 
+[Postmoogle](https://gitlab.com/etke.cc/postmoogle) is an actual SMTP server that allows you to send and receive emails on your matrix server. It can't be used with arbitrary email providers, because it acts as an actual email provider itself, so you can use it to send emails from your apps and scripts as well.
+
 [Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk).
 
 [Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
@@ -1980,7 +1982,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 ### Snapshots Management/System Recovery
 
-[Back to the Top](#table of contents)
+[Back to the Top](#table-of-contents)
 
 [rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
 
