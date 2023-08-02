@@ -3474,6 +3474,8 @@ Red Hat Enterprise Linux Desktop
   - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
   
   - [45Drives Knowledge Base](https://knowledgebase.45drives.com/) is an affordable enterprise storage solutions for any data size - large or small. It provides high-performance, high-capacity storage servers and data destruction solutions for all industries.
+
+  - [Self-hosting by any tech docs](https://tech.anytype.io/how-to/self-hosting)
   
   - [Noted - Self Hosted App and Product Reviews](https://noted.lol/)
 
