@@ -84,6 +84,7 @@
        * [Photos](https://github.com/mikeroyal/Self-Hosting-Guide#photos)
        * [Pastebins](#pastebins)
        * [Note-Taking](#Note-Taking)
+       * [Time Monitoring](#time-monitoring)
        * [Wikis](#wikis)
        * [Gaming](https://github.com/mikeroyal/Self-Hosting-Guide#gaming)
        * [Foundations/Projects](https://github.com/mikeroyal/Self-Hosting-Guide#foundationsprojects)
@@ -2748,6 +2749,18 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [Carnet](https://www.getcarnet.app/) is a complete open source note taking app. It has extensions for all the major browsers.
 
 [Frog](https://tenderowl.com/work/Frog) is a tool that quickly extract text from almost any source: youtube, screencasts, PDFs, webpages, photos, etc. Grab the image and get the text.
+
+### Time Monitoring
+
+[Back to the Top](#table-of-contents)
+
+[ActivityWatch](https://activitywatch.net) isn app that automatically tracks how you spend time on your devices.
+
+[Kimai](https://www.kimai.org/)  is a free & open source timetracker. It tracks work time and prints out a summary of your activities on demand. 
+
+[TimeTagger](https://timetagger.app) is an open source time-tracker based on an interactive timeline and powerful reporting. 
+
+[Traggo](https://traggo.net/)  is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.
 
 ### Wikis
 
