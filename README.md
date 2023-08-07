@@ -2750,6 +2750,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Frog](https://tenderowl.com/work/Frog) is a tool that quickly extract text from almost any source: youtube, screencasts, PDFs, webpages, photos, etc. Grab the image and get the text.
 
+[Zeal](https://zealdocs.org/) is an offline documentation browser for software developers inspired by [Dash](https://kapeli.com/dash).
+
 ### Time Monitoring
 
 [Back to the Top](#table-of-contents)
