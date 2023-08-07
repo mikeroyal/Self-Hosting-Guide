@@ -2736,6 +2736,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Turtl](https://turtlapp.com/) is a secure, collaborative notebook for bookmarks or passwords, files or shopping lists.
 
+[The Everything App](https://anytype.io/) is an app where you can do everything: Protect your thoughts & data with end-to-end encryption. Local, on-device encryption. Only you have encryption keys. Offline account creation: control your keys, own your data. No server, no gatekeeper: peer-to-peer sync on local networks. Locally store your data, self-host your backups where you please.
+
 [TiddlyWiki](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
 
 [Milanote](https://milanote.com/) is a tool for organizing creative projects into beautiful visual boards.
