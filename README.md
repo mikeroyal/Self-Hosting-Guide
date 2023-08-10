@@ -3341,6 +3341,10 @@ Red Hat Enterprise Linux Desktop
   
 [DUA (Disk Usage Analyzer)](https://lib.rs/crates/dua-cli) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible. Optionally delete superfluous data, and do so more quickly than rm.
 
+[Perkeep](https://github.com/perkeep/perkeep) is a set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data. It can be easily accessed via a phone, browser or FUSE filesystem.
+
+[duf](https://github.com/muesli/duf) is a Disk Usage/Free Utility for Linux, BSD, macOS & Windows.
+
 [Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/). 
 
 [Dutree](https://github.com/nachoparker/dutree) is a tool to analyze file system usage written in Rust.
