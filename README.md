@@ -2151,6 +2151,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [InfuseSync](https://github.com/firecore/InfuseSync) is a plugin for Emby and Jellyfin media servers that tracks all media changes to decrease sync times with Infuse clients. 
 
+[InvidTUI](https://darkhz.github.io/invidtui/) is an invidious client, which fetches data from invidious instances and displays a user interface in the terminal, and allows for selecting and playing Youtube audio and video.
+
 [Polaris](https://github.com/agersant/polaris) is a music streaming application, designed to let you enjoy your music collection from any computer or mobile device. Polaris works by streaming music directly from your computer (or cloud server), without uploading it to a third-party.
 
 [AirSonic](https://hub.docker.com/r/airsonic/airsonic) is a free, web-based media streamer, providing ubiquitous access to your music.
