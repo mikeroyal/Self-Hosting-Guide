@@ -1805,6 +1805,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Postmoogle](https://gitlab.com/etke.cc/postmoogle) is an actual SMTP server that allows you to send and receive emails on your matrix server. It can't be used with arbitrary email providers, because it acts as an actual email provider itself, so you can use it to send emails from your apps and scripts as well.
 
+[SimpleX](https://simplex.chat/) is a privacy redefined messenger without user IDs. Other apps have user IDs: **Signal, Matrix, Session, Briar, Jami, Cwtch, etc.** SimpleX does not, not even random numbers.
+
 [Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk).
 
 [Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
