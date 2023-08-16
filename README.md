@@ -1683,6 +1683,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Simplepush](https://simplepush.io/) is a tool to send end-to-end encrypted push notifications to your Android and iPhone.
 
+[UnifiedPush](https://unifiedpush.org/) is a set of specifications and tools that lets the user choose how push notifications are delivered. All in a free and open source way.
+
 ### RSS
 
 [Back to the Top](#table-of-contents)
