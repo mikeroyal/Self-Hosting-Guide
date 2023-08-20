@@ -2613,6 +2613,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Linkding](https://github.com/sissbruecker/linkding/) is a simple bookmark service that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker.
 
+[Linkwarden](https://linkwarden.app/) is a fully self-hostable, open-source collaborative bookmark manager to collect, organize and archive webpages. [Linkwarden Docker Image](https://gist.github.com/joekrill/cc503e21e14f95fefa91acc5f869dac1)
+
 [LinkAce](https://www.linkace.org/) is a self-hosted bookmark archive to collect links of your favorite websites.
 
 [Eagle](https://eagle.cool/) is a tool to collect, search and organize your design files in a logical way and all in one place.
