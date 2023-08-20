@@ -2750,8 +2750,6 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [TiddlyWiki](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
 
-[Milanote](https://milanote.com/) is a tool for organizing creative projects into beautiful visual boards.
-
 [Laverna](https://laverna.cc/) is a note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. 
 
 [Notesnook](https://notesnook.com/) is a fully open source & end-to-end encrypted note taking alternative to Evernote. 
