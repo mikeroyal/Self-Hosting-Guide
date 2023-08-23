@@ -1839,6 +1839,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database. 
 
+[Diun](https://github.com/crazy-max/diun) is a CLI application written in Go and delivered as a single executable (and a Docker image) to receive notifications when a Docker image is updated on a Docker registry.
+
 [iRedMail](https://www.iredmail.org/) is a self-hosted email server.
 
 [iRedMail Easy](https://www.iredmail.org/easy.html) is a web-based deployment platform, it offers an easy to use web interface to help you deploy iRedMail server, keep your server up to date, also get fast and professional technical support from iRedMail team.
