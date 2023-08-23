@@ -535,6 +535,8 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [llama.cpp](https://github.com/ggerganov/llama.cpp) is a Port of Facebook's LLaMA model in C/C++.
 
+[Serge](https://github.com/serge-chat/serge) is a web interface for chatting with Alpaca through llama.cpp. Fully self-hosted & dockerized, with an easy to use API. 
+
 [OpenPlayground](https://github.com/nat/openplayground) is a playfround for running ChatGPT-like models locally on your device.
 
 [Vicuna](https://vicuna.lmsys.org/) is an open source chatbot trained by fine tuning LLaMA. It apparently achieves more than 90% quality of chatgpt and costs $300 to train.
