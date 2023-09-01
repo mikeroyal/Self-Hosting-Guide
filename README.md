@@ -30,6 +30,7 @@
        * [CI/CD](https://github.com/mikeroyal/Self-Hosting-Guide#cicd)
        * [Development](https://github.com/mikeroyal/Self-Hosting-Guide#development)
        * [Web servers](#web-servers)
+       * [Large language models (LLMs)](#llms)
        * [ChatGPT Chatbots](#chatgpt)
        * [Automation](#automation)
        * [Configuration Management](#Configuration-Management)
@@ -443,6 +444,54 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 [Traefik](https://traefik.io/) - Taefik is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
 
 [Varnish](https://www.varnish-cache.org/) - HTTP based web application accelerator focusing on optimizing caching and compression.
+
+### LLMs
+
+[Back to the Top](#table-of-contents)
+
+**Large Language Models (LLMs)** is a language model that uses artificial neural networks to generate text (AI chatbots/search engines). Some notable ones are GPT-3, GPT-4, BLOOM, and LLaMA.
+
+ * [A comprehensive guide to running Llama 2 locally](https://replicate.com/blog/run-llama-locally)
+ * [Leaderboard by lmsys.org](https://chat.lmsys.org/?leaderboard)
+ * [LLM-Leaderboard](https://github.com/LudwigStumpp/llm-leaderboard)
+ * [Open LLM Leaderboard by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+ * [Holistic Evaluation of Language Models (HELM)](https://crfm.stanford.edu/helm/latest/?groups=1)
+
+[llama.cpp](https://github.com/ggerganov/llama.cpp) is a Port of Facebook's LLaMA model in C/C++.
+
+[ollama](https://ollama.ai/) is a tool to get up and running with Llama 2 and other large language models locally.
+
+[LocalAI](https://localai.io/) is a self-hosted, community-driven, local OpenAI-compatible API. Drop-in replacement for OpenAI running LLMs on consumer-grade hardware with no GPU required. It's an API to run ggml compatible models: llama, gpt4all, rwkv, whisper, vicuna, koala, gpt4all-j, cerebras, falcon, dolly, starcoder, and many others.
+ 
+[Serge](https://github.com/serge-chat/serge) is a web interface for chatting with Alpaca through llama.cpp. Fully self-hosted & dockerized, with an easy to use API. 
+
+[OpenLLM](https://github.com/bentoml/OpenLLM) is an open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.
+
+[Llama-gpt](https://github.com/getumbrel/llama-gpt) is a self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. 
+
+[Llama2 webui](https://github.com/liltom-eth/llama2-webui) is a tool to run any Llama 2 locally with gradio UI on GPU or CPU from anywhere (Linux/Windows/Mac). Use `llama2-wrapper` as your local llama2 backend for Generative Agents/Apps. 
+
+[Llama2.c](https://github.com/karpathy/llama2.c) is a tool to Train the Llama 2 LLM architecture in PyTorch then inference it with one simple 700-line C file ([run.c](https://github.com/karpathy/llama2.c/blob/master/run.c)).
+
+[Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) is a fast ChatGPT-like model locally on your device. It combines the [LLaMA foundation model](https://github.com/facebookresearch/llama) with an [open reproduction](https://github.com/tloen/alpaca-lora) of [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) a fine-tuning of the base model to obey instructions (akin to the [RLHF](https://huggingface.co/blog/rlhf) used to train ChatGPT) and a set of modifications to [llama.cpp](https://github.com/ggerganov/llama.cpp) to add a chat interface.
+
+[GPT4All](https://github.com/nomic-ai/gpt4all) is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama).
+
+[MiniGPT-4](https://minigpt-4.github.io/) is an enhancing Vision-language Understanding with Advanced Large Language Models
+
+[LoLLMS WebUI](https://github.com/ParisNeo/lollms-webui) is a the hub for LLM (Large Language Model) models. It aims to provide a user-friendly interface to access and utilize various LLM models for a wide range of tasks. Whether you need help with writing, coding, organizing data, generating images, or seeking answers to your questions.
+
+[LM Studio](https://lmstudio.ai/) is a tool to Discover, download, and run local LLMs.
+
+[Gradio Web UI](https://github.com/oobabooga/text-generation-webui) is a tool for Large Language Models. Supports transformers, GPTQ, llama.cpp (ggml/gguf), Llama models. 
+
+[OpenPlayground](https://github.com/nat/openplayground) is a playfround for running ChatGPT-like models locally on your device.
+
+[Vicuna](https://vicuna.lmsys.org/) is an open source chatbot trained by fine tuning LLaMA. It apparently achieves more than 90% quality of chatgpt and costs $300 to train.
+
+[Yeagar ai](https://github.com/yeagerai/yeagerai-agent) is a Langchain Agent creator designed to help you build, prototype, and deploy AI-powered agents with ease.
+
+[KoboldCpp](https://github.com/LostRuins/koboldcpp) is an easy-to-use AI text-generation software for GGML models. It's a single self contained distributable from Concedo, that builds off llama.cpp, and adds a versatile Kobold API endpoint, additional format support, backward compatibility, as well as a fancy UI with persistent stories, editing tools, save formats, memory, world info, author's note, characters, and scenarios.
 
 ### ChatGPT 
 
