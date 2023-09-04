@@ -1510,6 +1510,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [OSQuery](https://osquery.io/) - Query your servers status and info using a SQL like interface.
 
+[OPNsense](https://opnsense.org/) is an open source firewall and routing software developed by Deciso. It offers an integrated Netflow analyser without the need for additional plugins or tools, similar to what you may find in high-end commercial products.
+
 [pfSense](https://www.pfsense.org/) - Firewall and Router FreeBSD distribution.
 
 [Snort](https://www.snort.org/) - Snort is a free and open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS) created by Martin Roesch in 1998.
