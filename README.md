@@ -1552,6 +1552,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [VictoriaMetrics](https://victoriametrics.com/) is a fast and scalable open source time series database and monitoring solution which exists in a Single and in a cluster version. It is compatible with Prometheus pull model and supports a [wide variety of ingestion protocols](https://docs.victoriametrics.com/#prominent-features): Influx, Graphite, Prometheus remote_write, Prometheus exposion format, OpenTSDB put message, JSON line format, Arbitrary CSV data, native binary formant, DataDog agent or DogStatsD; as way as many ways to query data via PromQL or [MetricsQL](https://docs.victoriametrics.com/MetricsQL.html) from Grafana or own [VMUI](https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html#vmui).
 
+[Kestra](https://github.com/kestra-io/kestra) is an infinitely scalable orchestration and scheduling platform, creating, running, scheduling, and monitoring millions of complex pipelines. 
+
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
 [Grafana](https://grafana.com/oss/grafana/) is a tool that allows you to query, visualize, alert on and understand your metrics no matter where they are stored. 
