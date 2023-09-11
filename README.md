@@ -2563,6 +2563,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Sovereign Feeds](https://sovereignfeeds.com/) is a tool to Search for your podcasts and add them to your favorites.
 
+[IPFS Podcasting](https://ipfspodcasting.net/) is a Decentralized Podcast Distribution over IPFS where you can crowd hosting podcast episodes with storage & bandwidth provided by volunteer nodes. 
+
 [Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
 
 [Vod2Pod-RSS](https://github.com/madiele/vod2pod-rss) is a tool that converts a YouTube or Twitch channel into a podcast with ease. It creates a podcast RSS that can be listened to directly inside any podcast client. VODs are transcoded to MP3 on the fly and no server storage is needed.
