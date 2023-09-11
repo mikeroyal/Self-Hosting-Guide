@@ -1730,6 +1730,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [k8s at home search](https://nanne.dev/k8s-at-home-search/#/) is a tool that indexs Flux HelmReleases from Github repositories with the ```k8s-at-home topic``` on GitHub. 
 
+[OpenFind](https://open.getfind.app/) is an app to find text in real life. Easily search your entire photo library in split seconds. This runs 100% offline. No servers, nothing weird going on.
+
 ### Notifications
 
 [Back to the Top](#table-of-contents)
