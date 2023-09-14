@@ -2489,6 +2489,10 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Frigate](https://frigate.video/) is an open source NVR built around real-time AI object detection. All processing is performed locally on your own hardware, and your camera feeds never leave your home.
 
+[hkcam](https://hochgatterer.me/hkcam/) is an open-source implementation of an HomeKit IP camera. It uses ffmpeg to access the camera stream and publishes the stream to HomeKit using hap. The camera stream can be viewed in a HomeKit app. 
+
+[OpenDataCam](https://opendata.cam/) is an open source tool to quantify the world. It quantifies and tracks moving objects with live video analysis. It is designed to be an accessible, affordable and open-source solution to better understand interactions in urban environments. It never records any photo or video data. The system only saves surveyed meta-data, in particular the path an object moved or number of counted objects at a certain point.
+
 [Viseron](https://github.com/roflcoopter/viseron) is a Self-hosted, local only NVR and AI Computer Vision software. 
 
 [zmninja](http://zmninja.zoneminder.com/) is a high performance, cross platform ionic app for Home/Commerical Security Surveillance using ZoneMinder.
@@ -2497,6 +2501,14 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Shinobi Pro](https://gitlab.com/Shinobi-Systems/Shinobi) is a Next Generation in Open-Source Video Management Software with support for over 6000 IP and USB Cameras.
 
+[WyzeHacks](https://github.com/HclX/WyzeHacks) is a project contains a set of scripts trying to provide additional features not implemented by the official firmware. Currently, it provides the following functions:
+
+  * Enable telnetd on your camera.
+  * Customize the default root password for telnet login.
+  * Redirect all the recordings to an NFS share.
+  * Redirect console logs into an NFS share.
+  * Automatically reboot the camera at certain time.
+  * Automatically archive the recordings.
 
 ### Text-To-Speech Synthesis (TTS)
 
