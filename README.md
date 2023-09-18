@@ -46,6 +46,7 @@
        * [Remote Access](https://github.com/mikeroyal/Self-Hosting-Guide#Remote-Access)
        * [Virtualization](https://github.com/mikeroyal/Self-Hosting-Guide#Virtualization)
        * [Password Management](https://github.com/mikeroyal/Self-Hosting-Guide#password-management)
+       * [SSH](#ssh)
        * [VPN](#vpn)
        * [LDAP(Lightweight Directory Access Protocol)](#ldap)
        * [Log Management](#log-management)
@@ -1292,9 +1293,44 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [pass](https://www.passwordstore.org/) is an open-source unix-based password utilitiy with various [gui clients](https://www.passwordstore.org/#other)
 
+### SSH
+
+[Back to The Top](#table-of-contents)
+
+ * **Secure Shell Protocol (SSH)** is a cryptographic network protocol for operating network services securely over an unsecured network.
+
+[Advanced SSH config](https://pypi.python.org/pypi/advanced-ssh-config/) is a tool that enhances ssh_config file capabilities, completely transparent.
+
+[AutoSSH](https://www.harding.motd.ca/autossh/) is a tool that automatically respawn ssh session after network interruption.
+
+[ContainersSSH](https://containerssh.io/) is an SSH Server that Launches Containers in Kubernetes and Docker on demand.
+
+[Cluster SSH](https://sourceforge.net/projects/clusterssh/) is a tool that controls a number of xterm windows via a single graphical console.
+
+[DSH](https://www.netfort.gr.jp/~dancer/software/dsh.html.en)  is a Dancer's shell / distributed shell - Wrapper for executing multiple remote shell commands from one command line.
+
+[Flightplan](https://github.com/pstadler/flightplan) is a node.js library for streamlining application deployment or systems administration tasks (local and remote hosts).
+
+[Mosh](https://mosh.org/) is a command-line program, like SSH. You can use it inside xterm, gnome-terminal, urxvt, Terminal.app, iTerm, emacs, screen, or tmux.
+
+[Parallel SSH](https://parallel-ssh.org/) is an asynchronous parallel SSH library designed for large scale automation. It differentiates ifself from alternatives, other libraries and higher level frameworks like Ansible or Chef.
+
+[SSH Audit](https://github.com/jtesta/ssh-audit) is a tool for SSH server & client configuration auditing (banner, key exchange, encryption, mac, compression, compatibility, security, etc).
+
+[Sshwifty](https://sshwifty-demo.nirui.org/) is a SSH and Telnet connector made for the Web. It can be deployed on your computer or server to provide SSH and Telnet access interface for any compatible (standard) web browser.
+
+[SSHrc](https://github.com/Russell91/sshrc) is a tool that sources ~/.sshrc on your local computer after logging in remotely.
+
+[StormSSH](https://stormssh.readthedocs.org) is a command line tool to manage SSH connections.
+
+[Tailscale SSH](https://tailscale.com/kb/1193/tailscale-ssh/) is a service that allows Tailscale to manage the authentication and authorization of SSH connections on your tailnet.
+
+
 ### VPN
 
 [Back to The Top](#table-of-contents)
+
+ * **VPN (Virtual Private Network)** is a service that encrypts your internet traffic on unsecured networks to protect your online identity, hide your IP address, and shield your online data from third parties. 
 
 [Wireguard](https://www.wireguard.com/) - New minimal VPN Solution that is very fast.
 
