@@ -28,6 +28,6 @@ repos:
         args:
           # - --builtin=clear,rare,informal,usage,code,names,en-GB_to_en-US
           - --builtin=clear,rare,informal,usage,code,names
-          - --ignore-words-list=aci,master,jupyter,lite,ws,wan,hass,cmak,aks,tim,offen
+          - --ignore-words-list=aci,master,jupyter,lite,ws,wan,hass,cmak,aks,tim,offen,som,iterm
           - --skip="./.*"
           - --quiet-level=2
