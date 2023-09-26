@@ -320,6 +320,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Chisel Kubernetes Operator](https://github.com/FyraLabs/chisel-operator/) is a Kubernetes operator for Chisel. It allows you to use Chisel as a LoadBalancer provider for your Kubernetes cluster, similar to [inlets-operator](https://github.com/inlets/inlets-operator).
 
+[Docker-pgautoupgrade](https://github.com/pgautoupgrade/docker-pgautoupgrade) is a PostgreSQL Docker container that automatically upgrades your database. It's whole purpose in life is to automatically detect the version of PostgreSQL used in the existing PostgreSQL data directory, and automatically upgrade it (if needed) to the required version of PostgreSQL.
+
 [IT-Tools](https://it-tools.tech/) is a collection of handy online tools for developers, with great UX. 
 
 [Lazygit](https://github.com/jesseduffield/lazygit) is a simple terminal UI for git commands, written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
