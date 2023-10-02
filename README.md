@@ -63,6 +63,7 @@
        * [RSS](#RSS)
        * [Websites/Blogs](#WebsitesBlogs)
        * [Social](#Social)
+       * [Nostr](#nostr)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
        * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
@@ -1903,6 +1904,213 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [RedReader](https://github.com/QuantumBadger/RedReader) is an unofficial open source Reddit client for Android. 
 
+
+### Nostr
+
+[Back to the Top](#table-of-contents)
+
+**[Nostr (Notes and Other Stuff Transmitted by Relays)](https://nostr.com/)** is a protocol, designed for simplicity, that aims to create a censorship-resistant global social network. The protocol is based on very simple & flexible event objects (which are passed around as plain JSON) and uses standard elliptic-curve cryptography for keys and signing. 
+
+- [nostr](https://github.com/nostr-protocol/nostr) - overview and FAQ.
+- [NIPs](https://github.com/nostr-protocol/nips) - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail.
+- [nostr, a basic tour](https://github.com/rajarshimaitra/rust-nostr/blob/main/VISION.md) - an intro to nostr.
+- [UseNostr](https://usenostr.org) - A small guide for anyone who wants to learn more about how nostr works and what it can do.
+- [nostr.how](https://nostr.how) - Quick-start to onboard desktop users with Alby & Astral.
+- [nostr.guide](https://nostr.guide) - A guide to all things nostr.
+- [nostr address book](https://github.com/aitechguy/nostr-address-book) - A directory of twitter users accounts and their NOSTR addresses.
+- [NNostr](https://github.com/Kukks/NNostr) - a C# relay.
+- [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) - a minimalistic relay written in Rust that saves data on SQLite.
+- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) - a simple relay based on _relayer_ backed by Postgres.
+- [nodestr](https://github.com/Dolu89/nodestr-relay) - a Node.js implementation.
+- [sovereign-stack](https://www.sovereign-stack.org) - a tool that helps you deploy nostr relays and create self-hosted (bitcoin-only) Value4Value websites.
+- [expensive relay](https://github.com/fiatjaf/expensive-relay) - a relay that requires payment for registration
+- [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay) - a relay written in Clojure
+- [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) - a relay for [Minds](https://www.minds.com), an open-source social network
+  - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) - relevant Minds API code for reading/writing Minds posts using Nostr
+- [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) - a Kotlin Relay supporting both SQLite and Postgresql
+- [nostrpy](https://github.com/monty888/nostrpy) - relay, client, and other tooling in python
+- [nostream](https://github.com/Cameri/nostream) - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
+- [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) – a nostr relay written in python, backed by SQLite
+- [søstr](https://github.com/metasikander/s0str) – a private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
+- [knostr](https://github.com/lpicanco/knostr) – a nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer).
+- [PyRelay](https://github.com/johnny423/pyrelay) – a python implementation of a nostr relay, using asyncio.
+- [strfry](https://github.com/hoytech/strfry) – C++ implementation backed by LMDB with efficient syncing of events using merkle trees
+- [Astro](https://github.com/Nostrology/astro) – Elixir based implementation built to be performant and highly distributed.
+- [Nex](https://github.com/lebrunel/nex) - A powerful and scalable Nostr relay written in Elixir with Postgres DB.
+- [gnost-relay](https://github.com/barkyq/gnost-relay) - nostr relay written in go backed by postgresql database.
+- [nostring](https://github.com/xbol0/nostring) - A Nostr relay written in Deno.
+- [Denostr](https://github.com/guakamoli/denostr) - Deno based, cloud native nostr implemention support by ByteTrade and Revo.
+- [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)- A Nostr relay implemented using the NestJS framework
+- [Ephemerelay](https://gitlab.com/soapbox-pub/ephemerelay) - An in-memory Nostr relay that doesn't store data.
+- [Servus](https://github.com/ibz/servus) - A self-contained, single executable, CMS / blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
+- [nostr relay registry](https://nostr-registry.netlify.app/) - real-time checking of status of some known relays.
+- [nostr.info](https://nostr.info/) - real-time checking of status of some known relays.
+- [nostr.watch](https://nostr.watch) - real-time checking of status of some known relays.
+- [Astral](https://github.com/monlovesmango/astral)![stars](https://img.shields.io/github/stars/monlovesmango/astral.svg?style=social) - a branle fork with global feed and UI makeover
+  - [astral.ninja](https://astral.ninja/)
+  - [client.nostr.guide](https://client.nostr.guide/)
+- [damus](https://github.com/damus-io/damus) - a twitter-like nostr client for iOS and MacOS.
+  - [damus on testflight](https://testflight.apple.com/join/CLwjLxWl)
+- [more-speech](https://github.com/unclebob/more-speech) - desktop client for nostr written in Clojure.
+- [futr](https://github.com/prolic/futr) - nostr client desktop app written in Haskell.
+- [Minds](https://www.minds.com/) - open source social network. Supports reading and creating posts using the Nostr protocol.
+- [Jester](https://github.com/jesterui/jesterui)  - Chess over nostr.
+  - [Jester instance](https://jesterui.github.io/)
+- [Sendstr](https://sendstr.com/) - shared clipboard between devices over nostr.
+- [nosbin](https://nosbin.com/) - pastebin over nostr.
+- [noscl](https://github.com/fiatjaf/noscl) - a basic command-line client written in Go.
+- [loquaz](https://github.com/emeceve/loquaz) - a desktop app written in Rust for direct encrypted chat.
+- [nostr console](https://github.com/vishalxl/nostr_console) - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS.
+- [ArcadeCity](https://github.com/ArcadeCity/app) - Public group chats and P2P services (WIP) over nostr.
+- [second exchange](https://github.com/cynsar-foundation/second.exchange) - an experiment to work out something of like medium, something of creator economy where users are rewarded for engaging in quality discussion and most importantly engaging in governance-related discussion.
+- [scalastr](https://github.com/benthecarman/scalastr) - A barebones nostr client written in scala.
+- [Nostros](https://github.com/KoalaSat/nostros) - A nostr mobile client for Android.
+- [Nostrify.me](https://github.com/lightningorb/nostrify.me) - Nostr client built in SvelteKit.
+  - [Nostrify.me](https://nostrify.me) - Live instance.
+- [NostrEmitter](https://github.com/cmdruid/nostr-emitter) - Simple E2E encrypted client and EventEmitter object
+- [Lightning.Pub](https://github.com/shocknet/Lightning.Pub) - A nostr daemon for Lightning nodes.
+- [shockwallet](https://github.com/shocknet/wallet2) - A Lightning wallet that uses nostr and lnurl to connect to nodes.
+- [coracle](https://github.com/staab/coracle) - A nostr web client.
+- [nostrweb](https://git.qcode.ch/nostr/nostrweb) - another nostr web client in vanilla JS.
+  - [nostr.ch](https://nostr.ch/) - live instance
+- [Bija](https://github.com/BrightonBTC/bija) - A desktop client written in python. Currently Linux only.
+- [Nosky](https://github.com/KotlinGeekDev/Nosky) - A native Android client for Nostr. Still in development.
+- [Stackerstan](https://stackerstan.org) - A decentralised organisation built on Bitcoin and Nostr, implemented as a replicated state machine in Golang.
+- [nostr-java](https://github.com/tcheeric/nostr-java) - A nostr client API written in java, for generating, signing and publishing events to relays.
+- [bolt.fun](https://makers.bolt.fun/feed) - A bitcoin lightning makers community that supports reading and creating comments using Nostr.
+- [iris](https://github.com/irislib/iris-messenger) - A nostr web client.
+  - [iris.to](https://iris.to) - live instance
+  - [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
+- [gossip](https://github.com/mikedilger/gossip) - A desktop client in rust presented with egui.
+- [Attached](https://github.com/dyegolara/nostr-attached) - Open-Source ReactNative Expo app for Nostr (iOS, Android). Currently under app stores review.
+- [Member](https://github.com/memberapp/memberapp.github.io) - Progressive Web App Client. Works on desktop and mobile.
+  - [member.cash](https://member.cash/) - live instance
+- [dispute](https://github.com/ethicnology/dispute) - A cross-platform (Linux, Android, iOS, MacOs, Windows and Web) client for NOSTR
+- [Snort](https://github.com/v0l/snort) - Nostr UI written in react
+  - [snort.social](https://snort.social)
+- [Hamstr](https://github.com/styppo/hamstr) - A twitter-style web client built with Vue.js
+  - [hamstr.to](https://hamstr.to)
+- [Nozzle](https://github.com/kaiwolfram/Nozzle) - A Twitter-like native Android client written with Jetpack Compose
+- [electron-nostr](https://github.com/wds4/electron-react-boilerplate-nostr) - A bare-bones desktop nostr client using electron-react-boilerplate. Goal is to be an easy template for people to experiment with different ideas on decentralized ratings, reputation, and web of trust.
+- [Nostrid](https://github.com/lapulpeta/Nostrid) - Multi-platform client currently offering binaries for Android, Windows, MacOS and Linux.
+  - [Nostrid.Web](https://web.nostrid.app/) - Web version running completely on the browser. It can be installed locally as PWA.
+- [nostr-chat-widget-react](https://www.npmjs.com/package/nostr-chat-widget-react?activeTab=readme) - A React component that provides a live-chat widget over nostr that can be embedded into any website.
+- [Blockcore Notes](https://github.com/block-core/blockcore-notes)  - Progressive Web App that can be installed on mobile and desktop, organize following in circles and have both public and private following lists. Dynamic interface for different uses, such as optimized for photograph viewing.
+  - [notes.blockcore.net](https://notes.blockcore.net/)
+- [Noteon](https://github.com/ShawnCN/cinny_nostsr2/tree/dev)- Yet another nostr client focused on private chat and group chat with a simple, elegant and secure interface.
+  - [nostr.noteon.io](https://nostr.noteon.io/)
+- [emon](https://github.com/sebastiaanwouters/emon) - Encrypted DMs over nostr with lightning payments integrated (WIP).
+  - [emon.chat](https://emon.chat)
+- [notebin.org](https://notebin.org) - Nostr UI created with NextJS, support for markdown and code highlighting.
+- [Daisy](https://github.com/neb-b/daisy) - Mobile client for Android and iOS.
+  - [testflight + android builds](https://neb.lol/nostr)
+- [Flycat](https://github.com/digi-monkey/flycat-web) - A 2000s old-school style web client which support blogging on Nostr.
+- [Amethyst](https://github.com/vitorpamplona/amethyst) - An Android client for nostr written in Kotlin.
+- [MeShell](https://github.com/BEEBSDONE/MeShell_Nodejs) - Web, iOS and Android blog type client destined to publish articles and researches for independent journalists.
+- [Disgus](https://github.com/carlitoplatanito/disgus) - A comment widget like Disqus, but for Nostr.
+- [Tamga](https://github.com/erdaltoprak/tamga) - An offline first nostr contact & profile manager for iOS!
+- [nostromat](https://github.com/ekimber/nostromat)![stars](https://img.shields.io/github/stars/ekimber/nostromat.svg?style=social) - A Twitter-style Nostr web client, written in Clojurescript/React.
+- [nostrom.at](https://nostrom.at) - live instance.
+- [blogstack.io](https://blogstack.io) - Blogging site for nostr, supports markdown.
+- [Votestr](https://votestr.com/) - Poll web app with nostr authentication and blind signature unlinkability.
+- [gnost-deflate-client](https://github.com/barkyq/gnost-deflate-client)- A CLI nostr client written in go implementing permessage-deflate websocket compression.
+- [algia](https://github.com/mattn/algia) - A cli application for nostr.
+- [algia-web](https://github.com/ryogrid/algia-web) - A small resource consumption oriented Nostr web client.
+- [Blowater](https://blowater.deno.dev) - A desktop Web client focusing on chat with delightful UX.
+- [Written](https://github.com/silencesoft/written) Self hosted blog using nostr long-form content (NIP-23) and it shows only posts by selected authors.
+- [Nostr Nests](https://nostrnests.com/) - Nostr Nests is an audio space for chatting, brainstorming, debating, jamming, micro-conferences and more.
+- [nblog](https://github.com/jacany/nblog) - a self-host nostr ghost blog
+- [Nostribe.com](https://github.com/sepehr-safari/nostribe-web-client) - Nostr client web app built with Next.js 13 and TypeScript.
+  - [Nostribe.com](https://nostribe.com/) - Live instance.
+- [Nostrtium](https://github.com/pjv/nostrtium) - Post to Nostr directly from within WordPress
+- [uBlog](https://github.com/nodetec/ublog) - A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.
+  - [u-blog.vercel.app](https://u-blog.vercel.app)
+- [Listr](https://github.com/sepehr-safari/listr) - A Nostr Web Client for Making Lists, built with Next.js 13 and TypeScript.
+  - [Listr-demo.vercel.app](https://listr-demo.vercel.app/) - Live instance.
+
+- [nostr-ruby](https://github.com/dtonon/nostr-ruby) - a Ruby implementation of the nostr protocol.
+- [nostr](https://github.com/wilsonsilva/nostr) - a Ruby Nostr gem for use by clients.
+- [NNostr.Client](https://github.com/Kukks/NNostr) - a C# Nostr library for use by clients.
+- [nostr-tools](https://github.com/fiatjaf/nostr-tools) - a JavaScript client that abstracts the relay management code for use by clients.
+- [nostr-relaypool-ts](https://github.com/adamritter/nostr-relaypool-ts) - a TypeScript relay pool library on top of nostr-tools that simplifies handling subscriptions to multiple servers.
+- [nostr-react](https://github.com/t4t5/nostr-react) - React Hooks for Nostr.
+- [go-nostr](https://github.com/fiatjaf/go-nostr) - a Go library that implements relay management, plus event encoding and signing utils.
+- [nostr_rust](https://github.com/0xtlt/nostr_rust) - Functional Rust implementation of the nostr protocol.
+- [nostr-js](https://github.com/jb55/nostr-js) - a javascript implementation of the nostr protocol.
+- [nostr-rs](https://github.com/futurepaul/nostr-rs) - a Rust implementation of the nostr protocol
+- [nostr](https://github.com/rust-nostr/nostr)
+  - [nostr](https://github.com/rust-nostr/nostr/tree/master/crates/nostr): Rust implementation of Nostr protocol.
+  - [nostr-sdk](https://github.com/rust-nostr/nostr/tree/master/crates/nostr-sdk): High level client library.
+  - [bindings](https://github.com/rust-nostr/nostr/tree/master/bindings): UniFFI (Kotlin, Swift, Python, Ruby) bindings.
+- [relayer](https://github.com/fiatjaf/relayer) - a server framework for writing custom relays.
+- [NostrPostr](https://github.com/Giszmo/NostrPostr) - a Kotlin Nostr library for clients or relays.
+- [python-nostr](https://github.com/jeffthibault/python-nostr) - a python library for making clients.
+- [nostr-bot](https://github.com/slaninas/nostr-bot) - a Rust library for writing bots.
+- [NostrKit](https://github.com/cnixbtc/NostrKit) - a Swift library for interacting with relays.
+- [nostr-relay-inspector](https://github.com/dskvr/nostr-relay-inspector) - A library that returns useful information about relays based on nostr-js.
+- [schorr_snap](https://github.com/neeboo/schnorr_snap) - A snap plugin for Metamask Flask, supports nostr.
+- [nostr-deno](https://github.com/KiPSOFT/nostr-deno) - a client library for Deno javascript runtime.
+- [nostr-types](https://github.com/mikedilger/nostr-types) - a rust library defining types useful for the nostr protocol.
+- [dart-nostr](https://github.com/ethicnology/dart-nostr) - a Dart library for Flutter.
+- [nostr-connect](https://github.com/nostr-connect/connect) - Nostr Connect SDK for TypeScript is a library that allows you to easily integrate Nostr Connect into your web application.
+- [pynostr](https://github.com/holgern/pynostr) - a python library for nostr.
+- [nostr-php](https://github.com/swentel/nostr-php) - a PHP library for nostr.
+- [smtp nostr gateway ](https://github.com/Cameri/smtp-nostr-gateway) - a bridge that forwards emails to pubkeys as encrypted direct messages.
+- [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge) - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge.
+- [Mostr](https://gitlab.com/soapbox-pub/mostr) - a bridge between Nostr and the Fediverse (Mastodon, ActivityPub, etc.).
+- [nostrich.fun](https://nostrich.fun) - A feature-rich directory of nostr projects. A fork of [LightningNetworkStores.com](https://lightningnetworkstores.com)
+- [git-nostr-tools](http://git.jb55.com/git-nostr-tools) - A cli tool for sending code patches over nostr.
+- [nostr-cln-events](http://git.jb55.com/nostr-cln-events) - A CLN plugin to push clightning node events to nostr.
+- [nostr registry](https://codeberg.org/rsbondi/nostr-registry) - a database of known relays with their uptime and NIP support tables
+- [nostr-fzf](https://github.com/Cameri/nostr-fzf) - Nostr Directory; a tool for searching usernames and channels.
+- [nostr-notify](https://github.com/jb55/nostr-notify) - desktop nostr notifications using libnotify.
+- [nostr-launch](https://codeberg.org/rsbondi/nostr-launch) - A tool for launching a bunch of relays and clients locally for development and testing.
+- [nostr GitHub Action](https://github.com/theborakompanioni/nostr-action) - send events from GitHub Actions.
+- [nostrefresh](https://github.com/melvincarvalho/nostrefresh) -  A simple refresh function for nostr web pages.
+- [anonroom](https://github.com/vinliao/anonroom) - anonymous chat room inside nostr.
+- [nostril](https://github.com/jb55/nostril) - A C cli tool for creating nostr events.
+- [nostr-rs-relay-compose](https://github.com/vdo/nostr-rs-relay-compose) - A Docker compose deployment for nostr-rs-relay with SSL support based on Traefik.
+- [nostr.guru](https://nostr.guru/) - a nostr web gateway for viewing events by their ID.
+- [nostrandom.netlify.app](https://nostrandom.netlify.app/) - generate publish-able Nostr event with random keys.
+- [nashboard](https://github.com/vinliao/nashboard) - A Nostr network dashboard with network statistics, reachable [here](https://nashboard.space/).
+- [ndxstr](https://github.com/ArcadeCity/ndxstr) - nostr's layer 2 indexing nodes, with more advanced querying capability than currently supported by relays.
+- [nostrillery](https://github.com/Cameri/nostrillery) - A tool for running performance tests against Nostr relays.
+- [nostr-terminal](https://github.com/cmdruid/nostr-terminal) - A SSH-like access to your machine via web terminal, powered by Nostr.
+- [nostreq](https://github.com/blakejakopovic/nostreq) - A Nostr relay event request generator.
+- [nostr.io](https://nostr.io/) - A network statistics with last published notes, top 50 publishers, and top 50 followed users.
+- [nostr-commander](https://github.com/8go/nostr-commander-rs) - A simple but convenient CLI-based Nostr app for following users, sending DMs, etc.
+- [nostr.directory](https://github.com/pseudozach/nostr.directory) - A searchable database of nostr users and their other social media links.
+- [nostr-tool](https://github.com/0xtrr/nostr-tool) - A Rust CLI tool to generate and publish events.
+- [frostr](https://github.com/nickfarrow/frostr) - Create joint nostr identities and require t-of-n signatures to post.
+- [nostr.rest](https://nostr.rest) - Mine proof of work public keys with user specified prefixes.
+- [lnpass](https://lnpass.github.io) - A key manager for Lightning and nostr.
+- [sb.nostr.band](https://sb.nostr.band) - Search bots that you can create and follow to receive new posts matching a keyword right into your feed.
+- [rss.nostr.band](https://rss.nostr.band) - Create custom RSS feeds with posts matching your keywords and consume using your favorite RSS reader.
+- [nostrview](https://nostrview.com) - A nostr search engine. Search by content, tags, events or pub keys.
+- [nostr-bulk-dms](https://github.com/leesalminen/nostr-bulk-dm) - A tool that allows you to send DMs over nostr to many recipients in bulk.
+- [nostrify](https://github.com/joelklabo/nostrify) - A Core Lightning plugin that sends events (forwards, connect, disconnect, etc.) to nostr.
+- [nip06-web](https://github.com/jaonoctus/nip06-web) - a website to generate or restore NIP-06 seed phrases
+  - [nip06.jaonoct.us](https://nip06.jaonoct.us) - by jaonoctus
+- [nip06-cli](https://github.com/jaonoctus/nip06-cli) - a Node.js CLI to generate or restore NIP-06 seed phrases.
+- [nostr-broadcast](https://github.com/leesalminen/nostr-broadcast) - A tool lets you take your events from some relays and broadcast them to another relay. Could be helpful for backing up your notes to a private relay.
+- [nostr-follow-bundler](https://github.com/leesalminen/nostr-follow-bundler) - A tool lets you create lists of profiles that other users can then see and follow themselves.
+- [nostr-proxy](https://github.com/dolu89/nostr-proxy) - Push and get events to your Proxy, get results from multiple Nostr relays.
+- [nostrends](https://github.com/akiomik/nostrends) - Trending on Nostr, like Twitter trends. Live at [nostrends.vercel.app](https://nostrends.vercel.app).
+- [homebrew-nostr](https://github.com/0xbabo/homebrew-nostr) - Homebrew tap for Nostr software.
+- [heyxynip5](https://github.com/bennyhodl/hexynip5) - A CLI helper for converting nostr npub/nsec to their hex format for NIP-05 verification.
+- [http-nostr-publisher](https://github.com/getAlby/http-nostr-publisher) - A Cloudflare worker to publish Nostr events to relays through a non-blocking HTTP interface .
+- [blastr](https://github.com/MutinyWallet/blastr) - A nostr cloudflare workers proxy relay that publishes to all known relays.
+- [keystr-rs](https://github.com/keystr/keystr-rs) - An application for managing Nostr keys. Written in Rust, with simple UI (Iced).
+- [nostr_simple_publish](https://www.drupal.org/project/nostr_simple_publish/)- Drupal module to publish content to Nostr.
+- [nostr-spam-detection](https://github.com/blakejakopovic/nostr-spam-detection)![stars](https://img.shields.io/github/stars/blakejakopovic/nostr-spam-detection.svg?style=social) - An experiment in building a machine learning model to label Nostr spam content for filtering and relay rejection.
+- [blogsync](https://github.com/canostrical/blogsync) - Self-host blog articles from long-form notes e.g. via Caddy server.
+- [NostrFlu](https://heguro.github.io/nostr-following-list-util/) - A tool to collect and resend following lists from relays. You can also check badges.
+- [nkcli](https://github.com/mdzz-club/nkcli) - A CLI tool for nostr key manage and serve NIP-46.
+- [git-nostr](https://github.com/colealbon/git-nostr)- A tool to enhance git cli with nostr communications.
+- [nostr-wtf](https://github.com/LightningK0ala/nostr-wtf) - A set of nostr tools available and deployed on a web app including a [pubkey converter](https://lightningk0ala.github.io/nostr-wtf/) and [relay query tool](https://lightningk0ala.github.io/nostr-wtf/query).
+- [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)- A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
+- [nostrum](https://github.com/nostr-connect/nostrum) - Nostrum it's a mobile app that allows you to sign transactions and messages with your Nostr keys. Nostrum is the reference implementation for a remote signer app (ie. Wallet) of the Nostr Connect protocol.
+- [nostr-signing-device](https://github.com/lnbits/nostr-signing-device) - Signing device for Nostr built on ESP32.
 
 ### Communications
 
