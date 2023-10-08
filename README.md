@@ -2908,6 +2908,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [MapTiler Server](https://www.maptiler.com/server/self-host-satellite-maps/) is a self-hosted Aerial and satellite imagery maps of the entire world from your own server or laptop.
 
+[GPSLogger](https://gpslogger.app/) is a GPS tool that uses the GPS capabilities of your Android phone to log coordinates to GPS format files at regular intervals. This can be particularly useful if you want to geotag your photos after a day out or share your travel route with someone. 
+
 [KelperJs](http://keplerjs.io/) is a open source full-stack geosocial network platform.
 
 [OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
