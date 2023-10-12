@@ -435,6 +435,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Apache](https://httpd.apache.org/) - Most popular web server.
 
+[Beakon](https://github.com/RealDudePerson/beakon) - A self-host location sharing webserver. Beakon aims to leak as little data as possible and uses mostly self-contained libraries and local database files. Where possible, it will reference local files and not reach out over any network. 
+
 [Caddy](https://caddyserver.com/) - The HTTP/2 Web Server with Fully Managed TLS.
 
 [Cherokee](https://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
