@@ -3651,7 +3651,7 @@ Red Hat Enterprise Linux Desktop
   <br />
 </p>
 
-**GhostBSD Desktop. Source:[GhostBSD](https://www.ghostbsd.org/)**
+**GhostBSD Desktop. Source: [GhostBSD](https://www.ghostbsd.org/)**
 
 
 ### Storage
