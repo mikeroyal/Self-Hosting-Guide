@@ -1839,7 +1839,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [October](https://octobercms.com/) is a Self-hosted Content Management System (CMS) and web platform whose sole purpose is to make your development workflow simple again. 
 
-[Grav](https://getgrav.org/) is a Fast, Simple, and Flexible, file-based Web-platform. There is Zero installation required. Just extract the ZIP archive, and you are already up and running. It omes with a powerful Package Management System to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
+[Grav](https://getgrav.org/) is a Fast, Simple, and Flexible, file-based Web-platform. There is Zero installation required. Just extract the ZIP archive, and you are already up and running. It comes with a powerful Package Management System to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
 
 [Orchard](https://github.com/OrchardCMS/Orchard) is a free, open source, community-focused Content Management System built on the ASP.NET MVC platform.
 
