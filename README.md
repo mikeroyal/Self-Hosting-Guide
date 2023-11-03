@@ -2711,6 +2711,24 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
+[$13 voice assistant remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
+
+[Wyoming](https://github.com/rhasspy/wyoming) is a peer-to-peer protocol for voice assistants (basically [JSONL](https://jsonlines.org/) + PCM audio). It's used in [Rhasspy](https://github.com/rhasspy/rhasspy3/) and the [Home Assistant](https://www.home-assistant.io/integrations/wyoming) for communication with voice services.
+
+[Wyoming Faster Whisper](https://github.com/rhasspy/wyoming-faster-whisper) is a Wyoming protocol server for the faster-whisper speech to text system.
+
+[Wyoming Porcupine1](https://github.com/rhasspy/wyoming-porcupine1) is a Wyoming protocol server for the porcupine1 wake word detection system.
+
+[Wyoming Snowboy](https://github.com/rhasspy/wyoming-snowboy) is a Wyoming protocol server for the snowboy wake word detection system.
+
+[faster-whisper](https://github.com/guillaumekln/faster-whisper/) is a reimplementation of OpenAI's Whisper model using [CTranslate2](https://github.com/OpenNMT/CTranslate2/), which is a fast inference engine for Transformer models.
+
+[Porcupine](https://github.com/Picovoice/porcupine) is a highly-accurate and lightweight wake word engine. It enables building always-listening voice-enabled applications. It uses deep neural networks trained in real-world environments.
+
+[Rhasspy](https://github.com/rhasspy/rhasspy3/) is an open source voice assistant toolkit for many human languages.
+
+[openWakeWord](https://github.com/dscripka/openWakeWord) is an open-source wakeword library that can be used to create voice-enabled applications and interfaces. It includes pre-trained models for common words & phrases that work well in real-world environments.
+
 [Conversation](https://www.home-assistant.io/integrations/conversation) is an integration allows you to converse with **Home Assistant.** You can either converse by pressing the microphone in the frontend (supported browsers only (no iOS)) or by calling the ```conversation/process``` service with the transcribed text.
 
 [Piper](https://github.com/rhasspy/piper/) is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
