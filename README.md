@@ -3364,6 +3364,7 @@ Also, I recommend using **[Intel® QuickAssist Technology (Intel® QAT)](https:/
  * [Asustor DriveStor 4 NAS](https://www.asustor.com/product?p_id=71)
  * [TRENDnet TEG-S350 (2.5 GbE) Switch](https://www.amazon.com/TRENDnet-2-5GBASE-T-Compatible-10-100-1000Mbps-TEG-S350/dp/B08XWK4HNT)
  * [Storinator™](https://www.45drives.com/products/storage/) is a line of Ultra-Large, Direct-Wired storage Servers by [45Drives](https://www.45drives.com/).
+ * [HL15 from 45HomeLab](https://store.45homelab.com/configure/hl15) is an open-source, open-platform, 15-bay homelab server. The HL15 features enterprise architecture and strength brought to a scale that works for the homelab. The server's direct-wired architecture can provide blazing fast transfer speed of up to 2GB per second. 
  * [LattePanda Sigma](https://www.lattepanda.com/lattepanda-sigma) is a powerful and compact x86 Windows single board computer (SBC). It features the 13th Intel® Core™ i5-1340P Rapter Lake (12-Core, 16-Thread) processor and 16GB Dual-Channel LPDDR5-6400MHz memory.
  * [Apex Storage X21](https://www.apexstoragedesign.com/apexstoragex21) is a storage solution that gives you have the freedom to choose system hardware thatworks best for you with the following benefits.
     * Host 21 x M.2 Gen 4 NVME SSD’s
