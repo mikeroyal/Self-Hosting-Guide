@@ -3680,7 +3680,9 @@ Red Hat Enterprise Linux Desktop
 ### Storage
 
  [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
- 
+
+  -[Storage Reference Guide by Storage Review](https://www.storagereview.com/storage-reference-guide)
+  
   - [Western Digital Hard Drives Storage size range 2TB up to 20TB](https://www.westerndigital.com/c/internal-drives.0_TB-4_TB.11_TB-20_TB.5_TB-10_TB.hard_drives)
  
   - [Seagate Hard Drives Storage size range 2TB up to 18TB](https://www.seagate.com/internal-hard-drives/hdd/)
@@ -3871,6 +3873,8 @@ Red Hat Enterprise Linux Desktop
   - [Deploy Your Self-Hosted Mattermost Server](https://mattermost.com/deploy/)
   
   - [Monitor your Internet with a Raspberry Pi by Jeff Geerling](https://www.jeffgeerling.com/blog/2021/monitor-your-internet-raspberry-pi)
+
+  -[Storage Reference Guide by Storage Review](https://www.storagereview.com/storage-reference-guide)
   
   - [NextCloud Migration Guide](https://nextcloud.com/migration/)
   
