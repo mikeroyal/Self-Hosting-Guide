@@ -1583,6 +1583,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
 
+[Selfspy](https://github.com/selfspy/selfspy) is a daemon for Unix/X11, MacOS (thanks to @ljos) and Windows (thanks to @Foxboron), that continuously monitors and stores what you are doing on your computer. This way, you can get all sorts of nifty statistics and reminders on what you have been up to.
+
 [Cilium](https://github.com/cilium/cilium) - A networking, observability, and security solution with an eBPF-based dataplane. It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native routing or overlay mode.
 
 [Netshoot](https://github.com/nicolaka/netshoot) - A  Docker + Kubernetes network trouble-shooting swiss-army container.
