@@ -1416,6 +1416,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Knot](https://www.knot-dns.cz/) - High performance authoritative-only DNS server.
 
+[Lexicon](https://github.com/AnalogJ/lexicon) is a tool that provides a way to manipulate DNS records on multiple DNS providers in a standardized way.
+
 [NSD](http://www.nlnetlabs.nl/projects/nsd/) - Authoritative only, high performance, simple name server.
 
 [PowerDNS](https://www.powerdns.com/) - DNS server with a variety of data storage back-ends and load balancing features.
