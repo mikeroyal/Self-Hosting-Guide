@@ -2231,6 +2231,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) is an encryption program that provides cryptographic privacy and authentication for data communication. It's used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. 
 
+[Deadbolt](https://github.com/alichtman/deadbolt) is a Dead-simple file encryption for any OS.
+
 [Infisical](https://infisical.com/) is an open-source, end-to-end encrypted platform to sync secrets and configs across your team and infrastructure. 
 
 [Hemmelig.app](https://github.com/HemmeligOrg/Hemmelig.app) is a tool that keeps your sensitive information out of chat logs, emails, and more with encrypted secrets. 
