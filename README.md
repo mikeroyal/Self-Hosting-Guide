@@ -64,6 +64,7 @@
        * [Websites/Blogs](#WebsitesBlogs)
        * [Social](#Social)
        * [Nostr](#nostr)
+       * [iMessage](#imessage)
        * [Communications](https://github.com/mikeroyal/Self-Hosting-Guide#communications)
        * [Business Management](https://github.com/mikeroyal/Self-Hosting-Guide#business-management)
        * [Collaboration & Synchronization](https://github.com/mikeroyal/Self-Hosting-Guide#Collaboration--Synchronization)
@@ -2105,6 +2106,25 @@ Minio's test-server called "play" is already configured in the default client, y
 - [strfry policies](https://gitlab.com/soapbox-pub/strfry-policies)- A collection of moderation & antispam policies for the strfry relay developed in TypeScript/Deno.
 - [nostrum](https://github.com/nostr-connect/nostrum) - Nostrum it's a mobile app that allows you to sign transactions and messages with your Nostr keys. Nostrum is the reference implementation for a remote signer app (ie. Wallet) of the Nostr Connect protocol.
 - [nostr-signing-device](https://github.com/lnbits/nostr-signing-device) - Signing device for Nostr built on ESP32.
+
+### iMessage
+
+[Back to the Top](#table-of-contents)
+
+ * [Beeper HitHub](https://github.com/beeper)
+ * [iMessage - Getting Started Guide - Beeper](https://help.beeper.com/chat-networks/imessage)
+ 
+[iMessage-exporter](https://github.com/ReagentX/imessage-exporter) is a binary exports iMessage data to txt or html formats. It can also run diagnostics to find problems with the iMessage database.
+
+[pypush](https://github.com/JJTech0130/pypush) is a POC demo of my recent iMessage reverse-engineering. It can currently register as a new device on an Apple ID, set up encryption keys, and send and receive iMessages!
+
+[Self-Host Beeper](https://github.com/beeper/self-host) is a self-hosted universal chat app that can chat with your friends on iMessage from your Android device using your phone number. You can also join iMessage Group Chats with your phone number and blue bubbles, and share full-resolution images, videos, and audio. 
+
+[Beeper Mini](https://help.beeper.com/beeper-mini/beeper-mini-getting-started-guide-site) is an Andorid app that can chat with your friends on iMessage from your Android device using your phone number. You can also join iMessage Group Chats with your phone number and blue bubbles, and share full-resolution images, videos, and audio.
+
+[Beeper Bridge Manager](https://github.com/beeper/bridge-manager) is a tool for running self-hosted bridges with the Beeper Matrix server. 
+
+[Matrix Ansible and Docker Deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) is a Matrix (An open network for secure, decentralized communication) server setup using Ansible and Docker.
 
 ### Communications
 
