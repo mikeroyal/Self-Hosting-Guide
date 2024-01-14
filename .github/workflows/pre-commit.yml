@@ -1,0 +1,66 @@
+---
+name: pre-commit
+on:
+  pull_request:
+  push:
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    env:
+      LOG_TO_CS: .github/logToCs.py
+      RAW_LOG: pre-commit.log
+      CS_XML: pre-commit.xml
+    steps:
+      - name: Install required tools
+        run: sudo apt-get update && sudo apt-get install cppcheck
+        if: false
+      # Checkout git sources to analyze
+      - uses: actions/checkout@v4
+      # Needed to ensuire expected file exists
+      - name: Create requirements.txt if no requirements.txt or pyproject.toml
+        run: |-
+          [ -r requirements.txt ] || [ -r pyproject.toml ] || touch requirements.txt
+      # Install python and pre-commit tool
+      - uses: actions/setup-python@v4
+        with:
+          cache: pip
+          python-version: '3.11'
+      - run: python -m pip install pre-commit
+      # Restore previous cache of precommit
+      - uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/pre-commit/
+          key: pre-commit-4|${{ env.pythonLocation }}|${{ hashFiles('.pre-commit-config.yaml') }}
+      # Run all the precommit tools (defined into pre-commit-config.yaml). We can force exclusion of some of them here.
+      - name: Run pre-commit hooks
+        env:
+          # SKIP is used by pre-commit to not execute certain hooks
+          SKIP: mdformat
+        run: |
+          set -o pipefail
+          pre-commit gc
+          pre-commit run --show-diff-on-failure --color=always --all-files | tee ${RAW_LOG}
+
+      - name: Convert Raw Log to Annotations
+        uses: mdeweerd/logToCheckStyle@v2024.2.9
+        if: ${{ failure() }}
+        with:
+          in: ${{ env.RAW_LOG }}
+
+      # Save the precommit cache
+      - uses: actions/cache/save@v4
+        if: ${{ ! cancelled() }}
+        with:
+          path: ~/.cache/pre-commit/
+          key: pre-commit-4|${{ env.pythonLocation }}|${{ hashFiles('.pre-commit-config.yaml')
+            }}
+      # Upload result log files of precommit into the Artifact shared store
+      - name: Provide log as artifact
+        uses: actions/upload-artifact@v3
+        if: ${{ always() }}
+        with:
+          name: precommit-logs
+          path: |
+            ${{ env.RAW_LOG }}
+            ${{ env.CS_XML }}
+          retention-days: 2
