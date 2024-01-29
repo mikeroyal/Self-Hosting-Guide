@@ -496,7 +496,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [LM Studio](https://lmstudio.ai/) is a tool to Discover, download, and run local LLMs.
 
-[Ava PLS](https://lmstudio.ai/) small, all-in-one desktop app to run LLMs locally.
+[Ava PLS](https://www.avapls.com/) small, all-in-one desktop app to run LLMs locally.
 
 [Gradio Web UI](https://github.com/oobabooga/text-generation-webui) is a tool for Large Language Models. Supports transformers, GPTQ, llama.cpp (ggml/gguf), Llama models. 
 
