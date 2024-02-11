@@ -3048,6 +3048,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Librephotos Docker](https://github.com/LibrePhotos/librephotos-docker) is the Dockerfiles for the automated build process of LibrePhotos.
 
+[OneFolder](https://github.com/OneFolderApp/OneFolder) is a Desktop app to sort your images the same way you would in Google Photos, but locally, no need to run a server (and compatible with NAS).
+
 ### Pastebins
 
 [Back to the Top](#table-of-contents)
