@@ -1871,7 +1871,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Mattermost](https://mattermost.com/) is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
 
-[Mastadon](https://joinmastodon.org/) is a a decentralized social media platform that supports audio, video and picture posts, accessibility descriptions, polls, content warnings, animated avatars, custom emojis, thumbnail crop control, and more, to help you express yourself online.
+[Mastodon](https://joinmastodon.org/) is a a decentralized social media platform that supports audio, video and picture posts, accessibility descriptions, polls, content warnings, animated avatars, custom emojis, thumbnail crop control, and more, to help you express yourself online.
 
 [Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
 
