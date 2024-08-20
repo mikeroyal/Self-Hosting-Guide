@@ -2120,7 +2120,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Self-Host Beeper](https://github.com/beeper/self-host) is a self-hosted universal chat app that can chat with your friends on iMessage from your Android device using your phone number. You can also join iMessage Group Chats with your phone number and blue bubbles, and share full-resolution images, videos, and audio. 
 
-[Beeper Mini](https://help.beeper.com/beeper-mini/beeper-mini-getting-started-guide-site) is an Andorid app that can chat with your friends on iMessage from your Android device using your phone number. You can also join iMessage Group Chats with your phone number and blue bubbles, and share full-resolution images, videos, and audio.
+[Beeper Mini](https://help.beeper.com/beeper-mini/beeper-mini-getting-started-guide-site) is an Android app that can chat with your friends on iMessage from your Android device using your phone number. You can also join iMessage Group Chats with your phone number and blue bubbles, and share full-resolution images, videos, and audio.
 
 [Beeper Bridge Manager](https://github.com/beeper/bridge-manager) is a tool for running self-hosted bridges with the Beeper Matrix server. 
 
