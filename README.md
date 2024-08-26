@@ -3145,9 +3145,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
-[ActivityWatch](https://activitywatch.net) isn app that automatically tracks how you spend time on your devices.
+[ActivityWatch](https://activitywatch.net) is an app that automatically tracks how you spend time on your devices.
 
 [Kimai](https://www.kimai.org/)  is a free & open source timetracker. It tracks work time and prints out a summary of your activities on demand. 
+
+[Solidtime](https://www.solidtime.io/) is an open source time tracking software for individuals and teams, with a modern user interface and reporting.
 
 [TimeTagger](https://timetagger.app) is an open source time-tracker based on an interactive timeline and powerful reporting. 
 
