@@ -2198,6 +2198,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [InvoicePlane](https://www.invoiceplane.com/) is a self-hosted open source application for managing your quotes, invoices, clients and payments.
 
+[FreeATS](https://www.freeats.com/) - An open source applicant tracking system with self-hosting capabilities. It provides job management, resumes parsing and storage, candidate tracking with interaction history, feedback and rating systems for candidates.
+
 ### Collaboration & Synchronization
 
 [Back to the Top](#table-of-contents)
