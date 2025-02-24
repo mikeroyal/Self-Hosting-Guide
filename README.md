@@ -316,7 +316,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [OTF](https://github.com/leg100/otf) is an open source alternative to Terraform Enterprise. Includes SSO, team management, agents, and as many applies as you can throw hardware at.
 
-[Ansible Semaphore](https://github.com/ansible-semaphore/semaphore) is a modern UI for Ansible. It lets you easily run Ansible playbooks, get notifications about fails, control access to deployment system.
+[Semaphore UI](https://github.com/ansible-semaphore/semaphore) is a modern UI for Ansible. It lets you easily run Ansible playbooks, get notifications about fails, control access to deployment system.
 
 [APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. 
 
