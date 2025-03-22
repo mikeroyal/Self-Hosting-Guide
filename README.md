@@ -200,7 +200,7 @@
 
 [Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).  
 
-Most self-hosted software can be installed using [Docker](https://en.wikipedia.org/wiki/Docker_(software)), a packaging system which allows software to bundle their configuration and dependencies and isolate them from your operating system.  Software using docker can be installed using the command line or via graphical interfaces such as [Portainer](https://github.com/portainer/portainer).  Software is installed with Docker by downloading an image file containing the application, then creating a copy that sets up its own dependencies and configuration within what is called a container.  Without containers you would often need to install different versions of the same programming languages or tools to satisfy the dependencies for the software you want to use which can get complicated.
+Most self-hosted software can be installed using [Docker](https://en.pedia.org//Docker_(software)), a packaging system which allows software to bundle their configuration and dependencies and isolate them from your operating system.  Software using docker can be installed using the command line or via graphical interfaces such as [Portainer](https://github.com/portainer/portainer).  Software is installed with Docker by downloading an image file containing the application, then creating a copy that sets up its own dependencies and configuration within what is called a container.  Without containers you would often need to install different versions of the same programming languages or tools to satisfy the dependencies for the software you want to use which can get complicated.
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/152699308-36691800-8078-4af3-9d5c-711da4e9b26e.png">
@@ -352,7 +352,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Bonobo Git Server](https://bonobogitserver.com/) - Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface. 
 
-[Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) - Distributed version control system featuring wiki and bug tracker. 
+[Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.) - Distributed version control system featuring  and bug tracker. 
 
 [Gerrit](https://www.gerritcodereview.com/) - A code review and project management tool for Git based projects. 
 
@@ -1038,7 +1038,7 @@ Minio's test-server called "play" is already configured in the default client, y
   <br />
 </p>
 
-**[SQL](https://en.wikipedia.org/wiki/SQL)** is a standard language for storing, manipulating and retrieving data in relational databases.
+**[SQL](https://en.pedia.org//SQL)** is a standard language for storing, manipulating and retrieving data in relational databases.
 
 [Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative. 
 
@@ -1080,7 +1080,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [InfluxDB](https://www.influxdata.com/) is an open source time series platform.  This includes APIs for storing and querying data, processing it in the background for [ETL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) or monitoring and alerting purposes, user dashboards, Internet of Things sensor data, and visualizing and exploring the data and more. It also has support for processing data from [Graphite](http://graphiteapp.org/).
 
-[Atlas](https://github.com/Netflix/atlas) is an in-memory dimensional [time series database](https://en.wikipedia.org/wiki/Time_series_database).
+[Atlas](https://github.com/Netflix/atlas) is an in-memory dimensional [time series database](https://en.pedia.org//Time_series_database).
 
 [dbWatch](https://www.dbwatch.com/) is a complete database monitoring/management solution for SQL Server, Oracle, PostgreSQL, Sybase, MySQL and Azure. Designed for proactive management and automation of routine maintenance in large scale on-premise, hybrid/cloud database environments.
 
@@ -1143,7 +1143,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [FoundationDB](https://www.foundationdb.org/) is an open source distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. FoundationDB was acquired by [Apple in 2015](https://techcrunch.com/2015/03/24/apple-acquires-durable-database-company-foundationdb/).
 
-[CouchbaseDB](https://www.couchbase.com/) is an open source distributed [multi-model NoSQL document-oriented database](https://en.wikipedia.org/wiki/Multi-model_database). It creates a key-value store with managed cache for sub-millisecond data operations, with purpose-built indexers for efficient queries and a powerful query engine for executing SQL queries.
+[CouchbaseDB](https://www.couchbase.com/) is an open source distributed [multi-model NoSQL document-oriented database](https://en.pedia.org//Multi-model_database). It creates a key-value store with managed cache for sub-millisecond data operations, with purpose-built indexers for efficient queries and a powerful query engine for executing SQL queries.
 
 [MongoDB](https://www.mongodb.com/) is a document database meaning it stores data in JSON-like documents. 
 
@@ -1163,7 +1163,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
 
-[X2Go](https://wiki.x2go.org/) is open source remote desktop software for Linux that uses a modified NX 3 protocol. It gives remote access to a Linux system's GUI.
+[X2Go](https://.x2go.org/) is open source remote desktop software for Linux that uses a modified NX 3 protocol. It gives remote access to a Linux system's GUI.
 
 [Apache Guacamole](https://guacamole.apache.org/) is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.
 
@@ -1203,7 +1203,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [HVM (Hardware Virtual Machine)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/virtualization_types.html) is a virtualization type that provides the ability to run an operating system directly on top of a virtual machine without any modification, as if it were run on the bare-metal hardware.
 
-[PV(ParaVirtualization)](https://wiki.xenproject.org/wiki/Paravirtualization_(PV)) is an efficient and lightweight virtualization technique introduced by the Xen Project team, later adopted by other virtualization solutions. PV does not require virtualization extensions from the host CPU and thus enables virtualization on hardware architectures that do not support Hardware-assisted virtualization.
+[PV(ParaVirtualization)](https://.xenproject.org//Paravirtualization_(PV)) is an efficient and lightweight virtualization technique introduced by the Xen Project team, later adopted by other virtualization solutions. PV does not require virtualization extensions from the host CPU and thus enables virtualization on hardware architectures that do not support Hardware-assisted virtualization.
 
 [Network functions virtualization (NFV)](https://www.vmware.com/topics/glossary/content/network-functions-virtualization-nfv) is the replacement of network appliance hardware with virtual machines. The virtual machines use a hypervisor to run networking software and processes such as routing and load balancing. NFV allows for the separation of communication services from dedicated hardware, such as routers and firewalls. This separation means network operations can provide new services dynamically and without installing new hardware. Deploying network components with network functions virtualization only takes hours compared to months like with traditional networking solutions.
 
@@ -1413,7 +1413,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [djbdns](http://cr.yp.to/djbdns.html) - A collection of DNS applications, including tinydns.
 
-[Designate](https://wiki.openstack.org/wiki/Designate) - DNS REST API that support several DNS servers as its backend.
+[Designate](https://.openstack.org//Designate) - DNS REST API that support several DNS servers as its backend.
 
 [Knot](https://www.knot-dns.cz/) - High performance authoritative-only DNS server.
 
@@ -1441,7 +1441,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Eclipse Mosquitto](https://github.com/eclipse/mosquitto) is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the [MQTT](https://mqtt.org/) protocol. 
 
-[Ejabberd](https://ejabberd.im/) is an open-source, robust, scalable and extensible realtime platform built using [Erlang/OTP](https://www.erlang.org/), that includes [XMPP](https://xmpp.org/) Server, [MQTT](https://mqtt.org/) Broker and [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) Service.
+[Ejabberd](https://ejabberd.im/) is an open-source, robust, scalable and extensible realtime platform built using [Erlang/OTP](https://www.erlang.org/), that includes [XMPP](https://xmpp.org/) Server, [MQTT](https://mqtt.org/) Broker and [SIP](https://en.pedia.org//Session_Initiation_Protocol) Service.
 
 [Nebula](https://github.com/slackhq/nebula) is a scalable overlay networking tool with a focus on performance, simplicity and security. It lets you seamlessly connect computers anywhere in the world. Nebula is portable, and runs on Linux, OSX, Windows, iOS, and Android. It can be used to connect a small number of computers, but is also able to connect tens of thousands of computers.
 
@@ -1467,7 +1467,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
-[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.pedia.org//DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
 [OWASP Amass](https://owasp.org/www-project-amass/) is a tool that performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
 
@@ -1557,7 +1557,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Denyhosts](http://denyhosts.sourceforge.net/) - Thwart SSH dictionary based attacks and brute force attacks.
 
-[Fail2Ban](http://www.fail2ban.org/wiki/index.php/Main_Page) - Scans log files and takes action on IPs that show malicious behavior.
+[Fail2Ban](http://www.fail2ban.org//index.php/Main_Page) - Scans log files and takes action on IPs that show malicious behavior.
 
 [fwknop](https://www.cipherdyne.org/fwknop/) - Protects ports via Single Packet Authorization in your firewall.
 
@@ -1754,7 +1754,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Whoogle Search](https://github.com/benbusby/whoogle-search) is a self-hosted, ad-free, privacy-respecting metasearch engine.
 
-[SearX](https://github.com/searx/searx) is a Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine).
+[SearX](https://github.com/searx/searx) is a Privacy-respecting, hackable [metasearch engine](https://en.pedia.org//Metasearch_engine).
 
 [SearXNG](https://github.com/searxng/searxng) is a free internet metasearch engine which aggregates results from various search services and databases. 
 
@@ -1842,7 +1842,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Haven](https://havenweb.org/) is a Self-hosted private blog instead of using Facebook.
 
-[Antville](https://antville.org/) is an open source project aimed at the development of a simple site hosting system with many advanced [features](https://github.com/antville/antville/wiki/Features). 
+[Antville](https://antville.org/) is an open source project aimed at the development of a simple site hosting system with many advanced [features](https://github.com/antville/antville//Features). 
 
 [October](https://octobercms.com/) is a Self-hosted Content Management System (CMS) and web platform whose sole purpose is to make your development workflow simple again. 
 
@@ -2249,7 +2249,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [GNU Privacy Guard (GnuPG)](https://gnupg.org/) is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP ). It allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.
 
-[Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) is an encryption program that provides cryptographic privacy and authentication for data communication. It's used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. 
+[Pretty Good Privacy (PGP)](https://en.pedia.org//Pretty_Good_Privacy) is an encryption program that provides cryptographic privacy and authentication for data communication. It's used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. 
 
 [Deadbolt](https://github.com/alichtman/deadbolt) is a Dead-simple file encryption for any OS.
 
@@ -2282,7 +2282,7 @@ Minio's test-server called "play" is already configured in the default client, y
  
  **Application Level Encryption**
  
-  * **Hashes** is a function that converts an input of letters and numbers into an encrypted output of a fixed length. For example, algorithms such as [MD5 (Message Digest 5)](https://en.wikipedia.org/wiki/MD5) or [SHA (Secure Hash Algorithm)](https://en.wikipedia.org/wiki/Secure_hash_algorithms).
+  * **Hashes** is a function that converts an input of letters and numbers into an encrypted output of a fixed length. For example, algorithms such as [MD5 (Message Digest 5)](https://en.pedia.org//MD5) or [SHA (Secure Hash Algorithm)](https://en.pedia.org//Secure_hash_algorithms).
   
   * **Digital Certificates** is a file that verifies the identity of a device or user and enables encrypted connections. A digital signature is a hashing approach that uses a numeric string to provide authenticity and validate identity. Digital certificates are typically issued by a **certificate authority (CA)**, which is a trusted third-party entity that issues digital certificates for use by other parties.
 
@@ -2530,7 +2530,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 **Smart home** is a process that allows homeowners to control appliances, thermostats, lights, and other smart devices remotely using a smartphone or tablet through an internet connection.
 
-Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https://en.wikipedia.org/wiki/VLAN) with little to no internet access with broadcasts forwarding to LAN [Subnet aka Subnetwork](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/) for discovery. Using software such as **Home Assistant, Homebridge, ESPHome, etc.** help simplify the process of controlling and automating all your smart devices.
+Most **smart devices** have their own [Virtual Local Area Network (VLAN)](https://en.pedia.org//VLAN) with little to no internet access with broadcasts forwarding to LAN [Subnet aka Subnetwork](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/) for discovery. Using software such as **Home Assistant, Homebridge, ESPHome, etc.** help simplify the process of controlling and automating all your smart devices.
 
 [Matter](https://buildwithmatter.com/) is an open standard for smart home technology that lets your device work with any Matter-certified ecosystem using a single protocol. Matter comes from the [Connectivity Standards Alliance](https://csa-iot.org/), an organization of hundreds of companies(Amazon, Apple, Google, Comcast, Zigbee Alliance, and Connectivity Standards Alliance (CSA) creating products for the smart home.
 
@@ -2725,7 +2725,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [pfSense](https://www.pfsense.org/) is a firewall/router computer software distribution based on FreeBSD.
 
-[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.pedia.org//DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
 
@@ -2843,9 +2843,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [AAC(Advanced Audio Coding)](https://mpeg.chiariglione.org/) is an audio coding standard for lossy digital audio compression. It's endorsed by ISO and IEC as MPEG-2 and MPEG-4 standards for video streams.
 
-[H.264(AVC)](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC) is a video compression standard based on block-oriented and motion-compensated integer-DCT coding that defines multiple profiles (tools) and levels (max bitrates and resolutions) with support up to 8K.
+[H.264(AVC)](https://en.pedia.org//H.264/MPEG-4_AVC) is a video compression standard based on block-oriented and motion-compensated integer-DCT coding that defines multiple profiles (tools) and levels (max bitrates and resolutions) with support up to 8K.
 
-[H.265(HEVC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) is a video compression standard that is the successor to H.264(AVC). It offers a 25% to 50% better data compression at the same level of video quality, or improved video quality at the same bit-rate.
+[H.265(HEVC)](https://en.pedia.org//High_Efficiency_Video_Coding) is a video compression standard that is the successor to H.264(AVC). It offers a 25% to 50% better data compression at the same level of video quality, or improved video quality at the same bit-rate.
 
 [HTTP Live Streaming (HLS)](https://developer.apple.com/streaming/) is a communications protocol developed by Apple that sends live and on‐demand audio and video to iPhone, iPad, Mac, Apple Watch, Apple TV, and PC.
  
@@ -2939,7 +2939,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [farmOS](https://farmos.org/) is a web-based application for farm management, planning, and record keeping. It is developed by a community of farmers, developers, researchers, and organizations with the aim of providing a standard platform for agricultural data collection and management.
 
-[OpenFarm](https://openfarm.cc/) is a free and open database and web application for farming and gardening knowledge. One might think of it as the Wikipedia for growing plants, though it functions more like a cooking recipes site.
+[OpenFarm](https://openfarm.cc/) is a free and open database and web application for farming and gardening knowledge. One might think of it as the pedia for growing plants, though it functions more like a cooking recipes site.
 
 [Growstuff](http://growstuff.org/) is an open source/open data project for food gardeners. They crowdsource information on what our members are growing and harvesting, aggregate it, and make it available as open data via their API.
 
@@ -3127,7 +3127,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [The Everything App](https://anytype.io/) is an app where you can do everything: Protect your thoughts & data with end-to-end encryption. Local, on-device encryption. Only you have encryption keys. Offline account creation: control your keys, own your data. No server, no gatekeeper: peer-to-peer sync on local networks. Locally store your data, self-host your backups where you please.
 
-[TiddlyWiki](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
+[Tiddly](https://tiddlywiki.com/) is a single-file mode wiki application for todo lists, effective project management tool and of course writing drafts and notes. It has extensions for all the major browsers.
 
 [Laverna](https://laverna.cc/) is a note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. 
 
@@ -3194,6 +3194,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 [TWiki](https://twiki.org/) - TWiki is a Perl-based structured wiki application, typically used to run a collaboration platform, knowledge or document management system, a knowledge base, or team portal. 
 
 [WackoWiki](https://wackowiki.org/) - WackoWiki is a light and easy to install multilingual Wiki-engine. 
+
+[Gramax](https://gram.ax/) - Free, open-source application for creating, editing, and publishing Git-driven documentation sites using Markdown and a visual editor.
 
 
 ### Gaming
