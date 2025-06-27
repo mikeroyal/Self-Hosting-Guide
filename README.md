@@ -511,6 +511,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [KoboldCpp](https://github.com/LostRuins/koboldcpp) is an easy-to-use AI text-generation software for GGML models. It's a single self contained distributable from Concedo, that builds off llama.cpp, and adds a versatile Kobold API endpoint, additional format support, backward compatibility, as well as a fancy UI with persistent stories, editing tools, save formats, memory, world info, author's note, characters, and scenarios.
 
+[Minima](https://github.com/dmayboroda/minima) is a configurable conversational RAG system that runs LLM locally and on-premises using containers.
+
 ### ChatGPT 
 
 [Back to the Top](#table-of-contents)
