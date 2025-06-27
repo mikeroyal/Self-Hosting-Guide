@@ -2128,7 +2128,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
- * [Beeper HitHub](https://github.com/beeper)
+ * [Beeper GitHub](https://github.com/beeper)
  * [iMessage - Getting Started Guide - Beeper](https://help.beeper.com/chat-networks/imessage)
  
 [iMessage-exporter](https://github.com/ReagentX/imessage-exporter) is a binary exports iMessage data to txt or html formats. It can also run diagnostics to find problems with the iMessage database.
