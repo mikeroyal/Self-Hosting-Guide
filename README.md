@@ -615,6 +615,7 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 [DoctorGPT](https://github.com/ingyamilmolinar/doctorgpt) is a lightweight self-contained binary that monitors your application logs for problems and diagnoses them.
 
 [HttpGPT](https://github.com/lucoiso/UEHttpGPT/releases) is an Unreal Engine 5 plugin that facilitates integration with OpenAI's GPT based services (ChatGPT and DALL-E) through asynchronous REST requests, making it easy for developers to communicate with these services. It also includes Editor Tools to integrate Chat GPT and DALL-E image generation directly in the Engine.
+- [Tune AI](https://chat.tune.app/): AI chat app powered by open source models
 
 
 ### Automation
