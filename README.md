@@ -671,6 +671,8 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [MeTube](https://github.com/alexta69/metube) - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
 
+[n8n](https://github.com/n8n-io/n8n) - A powerful, source-available workflow automation tool to visually build automations and link your services together.
+
 [Nautobot](https://github.com/nautobot/nautobot) is a Network Source of Truth and Network Automation Platform built as a web application atop the Django Python framework with a PostgreSQL or MySQL database.
 
 [nefarious](https://github.com/lardbit/nefarious) - Web application that automates downloading Movies and TV Shows. 
