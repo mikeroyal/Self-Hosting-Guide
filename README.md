@@ -1204,6 +1204,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [TightVNC](https://www.tightvnc.com/) is a free remote desktop application. It can see the desktop of a remote machine and control it with your local mouse and keyboard, just like you would do it sitting in the front of that computer.
 
+[TigerVNC](https://tigervnc.org/) is an open source high-performance, platform-neutral implementation of VNC (Virtual Network Computing), a client/server application that allows users to launch and interact with graphical applications on remote machines
+
 [KRDC](https://apps.kde.org/krdc/) is a client application that allows you to view or even control the desktop session on another machine that is running a compatible server. VNC and RDP is supported.
 
 [Krfb Desktop Sharing](https://apps.kde.org/krfb/) is a server application that allows you to share your current session with a user on another machine, who can use a VNC client to view or even control the desktop.
