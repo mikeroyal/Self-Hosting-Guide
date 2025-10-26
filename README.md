@@ -1371,6 +1371,10 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [tinc](https://www.tinc-vpn.org/) - Distributed p2p VPN.
 
+[Tailscale](https://tailscale.com/) is a secure and private, identity-based, infrastructure agnostic network with a flexible topology, resilient networking, and a streamlined setup.
+
+[ZeroTier](https://www.zerotier.com/) connects your devices like they're on the same local network using p2p SD-WAN/VPN. It is supported on platforms like Windows, Linux (also in containers), macOS, iOS, Android, Mikrotik routers, Synology etc.
+
 ### LDAP
 
 [Back to The Top](#table-of-contents)
