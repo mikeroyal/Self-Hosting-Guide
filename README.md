@@ -1412,6 +1412,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Logstash](https://logstash.net/) - Tool for managing events and logs.
 
+[Loki](https://grafana.com/oss/loki/) is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus.
+
 [Octopussy](https://www.octopussy.pm) - Log Management Solution (Visualize/Alert/Report).
 
 ### DNS
