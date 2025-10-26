@@ -1318,6 +1318,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [pass](https://www.passwordstore.org/) is an open-source unix-based password utilitiy with various [gui clients](https://www.passwordstore.org/#other)
 
+[Password Safe](https://pwsafe.org/) is a free open source software originally designed by [Bruce Schneier](https://en.wikipedia.org/wiki/Bruce_Schneier). It runs on Windows, Linux, macOS, iOS and Android. There are libraries/modules for many programming languages available.
+
 ### SSH
 
 [Back to The Top](#table-of-contents)
