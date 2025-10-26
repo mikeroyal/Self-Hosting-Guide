@@ -2233,6 +2233,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Rsync](https://rsync.samba.org/) is a utility in the command line which enables users to transfer and synchronize files efficiently between a computer and an external hard drive in the entire connected network.
 
+[Rclone](https://rclone.org/) is a command-line program to manage files on cloud storage supporting over 70 providers.
+
 [Warpinator](https://github.com/linuxmint/warpinator) is a free, open-source tool for sending and receiving files between computers that are on the same network. 
 
 [LocalSend](https://localsend.org/) is a free and open-source tool that allows you to send files and messages over the local LAN network to nearby devices. Everything is sent securely over HTTPS. The TLS/SSL certificate is generated on the fly on each device. It's avilable on Windows, macOS, Linux, iOS, and Android.
@@ -2334,6 +2336,8 @@ Minio's test-server called "play" is already configured in the default client, y
 [SnapRAID](https://github.com/amadvance/snapraid) is a folder-based backup tool that behaves like a software or hardware RAID5/6 disk raid, but is not a disk raid itself. There is no realtime recovery, free space between disks cannot be combined and manual excution of backup is needed. 
 
 [rsync.net](https://rsync.net/) is a Cloud Storage for Offsite Backup that give you an empty UNIX filesystem to access with any SSH tool. Built on ZFS for data security and fault tolerance with support for rsync/sftp/scp/borg/rclone/restic/git-annex.
+
+[Rclone](https://rclone.org/) can be used to backup local files to over 70 cloud storage products.
 
 ### Snapshots Management/System Recovery
 
