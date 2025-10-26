@@ -1292,6 +1292,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Cilicon](https://github.com/traderepublic/Cilicon) is a macOS App that leverages Apple's Virtualization Framework to create, provision and run ephemeral virtual machines with minimal setup or maintenance effort. You should be able to get up and running with your self-hosted CI in less than an hour.
 
+[UTM](https://mac.getutm.app/) is a macOS (and IOS) App that employs Apple's Hypervisor virtualization framework to run ARM64 operating systems on Apple Silicon at near native speeds or uses QEMU to run older platforms like PowerPC, SPARC, or x86_64.
+
 [Xen](https://github.com/xen-project/xen) is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
 
 [Ganeti](https://github.com/ganeti/ganeti) is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software. Once installed, the tool assumes management of the virtual instances (Xen DomU).
