@@ -1460,6 +1460,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Nebula](https://github.com/slackhq/nebula) is a scalable overlay networking tool with a focus on performance, simplicity and security. It lets you seamlessly connect computers anywhere in the world. Nebula is portable, and runs on Linux, OSX, Windows, iOS, and Android. It can be used to connect a small number of computers, but is also able to connect tens of thousands of computers.
 
+[LibreNMS](https://www.librenms.org/) - a fully featured network monitoring system that provides a wealth of features and device support.
+
 [LibreSpeed](https://librespeed.org/) is a network speed test tool that can be run on your LAN or hosted in the cloud.
 
 [SmokePing](https://oss.oetiker.ch/smokeping/) is a deluxe latency measurement tool. It can measure, store and display latency, latency distribution and packet loss. It uses RRDtool to maintain a longterm data-store and to draw pretty graphs, giving up to the minute information on the state of each network connection.
