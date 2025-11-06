@@ -2416,6 +2416,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Caddy](https://caddyserver.com/) is the only web server to use HTTPS automatically and by default. Caddy obtains and renews TLS certificates for your sites automatically.
 
+[CookCLI](https://github.com/cooklang/CookCLI) is a self-hosted recipe management server that turns your device into a personal recipe hub. Manage recipes in plain-text Cooklang format with a beautiful web UI, generate shopping lists, and plan meals. Runs great on Raspberry Pi.
+
 [Bazarr](https://hub.docker.com/r/linuxserver/bazarr) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. 
 
 [Sonarr](https://github.com/Sonarr/Sonarr) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. 
