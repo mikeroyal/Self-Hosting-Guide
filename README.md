@@ -1042,6 +1042,34 @@ Minio's test-server called "play" is already configured in the default client, y
 
 ```# mc cp --recursive ~/Downloads/IMG_2016120-25.jpg myminio/photos```
 
+#### Yundera
+
+[Back to the Top](#table-of-contents)
+
+[Yundera](https://www.yundera.com/) is a Personal Cloud Server (PCS) platform that helps users self-host open-source applications with managed infrastructure. Yundera handles domain setup, routing, security, and server provisioning, allowing users to easily deploy and manage self-hosted apps while retaining full data ownership and privacy.
+
+  * [Yundera Documentation](https://www.yundera.com/documentation)
+
+  * [Yundera Blog & Tutorials](https://www.yundera.com/blog)
+
+  * [Yundera GitHub](https://github.com/Yundera)
+
+**Yundera Features**
+
+Yundera PCS includes 1 VCPU, 4 GB RAM, and 2 TB of storage with unlimited users. Everything is pre-configured including domain, routing, security, and applications.
+
+**Infrastructure**
+
+Yundera leverages NSL.SH, a secure and scalable open-source infrastructure layer, to deliver personal cloud servers. All Yundera deployments are hosted on Scaleway, a European cloud provider.
+
+**Popular Self-Hosting Applications on Yundera**
+
+  * [Vaultwarden](https://www.yundera.com/blog/tutorial-1/your-own-password-manager-host-bitwarden-yourself-23) - Self-hosted password manager
+
+  * [Immich](https://www.yundera.com/blog/tutorial-1/discover-immich-host-your-photos-yourself-18) - Self-hosted photo management (Google Photos alternative)
+
+  * [Jellyfin](https://www.yundera.com/blog/tutorial-1/set-up-your-own-netflix-style-streaming-service-with-jellyfin-on-yundera-3) - Self-hosted media streaming service
+
 ### Databases
 
 [Back to the Top](#table-of-contents)
