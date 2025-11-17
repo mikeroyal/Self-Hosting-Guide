@@ -2422,7 +2422,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Homarr](https://github.com/ajnart/homarr) is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr)
 
-[Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
+[Midarr](https://github.com/midarrlabs/midarr-server) is a free and open source media server (and always will be), Midarr aims to provide a tailored experience for you and your users:
 
    * Beautifully crafted user interface.
    * Real-time online statuses.
