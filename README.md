@@ -1042,6 +1042,58 @@ Minio's test-server called "play" is already configured in the default client, y
 
 ```# mc cp --recursive ~/Downloads/IMG_2016120-25.jpg myminio/photos```
 
+#### Yundera
+
+[Back to the Top](#table-of-contents)
+
+[Yundera](https://www.yundera.com/) is a Personal Cloud Server (PCS) platform that helps users self-host open-source applications with managed infrastructure. Yundera handles domain setup, routing, security, and server provisioning, allowing users to easily deploy and manage self-hosted apps while retaining full data ownership and privacy.
+
+  * [Yundera Documentation](https://www.yundera.com/documentation)
+
+  * [Yundera Blog & Tutorials](https://www.yundera.com/blog)
+
+  * [Yundera GitHub](https://github.com/Yundera)
+
+**Yundera Features**
+
+Yundera PCS includes 1 VCPU, 4 GB RAM, and 2 TB of storage with unlimited users. Everything is pre-configured including domain, routing, security, and applications.
+
+**Infrastructure**
+
+Yundera leverages NSL.SH, a secure and scalable open-source infrastructure layer, to deliver personal cloud servers. All Yundera deployments are hosted on Scaleway, a European cloud provider.
+
+**Popular Self-Hosting Applications on Yundera**
+
+  * [Vaultwarden](https://www.yundera.com/blog/tutorial-1/your-own-password-manager-host-bitwarden-yourself-23) - Self-hosted password manager
+
+  * [Immich](https://www.yundera.com/blog/tutorial-1/discover-immich-host-your-photos-yourself-18) - Self-hosted photo management (Google Photos alternative)
+
+  * [Jellyfin](https://www.yundera.com/blog/tutorial-1/set-up-your-own-netflix-style-streaming-service-with-jellyfin-on-yundera-3) - Self-hosted media streaming service
+
+#### NSL.SH
+
+[Back to the Top](#table-of-contents)
+
+[NSL.SH](https://nsl.sh/) (Network, Storage, Liberty) is an open-source infrastructure framework designed to simplify self-hosting through containerized tools for dynamic DNS, encrypted networking, domain provisioning, and application access. NSL.SH makes self-hosting accessible by providing seamless domain management and secure access to self-hosted applications.
+
+  * [NSL.SH Website](https://nsl.sh/)
+
+  * [NSL.SH Open Source](https://nsl.sh/open-source)
+
+  * [Inside Yundera: How NSL.SH Powers Private Cloud Hosting](https://www.yundera.com/blog/tutorial-1/technical-how-yundera-actually-works-open-source-15)
+
+**NSL.SH Features**
+
+NSL.SH includes CasaIMG and Mesh Router – Docker-based tools for dynamic domain management, secure access, and seamless self-hosted app deployment. Users can register to claim their exclusive subdomain (name.nsl.sh), which serves as their gateway to accessing and managing their home server or NAS online.
+
+**Use Cases**
+
+NSL.SH supports advanced use cases including self-hosted media streaming (Jellyfin), real-time tools (WebRTC), and AI APIs. The framework is designed to make self-hosting more accessible through containerized infrastructure and simplified domain management.
+
+**Future Vision**
+
+NSL.SH is committed to transparency and decentralization, with a vision to transition into a non-profit foundation that manages the project via community contributions, public decision-making, and peer-reviewed development standards to ensure long-term neutrality and resilience of the infrastructure.
+
 ### Databases
 
 [Back to the Top](#table-of-contents)
