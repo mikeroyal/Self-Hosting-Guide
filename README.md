@@ -271,7 +271,9 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Clair](https://github.com/quay/clair) is an open source project for the static analysis of vulnerabilities in application containers (currently including [OCI](https://github.com/opencontainers/image-spec/blob/master/spec.md) and [Docker](https://github.com/docker/docker/blob/master/image/spec/v1.2.md)).
 
-[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid. 
+[Shipwright](https://github.com/SelfhostedPro/Shipwright) is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid.
+
+[Yantra](https://github.com/besoeasy/yantra) is a self-hosted homelab app store that turns any server into your own personal app store with 50+ pre-configured Docker containers. Apps stay isolated and never touch your filesystem.
 
 [Alnoda Workspaces](https://docs.alnoda.org/) is an open-source portable containerized browser-based development environments in Docker containers. You can create your own custom workspace or customize any of the workspaces with your preferred stack of applications without knowing much of the Docker.
 
