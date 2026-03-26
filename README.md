@@ -2215,6 +2215,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [InvoicePlane](https://www.invoiceplane.com/) is a self-hosted open source application for managing your quotes, invoices, clients and payments.
 
+[ReportBurster](https://github.com/flowkraft/reportburster) is a self-hosted, open-source BI application and an alternative to commercial software like Crystal Reports, SSRS, Tableau, or even Power BI.
+
 ### Collaboration & Synchronization
 
 [Back to the Top](#table-of-contents)
