@@ -739,6 +739,8 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [SparkleShare](https://sparkleshare.org/) - Provides cloud storage and file synchronization services. By default, it uses Git as a storage backend.
 
+[NextExplorer](https://explorer.nxz.ai/) - A web based file explorer. A pretty good alternative to nextcloud.
+
 ### Cloud
 
 [Back to the Top](#table-of-contents)
