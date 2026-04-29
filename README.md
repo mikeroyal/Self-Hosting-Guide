@@ -1412,6 +1412,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Logstash](https://logstash.net/) - Tool for managing events and logs.
 
+[Monoscope](https://monoscope.tech/) - Ingest, store and query logs, traces and metrics using S3-compatible buckets, with natural language queries via LLMs. OpenTelemetry-native with 750+ integrations.
+
 [Octopussy](https://www.octopussy.pm) - Log Management Solution (Visualize/Alert/Report).
 
 ### DNS
