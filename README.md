@@ -335,6 +335,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Turbopilot](https://github.com/ravenscroftj/turbopilot) is an open source large-language-model based code completion engine that runs locally on your CPU.
 
+[Bernstein](https://github.com/sipyourdrink-ltd/bernstein) is a self-hosted multi-agent orchestrator for CLI coding agents. Coordinates Claude Code, Codex CLI, Gemini CLI, GitHub Copilot, Cursor, Aider, and 31 more agents in parallel git worktrees. Apache 2.0, Python 3.12+, file-based state in `.sdd/`, runs entirely without SaaS.
+
 [Self-Hosted Sentry nightly](https://develop.sentry.dev/self-hosted/) is an official bootstrap for running your own Sentry with Docker. Sentry, feature-complete and packaged up for low-volume deployments and proofs-of-concept.
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a service/extension that enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. You can instantly and securely share your current project, start a joint debugging session, share terminal instances, forward localhost web apps, have voice calls, and more.
