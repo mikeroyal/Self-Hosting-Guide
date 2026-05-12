@@ -1350,6 +1350,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Tailscale SSH](https://tailscale.com/kb/1193/tailscale-ssh/) is a service that allows Tailscale to manage the authentication and authorization of SSH connections on your tailnet.
 
+[OlympSSH Commander](https://github.com/OlympProject/olympssh-commander-release) is a Docker & Linux Server Management Tool through SSH. A desktop-first command center for developers and small teams who manage Linux servers and Docker containers through SSH.
 
 ### VPN
 
