@@ -513,6 +513,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Minima](https://github.com/dmayboroda/minima) is a configurable conversational RAG system that runs LLM locally and on-premises using containers.
 
+[Dakera](https://github.com/dakera-ai/dakera) is a self-hosted agent memory server built in Rust for LLM and AI agent workflows. It provides persistent, privacy-preserving local memory with hybrid semantic search, a Docker-composable deployment, and an MCP-compatible API — all with no cloud dependencies.
+
 ### ChatGPT 
 
 [Back to the Top](#table-of-contents)
