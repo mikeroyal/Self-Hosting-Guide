@@ -1198,6 +1198,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
 
+[Pangolin](https://github.com/fosrl/pangolin) is an identity-aware tunneled reverse proxy and VPN built on WireGuard® that enables secure remote access to self-hosted services without opening inbound firewall ports.
+
 [MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage. 
 
 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) is a free remote desktop application that use can use on your iPhone, iPad, Mac, Windows and Linux computers from anywhere in the world.
@@ -1644,6 +1646,8 @@ Minio's test-server called "play" is already configured in the default client, y
 [Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world. 
 
 [Uptime Kuma](https://uptime.kuma.pet/) is a fancy self-hosted monitoring tool.
+
+[Beszel](https://beszel.dev/) is a lightweight server monitoring platform that includes Docker statistics, historical data, and alert functions. It uses a hub-and-agent architecture and supports SSH-tunneled connections so agents never need to be directly exposed to the internet.
 
 [Gatus](https://gatus.io/) is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS queries as well as evaluate the result of said queries by using a list of conditions on values like the status code, the response time, the certificate expiration, the body and many others. 
 
