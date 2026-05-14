@@ -429,6 +429,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Zeal](https://zealdocs.org/) is an offline documentation browser for software developers inspired by [Dash](https://kapeli.com/dash).
 
+[AgentTier](https://github.com/agenttier/agenttier) is a Kubernetes-native platform that provisions isolated, persistent sandboxes for both human developers and AI coding agents from a single Sandbox CRD. Each sandbox is a Pod + PVC + default-deny NetworkPolicy with optional gVisor isolation. Sandboxes can run interactively (browser terminal over WebSocket) or as headless agent workloads via a streaming REST API. Distributed as a single Helm chart with a Python SDK, Go CLI, and React Web UI. Apache-2.0.
+
 ### Web servers
 
 [Back to The Top](#table-of-contents)
