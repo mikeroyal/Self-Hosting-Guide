@@ -7145,3 +7145,6 @@ commercially available industrial robot models that you can import, visualize, a
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
+
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - A free open-source monitoring dashboard for OpenClaw AI agents. Features real-time monitoring of gateway connections and session status, token usage tracking with visual charts, multi-agent support, and 7-day trend analysis. Built with Vue 3 and WebSocket-based instant updates.
