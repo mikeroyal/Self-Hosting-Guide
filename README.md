@@ -2932,6 +2932,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Fasten](https://github.com/fastenhealth/fasten-onprem) is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics 
 
+[HealthSync](https://healthsync.megabyte.sh/apple-health-app-sync) is a SwiftUI iOS app with a self-hosted FastAPI backend for syncing selected Apple Health data from HealthKit to a private API.
+
 [ERPNext](https://erpnext.com/) is a Free and Open Source Enterprise Resource Planning (ERP) for managing businesses.
 
 [OpenEMR](https://open-emr.org/) is a Free and Open Source electronic health records and medical practice management application. It features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, free support, a vibrant community, and a whole lot more. It runs on Windows, Linux, MacOS, and many other platforms.
