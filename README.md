@@ -655,6 +655,8 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [HRConvert2](https://github.com/zelon88/HRConvert2) - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. 
 
+[Hivekeep](https://github.com/MarlBurroW/hivekeep) - Self-hosted platform of autonomous, persistent personal AI agents that collaborate, remember, and build their own tools. Reachable via Telegram, WhatsApp, Slack, Discord, Signal and Matrix. 
+
 [Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. 
 
 [Kibitzr](https://kibitzr.github.io) - Lightweight personal web assistant with powerful integrations. 
