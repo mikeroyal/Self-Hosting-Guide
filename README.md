@@ -1839,6 +1839,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Miniflux V2](https://github.com/miniflux/v2) is a minimalist and opinionated feed reader.
 
+[Liveboat](https://github.com/exaroth/liveboat) turns RSS feed urls into beautiful static pages, with support for Github Pages hosting.
+
 ### Websites/Blogs
 
 [Back to the Top](#table-of-contents)
