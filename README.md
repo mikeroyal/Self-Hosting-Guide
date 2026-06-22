@@ -1869,6 +1869,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Netlify CMS](https://www.netlifycms.org/) is a CMS for static site generators. Give users a simple way to edit and add content to any site built with a static site generator.
 
+[UnfoldCMS](https://unfoldcms.com/) is a self-hosted CMS built on Laravel 12, React 19, shadcn/ui, and Tailwind v4. It includes a REST API v1 (42 endpoints), HMAC-signed webhooks, and headless mode for Next.js, Astro, SvelteKit, and Nuxt. Self-hostable on any PHP server. ([GitHub](https://github.com/hpakdaman/unfoldcms))
+
 [Zola](https://www.getzola.org/) is a fast static site generator in a single binary with everything built-in. 
 
 [FlatPress](https://www.flatpress.org/) is a lightweight, easy-to-set-up blogging engine. 
