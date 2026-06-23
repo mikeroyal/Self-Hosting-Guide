@@ -5262,6 +5262,8 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Docker Courses on Linkedin Learning](https://www.linkedin.com/learning/topics/docker)
 
+* [Self-Host Guide — Docker Compose & Networking Tutorials](https://fulankizao.github.io/selfhost-guide/) — Hands-on guides for Docker Compose, Docker networking, Nginx reverse proxy, and container deployment on self-hosted servers.
+
 ## Docker Tools
 
 [Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly working in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
