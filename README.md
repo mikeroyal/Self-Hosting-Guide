@@ -5125,6 +5125,8 @@ priority = 1
 
 [nginx(engine x)](https://nginx.org/en/) is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
 
+* [Self-Host Guide — Nginx Reverse Proxy Tutorials](https://fulankizao.github.io/selfhost-guide/articles/nginx-reverse-proxy-guide.html) — Hands-on guide for configuring Nginx as reverse proxy for self-hosted services, including SSL termination, WebSocket support, and Docker integration.
+
 [Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [Wireshark](https://www.wireshark.org/) is a very popular network protocol analyzer that is commonly used for network troubleshooting, analysis, and communications protocol development. Learn more about the other useful [Wireshark Tools](https://wiki.wireshark.org/Tools) available.
@@ -5261,6 +5263,8 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Docker Courses on edX](https://www.edx.org/learn/docker)
 
 [Docker Courses on Linkedin Learning](https://www.linkedin.com/learning/topics/docker)
+
+* [Self-Host Guide — Docker Compose & Networking Tutorials](https://fulankizao.github.io/selfhost-guide/) — Hands-on guides for Docker Compose, Docker networking, Nginx reverse proxy, and container deployment on self-hosted servers.
 
 ## Docker Tools
 
