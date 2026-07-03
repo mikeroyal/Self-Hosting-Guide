@@ -1198,7 +1198,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
 
-[MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage. 
+[MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage.
+
+[MoonProxy](https://github.com/MoonProxyHQ/moonproxy-desktop) is a cross-platform GUI desktop client for [FRP](https://github.com/fatedier/frp) that exposes local services to the public internet with one click. Built with Tauri v2 (Rust + Vue 3), supports macOS and Windows. Ideal for self-hosters who need a no-CLI alternative to raw frpc. 
 
 [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) is a free remote desktop application that use can use on your iPhone, iPad, Mac, Windows and Linux computers from anywhere in the world.
 
