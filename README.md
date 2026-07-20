@@ -1675,6 +1675,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
+[Rasptele](https://github.com/maddhruv/rasptele) — A self-hosted Telegram control plane for monitoring Raspberry Pi host health and Docker containers, restarting allowlisted services, controlling Pi-hole, and receiving stateful alerts without exposing inbound ports.
+
 [Restic](https://restic.net/) is a modern backup program that can back up your files: from Linux, BSD, Mac and Windows. To many different storage types, including self-hosted and online services. easily, being a single executable that you can run without a server or complex setup. effectively, only transferring the parts that actually changed in the files you back up.
 
 [Autorestic](https://github.com/cupcakearmy/autorestic) is a wrapper around the amazing restic. While being amazing the restic cli can be a bit overwhelming and difficult to manage if you have many different locations that you want to backup to multiple locations. 
