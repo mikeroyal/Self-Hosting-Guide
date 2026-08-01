@@ -5812,6 +5812,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Aircrack-ng](https://www.aircrack-ng.org/) is a network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker and analysis tool for 802.11 wireless LANs. It works with any wireless network interface controller whose driver supports raw monitoring mode and can sniff 802.11a, 802.11b and 802.11g traffic.
 
+[Darkmoon](https://github.com/ASCIT31/Dark-Moon) is an open-source, self-hosted autonomous AI penetration testing platform. It ships an MCP server exposing 12 offensive-security tools for web, API, Active Directory, and Kubernetes assessments, includes a local privacy gateway that tokenizes sensitive values before they reach the model, and runs on local (Ollama/llama.cpp) or cloud LLMs.
 [Burp Suite](https://portswigger.net/burp) is a leading range of cybersecurity tools.
 
 [KernelCI](https://foundation.kernelci.org/) is a community-based open source distributed test automation system focused on upstream kernel development. The primary goal of KernelCI is to use an open testing philosophy to ensure the quality, stability and long-term maintenance of the Linux kernel.
