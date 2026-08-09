@@ -468,6 +468,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 **Large Language Models (LLMs)** is a language model that uses artificial neural networks to generate text (AI chatbots/search engines). Some notable ones are GPT-3, GPT-4, BLOOM, and LLaMA.
 
  * [A comprehensive guide to running Llama 2 locally](https://replicate.com/blog/run-llama-locally)
+ * [AMD Strix Halo Local LLM Guide](https://github.com/hogeheer499-commits/strix-halo-guide) — Copyable Ryzen AI MAX+ 395 setup with Vulkan/RADV and ROCm routes, reproducible benchmarks, raw logs, failed paths, and cross-system evidence.
  * [Leaderboard by lmsys.org](https://chat.lmsys.org/?leaderboard)
  * [LLM-Leaderboard](https://github.com/LudwigStumpp/llm-leaderboard)
  * [Open LLM Leaderboard by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
