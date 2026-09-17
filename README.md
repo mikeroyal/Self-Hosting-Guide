@@ -3927,6 +3927,8 @@ Red Hat Enterprise Linux Desktop
   - [Monitor your Internet with a Raspberry Pi by Jeff Geerling](https://www.jeffgeerling.com/blog/2021/monitor-your-internet-raspberry-pi)
 
   -[Storage Reference Guide by Storage Review](https://www.storagereview.com/storage-reference-guide)
+
+  - [HDDHunt](https://hddhunt.com/) is a hard drive and SSD price comparison tool that ranks every listing by cost per terabyte across Amazon US, UK, and DE. Useful for planning NAS builds or finding the best storage deals.
   
   - [NextCloud Migration Guide](https://nextcloud.com/migration/)
   
