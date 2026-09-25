@@ -513,6 +513,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Minima](https://github.com/dmayboroda/minima) is a configurable conversational RAG system that runs LLM locally and on-premises using containers.
 
+[Unified AI System](https://github.com/happy520ai/unified-ai-system) is a self-hosted, protocol-first AI gateway and MCP server: OpenAI- and Anthropic-compatible chat APIs with virtual keys, per-key token budgets, response caching and an audit trail, plus reverse MCP governance that turns upstream MCP servers and OpenAPI 3 specs into governed tools. It ships a deterministic local fake provider, so it can be tried end to end with zero API keys.
+
 ### ChatGPT 
 
 [Back to the Top](#table-of-contents)
