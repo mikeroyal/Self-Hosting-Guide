@@ -417,6 +417,9 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative. 
 
+[Peon](https://peon.sh/) is an open-source & self-hostable Docker deployment platform (Coolify/Dokploy peer) with project RBAC, audit logs, and MCP for AI agents.
+
+
 [Corosync Cluster Engine](https://corosync.github.io/corosync/) is a Group Communication System with additional features for implementing high availability within applications. 
 
 [Glow](https://github.com/charmbracelet/glow) is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere. 
