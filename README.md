@@ -1890,6 +1890,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Mastadon](https://joinmastodon.org/) is a a decentralized social media platform that supports audio, video and picture posts, accessibility descriptions, polls, content warnings, animated avatars, custom emojis, thumbnail crop control, and more, to help you express yourself online.
 
+[OpenPost](https://github.com/getopenpost/openpost) — Self-hosted social publishing and scheduling with destination-specific content, reusable media, a calendar, and automation through an API, CLI, and MCP server.
+
 [Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
 
 [ActivityPub](https://activitypub.rocks/) is a decentralized social networking protocol based on the ActivityStreams 2.0 data format. It provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and subscribing to content.
