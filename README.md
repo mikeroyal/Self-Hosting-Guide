@@ -3011,6 +3011,8 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Shlink](https://shlink.io/) is a self-hosted URL shortener that keeps control over all your shortened URLs, by serving them under your own domains, using this simple yet powerful tool.
 
+[QRDock](https://github.com/seyitwb-svg/qrdock) is a self-hosted URL shortener where every link is also a QR code that stays retargetable after printing, with scan analytics and PNG/SVG export in a single Docker container.
+
 [Pinry](https://docs.getpinry.com/) is a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy to skim through format.
 
 [Shaark](https://github.com/MarceauKa/shaark) is a self-hosted platform to keep and share your content: web links, posts, passwords and pictures.
