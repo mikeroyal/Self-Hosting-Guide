@@ -3055,7 +3055,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Got Your Back (GYB)](https://github.com/GAM-team/got-your-back) is a command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS. 
 
-[Upscayl](https://upscayl.github.io/) is a free and open source desktop application that lets you upscale your low resolution images using advanced AI Models. Upscayl is a Linux-First Application that prioritizes Linux builds but is also cross-platform.
+[Upscayl](https://upscayl.org/) is a free and open source desktop application that lets you upscale your low resolution images using advanced AI Models. Upscayl is a Linux-First Application that prioritizes Linux builds but is also cross-platform.
 
 [Librephotos](https://github.com/LibrePhotos/librephotos) is a self-hosted open source photo management service. This is the repository of the backend. 
 
@@ -3717,9 +3717,9 @@ Red Hat Enterprise Linux Desktop
 
 [GhostBSD](https://www.ghostbsd.org/) is a simple desktop-oriented operating system based on FreeBSD with MATE, OpenRC and OS packages for simplicity. GhostBSD has a selection of commonly used software preinstalled and required to start using it to its full potential.
 
- * [GhostBSD Wiki](https://wiki.ghostbsd.org/index.php/Main_Page)
+ * [GhostBSD Wiki](https://wiki.ghostbsd.org/)
 
- * [GhostBSD Community](https://forums.ghostbsd.org/index.php)
+ * [GhostBSD Community](https://forums.ghostbsd.org/)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/125211866-66892800-e25e-11eb-985b-26588de87615.png">
@@ -3904,7 +3904,7 @@ Red Hat Enterprise Linux Desktop
  
   - [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
   
-  - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/getting-started/how-to-self-host/)
+  - [/r/Selfhosted Official Wiki](https://wiki.r-selfhosted.com/)
   
   - [45Drives Knowledge Base](https://knowledgebase.45drives.com/) is an affordable enterprise storage solutions for any data size - large or small. It provides high-performance, high-capacity storage servers and data destruction solutions for all industries.
 
@@ -4743,7 +4743,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Z-Wave](https://www.z-wave.com/) is the leading wireless communications protocol behind many of the secure, trusted brands that are working to make everyone's home smarter and safer.
 
-[Zwavejs2Mqtt](https://zwave-js.github.io/zwavejs2mqtt/) is a fully configurable Zwave to MQTT Gateway and Control Panel Web UI.
+[Z-Wave JS UI](https://zwave-js.github.io/zwave-js-ui/) (formerly Zwavejs2Mqtt) is a fully configurable Zwave to MQTT Gateway and Control Panel Web UI.
 
 [Z-Wave JS Server](https://github.com/zwave-js/zwave-js-server) is a small server wrapper around Z-Wave JS to access it via a WebSocket.
 
@@ -5370,7 +5370,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Kubernetes Tutorials from Pulumi](https://www.pulumi.com/docs/tutorials/kubernetes/)
 
-[Kubernetes Playground by Katacoda](https://www.katacoda.com/courses/kubernetes/playground)
+[Kubernetes Playground by KillerCoda](https://killercoda.com/playgrounds/scenario/kubernetes)
 
 [Scalable Microservices with Kubernetes course from Udacity ](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
