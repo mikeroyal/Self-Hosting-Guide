@@ -653,6 +653,8 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late. 
 
+[Heym](https://github.com/heymrun/heym) - Self-hosted agent workflow runtime with approval checkpoints, retries, execution traces, and MCP tools, deployable with Docker Compose. Source-available under MIT with the Commons Clause condition.
+
 [HRConvert2](https://github.com/zelon88/HRConvert2) - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. 
 
 [Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. 
