@@ -2659,6 +2659,7 @@ _The Home Assistant Dashboards allows people to build custom cards on top of it,
 * [Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
 * [Vacuum Card](https://github.com/denysdovhan/vacuum-card) - A card to card for controlling a vacuum cleaner robot.
 * [Purifier Card](https://github.com/denysdovhan/purifier-card) - A card for controlling air purifiers.
+* [Animara Free Sampler](https://github.com/animaraicons/animara-free-sampler) - 12 free, realistic animated device icons that show what each device is really doing (bulb glows, fan spins, kettle boils), in light and dark themes.
 
 **Home Assistant Custom Integrations**
 
