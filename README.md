@@ -2487,6 +2487,8 @@ Minio's test-server called "play" is already configured in the default client, y
    
 [Kirino Media Server](https://kirino.io/) is a lightweight, modular alternative to Plex and Jellyfin.
 
+[Matinee](https://matinee.yeix.io/) is a free and open source, self-hosted media server for movies, TV and music, written in Go. It streams to the web, phones, tablets and TVs, with hardware transcoding, profiles for each person in the house, collections and a plugin system.
+
 [Emby](https://emby.media/) is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and Mono. It features a REST-based API with built-in documention to facilitate client development. 
 
 [OpenMediaVault](https://www.openmediavault.org/) is a next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, BitTorrent client and many more.
