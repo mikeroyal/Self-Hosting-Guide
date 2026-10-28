@@ -1502,6 +1502,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Supabase](https://github.com/supabase/supabase) is an open source Firebase alternative. It is building the features of Firebase using enterprise-grade open source tools.
 
+[Nhost](https://github.com/nhost/nhost) is an open source backend for agentic apps. It gives you a Postgres database with a GraphQL API, authentication, file storage, serverless functions and an MCP server for AI agents, and you can run it on your own server or use the managed cloud.
+
 [Plik](https://github.com/root-gg/plik) is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
 
 [Restify](https://github.com/restify/node-restify) is a framework, utilizing [connect](https://github.com/senchalabs/connect) style middleware for building REST APIs. 
