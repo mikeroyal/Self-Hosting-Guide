@@ -429,6 +429,8 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Zeal](https://zealdocs.org/) is an offline documentation browser for software developers inspired by [Dash](https://kapeli.com/dash).
 
+[favicons](https://github.com/peleda-app/favicons) is a privacy-first, self-hostable service that returns any website's icon as a clean, sandboxed 128x128 SVG with light/dark theme colors, plus ready-made badges and 17 icon packs. It needs no API key, ships as a ~9 MB Docker image, and has a public instance at [favicons.page](https://favicons.page).
+
 ### Web servers
 
 [Back to The Top](#table-of-contents)
