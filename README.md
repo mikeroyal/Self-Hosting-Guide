@@ -1643,6 +1643,8 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Wyze](https://wyze.com/) is a great security and monitoring application to live stream HD video from the security cameras from anywhere in the world. 
 
+[SiteWatcher](https://github.com/NikKurkov/sitewatcher) — Self-hosted website monitoring with HTTP response history, TLS and domain expiry checks, and public status pages.
+
 [Uptime Kuma](https://uptime.kuma.pet/) is a fancy self-hosted monitoring tool.
 
 [Gatus](https://gatus.io/) is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS queries as well as evaluate the result of said queries by using a list of conditions on values like the status code, the response time, the certificate expiration, the body and many others. 
